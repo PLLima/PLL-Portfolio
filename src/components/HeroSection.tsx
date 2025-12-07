@@ -4,8 +4,15 @@ import { motion } from 'framer-motion';
 import { profile } from '@/data/profile';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
+const resumeUrls: Record<string, string> = {
+  en: '/Resume_EN.pdf',
+  pt: '/Resume_PT-BR.pdf',
+  fr: '/Resume_FR.pdf',
+};
+
 export function HeroSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentResumeUrl = resumeUrls[i18n.language] || resumeUrls.en;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -77,7 +84,7 @@ export function HeroSection() {
                 {t('hero.getInTouch')}
               </a>
               <a
-                href={profile.resumeUrl}
+                href={currentResumeUrl}
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
               >
