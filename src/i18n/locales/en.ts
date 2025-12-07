@@ -54,8 +54,8 @@ My journey spans from developing portable testing stations at Braskem's industri
       'Team Leadership',
     ],
     achievementsList: [
-      'Bronze Medal at Concurso Canguru de Matemática Brasil 2018 and 2019',
-      'Participant at Mostratec Júnior 2015 and 2016',
+      { text: 'Bronze Medal at Concurso Canguru de Matemática Brasil 2018 and 2019', link: 'https://www.cangurudematematicabrasil.com.br/', linkText: 'Concurso Canguru de Matemática Brasil' },
+      { text: 'Participant at Mostratec Júnior 2015 and 2016', link: 'https://mostratec.liberato.com.br/mostratec-junior/', linkText: 'Mostratec Júnior' },
     ],
   },
   languages: {
@@ -71,6 +71,7 @@ My journey spans from developing portable testing stations at Braskem's industri
       {
         title: 'HR Assistant & Web Developer',
         company: 'IDE Jr.',
+        companyUrl: 'https://idejr.com.br/',
         period: '2023 – Present',
         location: 'Brazil',
         description: [
@@ -82,6 +83,7 @@ My journey spans from developing portable testing stations at Braskem's industri
       {
         title: 'Algorithms & Programming Tutor',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2024 – 2025',
         location: 'Brazil',
         description: [
@@ -92,6 +94,7 @@ My journey spans from developing portable testing stations at Braskem's industri
       {
         title: 'Physics Tutor',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023 – 2024',
         location: 'Brazil',
         description: [
@@ -102,6 +105,7 @@ My journey spans from developing portable testing stations at Braskem's industri
       {
         title: 'Undergraduate Researcher',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023',
         location: 'Brazil',
         description: [
@@ -113,6 +117,7 @@ My journey spans from developing portable testing stations at Braskem's industri
       {
         title: 'Electronics Maintenance Intern',
         company: 'Braskem',
+        companyUrl: 'https://www.braskem.com.br/',
         period: '2022',
         location: 'Brazil',
         description: [
@@ -132,11 +137,11 @@ My journey spans from developing portable testing stations at Braskem's industri
     doubleDegree: 'Double Degree Program',
     doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between CentraleSupélec (France) and UFRGS (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
     degrees: [
-      { degree: 'Master of Engineering', institution: 'CentraleSupélec', period: 'Ongoing until 2028', country: 'France' },
-      { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', period: 'Ongoing until 2028', country: 'Brazil' },
-      { degree: 'French Language - Intermediate Level', institution: 'Institute Roche', period: 'Completed 2025', country: 'Brazil' },
-      { degree: 'High School Diploma - Electronics Technician', institution: 'Fundação Liberato', period: 'Completed 2023', country: 'Brazil' },
-      { degree: 'English Language - Proficiency', institution: 'Wizard by Pearson', period: 'Completed 2019', country: 'Brazil' },
+      { degree: 'Master of Engineering', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Ongoing until 2028', country: 'France' },
+      { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Ongoing until 2028', country: 'Brazil' },
+      { degree: 'French Language - Intermediate Level', institution: 'Institute Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Completed 2025', country: 'Brazil' },
+      { degree: 'High School Diploma - Electronics Technician', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Completed 2023', country: 'Brazil' },
+      { degree: 'English Language - Proficiency', institution: 'Wizard by Pearson', institutionUrl: 'https://www.wizard.com.br/', period: 'Completed 2019', country: 'Brazil' },
     ],
   },
   projects: {

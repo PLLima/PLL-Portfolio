@@ -1,4 +1,4 @@
-import { GraduationCap, Globe } from 'lucide-react';
+import { GraduationCap, Globe, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 
@@ -16,6 +16,7 @@ export function EducationSection() {
   const degrees = t('education.degrees', { returnObjects: true }) as Array<{
     degree: string;
     institution: string;
+    institutionUrl?: string;
     period: string;
     country: string;
   }>;
@@ -78,9 +79,22 @@ export function EducationSection() {
                   <h3 className="font-display text-lg font-semibold text-foreground mb-1 line-clamp-2">
                     {edu.degree}
                   </h3>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    {edu.institution}
-                  </p>
+                  {edu.institutionUrl ? (
+                    <a
+                      href={edu.institutionUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-muted-foreground mb-3 hover:text-primary transition-colors inline-flex items-center gap-1"
+                    >
+                      {edu.institution}
+                      <ExternalLink size={12} aria-hidden="true" />
+                      <span className="sr-only">(opens in a new tab)</span>
+                    </a>
+                  ) : (
+                    <p className="text-sm text-muted-foreground mb-3">
+                      {edu.institution}
+                    </p>
+                  )}
                   <time className="text-xs text-primary font-medium">
                     {edu.period}
                   </time>

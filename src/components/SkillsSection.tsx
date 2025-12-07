@@ -1,13 +1,19 @@
-import { Wrench, Users } from 'lucide-react';
+import { Wrench, Users, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
+
+interface Achievement {
+  text: string;
+  link: string;
+  linkText: string;
+}
 
 export function SkillsSection() {
   const { t } = useTranslation();
 
   const hardSkills = t('skills.hardSkills', { returnObjects: true }) as string[];
   const softSkills = t('skills.softSkills', { returnObjects: true }) as string[];
-  const achievements = t('skills.achievementsList', { returnObjects: true }) as string[];
+  const achievements = t('skills.achievementsList', { returnObjects: true }) as Achievement[];
 
   return (
     <section 
@@ -83,12 +89,28 @@ export function SkillsSection() {
               {t('skills.achievements')}
             </h3>
             <ul className="space-y-3" role="list">
-              {achievements.map((achievement, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <span className="text-primary mt-1" aria-hidden="true">•</span>
-                  <span className="text-muted-foreground">{achievement}</span>
-                </li>
-              ))}
+              {achievements.map((achievement, index) => {
+                const parts = achievement.text.split(achievement.linkText);
+                return (
+                  <li key={index} className="flex items-start gap-3">
+                    <span className="text-primary mt-1" aria-hidden="true">•</span>
+                    <span className="text-muted-foreground">
+                      {parts[0]}
+                      <a
+                        href={achievement.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline inline-flex items-center gap-1"
+                      >
+                        {achievement.linkText}
+                        <ExternalLink size={12} className="inline" aria-hidden="true" />
+                        <span className="sr-only">(opens in a new tab)</span>
+                      </a>
+                      {parts[1]}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
           </article>
         </AnimatedSection>

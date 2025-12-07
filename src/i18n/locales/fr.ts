@@ -54,8 +54,8 @@ Mon parcours va du développement de stations de test portables dans les install
       'Leadership d\'équipe',
     ],
     achievementsList: [
-      'Médaille de bronze au Concurso Canguru de Matemática Brasil 2018 et 2019',
-      'Participant à Mostratec Júnior 2015 et 2016',
+      { text: 'Médaille de bronze au Concurso Canguru de Matemática Brasil 2018 et 2019', link: 'https://www.cangurudematematicabrasil.com.br/', linkText: 'Concurso Canguru de Matemática Brasil' },
+      { text: 'Participant à Mostratec Júnior 2015 et 2016', link: 'https://mostratec.liberato.com.br/mostratec-junior/', linkText: 'Mostratec Júnior' },
     ],
   },
   languages: {
@@ -71,6 +71,7 @@ Mon parcours va du développement de stations de test portables dans les install
       {
         title: 'Assistant RH & développeur web',
         company: 'IDE Jr.',
+        companyUrl: 'https://idejr.com.br/',
         period: '2023 – Présent',
         location: 'Brésil',
         description: [
@@ -82,6 +83,7 @@ Mon parcours va du développement de stations de test portables dans les install
       {
         title: 'Tuteur en algorithmes et programmation',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2024 – 2025',
         location: 'Brésil',
         description: [
@@ -92,6 +94,7 @@ Mon parcours va du développement de stations de test portables dans les install
       {
         title: 'Tuteur de physique',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023 – 2024',
         location: 'Brésil',
         description: [
@@ -102,6 +105,7 @@ Mon parcours va du développement de stations de test portables dans les install
       {
         title: 'Stagiaire en laboratoire de recherche',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023',
         location: 'Brésil',
         description: [
@@ -113,6 +117,7 @@ Mon parcours va du développement de stations de test portables dans les install
       {
         title: 'Stagiaire en maintenance électronique',
         company: 'Braskem',
+        companyUrl: 'https://www.braskem.com.br/',
         period: '2022',
         location: 'Brésil',
         description: [
@@ -132,11 +137,11 @@ Mon parcours va du développement de stations de test portables dans les install
     doubleDegree: 'Programme de double diplôme',
     doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre CentraleSupélec (France) et l\'UFRGS (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
     degrees: [
-      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', period: 'En cours jusqu\'en 2028', country: 'France' },
-      { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
-      { degree: 'Langue française - niveau intermédiaire', institution: 'Instituto Roche', period: 'Terminé en 2025', country: 'Brésil' },
-      { degree: 'Baccalauréat technique en électronique', institution: 'Fundação Liberato', period: 'Terminé en 2023', country: 'Brésil' },
-      { degree: 'Langue anglaise - maîtrise', institution: 'Wizard by Pearson', period: 'Terminé en 2019', country: 'Brésil' },
+      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'En cours jusqu\'en 2028', country: 'France' },
+      { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
+      { degree: 'Langue française - niveau intermédiaire', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Terminé en 2025', country: 'Brésil' },
+      { degree: 'Baccalauréat technique en électronique', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Terminé en 2023', country: 'Brésil' },
+      { degree: 'Langue anglaise - maîtrise', institution: 'Wizard by Pearson', institutionUrl: 'https://www.wizard.com.br/', period: 'Terminé en 2019', country: 'Brésil' },
     ],
   },
   projects: {

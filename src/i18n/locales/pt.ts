@@ -54,8 +54,8 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       'Liderança de Equipes',
     ],
     achievementsList: [
-      'Medalha de Bronze no Concurso Canguru de Matemática Brasil 2018 e 2019',
-      'Participante da Mostratec Júnior 2015 e 2016',
+      { text: 'Medalha de Bronze no Concurso Canguru de Matemática Brasil 2018 e 2019', link: 'https://www.cangurudematematicabrasil.com.br/', linkText: 'Concurso Canguru de Matemática Brasil' },
+      { text: 'Participante da Mostratec Júnior 2015 e 2016', link: 'https://mostratec.liberato.com.br/mostratec-junior/', linkText: 'Mostratec Júnior' },
     ],
   },
   languages: {
@@ -71,6 +71,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       {
         title: 'Assistente de RH & Desenvolvedor Web',
         company: 'IDE Jr.',
+        companyUrl: 'https://idejr.com.br/',
         period: '2023 – Presente',
         location: 'Brasil',
         description: [
@@ -82,6 +83,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       {
         title: 'Monitor de Algoritmos e Programação',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2024 – 2025',
         location: 'Brasil',
         description: [
@@ -92,6 +94,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       {
         title: 'Monitor de Física',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023 – 2024',
         location: 'Brasil',
         description: [
@@ -102,6 +105,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       {
         title: 'Bolsista de Iniciação Científica',
         company: 'UFRGS',
+        companyUrl: 'https://www.ufrgs.br/',
         period: '2023',
         location: 'Brasil',
         description: [
@@ -113,6 +117,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
       {
         title: 'Estagiário de Manutenção Eletrônica',
         company: 'Braskem',
+        companyUrl: 'https://www.braskem.com.br/',
         period: '2022',
         location: 'Brasil',
         description: [
@@ -132,11 +137,11 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     doubleDegree: 'Programa de Duplo Diploma',
     doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a CentraleSupélec (França) e a UFRGS (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
     degrees: [
-      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', period: 'Em andamento até 2028', country: 'França' },
-      { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', period: 'Em andamento até 2028', country: 'Brasil' },
-      { degree: 'Língua Francesa - Nível Intermediário', institution: 'Instituto Roche', period: 'Concluído em 2025', country: 'Brasil' },
-      { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', period: 'Concluído em 2023', country: 'Brasil' },
-      { degree: 'Língua Inglesa - Proficiência', institution: 'Wizard by Pearson', period: 'Concluído em 2019', country: 'Brasil' },
+      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Em andamento até 2028', country: 'França' },
+      { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Em andamento até 2028', country: 'Brasil' },
+      { degree: 'Língua Francesa - Nível Intermediário', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Concluído em 2025', country: 'Brasil' },
+      { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Concluído em 2023', country: 'Brasil' },
+      { degree: 'Língua Inglesa - Proficiência', institution: 'Wizard by Pearson', institutionUrl: 'https://www.wizard.com.br/', period: 'Concluído em 2019', country: 'Brasil' },
     ],
   },
   projects: {
