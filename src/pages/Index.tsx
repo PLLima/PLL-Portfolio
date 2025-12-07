@@ -8,6 +8,7 @@ import { ProjectsSection } from '@/components/ProjectsSection';
 import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
 import { SkipToContent } from '@/components/SkipToContent';
+import { BackToTop } from '@/components/BackToTop';
 import { useDocumentLang } from '@/hooks/useDocumentLang';
 
 const Index = () => {
@@ -28,6 +29,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 };
