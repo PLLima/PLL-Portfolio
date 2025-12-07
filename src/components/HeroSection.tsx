@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { profile } from '@/data/profile';
 import profilePhoto from '@/assets/profile-photo.jpg';
+import { Typewriter } from '@/components/Typewriter';
 
 const resumeUrls: Record<string, string> = {
   en: '/Resume_EN.pdf',
@@ -87,12 +88,12 @@ export function HeroSection() {
             </motion.p>
 
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
+              className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 min-h-[1.75rem]"
             >
-              {t('hero.tagline')}
+              <Typewriter text={t('hero.tagline')} delay={0.8} speed={35} />
             </motion.p>
 
             {/* CTA Buttons */}
