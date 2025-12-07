@@ -11,10 +11,14 @@ import { SkipToContent } from '@/components/SkipToContent';
 import { BackToTop } from '@/components/BackToTop';
 import { PageLoader } from '@/components/PageLoader';
 import { useDocumentLang } from '@/hooks/useDocumentLang';
+import { useKeyboardNavigation } from '@/hooks/useKeyboardNavigation';
 
 const Index = () => {
   // Update document lang attribute when language changes
   useDocumentLang();
+  
+  // Enable keyboard shortcuts for navigation
+  useKeyboardNavigation();
 
   return (
     <>
