@@ -95,14 +95,14 @@ export function Header() {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8" role="navigation">
+          <div className="hidden lg:flex items-center gap-6 xl:gap-8" role="navigation">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
                 className={cn(
-                  'link-underline text-sm font-medium transition-colors rounded-sm',
+                  'link-underline text-sm font-medium transition-colors rounded-sm whitespace-nowrap',
                   activeSection === item.href.replace('#', '')
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
@@ -124,7 +124,7 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center gap-3 md:hidden">
+          <div className="flex items-center gap-3 lg:hidden">
             <LanguageSelector />
             <button
               onClick={toggleTheme}
@@ -150,7 +150,7 @@ export function Header() {
         {isMobileMenuOpen && (
           <nav
             id="mobile-navigation"
-            className="md:hidden py-4 border-t border-border animate-fade-in"
+            className="lg:hidden py-4 border-t border-border animate-fade-in"
             aria-label={t('accessibility.mainNavigation')}
           >
             <ul className="flex flex-col gap-2" role="list">

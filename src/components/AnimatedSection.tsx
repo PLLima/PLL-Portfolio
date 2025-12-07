@@ -10,11 +10,11 @@ interface AnimatedSectionProps {
 export function AnimatedSection({ children, className = '', delay = 0 }: AnimatedSectionProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-100px' }}
+      initial={{ opacity: 0, y: 40, scale: 0.98 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: '-80px' }}
       transition={{
-        duration: 0.6,
+        duration: 0.7,
         delay,
         ease: [0.22, 1, 0.36, 1],
       }}
@@ -28,9 +28,9 @@ export function AnimatedSection({ children, className = '', delay = 0 }: Animate
 export function AnimatedItem({ children, className = '', delay = 0 }: AnimatedSectionProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-50px' }}
+      initial={{ opacity: 0, y: 25, scale: 0.97 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: '-40px' }}
       transition={{
         duration: 0.5,
         delay,
