@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://pedrolima.dev/sitemap.xml
+Sitemap: https://pllima.com/sitemap.xml
