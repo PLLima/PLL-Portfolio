@@ -15,16 +15,20 @@ export function HeroSection() {
   const currentResumeUrl = resumeUrls[i18n.language] || resumeUrls.en;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background gradient */}
+    <section 
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      aria-labelledby="hero-heading"
+    >
+      {/* Background gradient - decorative */}
       <div 
         className="absolute inset-0 opacity-30"
         style={{ background: 'var(--gradient-hero)' }}
+        aria-hidden="true"
       />
       
-      {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
+      {/* Decorative elements - hidden from screen readers */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" aria-hidden="true" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl" aria-hidden="true" />
 
       <div className="section-container relative z-10 pt-24 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -36,11 +40,12 @@ export function HeroSection() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center gap-2 badge-primary mb-6"
             >
-              <MapPin size={14} />
+              <MapPin size={14} aria-hidden="true" />
               <span>{t('hero.location')}</span>
             </motion.div>
 
             <motion.h1
+              id="hero-heading"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
@@ -55,6 +60,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="font-display text-xl sm:text-2xl text-muted-foreground mb-4"
+              role="doc-subtitle"
             >
               {t('hero.title')}
             </motion.p>
@@ -77,18 +83,19 @@ export function HeroSection() {
             >
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 style={{ boxShadow: 'var(--shadow-glow)' }}
               >
-                <Mail size={18} />
+                <Mail size={18} aria-hidden="true" />
                 {t('hero.getInTouch')}
               </a>
               <a
                 href={currentResumeUrl}
                 download
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                aria-label={t('accessibility.downloadResume')}
               >
-                <Download size={18} />
+                <Download size={18} aria-hidden="true" />
                 {t('hero.downloadCV')}
               </a>
             </motion.div>
@@ -99,31 +106,33 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               className="flex items-center justify-center lg:justify-start gap-3"
+              role="group"
+              aria-label={t('accessibility.socialLinks')}
             >
               <a
                 href={profile.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-button"
-                aria-label="LinkedIn"
+                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
               >
-                <Linkedin size={18} />
+                <Linkedin size={18} aria-hidden="true" />
               </a>
               <a
                 href={profile.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-button"
-                aria-label="GitHub"
+                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                aria-label={`GitHub - ${t('accessibility.externalLink')}`}
               >
-                <Github size={18} />
+                <Github size={18} aria-hidden="true" />
               </a>
               <a
                 href={`mailto:${profile.email}`}
-                className="icon-button"
+                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 aria-label="Email"
               >
-                <Mail size={18} />
+                <Mail size={18} aria-hidden="true" />
               </a>
             </motion.div>
           </div>
@@ -136,24 +145,28 @@ export function HeroSection() {
             className="order-1 lg:order-2 flex justify-center lg:justify-end"
           >
             <div className="relative">
-              {/* Decorative ring */}
-              <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-pulse" />
-              <div className="absolute -inset-8 rounded-full border border-primary/10" />
+              {/* Decorative ring - hidden from screen readers */}
+              <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-pulse" aria-hidden="true" />
+              <div className="absolute -inset-8 rounded-full border border-primary/10" aria-hidden="true" />
               
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
                   src={profilePhoto}
-                  alt={profile.name}
+                  alt={`Portrait of ${profile.name}, a tech leader and computer engineer wearing a professional suit`}
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center 40%' }}
                 />
               </div>
 
-              {/* International badge */}
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border shadow-lg">
-                <span className="text-lg">🇧🇷</span>
-                <span className="text-sm font-medium text-muted-foreground">→</span>
-                <span className="text-lg">🇫🇷</span>
+              {/* International badge - decorative but with accessible text */}
+              <div 
+                className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border shadow-lg"
+                role="img"
+                aria-label="From Brazil, now in France"
+              >
+                <span className="text-lg" aria-hidden="true">🇧🇷</span>
+                <span className="text-sm font-medium text-muted-foreground" aria-hidden="true">→</span>
+                <span className="text-lg" aria-hidden="true">🇫🇷</span>
               </div>
             </div>
           </motion.div>
@@ -168,10 +181,10 @@ export function HeroSection() {
         >
           <a
             href="#about"
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md"
           >
             <span className="text-xs font-medium">{t('hero.scrollToExplore')}</span>
-            <ArrowDown size={20} />
+            <ArrowDown size={20} aria-hidden="true" />
           </a>
         </motion.div>
       </div>

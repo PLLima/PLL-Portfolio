@@ -7,13 +7,18 @@ export function ContactSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="section-padding relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+    <section 
+      id="contact" 
+      className="section-padding relative overflow-hidden"
+      aria-labelledby="contact-heading"
+      tabIndex={-1}
+    >
+      {/* Background decoration - decorative */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" aria-hidden="true" />
       
       <div className="section-container relative z-10">
         <AnimatedSection className="text-center mb-12">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
+          <h2 id="contact-heading" className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
             {t('contact.title')} <span className="text-gradient">{t('contact.titleHighlight')}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -25,17 +30,17 @@ export function ContactSection() {
           <div className="card-elevated p-8 sm:p-12">
             <div className="grid sm:grid-cols-2 gap-8">
               {/* Contact Info */}
-              <div className="space-y-6">
+              <address className="space-y-6 not-italic">
                 <AnimatedItem delay={0.2}>
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <Mail size={18} className="text-primary" />
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
                       <a
                         href={`mailto:${profile.email}`}
-                        className="text-foreground font-medium hover:text-primary transition-colors break-all"
+                        className="text-foreground font-medium hover:text-primary transition-colors break-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
                       >
                         {profile.email}
                       </a>
@@ -45,7 +50,7 @@ export function ContactSection() {
 
                 <AnimatedItem delay={0.3}>
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <MapPin size={18} className="text-primary" />
                     </div>
                     <div>
@@ -54,7 +59,7 @@ export function ContactSection() {
                     </div>
                   </div>
                 </AnimatedItem>
-              </div>
+              </address>
 
               {/* Social Links */}
               <div className="space-y-4">
@@ -65,13 +70,14 @@ export function ContactSection() {
                     href={profile.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
+                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
                   >
-                    <Linkedin size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
+                    <Linkedin size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
                     <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground">
                       LinkedIn
                     </span>
-                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" />
+                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" aria-hidden="true" />
                   </a>
                 </AnimatedItem>
 
@@ -80,13 +86,14 @@ export function ContactSection() {
                     href={profile.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
+                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    aria-label={`GitHub - ${t('accessibility.externalLink')}`}
                   >
-                    <Github size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
+                    <Github size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
                     <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground">
                       GitHub
                     </span>
-                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" />
+                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" aria-hidden="true" />
                   </a>
                 </AnimatedItem>
               </div>
@@ -97,10 +104,10 @@ export function ContactSection() {
               <div className="mt-10 pt-8 border-t border-border text-center">
                 <a
                   href={`mailto:${profile.email}`}
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-lg hover:opacity-90 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-lg hover:opacity-90 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   style={{ boxShadow: 'var(--shadow-glow)' }}
                 >
-                  <Mail size={20} />
+                  <Mail size={20} aria-hidden="true" />
                   {t('contact.sendEmail')}
                 </a>
               </div>

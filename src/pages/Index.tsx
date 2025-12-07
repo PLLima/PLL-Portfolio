@@ -7,12 +7,18 @@ import { EducationSection } from '@/components/EducationSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
+import { SkipToContent } from '@/components/SkipToContent';
+import { useDocumentLang } from '@/hooks/useDocumentLang';
 
 const Index = () => {
+  // Update document lang attribute when language changes
+  useDocumentLang();
+
   return (
     <div className="min-h-screen bg-background">
+      <SkipToContent />
       <Header />
-      <main>
+      <main id="main-content" tabIndex={-1}>
         <HeroSection />
         <AboutSection />
         <SkillsSection />
