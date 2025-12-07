@@ -41,7 +41,7 @@ export function EducationSection() {
 
         {/* International highlight */}
         <AnimatedSection delay={0.1} className="max-w-3xl mx-auto mb-12">
-          <article className="card-elevated p-6 sm:p-8 border-l-4 border-l-primary">
+          <article className="card-elevated p-6 sm:p-8 border-l-4 border-l-primary transition-all duration-300 hover:shadow-lg hover:border-l-primary/80">
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
                 <Globe size={24} className="text-primary" />
@@ -95,7 +95,7 @@ export function EducationSection() {
           {degrees.map((edu, index) => (
             <AnimatedItem key={index} delay={0.1 + index * 0.1}>
               <li>
-                <article className="card-elevated p-6 group h-full">
+                <article className="card-elevated p-6 group h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary transition-colors" aria-hidden="true">
                       <GraduationCap size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
