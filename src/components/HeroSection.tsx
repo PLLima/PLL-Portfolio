@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import { profile } from '@/data/profile';
 import profilePhoto from '@/assets/profile-photo.jpg';
 import { Typewriter } from '@/components/Typewriter';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 const resumeUrls: Record<string, string> = {
   en: '/Resume_EN.pdf',
@@ -131,31 +132,56 @@ export function HeroSection() {
               role="group"
               aria-label={t('accessibility.socialLinks')}
             >
-              <a
-                href={profile.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="icon-button"
-                aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
-              >
-                <Linkedin size={18} aria-hidden="true" />
-              </a>
-              <a
-                href={profile.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="icon-button"
-                aria-label={`GitHub - ${t('accessibility.externalLink')}`}
-              >
-                <Github size={18} aria-hidden="true" />
-              </a>
-              <a
-                href={`mailto:${profile.email}`}
-                className="icon-button"
-                aria-label="Email"
-              >
-                <Mail size={18} aria-hidden="true" />
-              </a>
+              <TooltipProvider delayDuration={300}>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <a
+                      href={profile.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="icon-button"
+                      aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
+                    >
+                      <Linkedin size={18} aria-hidden="true" />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>LinkedIn</p>
+                  </TooltipContent>
+                </Tooltip>
+
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <a
+                      href={profile.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="icon-button"
+                      aria-label={`GitHub - ${t('accessibility.externalLink')}`}
+                    >
+                      <Github size={18} aria-hidden="true" />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>GitHub</p>
+                  </TooltipContent>
+                </Tooltip>
+
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <a
+                      href={`mailto:${profile.email}`}
+                      className="icon-button"
+                      aria-label="Email"
+                    >
+                      <Mail size={18} aria-hidden="true" />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Email</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             </motion.div>
           </div>
 
