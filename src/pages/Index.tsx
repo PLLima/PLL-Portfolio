@@ -10,6 +10,7 @@ import { Footer } from '@/components/Footer';
 import { SkipToContent } from '@/components/SkipToContent';
 import { BackToTop } from '@/components/BackToTop';
 import { PageLoader } from '@/components/PageLoader';
+import { KeyboardShortcutsHelp } from '@/components/KeyboardShortcutsHelp';
 import { useDocumentLang } from '@/hooks/useDocumentLang';
 import { useKeyboardNavigation } from '@/hooks/useKeyboardNavigation';
 
@@ -37,6 +38,7 @@ const Index = () => {
       </main>
       <Footer />
         <BackToTop />
+        <KeyboardShortcutsHelp />
       </div>
     </>
   );

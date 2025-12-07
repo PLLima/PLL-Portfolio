@@ -180,6 +180,12 @@ My journey spans from developing portable testing stations at Braskem's industri
     rights: 'All rights reserved.',
     tagline: 'Built with passion for tech leadership',
   },
+  keyboard: {
+    title: 'Keyboard Shortcuts',
+    close: 'Close',
+    toggleHelp: 'Toggle this help',
+    pressEsc: 'Press Esc or ? to close',
+  },
   accessibility: {
     skipToContent: 'Skip to main content',
     backToTop: 'Back to top',

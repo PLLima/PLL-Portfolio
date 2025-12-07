@@ -180,6 +180,12 @@ Mon parcours va du développement de stations de test portables dans les install
     rights: 'Tous droits réservés.',
     tagline: 'Construit avec passion pour le leadership technologique',
   },
+  keyboard: {
+    title: 'Raccourcis clavier',
+    close: 'Fermer',
+    toggleHelp: 'Afficher/masquer cette aide',
+    pressEsc: 'Appuyez sur Échap ou ? pour fermer',
+  },
   accessibility: {
     skipToContent: 'Aller au contenu principal',
     backToTop: 'Retour en haut',
