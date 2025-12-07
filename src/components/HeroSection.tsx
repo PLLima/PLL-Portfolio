@@ -1,6 +1,7 @@
 import { ArrowDown, MapPin, Linkedin, Github, Mail, Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 import { profile } from '@/data/profile';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
@@ -13,22 +14,42 @@ const resumeUrls: Record<string, string> = {
 export function HeroSection() {
   const { t, i18n } = useTranslation();
   const currentResumeUrl = resumeUrls[i18n.language] || resumeUrls.en;
+  const sectionRef = useRef<HTMLElement>(null);
+  
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"]
+  });
+  
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const decorativeY1 = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+  const decorativeY2 = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
     <section 
+      ref={sectionRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       aria-labelledby="hero-heading"
     >
-      {/* Background gradient - decorative */}
-      <div 
+      {/* Background gradient - decorative with parallax */}
+      <motion.div 
         className="absolute inset-0 opacity-30"
-        style={{ background: 'var(--gradient-hero)' }}
+        style={{ background: 'var(--gradient-hero)', y: backgroundY }}
         aria-hidden="true"
       />
       
-      {/* Decorative elements - hidden from screen readers */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" aria-hidden="true" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl" aria-hidden="true" />
+      {/* Decorative elements with parallax - hidden from screen readers */}
+      <motion.div 
+        className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" 
+        style={{ y: decorativeY1 }}
+        aria-hidden="true" 
+      />
+      <motion.div 
+        className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl" 
+        style={{ y: decorativeY2 }}
+        aria-hidden="true" 
+      />
 
       <div className="section-container relative z-10 pt-24 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
