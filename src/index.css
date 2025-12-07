@@ -189,15 +189,15 @@
     @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
   }
 
-  /* Enhanced focus glow effect */
+  /* Enhanced focus glow effect - using !important to override inline styles */
   *:focus-visible {
-    outline: none;
+    outline: none !important;
     box-shadow: 
       0 0 0 2px hsl(var(--background)),
       0 0 0 4px hsl(var(--primary)),
       0 0 20px hsl(var(--primary) / 0.4),
-      0 0 40px hsl(var(--primary) / 0.2);
-    animation: focus-glow-pulse 2s ease-in-out infinite;
+      0 0 40px hsl(var(--primary) / 0.2) !important;
+    animation: focus-glow-pulse 2s ease-in-out infinite !important;
   }
 
   /* Specific focus styles for links and buttons */
@@ -208,8 +208,27 @@
 
   /* Focus styles for rounded elements */
   .icon-button:focus-visible,
-  .rounded-full:focus-visible {
-    border-radius: 9999px;
+  .rounded-full:focus-visible,
+  [class*="rounded-full"]:focus-visible {
+    border-radius: 9999px !important;
+  }
+
+  /* Focus styles for rounded-xl elements */
+  .rounded-xl:focus-visible,
+  [class*="rounded-xl"]:focus-visible {
+    border-radius: 0.75rem !important;
+  }
+
+  /* Focus styles for rounded-lg elements */
+  .rounded-lg:focus-visible,
+  [class*="rounded-lg"]:focus-visible {
+    border-radius: 0.5rem !important;
+  }
+
+  /* Focus styles for rounded-md elements */
+  .rounded-md:focus-visible,
+  [class*="rounded-md"]:focus-visible {
+    border-radius: 0.375rem !important;
   }
 
   /* Focus glow pulse animation */
@@ -264,11 +283,229 @@
     }
 
     *:focus-visible {
-      animation: none;
+      animation: none !important;
       box-shadow: 
         0 0 0 2px hsl(var(--background)),
-        0 0 0 4px hsl(var(--primary));
+        0 0 0 4px hsl(var(--primary)) !important;
     }
+  }
+}
+
+/* ==================== PRINT STYLES ==================== */
+@media print {
+  /* Reset backgrounds and use print-friendly colors */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --muted-foreground: 0 0% 30%;
+    --border: 0 0% 80%;
+  }
+
+  /* Hide non-essential elements for printing */
+  header,
+  .icon-button,
+  .animate-bounce,
+  .animate-pulse,
+  [aria-hidden="true"]:not(img):not(.text-gradient),
+  .blur-3xl,
+  button,
+  .badge-primary .lucide-map-pin,
+  footer {
+    display: none !important;
+  }
+
+  /* Reset page layout */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Main content adjustments */
+  main {
+    padding-top: 0 !important;
+  }
+
+  /* Section adjustments */
+  section {
+    padding: 1rem 0 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Hero section print layout */
+  section[aria-labelledby="hero-heading"] {
+    min-height: auto !important;
+    padding: 0 !important;
+  }
+
+  section[aria-labelledby="hero-heading"] .grid {
+    display: block !important;
+  }
+
+  section[aria-labelledby="hero-heading"] .order-1,
+  section[aria-labelledby="hero-heading"] .order-2 {
+    order: unset !important;
+  }
+
+  /* Profile image print size */
+  section[aria-labelledby="hero-heading"] img {
+    width: 120px !important;
+    height: 120px !important;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+  }
+
+  /* Hide decorative rings around profile image */
+  section[aria-labelledby="hero-heading"] .relative > div[class*="absolute"] {
+    display: none !important;
+  }
+
+  /* Typography adjustments for print */
+  h1 {
+    font-size: 24pt !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h2 {
+    font-size: 16pt !important;
+    margin-bottom: 0.75rem !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  h3 {
+    font-size: 12pt !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Text gradient fallback for print */
+  .text-gradient {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: hsl(354, 62%, 40%) !important;
+    color: hsl(354, 62%, 40%) !important;
+  }
+
+  /* Card styles for print */
+  .card-elevated,
+  .glass-card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    background: white !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Grid adjustments for print */
+  .grid {
+    display: block !important;
+  }
+
+  .grid > * {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Skills badges for print */
+  .flex-wrap {
+    gap: 0.25rem !important;
+  }
+
+  .rounded-full {
+    border: 1px solid #ccc !important;
+    background: #f5f5f5 !important;
+    padding: 0.25rem 0.75rem !important;
+    font-size: 9pt !important;
+  }
+
+  /* Timeline adjustments */
+  .absolute.left-0,
+  .absolute.left-1\/2,
+  div[class*="w-px"] {
+    display: none !important;
+  }
+
+  /* Experience cards */
+  article {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Links - show URL */
+  a[href^="http"]:not(.icon-button)::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+    word-break: break-all;
+  }
+
+  a[href^="mailto:"]::after {
+    content: "";
+  }
+
+  /* Page breaks */
+  #about {
+    page-break-before: avoid;
+  }
+
+  #skills,
+  #experience,
+  #education,
+  #projects,
+  #contact {
+    page-break-before: auto;
+  }
+
+  /* Hide social link cards but keep email visible */
+  #contact .rounded-xl {
+    display: none !important;
+  }
+
+  #contact address {
+    display: block !important;
+  }
+
+  /* Ensure background decorations are hidden */
+  .opacity-30,
+  .opacity-50,
+  [style*="gradient"] {
+    display: none !important;
+  }
+
+  /* Section container width */
+  .section-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+
+  @page :first {
+    margin-top: 1cm;
+  }
+
+  /* Ensure text is readable */
+  p, li, span {
+    color: #333 !important;
+  }
+
+  /* Badge styles */
+  .badge-primary {
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    color: #333 !important;
   }
 }
 

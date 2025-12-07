@@ -21,7 +21,7 @@ export function LanguageSelector() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger 
-        className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" 
+        className="icon-button" 
         aria-label={`${t('accessibility.changeLanguage')} - ${t('accessibility.currentLanguage')}: ${currentLang.name}`}
       >
         <Globe size={18} aria-hidden="true" />

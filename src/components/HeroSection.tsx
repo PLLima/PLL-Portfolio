@@ -83,7 +83,7 @@ export function HeroSection() {
             >
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300"
                 style={{ boxShadow: 'var(--shadow-glow)' }}
               >
                 <Mail size={18} aria-hidden="true" />
@@ -92,7 +92,7 @@ export function HeroSection() {
               <a
                 href={currentResumeUrl}
                 download
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
                 aria-label={t('accessibility.downloadResume')}
               >
                 <Download size={18} aria-hidden="true" />
@@ -113,7 +113,7 @@ export function HeroSection() {
                 href={profile.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="icon-button"
                 aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
               >
                 <Linkedin size={18} aria-hidden="true" />
@@ -122,14 +122,14 @@ export function HeroSection() {
                 href={profile.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="icon-button"
                 aria-label={`GitHub - ${t('accessibility.externalLink')}`}
               >
                 <Github size={18} aria-hidden="true" />
               </a>
               <a
                 href={`mailto:${profile.email}`}
-                className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="icon-button"
                 aria-label="Email"
               >
                 <Mail size={18} aria-hidden="true" />
@@ -181,7 +181,7 @@ export function HeroSection() {
         >
           <a
             href="#about"
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md"
+            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors rounded-md"
           >
             <span className="text-xs font-medium">{t('hero.scrollToExplore')}</span>
             <ArrowDown size={20} aria-hidden="true" />

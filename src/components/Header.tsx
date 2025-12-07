@@ -88,7 +88,7 @@ export function Header() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
-            className="font-display text-xl md:text-2xl font-semibold text-foreground hover:text-primary transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md"
+            className="font-display text-xl md:text-2xl font-semibold text-foreground hover:text-primary transition-colors rounded-md"
             aria-label="Pedro Lubaszewski Lima - Home"
           >
             PLL<span className="text-primary" aria-hidden="true">.</span>
@@ -102,7 +102,7 @@ export function Header() {
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
                 className={cn(
-                  'link-underline text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm',
+                  'link-underline text-sm font-medium transition-colors rounded-sm',
                   activeSection === item.href.replace('#', '')
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
@@ -115,7 +115,7 @@ export function Header() {
             <LanguageSelector />
             <button
               onClick={toggleTheme}
-              className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="icon-button"
               aria-label={t('accessibility.toggleTheme')}
               aria-pressed={theme === 'dark'}
             >
@@ -128,7 +128,7 @@ export function Header() {
             <LanguageSelector />
             <button
               onClick={toggleTheme}
-              className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="icon-button"
               aria-label={t('accessibility.toggleTheme')}
               aria-pressed={theme === 'dark'}
             >
@@ -136,7 +136,7 @@ export function Header() {
             </button>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="icon-button"
               aria-label={t('accessibility.toggleMenu')}
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-navigation"
@@ -160,7 +160,7 @@ export function Header() {
                     href={item.href}
                     onClick={(e) => handleNavClick(e, item.href)}
                     className={cn(
-                      'block px-4 py-3 text-sm font-medium rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
+                      'block px-4 py-3 text-sm font-medium rounded-lg transition-colors',
                       activeSection === item.href.replace('#', '')
                         ? 'text-primary bg-accent'
                         : 'text-muted-foreground hover:text-foreground hover:bg-secondary'
