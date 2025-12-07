@@ -1,16 +1,15 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { useTheme } from '@/hooks/useTheme';
 import { LanguageSelector } from '@/components/LanguageSelector';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { cn } from '@/lib/utils';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
-  const { theme, toggleTheme } = useTheme();
   const { t } = useTranslation();
   
   const { scrollYProgress } = useScroll();
@@ -127,27 +126,13 @@ export function Header() {
               </a>
             ))}
             <LanguageSelector />
-            <button
-              onClick={toggleTheme}
-              className="icon-button"
-              aria-label={t('accessibility.toggleTheme')}
-              aria-pressed={theme === 'dark'}
-            >
-              {theme === 'light' ? <Moon size={18} aria-hidden="true" /> : <Sun size={18} aria-hidden="true" />}
-            </button>
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-3 lg:hidden">
             <LanguageSelector />
-            <button
-              onClick={toggleTheme}
-              className="icon-button"
-              aria-label={t('accessibility.toggleTheme')}
-              aria-pressed={theme === 'dark'}
-            >
-              {theme === 'light' ? <Moon size={18} aria-hidden="true" /> : <Sun size={18} aria-hidden="true" />}
-            </button>
+            <ThemeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="icon-button"
