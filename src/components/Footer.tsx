@@ -9,16 +9,16 @@ export function Footer() {
   return (
     <footer className="py-8 border-t border-border bg-card" role="contentinfo">
       <div className="section-container">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground text-center sm:text-left">
+        <div className="flex flex-col items-center gap-4">
+          <p className="text-sm text-muted-foreground text-center">
             © {currentYear} {profile.name}. {t('footer.rights')}
           </p>
-          <div className="flex items-center gap-4">
+          <div className="hidden sm:flex items-center justify-center gap-4">
             <KeyboardShortcutsTrigger />
-            <p className="text-sm text-muted-foreground text-center sm:text-right">
-              {t('footer.tagline')}
-            </p>
           </div>
+          <p className="text-sm text-muted-foreground text-center">
+            {t('footer.tagline')}
+          </p>
         </div>
       </div>
     </footer>
