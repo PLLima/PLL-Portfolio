@@ -111,7 +111,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
         ],
       },
       {
-        title: 'Estagiário de Manutenção de Eletrônica',
+        title: 'Estagiário de Manutenção Eletrônica',
         company: 'Braskem',
         period: '2022',
         location: 'Brasil',

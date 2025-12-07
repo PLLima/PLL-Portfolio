@@ -40,7 +40,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
                       <a
                         href={`mailto:${profile.email}`}
-                        className="text-foreground font-medium hover:text-primary transition-colors break-all rounded-sm"
+                        className="text-foreground font-medium hover:text-primary transition-colors whitespace-nowrap rounded-sm"
                       >
                         {profile.email}
                       </a>
