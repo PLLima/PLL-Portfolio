@@ -69,7 +69,7 @@ export function ProjectsSection() {
             href={profile.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
             aria-label={`${t('projects.viewMore')} - ${t('accessibility.externalLink')}`}
           >
             <Github size={18} aria-hidden="true" />

@@ -40,7 +40,7 @@ export function ContactSection() {
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
                       <a
                         href={`mailto:${profile.email}`}
-                        className="text-foreground font-medium hover:text-primary transition-colors break-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+                        className="text-foreground font-medium hover:text-primary transition-colors break-all rounded-sm"
                       >
                         {profile.email}
                       </a>
@@ -70,7 +70,7 @@ export function ContactSection() {
                     href={profile.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
                     aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
                   >
                     <Linkedin size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
@@ -86,7 +86,7 @@ export function ContactSection() {
                     href={profile.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
                     aria-label={`GitHub - ${t('accessibility.externalLink')}`}
                   >
                     <Github size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
@@ -104,7 +104,7 @@ export function ContactSection() {
               <div className="mt-10 pt-8 border-t border-border text-center">
                 <a
                   href={`mailto:${profile.email}`}
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-lg hover:opacity-90 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-lg hover:opacity-90 transition-all"
                   style={{ boxShadow: 'var(--shadow-glow)' }}
                 >
                   <Mail size={20} aria-hidden="true" />
