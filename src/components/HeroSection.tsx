@@ -145,7 +145,7 @@ export function HeroSection() {
                   src={profilePhoto}
                   alt={profile.name}
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: 'center 5%' }}
+                  style={{ objectPosition: 'center 35%' }}
                 />
               </div>
 
