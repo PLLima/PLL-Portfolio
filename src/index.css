@@ -550,12 +550,30 @@
     padding: 0.15rem 0.5rem !important;
   }
 
-  /* Framer motion wrappers - ensure visible */
-  [style*="opacity"] {
+  /* Force all elements to be visible for print - override Framer Motion inline styles */
+  *,
+  *::before,
+  *::after,
+  div,
+  section,
+  article,
+  main,
+  nav,
+  aside,
+  address,
+  p,
+  h1, h2, h3, h4, h5, h6,
+  span,
+  a,
+  ul, ol, li {
     opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
   }
 
-  [style*="transform"] {
+  /* Specific override for motion.div elements */
+  [style] {
+    opacity: 1 !important;
     transform: none !important;
   }
 
