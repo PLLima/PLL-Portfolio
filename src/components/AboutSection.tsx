@@ -22,13 +22,18 @@ export function AboutSection() {
   ];
 
   return (
-    <section id="about" className="section-padding relative">
-      {/* Background accent */}
-      <div className="absolute inset-0 opacity-50" style={{ background: 'var(--gradient-section)' }} />
+    <section 
+      id="about" 
+      className="section-padding relative"
+      aria-labelledby="about-heading"
+      tabIndex={-1}
+    >
+      {/* Background accent - decorative */}
+      <div className="absolute inset-0 opacity-50" style={{ background: 'var(--gradient-section)' }} aria-hidden="true" />
       
       <div className="section-container relative z-10">
         <AnimatedSection className="text-center mb-12">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
+          <h2 id="about-heading" className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
             {t('about.title')} <span className="text-gradient">{t('about.titleHighlight')}</span>
           </h2>
         </AnimatedSection>
@@ -36,7 +41,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* About Text */}
           <AnimatedSection delay={0.1}>
-            <div className="card-elevated p-6 sm:p-8">
+            <article className="card-elevated p-6 sm:p-8">
               <p className="text-foreground leading-relaxed whitespace-pre-line">
                 {t('about.bio')}
               </p>
@@ -46,30 +51,33 @@ export function AboutSection() {
                 <h3 className="font-display text-lg font-semibold text-foreground mb-4">
                   {t('about.languages')}
                 </h3>
-                <div className="flex flex-wrap gap-3">
+                <ul className="flex flex-wrap gap-3" role="list">
                   {languages.map((lang) => (
-                    <div
+                    <li
                       key={lang.name}
                       className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground"
                     >
                       <span className="font-medium">{lang.name}</span>
                       <span className="text-xs text-muted-foreground">({lang.level})</span>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
-            </div>
+            </article>
           </AnimatedSection>
 
           {/* Focus Areas */}
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4" role="list" aria-label="Focus areas">
             {focusAreaKeys.map((key, index) => {
               const Icon = iconMap[iconKeys[index]];
               const area = t(`focusAreas.${key}`, { returnObjects: true }) as { title: string; description: string };
               return (
                 <AnimatedItem key={key} delay={0.1 + index * 0.1}>
-                  <div className="card-elevated p-6 group h-full">
-                    <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                  <article className="card-elevated p-6 group h-full" role="listitem">
+                    <div 
+                      className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                      aria-hidden="true"
+                    >
                       <Icon size={24} className="text-accent-foreground group-hover:text-primary-foreground" />
                     </div>
                     <h3 className="font-display text-lg font-semibold text-foreground mb-2">
@@ -78,7 +86,7 @@ export function AboutSection() {
                     <p className="text-sm text-muted-foreground">
                       {area.description}
                     </p>
-                  </div>
+                  </article>
                 </AnimatedItem>
               );
             })}

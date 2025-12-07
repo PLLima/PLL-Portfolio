@@ -14,14 +14,17 @@ const languages = [
 ];
 
 export function LanguageSelector() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const currentLang = languages.find((l) => i18n.language.startsWith(l.code)) || languages[0];
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="icon-button" aria-label="Select language">
-        <Globe size={18} />
+      <DropdownMenuTrigger 
+        className="icon-button focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" 
+        aria-label={`${t('accessibility.changeLanguage')} - ${t('accessibility.currentLanguage')}: ${currentLang.name}`}
+      >
+        <Globe size={18} aria-hidden="true" />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-[140px]">
         {languages.map((lang) => (
@@ -31,8 +34,9 @@ export function LanguageSelector() {
             className={`flex items-center gap-2 cursor-pointer ${
               currentLang.code === lang.code ? 'bg-accent' : ''
             }`}
+            aria-current={currentLang.code === lang.code ? 'true' : undefined}
           >
-            <span>{lang.flag}</span>
+            <span aria-hidden="true">{lang.flag}</span>
             <span>{lang.name}</span>
           </DropdownMenuItem>
         ))}
