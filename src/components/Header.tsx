@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { motion, useScroll, useSpring } from 'framer-motion';
 import { useTheme } from '@/hooks/useTheme';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { cn } from '@/lib/utils';
@@ -11,6 +12,13 @@ export function Header() {
   const [activeSection, setActiveSection] = useState('');
   const { theme, toggleTheme } = useTheme();
   const { t } = useTranslation();
+  
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   const navItems = [
     { label: t('nav.about'), href: '#about' },
@@ -80,6 +88,12 @@ export function Header() {
       )}
       role="banner"
     >
+      {/* Scroll Progress Indicator */}
+      <motion.div
+        className="absolute bottom-0 left-0 right-0 h-[2px] bg-primary origin-left"
+        style={{ scaleX }}
+        aria-hidden="true"
+      />
       <nav className="section-container" aria-label={t('accessibility.mainNavigation')}>
         <div className="flex items-center justify-between h-16 md:h-20">
           <a
