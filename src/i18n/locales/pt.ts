@@ -180,6 +180,12 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     rights: 'Todos os direitos reservados.',
     tagline: 'Construído com paixão por liderança tecnológica',
   },
+  keyboard: {
+    title: 'Atalhos de Teclado',
+    close: 'Fechar',
+    toggleHelp: 'Alternar esta ajuda',
+    pressEsc: 'Pressione Esc ou ? para fechar',
+  },
   accessibility: {
     skipToContent: 'Pular para o conteúdo principal',
     backToTop: 'Voltar ao topo',
