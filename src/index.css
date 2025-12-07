@@ -184,9 +184,50 @@
     box-shadow: var(--shadow-glow);
   }
 
-  /* Accessibility: Enhanced focus indicators */
+  /* Accessibility: Enhanced focus indicators with glow animation */
   .focus-visible-ring:focus-visible {
     @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Enhanced focus glow effect */
+  *:focus-visible {
+    outline: none;
+    box-shadow: 
+      0 0 0 2px hsl(var(--background)),
+      0 0 0 4px hsl(var(--primary)),
+      0 0 20px hsl(var(--primary) / 0.4),
+      0 0 40px hsl(var(--primary) / 0.2);
+    animation: focus-glow-pulse 2s ease-in-out infinite;
+  }
+
+  /* Specific focus styles for links and buttons */
+  a:focus-visible,
+  button:focus-visible {
+    border-radius: 4px;
+  }
+
+  /* Focus styles for rounded elements */
+  .icon-button:focus-visible,
+  .rounded-full:focus-visible {
+    border-radius: 9999px;
+  }
+
+  /* Focus glow pulse animation */
+  @keyframes focus-glow-pulse {
+    0%, 100% {
+      box-shadow: 
+        0 0 0 2px hsl(var(--background)),
+        0 0 0 4px hsl(var(--primary)),
+        0 0 20px hsl(var(--primary) / 0.4),
+        0 0 40px hsl(var(--primary) / 0.2);
+    }
+    50% {
+      box-shadow: 
+        0 0 0 2px hsl(var(--background)),
+        0 0 0 4px hsl(var(--primary)),
+        0 0 30px hsl(var(--primary) / 0.5),
+        0 0 60px hsl(var(--primary) / 0.3);
+    }
   }
 
   /* Screen reader only utility */
@@ -214,12 +255,19 @@
     white-space: normal;
   }
 
-  /* Reduced motion preference */
+  /* Reduced motion preference - disable glow animation */
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
+    }
+
+    *:focus-visible {
+      animation: none;
+      box-shadow: 
+        0 0 0 2px hsl(var(--background)),
+        0 0 0 4px hsl(var(--primary));
     }
   }
 }
