@@ -105,11 +105,11 @@ export function ContactSection() {
               <div className="mt-10 pt-8 border-t border-border text-center">
                 <a
                   href={`mailto:${profile.email}`}
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-lg hover:opacity-90 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-base sm:text-lg hover:opacity-90 transition-all"
                   style={{ boxShadow: 'var(--shadow-glow)' }}
                 >
-                  <Mail size={20} aria-hidden="true" />
-                  {t('contact.sendEmail')}
+                  <Mail size={20} className="flex-shrink-0" aria-hidden="true" />
+                  <span className="whitespace-nowrap">{t('contact.sendEmail')}</span>
                 </a>
               </div>
             </AnimatedItem>

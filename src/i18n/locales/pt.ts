@@ -135,7 +135,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     titleHighlight: 'Experiência Internacional',
     subtitle: 'Uma jornada educacional global abrangendo múltiplos países e disciplinas',
     doubleDegree: 'Programa de Duplo Diploma',
-    doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a CentraleSupélec (França) e a UFRGS (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
+    doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a {centralesupelec} (França) e a {ufrgs} (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
     degrees: [
       { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Em andamento até 2028', country: 'França' },
       { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Em andamento até 2028', country: 'Brasil' },

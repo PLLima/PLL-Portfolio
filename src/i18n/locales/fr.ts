@@ -135,7 +135,7 @@ Mon parcours va du développement de stations de test portables dans les install
     titleHighlight: 'expérience internationale',
     subtitle: 'Un parcours éducatif mondial couvrant plusieurs pays et disciplines',
     doubleDegree: 'Programme de double diplôme',
-    doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre CentraleSupélec (France) et l\'UFRGS (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
+    doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
     degrees: [
       { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'En cours jusqu\'en 2028', country: 'France' },
       { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
@@ -174,7 +174,7 @@ Mon parcours va du développement de stations de test portables dans les install
     email: 'E-mail',
     location: 'Localisation',
     findOnline: 'Retrouvez-moi en ligne',
-    sendEmail: 'Envoyez-moi un e-mail',
+    sendEmail: 'M\'envoyer un e-mail',
   },
   footer: {
     rights: 'Tous droits réservés.',
