@@ -10,7 +10,7 @@ import { Footer } from '@/components/Footer';
 import { SkipToContent } from '@/components/SkipToContent';
 import { BackToTop } from '@/components/BackToTop';
 import { PageLoader } from '@/components/PageLoader';
-import { KeyboardShortcutsHelp } from '@/components/KeyboardShortcutsHelp';
+import { KeyboardShortcutsProvider, KeyboardShortcutsModal } from '@/components/KeyboardShortcutsHelp';
 import { useDocumentLang } from '@/hooks/useDocumentLang';
 import { useKeyboardNavigation } from '@/hooks/useKeyboardNavigation';
 
@@ -22,25 +22,25 @@ const Index = () => {
   useKeyboardNavigation();
 
   return (
-    <>
+    <KeyboardShortcutsProvider>
       <PageLoader />
       <div className="min-h-screen bg-background">
         <SkipToContent />
-      <Header />
-      <main id="main-content" tabIndex={-1}>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ExperienceSection />
-        <EducationSection />
-        <ProjectsSection />
-        <ContactSection />
-      </main>
-      <Footer />
+        <Header />
+        <main id="main-content" tabIndex={-1}>
+          <HeroSection />
+          <AboutSection />
+          <SkillsSection />
+          <ExperienceSection />
+          <EducationSection />
+          <ProjectsSection />
+          <ContactSection />
+        </main>
+        <Footer />
         <BackToTop />
-        <KeyboardShortcutsHelp />
+        <KeyboardShortcutsModal />
       </div>
-    </>
+    </KeyboardShortcutsProvider>
   );
 };
 
