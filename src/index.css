@@ -293,96 +293,165 @@
 
 /* ==================== PRINT STYLES ==================== */
 @media print {
-  /* Reset backgrounds and use print-friendly colors */
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
-    --muted-foreground: 0 0% 30%;
-    --border: 0 0% 80%;
+  /* Basic reset for print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   /* Hide non-essential elements for printing */
-  header,
+  header[role="banner"],
+  footer[role="contentinfo"],
   .icon-button,
   .animate-bounce,
   .animate-pulse,
-  [aria-hidden="true"]:not(img):not(.text-gradient),
   .blur-3xl,
-  button,
-  .badge-primary .lucide-map-pin,
-  footer {
+  button:not([type="submit"]) {
+    display: none !important;
+  }
+
+  /* Hide decorative backgrounds */
+  .absolute.opacity-30,
+  .absolute.opacity-50,
+  div[style*="gradient-hero"],
+  div[style*="gradient-section"] {
     display: none !important;
   }
 
   /* Reset page layout */
-  body {
+  html, body {
     background: white !important;
     color: black !important;
     font-size: 11pt !important;
-    line-height: 1.4 !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  /* Main content adjustments */
+  /* Ensure main content is visible */
+  #root,
+  .min-h-screen,
   main {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  main#main-content {
     padding-top: 0 !important;
   }
 
   /* Section adjustments */
   section {
-    padding: 1rem 0 !important;
+    padding: 0.75rem 0 !important;
+    margin: 0 !important;
+    background: white !important;
     page-break-inside: avoid;
     break-inside: avoid;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    overflow: visible !important;
+    min-height: auto !important;
+  }
+
+  /* Container width for print */
+  .section-container {
+    max-width: 100% !important;
+    padding: 0 0.5cm !important;
+    margin: 0 !important;
   }
 
   /* Hero section print layout */
   section[aria-labelledby="hero-heading"] {
     min-height: auto !important;
-    padding: 0 !important;
+    padding: 0 0 1rem 0 !important;
+  }
+
+  section[aria-labelledby="hero-heading"] > div:first-child {
+    position: static !important;
+    display: none !important;
   }
 
   section[aria-labelledby="hero-heading"] .grid {
-    display: block !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
   }
 
-  section[aria-labelledby="hero-heading"] .order-1,
+  /* Profile image container */
+  section[aria-labelledby="hero-heading"] .order-1 {
+    flex: 0 0 auto !important;
+  }
+
+  /* Text content */
   section[aria-labelledby="hero-heading"] .order-2 {
-    order: unset !important;
+    flex: 1 !important;
+    text-align: left !important;
   }
 
   /* Profile image print size */
   section[aria-labelledby="hero-heading"] img {
-    width: 120px !important;
-    height: 120px !important;
-    float: right;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 50%;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    display: block !important;
   }
 
-  /* Hide decorative rings around profile image */
-  section[aria-labelledby="hero-heading"] .relative > div[class*="absolute"] {
+  /* Hide decorative rings */
+  section[aria-labelledby="hero-heading"] .absolute {
+    display: none !important;
+  }
+
+  /* Keep the image wrapper visible */
+  section[aria-labelledby="hero-heading"] .relative:has(img) {
+    display: block !important;
+  }
+
+  section[aria-labelledby="hero-heading"] .rounded-full.overflow-hidden {
+    display: block !important;
+    width: 100px !important;
+    height: 100px !important;
+    border: 2px solid #ccc !important;
+  }
+
+  /* Hide CTA buttons and social links in hero */
+  section[aria-labelledby="hero-heading"] a[href="#contact"],
+  section[aria-labelledby="hero-heading"] a[download],
+  section[aria-labelledby="hero-heading"] [role="group"] {
     display: none !important;
   }
 
   /* Typography adjustments for print */
   h1 {
-    font-size: 24pt !important;
-    margin-bottom: 0.5rem !important;
+    font-size: 20pt !important;
+    margin-bottom: 0.25rem !important;
+    color: black !important;
   }
 
   h2 {
-    font-size: 16pt !important;
-    margin-bottom: 0.75rem !important;
+    font-size: 14pt !important;
+    margin-bottom: 0.5rem !important;
     page-break-after: avoid;
     break-after: avoid;
+    color: black !important;
   }
 
   h3 {
-    font-size: 12pt !important;
+    font-size: 11pt !important;
     page-break-after: avoid;
     break-after: avoid;
+    color: black !important;
+  }
+
+  p, li, span, a {
+    color: #333 !important;
+    font-size: 10pt !important;
   }
 
   /* Text gradient fallback for print */
@@ -390,8 +459,8 @@
     background: none !important;
     -webkit-background-clip: unset !important;
     background-clip: unset !important;
-    -webkit-text-fill-color: hsl(354, 62%, 40%) !important;
-    color: hsl(354, 62%, 40%) !important;
+    -webkit-text-fill-color: #a52834 !important;
+    color: #a52834 !important;
   }
 
   /* Card styles for print */
@@ -402,6 +471,7 @@
     background: white !important;
     page-break-inside: avoid;
     break-inside: avoid;
+    padding: 0.5rem !important;
   }
 
   /* Grid adjustments for print */
@@ -409,26 +479,29 @@
     display: block !important;
   }
 
-  .grid > * {
-    margin-bottom: 1rem !important;
+  .grid.md\\:grid-cols-2,
+  .grid.lg\\:grid-cols-3 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
   }
 
   /* Skills badges for print */
-  .flex-wrap {
-    gap: 0.25rem !important;
-  }
-
-  .rounded-full {
+  .rounded-full:not(img):not(.overflow-hidden) {
     border: 1px solid #ccc !important;
     background: #f5f5f5 !important;
-    padding: 0.25rem 0.75rem !important;
-    font-size: 9pt !important;
+    padding: 0.15rem 0.5rem !important;
+    font-size: 8pt !important;
+    display: inline-block !important;
   }
 
-  /* Timeline adjustments */
-  .absolute.left-0,
-  .absolute.left-1\/2,
-  div[class*="w-px"] {
+  /* Timeline line - hide */
+  .w-px {
+    display: none !important;
+  }
+
+  /* Timeline dots - hide */
+  .w-4.h-4.rounded-full.bg-primary {
     display: none !important;
   }
 
@@ -436,35 +509,31 @@
   article {
     page-break-inside: avoid;
     break-inside: avoid;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0.5rem !important;
   }
 
-  /* Links - show URL */
-  a[href^="http"]:not(.icon-button)::after {
-    content: " (" attr(href) ")";
-    font-size: 8pt;
-    color: #666;
-    word-break: break-all;
+  /* Links styling for print */
+  a {
+    text-decoration: none !important;
+    color: #333 !important;
   }
 
-  a[href^="mailto:"]::after {
-    content: "";
+  /* Hide external link icons */
+  a .lucide-external-link {
+    display: none !important;
   }
 
   /* Page breaks */
-  #about {
-    page-break-before: avoid;
+  #about,
+  #skills {
+    page-break-before: avoid !important;
   }
 
-  #skills,
-  #experience,
-  #education,
-  #projects,
-  #contact {
+  #experience {
     page-break-before: auto;
   }
 
-  /* Hide social link cards but keep email visible */
+  /* Hide social link cards in contact */
   #contact .rounded-xl {
     display: none !important;
   }
@@ -473,39 +542,31 @@
     display: block !important;
   }
 
-  /* Ensure background decorations are hidden */
-  .opacity-30,
-  .opacity-50,
-  [style*="gradient"] {
-    display: none !important;
-  }
-
-  /* Section container width */
-  .section-container {
-    max-width: 100% !important;
-    padding: 0 !important;
-  }
-
-  /* Page margins */
-  @page {
-    margin: 1.5cm;
-    size: A4;
-  }
-
-  @page :first {
-    margin-top: 1cm;
-  }
-
-  /* Ensure text is readable */
-  p, li, span {
-    color: #333 !important;
-  }
-
   /* Badge styles */
   .badge-primary {
     background: #f5f5f5 !important;
     border: 1px solid #ddd !important;
     color: #333 !important;
+    padding: 0.15rem 0.5rem !important;
+  }
+
+  /* Framer motion wrappers - ensure visible */
+  [style*="opacity"] {
+    opacity: 1 !important;
+  }
+
+  [style*="transform"] {
+    transform: none !important;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 1cm;
+    size: A4;
+  }
+
+  @page :first {
+    margin-top: 0.5cm;
   }
 }
 
