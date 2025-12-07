@@ -8,6 +8,7 @@ const navItems = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Education', href: '#education' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -40,7 +41,7 @@ export function Header() {
             href="#"
             className="font-display text-xl md:text-2xl font-semibold text-foreground hover:text-primary transition-colors"
           >
-            PL<span className="text-primary">.</span>
+            PLL<span className="text-primary">.</span>
           </a>
 
           {/* Desktop Navigation */}
