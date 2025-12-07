@@ -133,7 +133,7 @@ My journey spans from developing portable testing stations at Braskem's industri
     degrees: [
       { degree: 'Master of Engineering', institution: 'CentraleSupélec', period: 'Ongoing until 2028', country: 'France' },
       { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', period: 'Ongoing until 2028', country: 'Brazil' },
-      { degree: 'French Language - Proficient Level', institution: 'Institute Roche', period: 'Completed 2025', country: 'Brazil' },
+      { degree: 'French Language - Intermediate Level', institution: 'Institute Roche', period: 'Completed 2025', country: 'Brazil' },
       { degree: 'High School Diploma - Electronics Technician', institution: 'Fundação Liberato', period: 'Completed 2023', country: 'Brazil' },
       { degree: 'English Language - Proficiency', institution: 'Wizard by Pearson', period: 'Completed 2019', country: 'Brazil' },
     ],

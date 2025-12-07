@@ -133,7 +133,7 @@ Mon parcours va du développement de stations de test portables dans les install
     degrees: [
       { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', period: 'En cours jusqu\'en 2028', country: 'France' },
       { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
-      { degree: 'Langue française - niveau courant', institution: 'Instituto Roche', period: 'Terminé en 2025', country: 'Brésil' },
+      { degree: 'Langue française - niveau intermédiaire', institution: 'Instituto Roche', period: 'Terminé en 2025', country: 'Brésil' },
       { degree: 'Baccalauréat technique en électronique', institution: 'Fundação Liberato', period: 'Terminé en 2023', country: 'Brésil' },
       { degree: 'Langue anglaise - maîtrise', institution: 'Wizard by Pearson', period: 'Terminé en 2019', country: 'Brésil' },
     ],

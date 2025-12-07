@@ -133,7 +133,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     degrees: [
       { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', period: 'Em andamento até 2028', country: 'França' },
       { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', period: 'Em andamento até 2028', country: 'Brasil' },
-      { degree: 'Língua Francesa - Nível Proficiente', institution: 'Instituto Roche', period: 'Concluído em 2025', country: 'Brasil' },
+      { degree: 'Língua Francesa - Nível Intermediário', institution: 'Instituto Roche', period: 'Concluído em 2025', country: 'Brasil' },
       { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', period: 'Concluído em 2023', country: 'Brasil' },
       { degree: 'Língua Inglesa - Proficiência', institution: 'Wizard by Pearson', period: 'Concluído em 2019', country: 'Brasil' },
     ],
