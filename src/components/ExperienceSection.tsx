@@ -52,7 +52,7 @@ export function ExperienceSection() {
 
                   {/* Content */}
                   <div className={`flex-1 ml-8 md:ml-0 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
-                    <div className="card-elevated p-6">
+                    <div className="card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                       <div className="flex items-start justify-between gap-4 mb-3">
                         <div className="flex items-center gap-2">
                           <Briefcase size={16} className="text-primary" aria-hidden="true" />

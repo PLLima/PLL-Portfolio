@@ -33,7 +33,7 @@ export function ProjectsSection() {
           {projects.map((project, index) => (
             <AnimatedItem key={project.name} delay={0.1 + index * 0.1}>
               <li>
-                <article className="group glass-card p-6 hover:border-primary/30 transition-all duration-300 h-full flex flex-col">
+                <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 h-full flex flex-col">
                   <div className="flex items-start justify-between mb-4">
                     <div className="p-3 rounded-lg bg-primary/10 text-primary" aria-hidden="true">
                       <Folder size={24} />

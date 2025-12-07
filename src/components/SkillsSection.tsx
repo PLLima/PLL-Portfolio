@@ -35,7 +35,7 @@ export function SkillsSection() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Hard Skills */}
           <AnimatedItem delay={0.1}>
-            <article className="card-elevated p-6 sm:p-8 h-full">
+            <article className="card-elevated p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center" aria-hidden="true">
                   <Wrench size={20} className="text-primary" />
@@ -59,7 +59,7 @@ export function SkillsSection() {
 
           {/* Soft Skills */}
           <AnimatedItem delay={0.2}>
-            <article className="card-elevated p-6 sm:p-8 h-full">
+            <article className="card-elevated p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center" aria-hidden="true">
                   <Users size={20} className="text-primary" />
@@ -84,7 +84,7 @@ export function SkillsSection() {
 
         {/* Achievements */}
         <AnimatedSection delay={0.3} className="mt-12 max-w-4xl mx-auto">
-          <article className="card-elevated p-6 sm:p-8 border-l-4 border-l-primary">
+          <article className="card-elevated p-6 sm:p-8 border-l-4 border-l-primary transition-all duration-300 hover:shadow-lg hover:border-l-primary/80">
             <h3 className="font-display text-xl font-semibold text-foreground mb-4">
               {t('skills.achievements')}
             </h3>

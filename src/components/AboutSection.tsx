@@ -41,7 +41,7 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* About Text */}
           <AnimatedSection delay={0.1}>
-            <article className="card-elevated p-6 sm:p-8">
+            <article className="card-elevated p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
               <p className="text-foreground leading-relaxed whitespace-pre-line">
                 {t('about.bio')}
               </p>
@@ -73,7 +73,7 @@ export function AboutSection() {
               const area = t(`focusAreas.${key}`, { returnObjects: true }) as { title: string; description: string };
               return (
                 <AnimatedItem key={key} delay={0.1 + index * 0.1}>
-                  <article className="card-elevated p-6 group h-full" role="listitem">
+                  <article className="card-elevated p-6 group h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20" role="listitem">
                     <div 
                       className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                       aria-hidden="true"
