@@ -8,6 +8,8 @@ export default {
     contact: 'Contact',
   },
   hero: {
+    title: 'Tech Leader & Computer Engineer',
+    tagline: 'Bridging Engineering Excellence with Strategic Leadership',
     location: 'Based in France • From Brazil',
     getInTouch: 'Get in Touch',
     downloadCV: 'Download CV',

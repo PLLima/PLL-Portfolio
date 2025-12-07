@@ -49,7 +49,7 @@ export function HeroSection() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="font-display text-xl sm:text-2xl text-muted-foreground mb-4"
             >
-              {profile.title}
+              {t('hero.title')}
             </motion.p>
 
             <motion.p
@@ -58,7 +58,7 @@ export function HeroSection() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8"
             >
-              {profile.tagline}
+              {t('hero.tagline')}
             </motion.p>
 
             {/* CTA Buttons */}
