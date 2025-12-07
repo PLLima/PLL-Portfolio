@@ -1,0 +1,175 @@
+export default {
+  nav: {
+    about: 'À propos',
+    skills: 'Compétences',
+    experience: 'Expérience',
+    education: 'Formation',
+    projects: 'Projets',
+    contact: 'Contact',
+  },
+  hero: {
+    location: 'Basé en France • Du Brésil',
+    getInTouch: 'Me Contacter',
+    downloadCV: 'Télécharger CV',
+    scrollToExplore: 'Défiler pour explorer',
+  },
+  about: {
+    title: 'À propos de',
+    titleHighlight: 'Moi',
+    languages: 'Langues',
+    bio: `Un étudiant en génie informatique dévoué et méticuleux avec une perspective internationale unique, poursuivant actuellement un Double Diplôme entre CentraleSupélec (France) et l'UFRGS (Brésil). Avec une expérience pratique en microcontrôleurs, électronique et développement web, je combine expertise technique et passion pour la coordination d'équipes et le leadership de projets.
+
+Mon parcours va du développement de stations de test portables dans les installations industrielles de Braskem à la création de solutions web chez IDE Jr. Je suis profondément motivé à élargir mes connaissances en IA, Cybersécurité, Génie Logiciel et Microélectronique, aspirant à des rôles qui allient maîtrise technique et gestion stratégique.`,
+  },
+  focusAreas: {
+    ai: { title: 'Intelligence Artificielle', description: 'Apprentissage Automatique & Systèmes Intelligents' },
+    cyber: { title: 'Cybersécurité', description: 'Architecture de Sécurité & Protection' },
+    software: { title: 'Génie Logiciel', description: 'Systèmes Évolutifs & Maintenables' },
+    micro: { title: 'Microélectronique', description: 'Intégration Matériel-Logiciel' },
+  },
+  skills: {
+    title: 'Compétences &',
+    titleHighlight: 'Expertise',
+    subtitle: 'Un mélange de compétence technique et de capacités interpersonnelles',
+    technical: 'Compétences Techniques',
+    soft: 'Compétences Relationnelles',
+    achievements: 'Réalisations',
+    hardSkills: [
+      'Architectures Informatiques',
+      'Programmation Bas Niveau',
+      'Développement Web',
+      'Conception de Bases de Données Relationnelles',
+      'Apprentissage Automatique',
+      'Circuits Numériques & Analogiques',
+      'Linux/Ubuntu',
+    ],
+    softSkills: [
+      'Pensée Mathématique',
+      'Proactivité',
+      'Planification',
+      'Rigueur',
+      'Communication',
+      'Leadership d\'Équipe',
+    ],
+    achievementsList: [
+      'Médaille de Bronze au Concours Canguru de Matemática Brasil 2018 et 2019',
+      'Participant à Mostratec Júnior 2015 et 2016',
+    ],
+  },
+  languages: {
+    portuguese: { name: 'Portugais', level: 'Natif' },
+    english: { name: 'Anglais', level: 'Maîtrise Complète' },
+    french: { name: 'Français', level: 'Courant' },
+  },
+  experience: {
+    title: 'Expérience',
+    titleHighlight: 'Professionnelle',
+    subtitle: 'Un parcours de rôles diversifiés vers le leadership technologique',
+    jobs: [
+      {
+        title: 'Assistant RH & Développeur Web',
+        company: 'IDE Jr.',
+        period: '2023 – Présent',
+        location: 'Brésil',
+        description: [
+          'Développé des sites web pour les clients de l\'entreprise avec des technologies modernes',
+          'Assisté l\'équipe RH avec les contrats et la documentation des employés',
+          'Fourni des conseils et aidé à l\'organisation d\'événements d\'entreprise',
+        ],
+      },
+      {
+        title: 'Tuteur en Algorithmes et Programmation',
+        company: 'UFRGS',
+        period: '2024 – 2025',
+        location: 'Brésil',
+        description: [
+          'Assisté des étudiants de premier cycle en programmation C',
+          'Développé du matériel pédagogique et conduit des sessions de tutorat',
+        ],
+      },
+      {
+        title: 'Tuteur de Physique',
+        company: 'UFRGS',
+        period: '2023 – 2024',
+        location: 'Brésil',
+        description: [
+          'Enseigné et assisté des étudiants en études d\'électromagnétisme',
+          'Soutenu des étudiants en physique, mathématiques et ingénierie',
+        ],
+      },
+      {
+        title: 'Chercheur de Premier Cycle',
+        company: 'UFRGS',
+        period: '2023',
+        location: 'Brésil',
+        description: [
+          'Mis à jour les systèmes de cartographie 3D UAV',
+          'Collaboré à l\'implémentation de Réseaux Centrés sur l\'Information (ICNs)',
+          'Organisé et mis à jour la documentation du laboratoire',
+        ],
+      },
+      {
+        title: 'Stagiaire en Maintenance Électronique',
+        company: 'Braskem',
+        period: '2022',
+        location: 'Brésil',
+        description: [
+          'Développé une station de test automatique portable pour machines synchrones',
+          'Inspecté et documenté les relais de protection et les variateurs de fréquence',
+          'Maintenu les bancs de batteries et équipements électroniques',
+          'Élaboré des rapports et procédures de gestion',
+        ],
+      },
+    ],
+  },
+  education: {
+    title: 'Formation &',
+    titleHighlight: 'Expérience Internationale',
+    subtitle: 'Un parcours éducatif mondial couvrant plusieurs pays et disciplines',
+    doubleDegree: 'Programme de Double Diplôme',
+    doubleDegreeDesc: 'Poursuivant actuellement un prestigieux Double Diplôme entre CentraleSupélec (France) et l\'UFRGS (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
+    degrees: [
+      { degree: 'Diplôme d\'Ingénieur', institution: 'CentraleSupélec', period: 'En cours jusqu\'en 2028', country: 'France' },
+      { degree: 'Licence en Génie Informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
+      { degree: 'Langue Française - Niveau Courant', institution: 'Institut Roche', period: 'Terminé en 2025', country: 'Brésil' },
+      { degree: 'Baccalauréat Technique en Électronique', institution: 'Fundação Liberato', period: 'Terminé en 2023', country: 'Brésil' },
+      { degree: 'Langue Anglaise - Maîtrise', institution: 'Wizard by Pearson', period: 'Terminé en 2019', country: 'Brésil' },
+    ],
+  },
+  projects: {
+    title: 'Projets',
+    titleHighlight: 'en Vedette',
+    subtitle: 'Une sélection de projets clés démontrant mon expertise technique et mes capacités de résolution de problèmes.',
+    viewMore: 'Voir Plus sur GitHub',
+    list: [
+      {
+        name: 'Prédiction de Consommation de Carburant avec ML',
+        description: 'Modèle d\'apprentissage automatique pour prédire la consommation de carburant des véhicules (MPG) avec Python et Scikit-Learn. Implique EDA, prétraitement des données, entraînement de modèles avec plusieurs algorithmes (Régression Linéaire, Random Forest, SVM, Réseaux de Neurones), ajustement d\'hyperparamètres et interprétation de modèles.',
+        techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Machine Learning'],
+      },
+      {
+        name: 'HiDrone – Marketplace de Livraison par Drone',
+        description: 'Plateforme web conçue comme un marketplace de livraison par drone pour démocratiser l\'accès aux services de livraison par drone. Prend en charge différents rôles d\'utilisateurs (Fournisseurs et Clients) avec des fonctionnalités incluant l\'authentification, la recherche/filtrage de drones et la gestion des commandes.',
+        techStack: ['Next.js', 'Prisma ORM', 'TypeScript', 'Architecture MVC'],
+      },
+      {
+        name: 'SafeSip – Suivi de Consommation d\'Alcool',
+        description: 'Application Android conçue pour aider les individus à suivre, contrôler et réduire leur consommation d\'alcool. Les fonctionnalités incluent l\'enregistrement des boissons, le suivi de la consommation quotidienne, les alertes de seuil de sécurité et le stockage privé des données sur l\'appareil.',
+        techStack: ['Java', 'Android Studio', 'Développement Mobile'],
+      },
+    ],
+  },
+  contact: {
+    title: 'Restons en',
+    titleHighlight: 'Contact',
+    subtitle: 'Intéressé à discuter d\'opportunités ou de collaboration? J\'aimerais avoir de vos nouvelles.',
+    email: 'E-mail',
+    location: 'Localisation',
+    findOnline: 'Retrouvez-moi en ligne',
+    sendEmail: 'Envoyez-moi un e-mail',
+  },
+  footer: {
+    rights: 'Tous droits réservés.',
+    tagline: 'Construit avec passion pour le leadership technologique',
+  },
+};

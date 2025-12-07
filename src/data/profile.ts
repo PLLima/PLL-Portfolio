@@ -145,29 +145,5 @@ My journey spans from developing portable testing stations at Braskem's industri
     "Participant at Mostratec Júnior 2015 and 2016",
   ],
 
-  projects: [
-    {
-      name: "Codeverse",
-      description: "A platform for coding challenges and competitive programming practice with real-time code execution.",
-      techStack: ["TypeScript", "React", "Node.js", "PostgreSQL"],
-      github: "https://github.com/PLLima/Codeverse",
-      demo: null,
-    },
-    {
-      name: "UAV 3D Mapping System",
-      description: "Updated and enhanced 3D mapping capabilities for unmanned aerial vehicles using modern sensor integration.",
-      techStack: ["Python", "C++", "ROS", "OpenCV"],
-      github: "https://github.com/PLLima",
-      demo: null,
-    },
-    {
-      name: "Synchronous Machine Tester",
-      description: "Portable automatic testing station for synchronous machines developed during Braskem internship.",
-      techStack: ["C", "Microcontrollers", "Electronics", "Industrial Automation"],
-      github: "https://github.com/PLLima",
-      demo: null,
-    },
-  ],
-
   resumeUrl: "/Resume_EN.pdf",
 };
