@@ -1,4 +1,4 @@
-import { Briefcase, MapPin } from 'lucide-react';
+import { Briefcase, MapPin, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 
@@ -8,6 +8,7 @@ export function ExperienceSection() {
   const jobs = t('experience.jobs', { returnObjects: true }) as Array<{
     title: string;
     company: string;
+    companyUrl?: string;
     period: string;
     location: string;
     description: string[];
@@ -66,9 +67,22 @@ export function ExperienceSection() {
                       <h3 className="font-display text-lg font-semibold text-foreground mb-1">
                         {exp.title}
                       </h3>
-                      <p className="text-muted-foreground font-medium mb-4">
-                        {exp.company}
-                      </p>
+                      {exp.companyUrl ? (
+                        <a
+                          href={exp.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground font-medium mb-4 hover:text-primary transition-colors inline-flex items-center gap-1"
+                        >
+                          {exp.company}
+                          <ExternalLink size={14} aria-hidden="true" />
+                          <span className="sr-only">(opens in a new tab)</span>
+                        </a>
+                      ) : (
+                        <p className="text-muted-foreground font-medium mb-4">
+                          {exp.company}
+                        </p>
+                      )}
 
                       <ul className="space-y-2" role="list">
                         {exp.description.map((item, i) => (
