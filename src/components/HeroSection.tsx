@@ -1,4 +1,4 @@
-import { ArrowDown, MapPin, Linkedin, Github, Mail } from 'lucide-react';
+import { ArrowDown, MapPin, Linkedin, Github, Mail, Download } from 'lucide-react';
 import { profile } from '@/data/profile';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
@@ -48,10 +48,12 @@ export function HeroSection() {
                 Get in Touch
               </a>
               <a
-                href="#experience"
+                href={profile.resumeUrl}
+                download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
               >
-                View Experience
+                <Download size={18} />
+                Download CV
               </a>
             </div>
 
@@ -110,8 +112,8 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        {/* Scroll indicator - hidden on mobile/tablet */}
+        <div className="hidden lg:block absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
           <a
             href="#about"
             className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
