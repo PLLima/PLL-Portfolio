@@ -30,17 +30,17 @@ export function ContactSection() {
           <div className="card-elevated p-8 sm:p-12">
             <div className="grid sm:grid-cols-2 gap-8">
               {/* Contact Info */}
-              <address className="space-y-6 not-italic">
+              <address className="space-y-6 not-italic min-w-0">
                 <AnimatedItem delay={0.2}>
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
                       <Mail size={18} className="text-primary" />
                     </div>
-                    <div>
+                    <div className="min-w-0">
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
                       <a
                         href={`mailto:${profile.email}`}
-                        className="text-foreground font-medium hover:text-primary transition-colors whitespace-nowrap rounded-sm"
+                        className="text-foreground font-medium hover:text-primary transition-colors rounded-sm text-sm sm:text-base"
                       >
                         {profile.email}
                       </a>
