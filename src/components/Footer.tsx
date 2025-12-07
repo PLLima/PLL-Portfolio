@@ -12,7 +12,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground text-center sm:text-left">
             © {currentYear} {profile.name}. {t('footer.rights')}
           </p>
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground text-center sm:text-right">
             {t('footer.tagline')}
           </p>
         </div>
