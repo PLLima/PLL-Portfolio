@@ -4,11 +4,11 @@
   
   <!-- Main page with language alternatives -->
   <url>
-    <loc>https://pedrolima.dev/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://pedrolima.dev/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://pedrolima.dev/?lang=pt"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://pedrolima.dev/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://pedrolima.dev/"/>
+    <loc>https://pllima.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pllima.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pllima.com/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pllima.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pllima.com/"/>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -16,42 +16,42 @@
 
   <!-- Section anchors -->
   <url>
-    <loc>https://pedrolima.dev/#about</loc>
+    <loc>https://pllima.com/#about</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pedrolima.dev/#experience</loc>
+    <loc>https://pllima.com/#experience</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pedrolima.dev/#education</loc>
+    <loc>https://pllima.com/#education</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pedrolima.dev/#skills</loc>
+    <loc>https://pllima.com/#skills</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pedrolima.dev/#projects</loc>
+    <loc>https://pllima.com/#projects</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pedrolima.dev/#contact</loc>
+    <loc>https://pllima.com/#contact</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
