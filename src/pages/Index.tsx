@@ -9,6 +9,7 @@ import { ContactSection } from '@/components/ContactSection';
 import { Footer } from '@/components/Footer';
 import { SkipToContent } from '@/components/SkipToContent';
 import { BackToTop } from '@/components/BackToTop';
+import { PageLoader } from '@/components/PageLoader';
 import { useDocumentLang } from '@/hooks/useDocumentLang';
 
 const Index = () => {
@@ -16,8 +17,10 @@ const Index = () => {
   useDocumentLang();
 
   return (
-    <div className="min-h-screen bg-background">
-      <SkipToContent />
+    <>
+      <PageLoader />
+      <div className="min-h-screen bg-background">
+        <SkipToContent />
       <Header />
       <main id="main-content" tabIndex={-1}>
         <HeroSection />
@@ -29,8 +32,9 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
-      <BackToTop />
-    </div>
+        <BackToTop />
+      </div>
+    </>
   );
 };
 
