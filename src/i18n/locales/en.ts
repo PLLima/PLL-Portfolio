@@ -182,6 +182,7 @@ My journey spans from developing portable testing stations at Braskem's industri
   },
   accessibility: {
     skipToContent: 'Skip to main content',
+    backToTop: 'Back to top',
     mainNavigation: 'Main navigation',
     aboutSection: 'About me section',
     skillsSection: 'Skills and expertise section',
@@ -196,5 +197,6 @@ My journey spans from developing portable testing stations at Braskem's industri
     currentLanguage: 'Current language',
     externalLink: 'Opens in a new tab',
     downloadResume: 'Download resume as PDF',
+    keyboardShortcuts: 'Keyboard shortcuts: Alt+1-6 for sections, Home for top, End for contact',
   },
 };

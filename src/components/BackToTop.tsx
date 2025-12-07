@@ -31,7 +31,7 @@ export function BackToTop() {
           onClick={scrollToTop}
           className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-primary text-primary-foreground shadow-lg hover:opacity-90 transition-all duration-300"
           style={{ boxShadow: 'var(--shadow-glow)' }}
-          aria-label={t('accessibility.skipToContent')}
+          aria-label={t('accessibility.backToTop')}
         >
           <ArrowUp size={20} aria-hidden="true" />
         </motion.button>

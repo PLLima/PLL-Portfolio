@@ -182,6 +182,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
   },
   accessibility: {
     skipToContent: 'Pular para o conteúdo principal',
+    backToTop: 'Voltar ao topo',
     mainNavigation: 'Navegação principal',
     aboutSection: 'Seção sobre mim',
     skillsSection: 'Seção habilidades e expertise',
@@ -196,5 +197,6 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     currentLanguage: 'Idioma atual',
     externalLink: 'Abre em uma nova aba',
     downloadResume: 'Baixar currículo em PDF',
+    keyboardShortcuts: 'Atalhos de teclado: Alt+1-6 para seções, Home para topo, End para contato',
   },
 };

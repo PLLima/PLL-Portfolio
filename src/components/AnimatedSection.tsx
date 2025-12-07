@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { ReactNode } from 'react';
 
 interface AnimatedSectionProps {
@@ -8,6 +8,12 @@ interface AnimatedSectionProps {
 }
 
 export function AnimatedSection({ children, className = '', delay = 0 }: AnimatedSectionProps) {
+  const prefersReducedMotion = useReducedMotion();
+  
+  if (prefersReducedMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 40, scale: 0.98 }}
@@ -26,6 +32,12 @@ export function AnimatedSection({ children, className = '', delay = 0 }: Animate
 }
 
 export function AnimatedItem({ children, className = '', delay = 0 }: AnimatedSectionProps) {
+  const prefersReducedMotion = useReducedMotion();
+  
+  if (prefersReducedMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 25, scale: 0.97 }}

@@ -182,6 +182,7 @@ Mon parcours va du développement de stations de test portables dans les install
   },
   accessibility: {
     skipToContent: 'Aller au contenu principal',
+    backToTop: 'Retour en haut',
     mainNavigation: 'Navigation principale',
     aboutSection: 'Section à propos de moi',
     skillsSection: 'Section compétences et expertise',
@@ -196,5 +197,6 @@ Mon parcours va du développement de stations de test portables dans les install
     currentLanguage: 'Langue actuelle',
     externalLink: 'Ouvre dans un nouvel onglet',
     downloadResume: 'Télécharger le CV en PDF',
+    keyboardShortcuts: 'Raccourcis clavier : Alt+1-6 pour sections, Home pour haut, End pour contact',
   },
 };
