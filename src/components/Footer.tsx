@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { profile } from '@/data/profile';
+import { KeyboardShortcutsTrigger } from '@/components/KeyboardShortcutsHelp';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,9 +13,12 @@ export function Footer() {
           <p className="text-sm text-muted-foreground text-center sm:text-left">
             © {currentYear} {profile.name}. {t('footer.rights')}
           </p>
-          <p className="text-sm text-muted-foreground text-center sm:text-right">
-            {t('footer.tagline')}
-          </p>
+          <div className="flex items-center gap-4">
+            <KeyboardShortcutsTrigger />
+            <p className="text-sm text-muted-foreground text-center sm:text-right">
+              {t('footer.tagline')}
+            </p>
+          </div>
         </div>
       </div>
     </footer>

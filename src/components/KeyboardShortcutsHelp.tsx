@@ -1,7 +1,24 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, createContext, useContext, ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Keyboard, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+
+// Context to share the open state
+interface KeyboardShortcutsContextType {
+  isOpen: boolean;
+  setIsOpen: (open: boolean) => void;
+  toggle: () => void;
+}
+
+const KeyboardShortcutsContext = createContext<KeyboardShortcutsContextType | null>(null);
+
+export function useKeyboardShortcuts() {
+  const context = useContext(KeyboardShortcutsContext);
+  if (!context) {
+    throw new Error('useKeyboardShortcuts must be used within KeyboardShortcutsProvider');
+  }
+  return context;
+}
 
 const shortcuts = [
   { keys: ['Alt', '1'], action: 'about' },
@@ -15,13 +32,13 @@ const shortcuts = [
   { keys: ['?'], action: 'help' },
 ];
 
-export function KeyboardShortcutsHelp() {
+export function KeyboardShortcutsProvider({ children }: { children: ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
-  const { t } = useTranslation();
+
+  const toggle = () => setIsOpen(prev => !prev);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ignore if user is typing in an input
       if (
         e.target instanceof HTMLInputElement ||
         e.target instanceof HTMLTextAreaElement ||
@@ -32,7 +49,7 @@ export function KeyboardShortcutsHelp() {
 
       if (e.key === '?' || (e.shiftKey && e.key === '/')) {
         e.preventDefault();
-        setIsOpen(prev => !prev);
+        toggle();
       }
 
       if (e.key === 'Escape' && isOpen) {
@@ -43,6 +60,17 @@ export function KeyboardShortcutsHelp() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen]);
+
+  return (
+    <KeyboardShortcutsContext.Provider value={{ isOpen, setIsOpen, toggle }}>
+      {children}
+    </KeyboardShortcutsContext.Provider>
+  );
+}
+
+export function KeyboardShortcutsModal() {
+  const { isOpen, setIsOpen } = useKeyboardShortcuts();
+  const { t } = useTranslation();
 
   const getActionLabel = (action: string) => {
     const labels: Record<string, string> = {
@@ -79,7 +107,7 @@ export function KeyboardShortcutsHelp() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.2 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-full max-w-md"
+            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-full max-w-md px-4"
             role="dialog"
             aria-modal="true"
             aria-labelledby="keyboard-shortcuts-title"
@@ -136,5 +164,21 @@ export function KeyboardShortcutsHelp() {
         </>
       )}
     </AnimatePresence>
+  );
+}
+
+export function KeyboardShortcutsTrigger() {
+  const { toggle } = useKeyboardShortcuts();
+  const { t } = useTranslation();
+
+  return (
+    <button
+      onClick={toggle}
+      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors text-sm"
+      aria-label={t('keyboard.title')}
+    >
+      <Keyboard size={14} aria-hidden="true" />
+      <kbd className="text-xs font-mono">?</kbd>
+    </button>
   );
 }
