@@ -135,7 +135,7 @@ My journey spans from developing portable testing stations at Braskem's industri
     titleHighlight: 'International Experience',
     subtitle: 'A global educational journey spanning multiple countries and disciplines',
     doubleDegree: 'Double Degree Program',
-    doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between CentraleSupélec (France) and UFRGS (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
+    doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between {centralesupelec} (France) and {ufrgs} (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
     degrees: [
       { degree: 'Master of Engineering', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Ongoing until 2028', country: 'France' },
       { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Ongoing until 2028', country: 'Brazil' },

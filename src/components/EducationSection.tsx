@@ -1,6 +1,7 @@
 import { GraduationCap, Globe, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
+import { ReactNode } from 'react';
 
 const countryFlags: Record<string, string> = {
   'France': '🇫🇷',
@@ -50,7 +51,39 @@ export function EducationSection() {
                   {t('education.doubleDegree')}
                 </h3>
                 <p className="text-muted-foreground">
-                  {t('education.doubleDegreeDesc')}
+                  {t('education.doubleDegreeDesc', { returnObjects: false })
+                    .split(/(\{centralesupelec\}|\{ufrgs\})/)
+                    .map((part, index) => {
+                      if (part === '{centralesupelec}') {
+                        return (
+                          <a
+                            key={index}
+                            href="https://www.centralesupelec.fr/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline inline-flex items-center gap-1"
+                          >
+                            CentraleSupélec
+                            <ExternalLink size={12} aria-hidden="true" />
+                          </a>
+                        );
+                      }
+                      if (part === '{ufrgs}') {
+                        return (
+                          <a
+                            key={index}
+                            href="https://www.ufrgs.br/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline inline-flex items-center gap-1"
+                          >
+                            UFRGS
+                            <ExternalLink size={12} aria-hidden="true" />
+                          </a>
+                        );
+                      }
+                      return <span key={index}>{part}</span>;
+                    })}
                 </p>
               </div>
             </div>
@@ -84,18 +117,18 @@ export function EducationSection() {
                       href={edu.institutionUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-muted-foreground mb-3 hover:text-primary transition-colors inline-flex items-center gap-1"
+                      className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
                     >
                       {edu.institution}
                       <ExternalLink size={12} aria-hidden="true" />
                       <span className="sr-only">(opens in a new tab)</span>
                     </a>
                   ) : (
-                    <p className="text-sm text-muted-foreground mb-3">
+                    <p className="text-sm text-muted-foreground">
                       {edu.institution}
                     </p>
                   )}
-                  <time className="text-xs text-primary font-medium">
+                  <time className="text-xs text-primary font-medium mt-3 block">
                     {edu.period}
                   </time>
                 </article>
