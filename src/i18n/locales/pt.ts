@@ -8,6 +8,8 @@ export default {
     contact: 'Contato',
   },
   hero: {
+    title: 'Líder de Tecnologia & Engenheiro de Computação',
+    tagline: 'Unindo Excelência em Engenharia com Liderança Estratégica',
     location: 'Morando na França • Do Brasil',
     getInTouch: 'Entre em Contato',
     downloadCV: 'Baixar CV',
@@ -98,7 +100,7 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
         ],
       },
       {
-        title: 'Pesquisador de Graduação',
+        title: 'Bolsista de Iniciação Científica',
         company: 'UFRGS',
         period: '2023',
         location: 'Brasil',

@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
   const { theme, toggleTheme } = useTheme();
   const { t } = useTranslation();
 
@@ -23,11 +24,38 @@ export function Header() {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
+
+      // Active section detection
+      const sections = ['about', 'skills', 'experience', 'education', 'projects', 'contact'];
+      const scrollPosition = window.scrollY + 100;
+
+      for (const section of sections.reverse()) {
+        const element = document.getElementById(section);
+        if (element && element.offsetTop <= scrollPosition) {
+          setActiveSection(section);
+          break;
+        }
+      }
+
+      // Reset if at top
+      if (window.scrollY < 100) {
+        setActiveSection('');
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.replace('#', '');
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMobileMenuOpen(false);
+  };
 
   return (
     <header
@@ -42,6 +70,10 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <a
             href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
             className="font-display text-xl md:text-2xl font-semibold text-foreground hover:text-primary transition-colors"
           >
             PLL<span className="text-primary">.</span>
@@ -53,7 +85,13 @@ export function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="link-underline text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                onClick={(e) => handleNavClick(e, item.href)}
+                className={cn(
+                  'link-underline text-sm font-medium transition-colors',
+                  activeSection === item.href.replace('#', '')
+                    ? 'text-primary'
+                    : 'text-muted-foreground hover:text-foreground'
+                )}
               >
                 {item.label}
               </a>
@@ -96,8 +134,13 @@ export function Header() {
                 <a
                   key={item.href}
                   href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="px-4 py-3 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg transition-colors"
+                  onClick={(e) => handleNavClick(e, item.href)}
+                  className={cn(
+                    'px-4 py-3 text-sm font-medium rounded-lg transition-colors',
+                    activeSection === item.href.replace('#', '')
+                      ? 'text-primary bg-accent'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-secondary'
+                  )}
                 >
                   {item.label}
                 </a>
