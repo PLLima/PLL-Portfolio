@@ -1,0 +1,175 @@
+export default {
+  nav: {
+    about: 'About',
+    skills: 'Skills',
+    experience: 'Experience',
+    education: 'Education',
+    projects: 'Projects',
+    contact: 'Contact',
+  },
+  hero: {
+    location: 'Based in France • From Brazil',
+    getInTouch: 'Get in Touch',
+    downloadCV: 'Download CV',
+    scrollToExplore: 'Scroll to explore',
+  },
+  about: {
+    title: 'About',
+    titleHighlight: 'Me',
+    languages: 'Languages',
+    bio: `A dedicated and meticulous Computer Engineering student with a unique international perspective, currently pursuing a Double Degree between CentraleSupélec (France) and UFRGS (Brazil). With hands-on experience in microcontrollers, electronics, and web development, I combine technical expertise with a passion for team coordination and project leadership.
+
+My journey spans from developing portable testing stations at Braskem's industrial facilities to creating web solutions at IDE Jr. I'm deeply driven to expand my knowledge in AI, Cybersecurity, Software Engineering, and Microelectronics while aspiring to roles that blend technical mastery with strategic management.`,
+  },
+  focusAreas: {
+    ai: { title: 'Artificial Intelligence', description: 'Machine Learning & Intelligent Systems' },
+    cyber: { title: 'Cybersecurity', description: 'Security Architecture & Protection' },
+    software: { title: 'Software Engineering', description: 'Scalable & Maintainable Systems' },
+    micro: { title: 'Microelectronics', description: 'Hardware-Software Integration' },
+  },
+  skills: {
+    title: 'Skills &',
+    titleHighlight: 'Expertise',
+    subtitle: 'A blend of technical proficiency and interpersonal capabilities',
+    technical: 'Technical Skills',
+    soft: 'Soft Skills',
+    achievements: 'Achievements',
+    hardSkills: [
+      'Computer Architectures',
+      'Low-level Programming',
+      'Web Development',
+      'Relational Database Design',
+      'Machine Learning',
+      'Digital & Analog Circuits',
+      'Linux/Ubuntu',
+    ],
+    softSkills: [
+      'Mathematical Thinking',
+      'Proactiveness',
+      'Scheduling',
+      'Thoroughness',
+      'Communication',
+      'Team Leadership',
+    ],
+    achievementsList: [
+      'Bronze Medal at Concurso Canguru de Matemática Brasil 2018 and 2019',
+      'Participant at Mostratec Júnior 2015 and 2016',
+    ],
+  },
+  languages: {
+    portuguese: { name: 'Portuguese', level: 'Native' },
+    english: { name: 'English', level: 'Complete Proficiency' },
+    french: { name: 'French', level: 'Proficient' },
+  },
+  experience: {
+    title: 'Professional',
+    titleHighlight: 'Experience',
+    subtitle: 'A track record of diverse roles building towards tech leadership',
+    jobs: [
+      {
+        title: 'HR Assistant & Web Developer',
+        company: 'IDE Jr.',
+        period: '2023 – Present',
+        location: 'Brazil',
+        description: [
+          "Developed websites for the company's clients using modern technologies",
+          'Assisted the HR Team with employee contracts and documentation',
+          'Provided insight and helped organizing company events',
+        ],
+      },
+      {
+        title: 'Algorithms & Programming Tutor',
+        company: 'UFRGS',
+        period: '2024 – 2025',
+        location: 'Brazil',
+        description: [
+          'Assisted undergraduate students from computing-related courses in C programming',
+          'Developed teaching materials and conducted tutoring sessions',
+        ],
+      },
+      {
+        title: 'Physics Tutor',
+        company: 'UFRGS',
+        period: '2023 – 2024',
+        location: 'Brazil',
+        description: [
+          'Taught and assisted students in Electromagnetism studies',
+          'Supported students in physics, mathematics, and engineering courses',
+        ],
+      },
+      {
+        title: 'Undergraduate Researcher',
+        company: 'UFRGS',
+        period: '2023',
+        location: 'Brazil',
+        description: [
+          'Updated 3D mapping UAV systems',
+          'Collaborated with the implementation of Information-Centric Networks (ICNs)',
+          'Organized and updated laboratory documentation',
+        ],
+      },
+      {
+        title: 'Electronics Maintenance Intern',
+        company: 'Braskem',
+        period: '2022',
+        location: 'Brazil',
+        description: [
+          'Developed a portable automatic testing station for synchronous machines',
+          'Inspected and documented protection relays and frequency inverters',
+          'Maintained battery banks and electronic equipment',
+          'Elaborated management reports and procedures',
+        ],
+      },
+    ],
+  },
+  education: {
+    title: 'Education &',
+    titleHighlight: 'International Experience',
+    subtitle: 'A global educational journey spanning multiple countries and disciplines',
+    doubleDegree: 'Double Degree Program',
+    doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between CentraleSupélec (France) and UFRGS (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
+    degrees: [
+      { degree: 'Master of Engineering', institution: 'CentraleSupélec', period: 'Ongoing until 2028', country: 'France' },
+      { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', period: 'Ongoing until 2028', country: 'Brazil' },
+      { degree: 'French Language - Proficient Level', institution: 'Institute Roche', period: 'Completed 2025', country: 'Brazil' },
+      { degree: 'High School Diploma - Electronics Technician', institution: 'Fundação Liberato', period: 'Completed 2023', country: 'Brazil' },
+      { degree: 'English Language - Proficiency', institution: 'Wizard by Pearson', period: 'Completed 2019', country: 'Brazil' },
+    ],
+  },
+  projects: {
+    title: 'Featured',
+    titleHighlight: 'Projects',
+    subtitle: 'A selection of key projects showcasing my technical expertise and problem-solving abilities.',
+    viewMore: 'View More on GitHub',
+    list: [
+      {
+        name: 'Fuel Consumption Prediction with ML',
+        description: 'Machine learning model to predict vehicle fuel consumption (MPG) using Python and Scikit-Learn. Involved EDA, data preprocessing, model training with multiple algorithms (Linear Regression, Random Forest, SVM, Neural Networks), hyperparameter tuning, and model interpretation.',
+        techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Machine Learning'],
+      },
+      {
+        name: 'HiDrone – Drone Delivery Marketplace',
+        description: 'Web-based platform designed as a drone delivery marketplace to democratize access to drone delivery services. Supports distinct user roles (Suppliers and Clients) with features including authentication, drone search/filtering, and order management.',
+        techStack: ['Next.js', 'Prisma ORM', 'TypeScript', 'MVC Architecture'],
+      },
+      {
+        name: 'SafeSip – Alcohol Consumption Tracker',
+        description: 'Android application designed to help individuals track, control, and reduce alcohol consumption. Features include drink logging, daily intake monitoring, safety threshold warnings, and private on-device data storage.',
+        techStack: ['Java', 'Android Studio', 'Mobile Development'],
+      },
+    ],
+  },
+  contact: {
+    title: "Let's",
+    titleHighlight: 'Connect',
+    subtitle: "Interested in discussing opportunities or collaboration? I'd love to hear from you.",
+    email: 'Email',
+    location: 'Location',
+    findOnline: 'Find me online',
+    sendEmail: 'Send me an email',
+  },
+  footer: {
+    rights: 'All rights reserved.',
+    tagline: 'Built with passion for tech leadership',
+  },
+};

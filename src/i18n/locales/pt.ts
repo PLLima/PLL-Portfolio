@@ -1,0 +1,175 @@
+export default {
+  nav: {
+    about: 'Sobre',
+    skills: 'Habilidades',
+    experience: 'Experiência',
+    education: 'Formação',
+    projects: 'Projetos',
+    contact: 'Contato',
+  },
+  hero: {
+    location: 'Morando na França • Do Brasil',
+    getInTouch: 'Entre em Contato',
+    downloadCV: 'Baixar CV',
+    scrollToExplore: 'Role para explorar',
+  },
+  about: {
+    title: 'Sobre',
+    titleHighlight: 'Mim',
+    languages: 'Idiomas',
+    bio: `Um estudante dedicado e meticuloso de Engenharia de Computação com uma perspectiva internacional única, atualmente cursando Duplo Diploma entre a CentraleSupélec (França) e a UFRGS (Brasil). Com experiência prática em microcontroladores, eletrônica e desenvolvimento web, combino expertise técnica com paixão por coordenação de equipes e liderança de projetos.
+
+Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas instalações industriais da Braskem até a criação de soluções web na IDE Jr. Sou profundamente motivado a expandir meu conhecimento em IA, Cibersegurança, Engenharia de Software e Microeletrônica, aspirando a funções que combinem domínio técnico com gestão estratégica.`,
+  },
+  focusAreas: {
+    ai: { title: 'Inteligência Artificial', description: 'Aprendizado de Máquina & Sistemas Inteligentes' },
+    cyber: { title: 'Cibersegurança', description: 'Arquitetura de Segurança & Proteção' },
+    software: { title: 'Engenharia de Software', description: 'Sistemas Escaláveis & Manuteníveis' },
+    micro: { title: 'Microeletrônica', description: 'Integração Hardware-Software' },
+  },
+  skills: {
+    title: 'Habilidades &',
+    titleHighlight: 'Expertise',
+    subtitle: 'Uma combinação de proficiência técnica e capacidades interpessoais',
+    technical: 'Habilidades Técnicas',
+    soft: 'Soft Skills',
+    achievements: 'Conquistas',
+    hardSkills: [
+      'Arquiteturas de Computadores',
+      'Programação de Baixo Nível',
+      'Desenvolvimento Web',
+      'Design de Bancos de Dados Relacionais',
+      'Aprendizado de Máquina',
+      'Circuitos Digitais & Analógicos',
+      'Linux/Ubuntu',
+    ],
+    softSkills: [
+      'Pensamento Matemático',
+      'Proatividade',
+      'Planejamento',
+      'Meticulosidade',
+      'Comunicação',
+      'Liderança de Equipes',
+    ],
+    achievementsList: [
+      'Medalha de Bronze no Concurso Canguru de Matemática Brasil 2018 e 2019',
+      'Participante da Mostratec Júnior 2015 e 2016',
+    ],
+  },
+  languages: {
+    portuguese: { name: 'Português', level: 'Nativo' },
+    english: { name: 'Inglês', level: 'Proficiência Completa' },
+    french: { name: 'Francês', level: 'Proficiente' },
+  },
+  experience: {
+    title: 'Experiência',
+    titleHighlight: 'Profissional',
+    subtitle: 'Um histórico de funções diversas construindo em direção à liderança tecnológica',
+    jobs: [
+      {
+        title: 'Assistente de RH & Desenvolvedor Web',
+        company: 'IDE Jr.',
+        period: '2023 – Presente',
+        location: 'Brasil',
+        description: [
+          'Desenvolveu sites para clientes da empresa usando tecnologias modernas',
+          'Auxiliou a equipe de RH com contratos e documentação de funcionários',
+          'Forneceu insights e ajudou na organização de eventos da empresa',
+        ],
+      },
+      {
+        title: 'Monitor de Algoritmos e Programação',
+        company: 'UFRGS',
+        period: '2024 – 2025',
+        location: 'Brasil',
+        description: [
+          'Auxiliou estudantes de graduação de cursos relacionados à computação em programação C',
+          'Desenvolveu materiais didáticos e conduziu sessões de monitoria',
+        ],
+      },
+      {
+        title: 'Monitor de Física',
+        company: 'UFRGS',
+        period: '2023 – 2024',
+        location: 'Brasil',
+        description: [
+          'Ensinou e auxiliou estudantes em estudos de Eletromagnetismo',
+          'Apoiou estudantes em cursos de física, matemática e engenharia',
+        ],
+      },
+      {
+        title: 'Pesquisador de Graduação',
+        company: 'UFRGS',
+        period: '2023',
+        location: 'Brasil',
+        description: [
+          'Atualizou sistemas de mapeamento 3D de UAV',
+          'Colaborou com a implementação de Redes Centradas em Informação (ICNs)',
+          'Organizou e atualizou documentação do laboratório',
+        ],
+      },
+      {
+        title: 'Estagiário de Manutenção de Eletrônica',
+        company: 'Braskem',
+        period: '2022',
+        location: 'Brasil',
+        description: [
+          'Desenvolveu uma estação portátil de teste automático para máquinas síncronas',
+          'Inspecionou e documentou relés de proteção e inversores de frequência',
+          'Manteve bancos de baterias e equipamentos eletrônicos',
+          'Elaborou relatórios e procedimentos de gestão',
+        ],
+      },
+    ],
+  },
+  education: {
+    title: 'Formação &',
+    titleHighlight: 'Experiência Internacional',
+    subtitle: 'Uma jornada educacional global abrangendo múltiplos países e disciplinas',
+    doubleDegree: 'Programa de Duplo Diploma',
+    doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a CentraleSupélec (França) e a UFRGS (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
+    degrees: [
+      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', period: 'Em andamento até 2028', country: 'França' },
+      { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', period: 'Em andamento até 2028', country: 'Brasil' },
+      { degree: 'Língua Francesa - Nível Proficiente', institution: 'Instituto Roche', period: 'Concluído em 2025', country: 'Brasil' },
+      { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', period: 'Concluído em 2023', country: 'Brasil' },
+      { degree: 'Língua Inglesa - Proficiência', institution: 'Wizard by Pearson', period: 'Concluído em 2019', country: 'Brasil' },
+    ],
+  },
+  projects: {
+    title: 'Projetos',
+    titleHighlight: 'em Destaque',
+    subtitle: 'Uma seleção de projetos-chave demonstrando minha expertise técnica e habilidades de resolução de problemas.',
+    viewMore: 'Ver Mais no GitHub',
+    list: [
+      {
+        name: 'Predição de Consumo de Combustível com ML',
+        description: 'Modelo de aprendizado de máquina para prever consumo de combustível veicular (MPG) usando Python e Scikit-Learn. Envolveu EDA, pré-processamento de dados, treinamento de modelos com múltiplos algoritmos (Regressão Linear, Random Forest, SVM, Redes Neurais), ajuste de hiperparâmetros e interpretação de modelos.',
+        techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Machine Learning'],
+      },
+      {
+        name: 'HiDrone – Marketplace de Entregas por Drone',
+        description: 'Plataforma web projetada como um marketplace de entregas por drone para democratizar o acesso a serviços de entrega por drone. Suporta diferentes funções de usuário (Fornecedores e Clientes) com recursos incluindo autenticação, busca/filtragem de drones e gerenciamento de pedidos.',
+        techStack: ['Next.js', 'Prisma ORM', 'TypeScript', 'Arquitetura MVC'],
+      },
+      {
+        name: 'SafeSip – Rastreador de Consumo de Álcool',
+        description: 'Aplicativo Android projetado para ajudar indivíduos a rastrear, controlar e reduzir o consumo de álcool. Recursos incluem registro de bebidas, monitoramento de consumo diário, alertas de limite de segurança e armazenamento de dados privado no dispositivo.',
+        techStack: ['Java', 'Android Studio', 'Desenvolvimento Mobile'],
+      },
+    ],
+  },
+  contact: {
+    title: 'Vamos',
+    titleHighlight: 'Conectar',
+    subtitle: 'Interessado em discutir oportunidades ou colaboração? Adoraria ouvir de você.',
+    email: 'E-mail',
+    location: 'Localização',
+    findOnline: 'Me encontre online',
+    sendEmail: 'Envie-me um e-mail',
+  },
+  footer: {
+    rights: 'Todos os direitos reservados.',
+    tagline: 'Construído com paixão por liderança tecnológica',
+  },
+};

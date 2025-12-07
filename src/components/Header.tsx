@@ -1,21 +1,24 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/hooks/useTheme';
+import { LanguageSelector } from '@/components/LanguageSelector';
 import { cn } from '@/lib/utils';
-
-const navItems = [
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Education', href: '#education' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
-];
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
+  const { t } = useTranslation();
+
+  const navItems = [
+    { label: t('nav.about'), href: '#about' },
+    { label: t('nav.skills'), href: '#skills' },
+    { label: t('nav.experience'), href: '#experience' },
+    { label: t('nav.education'), href: '#education' },
+    { label: t('nav.projects'), href: '#projects' },
+    { label: t('nav.contact'), href: '#contact' },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,6 +58,7 @@ export function Header() {
                 {item.label}
               </a>
             ))}
+            <LanguageSelector />
             <button
               onClick={toggleTheme}
               className="icon-button"
@@ -65,7 +69,8 @@ export function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center gap-4 md:hidden">
+          <div className="flex items-center gap-3 md:hidden">
+            <LanguageSelector />
             <button
               onClick={toggleTheme}
               className="icon-button"
