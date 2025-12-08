@@ -1,73 +1,187 @@
-# Welcome to your Lovable project
+# PLL – Personal Portfolio (Private) 🎯
 
-## Project info
+*A production-ready portfolio website showcasing Pedro Lubaszewski Lima
+– Tech Leader & Computer Engineer.*
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+------------------------------------------------------------------------
 
-## How can I edit this code?
+## Table of contents
 
-There are several ways of editing your application.
+-   [Project overview](#project-overview)
+-   [Key features ✨](#key-features-)
+-   [Tech stack 🧰](#tech-stack-)
+-   [Quick start 🚀](#quick-start-)
+-   [Important files and where to edit things 🗂️](#important-files-and-where-to-edit-things-)
+-   [Design and theming notes 🎨](#design-and-theming-notes-)
+-   [Accessibility and keyboard navigation ♿️⌨️](#accessibility-and-keyboard-navigation-)
+-   [SEO and social sharing 🔎📣](#seo-and-social-sharing-)
+-   [Print / PDF optimization 🖨️](#print--pdf-optimization-)
+-   [Deployment notes 📦](#deployment-notes-)
+-   [For future-me: quick reminders 📝](#for-future-me-quick-reminders-)
+-   [Private / Contributing](#private--contributing)
 
-**Use Lovable**
+------------------------------------------------------------------------
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Project overview
 
-Changes made via Lovable will be committed automatically to this repo.
+This repository contains a production-ready personal portfolio website
+built to present a professional brand online. The site is built with React +
+TypeScript and optimized for performance, responsivity, accessibility (WCAG
+2.1 AA), multilingual experience (Portuguese,English, French), and SEO/social
+sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
+light/dark theme (accent color #A52834), typewriter effects, and
+micro-interactions, Framer Motion animations with prefers-reduced-motion
+support, a keyboard shortcut system (Alt+1..6, ?), and a print-optimized
+CV export. The repo centralizes content in profile.ts and uses react-i18next
+for translations. See the project feature overview for a complete breakdown.
 
-**Use your preferred IDE**
+------------------------------------------------------------------------
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Key features ✨
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+-   **Internationalization**: Browser language detection + manual
+    selector (PT-BR, EN, FR). Dynamic resume download per language.
+-   **Dual-theme**: Light / Dark theme with system preference fallback
+    and manual toggle. Accent color: **Mexican Red --- `#A52834`**.
+-   **Animations**: Framer Motion scroll-triggered animations, parallax
+    hero, typewriter effect, reduced-motion support.
+-   **Accessibility**: Skip-to-content, semantic markup, ARIA
+    attributes, strong keyboard navigation, focus indicators.
+-   **Keyboard shortcuts**: Alt+1..6 to jump to sections, Home/End, `?`
+    or `/` to open help modal, Escape to close.
+-   **SEO / Social**: OG & Twitter meta tags, JSON-LD person schema,
+    canonical url, multilingual sitemap.
+-   **Print optimized**: Dedicated print stylesheet for clean CV export.
 
-Follow these steps:
+------------------------------------------------------------------------
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Tech stack 🧰
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+-   **Framework:** React 18 + TypeScript
+-   **Build:** Vite
+-   **Styling:** TailwindCSS
+-   **Components:** shadcn/ui + Radix UI
+-   **Animations:** Framer Motion
+-   **I18n:** react-i18next + i18next-browser-languagedetector
+-   **Other:** Centralized profile.ts data, custom hooks (theme, language, keyboard nav)
 
-# Step 3: Install the necessary dependencies.
-npm i
+------------------------------------------------------------------------
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Quick start 🚀
+> [!IMPORTANT]
+> These commands assume `npm`. If you use `pnpm` or `yarn` replace commands accordingly.
+
+### Install
+
+```
+npm install
+```
+
+### Dev server
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+npm run build
+```
 
-**Use GitHub Codespaces**
+### Preview production build locally
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+npm run preview
+```
 
-## What technologies are used for this project?
+### Format / lint (if present)
 
-This project is built with:
+```
+npm run format
+npm run lint
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+------------------------------------------------------------------------
 
-## How can I deploy this project?
+## Important files and where to edit things 🗂️
+> [!NOTE]
+> Quick map to help you remember where to change common items later.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+-   `src/profile.ts` --- centralized profile/content source.
+-   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
+-   `src/i18n/` --- translations and i18n config.
+-   `tailwind.config.*` --- theming, custom colors, transitions.
+-   `public/` --- favicon, OG images, resume PDFs.
+-   `src/components/` --- UI pieces with animations and interactions.
 
-## Can I connect a custom domain to my Lovable project?
+------------------------------------------------------------------------
 
-Yes, you can!
+## Design and theming notes 🎨
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+-   Accent color: **Mexican Red `#A52834`**
+-   Typography: *Playfair Display* (titles) & *Source Sans 3* (body)
+-   Motion: Framer Motion with reduced-motion fallbacks
+-   Hero: Parallax + typewriter headline
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+------------------------------------------------------------------------
+
+## Accessibility and keyboard navigation ♿️⌨️
+
+-   Skip-to-content
+-   Semantic HTML structure
+-   ARIA enhancements
+-   Strong focus rings
+-   Keyboard shortcuts with discoverability modal
+
+------------------------------------------------------------------------
+
+## SEO and social sharing 🔎📣
+
+-   OG/Twitter meta tags
+-   JSON-LD schema
+-   Canonical tags
+-   Multilingual sitemap and robots.txt
+
+> [!IMPORTANT]
+> When changing meta content, update meta component and Open Graph image; regenerate the social image if needed.
+
+------------------------------------------------------------------------
+
+## Print / PDF optimization 🖨️
+
+The print stylesheet ensures: - Clean layout
+- Hidden UI chrome
+- Proper typography scaling
+- Preserves accent color where appropriate
+- Page-break control
+- Optional link URL visibility
+
+> [!IMPORTANT]
+> Test "Print → Save as PDF" regularly when you update the About/Experience sections.
+
+------------------------------------------------------------------------
+
+## Deployment notes 📦
+
+-   Static export from `npm run build`
+-   Ensure correct SPA fallback configuration
+-   Update canonical URL and OG assets when deploying under a different
+    domain
+
+------------------------------------------------------------------------
+
+## For future-me: quick reminders 📝
+
+-  ✅ Edit `profile.ts` first when updating content
+-  ✅ Sync translations when adding new languages
+-  ✅ Update Tailwind tokens when changing brand colors
+-  ✅ Regenerate OG images when updating branding
+-  ✅ Keep the shortcuts modal aligned with actual shortcuts
+
+------------------------------------------------------------------------
+
+## Private / Contributing
+
+This is a private repository. If opened later for collaboration, add
+CONTRIBUTING.md and CODE_OF_CONDUCT.md.
