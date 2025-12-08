@@ -1,4 +1,4 @@
-import { Github, Folder } from 'lucide-react';
+import { Github, Folder, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { profile } from '@/data/profile';
@@ -8,6 +8,7 @@ export function ProjectsSection() {
 
   const projects = t('projects.list', { returnObjects: true }) as Array<{
     name: string;
+    nameUrl?: string;
     description: string;
     techStack: string[];
   }>;
@@ -41,7 +42,22 @@ export function ProjectsSection() {
                   </div>
 
                   <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
-                    {project.name}
+                      {project.nameUrl ? (
+                        <a
+                          href={project.nameUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1"
+                        >
+                          {project.name}
+                          <ExternalLink size={14} aria-hidden="true" />
+                          <span className="sr-only">(opens in a new tab)</span>
+                        </a>
+                      ) : (
+                        <p>
+                          {project.name}
+                        </p>
+                      )}
                   </h3>
 
                   <p className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow">

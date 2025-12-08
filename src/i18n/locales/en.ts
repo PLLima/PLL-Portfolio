@@ -152,16 +152,19 @@ My journey spans from developing portable testing stations at Braskem's industri
     list: [
       {
         name: 'Fuel Consumption Prediction with ML',
+        nameUrl: 'https://github.com/PLLima/Car-Fuel-Efficiency-Predictor',
         description: 'Machine learning model to predict vehicle fuel consumption (MPG) using Python and Scikit-Learn. Involved EDA, data preprocessing, model training with multiple algorithms (Linear Regression, Random Forest, SVM, Neural Networks), hyperparameter tuning, and model interpretation.',
         techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Machine Learning'],
       },
       {
         name: 'HiDrone – Drone Delivery Marketplace',
+        nameUrl: 'https://github.com/PLLima/HiDrone',
         description: 'Web-based platform designed as a drone delivery marketplace to democratize access to drone delivery services. Supports distinct user roles (Suppliers and Clients) with features including authentication, drone search/filtering, and order management.',
         techStack: ['Next.js', 'Prisma ORM', 'TypeScript', 'MVC Architecture'],
       },
       {
         name: 'SafeSip – Alcohol Consumption Tracker',
+        nameUrl: 'https://github.com/PLLima/SafeSip',
         description: 'Android application designed to help individuals track, control, and reduce alcohol consumption. Features include drink logging, daily intake monitoring, safety threshold warnings, and private on-device data storage.',
         techStack: ['Java', 'Android Studio', 'Mobile Development'],
       },

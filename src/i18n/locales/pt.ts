@@ -152,16 +152,19 @@ Minha jornada vai desde o desenvolvimento de estações portáteis de teste nas 
     list: [
       {
         name: 'Predição de Consumo de Combustível com ML',
+        nameUrl: 'https://github.com/PLLima/Car-Fuel-Efficiency-Predictor',
         description: 'Modelo de aprendizado de máquina para prever consumo de combustível veicular (MPG) usando Python e Scikit-Learn. Envolveu EDA, pré-processamento de dados, treinamento de modelos com múltiplos algoritmos (Regressão Linear, Random Forest, SVM, Redes Neurais), ajuste de hiperparâmetros e interpretação de modelos.',
         techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Machine Learning'],
       },
       {
         name: 'HiDrone – Marketplace de Entregas por Drone',
+        nameUrl: 'https://github.com/PLLima/HiDrone',
         description: 'Plataforma web projetada como um marketplace de entregas por drone para democratizar o acesso a serviços de entrega por drone. Suporta diferentes funções de usuário (Fornecedores e Clientes) com recursos incluindo autenticação, busca/filtragem de drones e gerenciamento de pedidos.',
         techStack: ['Next.js', 'Prisma ORM', 'TypeScript', 'Arquitetura MVC'],
       },
       {
         name: 'SafeSip – Rastreador de Consumo de Álcool',
+        nameUrl: 'https://github.com/PLLima/SafeSip',
         description: 'Aplicativo Android projetado para ajudar indivíduos a rastrear, controlar e reduzir o consumo de álcool. Recursos incluem registro de bebidas, monitoramento de consumo diário, alertas de limite de segurança e armazenamento de dados privado no dispositivo.',
         techStack: ['Java', 'Android Studio', 'Desenvolvimento Mobile'],
       },
