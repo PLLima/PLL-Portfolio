@@ -1,4 +1,4 @@
-# PLL – Personal Portfolio (Private) 🎯
+# PLL – Personal Portfolio 🎯
 
 *A production-ready portfolio website showcasing Pedro Lubaszewski Lima
 – Tech Leader & Computer Engineer.*
@@ -17,8 +17,7 @@
 -   [SEO and social sharing 🔎📣](#seo-and-social-sharing-)
 -   [Print / PDF optimization 🖨️](#print--pdf-optimization-%EF%B8%8F)
 -   [Deployment notes 📦](#deployment-notes-)
--   [For future-me: quick reminders 📝](#for-future-me-quick-reminders-)
--   [Private / Contributing](#private--contributing)
+-   [Quick reminders when editing 📝](#quick-reminders-when-editing-)
 
 ------------------------------------------------------------------------
 
@@ -105,6 +104,7 @@ npm run lint
 ------------------------------------------------------------------------
 
 ## Important files and where to edit things 🗂️
+
 > [!NOTE]
 > Quick map to help you remember where to change common items later.
 
@@ -171,17 +171,10 @@ The print stylesheet ensures: - Clean layout
 
 ------------------------------------------------------------------------
 
-## For future-me: quick reminders 📝
+## Quick reminders when editing 📝
 
 -  ✅ Edit `profile.ts` first when updating content
 -  ✅ Sync translations when adding new languages
 -  ✅ Update Tailwind tokens when changing brand colors
 -  ✅ Regenerate OG images when updating branding
 -  ✅ Keep the shortcuts modal aligned with actual shortcuts
-
-------------------------------------------------------------------------
-
-## Private / Contributing
-
-This is a private repository. If opened later for collaboration, add
-CONTRIBUTING.md and CODE_OF_CONDUCT.md.
