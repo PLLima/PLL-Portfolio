@@ -102,16 +102,16 @@ export function KeyboardShortcutsModal() {
           />
 
           {/* Modal */}
-          <motion.div
+            <motion.div
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.2 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[101] w-full max-w-md px-4"
+            className="fixed inset-x-0 bottom-8 z-[101] w-full max-w-md mx-auto px-4"
             role="dialog"
             aria-modal="true"
             aria-labelledby="keyboard-shortcuts-title"
-          >
+            >
             <div className="bg-card border border-border rounded-xl shadow-2xl p-6">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-3">
