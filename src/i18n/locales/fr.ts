@@ -16,8 +16,8 @@ export default {
     scrollToExplore: 'Défiler pour explorer',
   },
   about: {
-    title: 'À propos de',
-    titleHighlight: 'moi',
+    title: 'Qui',
+    titleHighlight: 'suis-je ?',
     languages: 'Langues',
     bio: `Étudiant en génie informatique dévoué et méticuleux avec une perspective internationale unique, poursuivant actuellement un double diplôme entre CentraleSupélec (France) et l'UFRGS (Brésil). Avec une expérience pratique en microcontrôleurs, électronique et développement web, je combine expertise technique et passion pour la coordination d'équipes et le leadership de projets.
 
