@@ -9,8 +9,8 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 
 const resumeUrls: Record<string, string> = {
   en: '/Resume_EN.pdf',
-  pt: '/Resume_PT-BR.pdf',
-  fr: '/Resume_FR.pdf',
+  pt: '/Curriculo_PT-BR.pdf',
+  fr: '/CV_FR.pdf',
 };
 
 export function HeroSection() {
