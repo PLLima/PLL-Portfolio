@@ -51,7 +51,7 @@ export function ProjectsSection() {
                         >
                           {project.name}
                           <ExternalLink size={14} aria-hidden="true" />
-                          <span className="sr-only">(opens in a new tab)</span>
+                          <span className="sr-only">({t('accessibility.externalLink')})</span>
                         </a>
                       ) : (
                         <p>

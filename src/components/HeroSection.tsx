@@ -210,7 +210,7 @@ export function HeroSection() {
               <div 
                 className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-border shadow-lg"
                 role="img"
-                aria-label="From Brazil, now in France"
+                aria-label={t('hero.location')}
               >
                 <span className="text-lg" aria-hidden="true">🇧🇷</span>
                 <span className="text-sm font-medium text-muted-foreground" aria-hidden="true">→</span>

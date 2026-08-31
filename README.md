@@ -31,7 +31,7 @@ sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
 light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
 support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
-fallback to guide users to the official PDF. The repo centralizes content in profile.ts and uses react-i18next
+fallback to guide users to the official PDF. The repo stores global constants in profile.ts while maintaining all text and content within react-i18next locale files
 for translations. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------

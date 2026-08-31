@@ -104,7 +104,7 @@ export function SkillsSection() {
                       >
                         {achievement.linkText}
                         <ExternalLink size={12} className="inline" aria-hidden="true" />
-                        <span className="sr-only">(opens in a new tab)</span>
+                        <span className="sr-only">({t('accessibility.externalLink')})</span>
                       </a>
                       {parts[1]}
                     </span>

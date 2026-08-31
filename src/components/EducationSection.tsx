@@ -121,7 +121,7 @@ export function EducationSection() {
                     >
                       {edu.institution}
                       <ExternalLink size={12} aria-hidden="true" />
-                      <span className="sr-only">(opens in a new tab)</span>
+                      <span className="sr-only">({t('accessibility.externalLink')})</span>
                     </a>
                   ) : (
                     <p className="text-sm text-muted-foreground">

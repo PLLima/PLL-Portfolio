@@ -76,7 +76,7 @@ export function ExperienceSection() {
                         >
                           {exp.company}
                           <ExternalLink size={14} aria-hidden="true" />
-                          <span className="sr-only">(opens in a new tab)</span>
+                          <span className="sr-only">({t('accessibility.externalLink')})</span>
                         </a>
                       ) : (
                         <p className="text-muted-foreground font-medium mb-4">
