@@ -1,16 +1,16 @@
-import { Brain, Shield, Code, Cpu, LucideIcon } from 'lucide-react';
+import { Brain, Code, Server, Cpu, LucideIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 
 const iconMap: Record<string, LucideIcon> = {
   Brain,
-  Shield,
   Code,
+  Server,
   Cpu,
 };
 
-const focusAreaKeys = ['ai', 'cyber', 'software', 'micro'] as const;
-const iconKeys = ['Brain', 'Shield', 'Code', 'Cpu'];
+const focusAreaKeys = ['ml', 'software', 'architecture', 'lowLevel'] as const;
+const iconKeys = ['Brain', 'Code', 'Server', 'Cpu'];
 
 export function AboutSection() {
   const { t } = useTranslation();

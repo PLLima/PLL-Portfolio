@@ -1,7 +1,7 @@
 export const profile = {
   name: "Pedro Lubaszewski Lima",
-  title: "Tech Leader & Computer Engineer",
-  tagline: "Bridging Engineering Excellence with Strategic Leadership",
+  title: "Computer Engineering Student",
+  tagline: "Bridging advanced algorithmic problem-solving with scalable system architecture",
   subtitle: "Passionate about AI, Cybersecurity, Software Engineering & Microelectronics",
   email: "pedro.lubaszewski.lima@gmail.com",
   phone: "+33 06 72 43 46 11",
@@ -9,23 +9,33 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/pedro-lubaszewski/",
   github: "https://github.com/PLLima",
   
-  about: `A dedicated and meticulous Computer Engineering student with a unique international perspective, currently pursuing a Double Degree between CentraleSupélec (France) and UFRGS (Brazil). With hands-on experience in microcontrollers, electronics, and web development, I combine technical expertise with a passion for team coordination and project leadership.
-
-My journey spans from developing portable testing stations at Braskem's industrial facilities to creating web solutions at IDE Jr. I'm deeply driven to expand my knowledge in AI, Cybersecurity, Software Engineering, and Microelectronics while aspiring to roles that blend technical mastery with strategic management.`,
+  about: `Computer Engineering and Master of Engineering double degree student bridging advanced algorithmic problem-solving with scalable system architecture. Proven track record in full-stack enterprise web development, cloud AI integrations, and deploying complex time-series forecasting models. Strong foundation in low-level programming (C++), algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.`,
 
   focusAreas: [
-    { title: "Artificial Intelligence", icon: "Brain", description: "Machine Learning & Intelligent Systems" },
-    { title: "Cybersecurity", icon: "Shield", description: "Security Architecture & Protection" },
-    { title: "Software Engineering", icon: "Code", description: "Scalable & Maintainable Systems" },
-    { title: "Microelectronics", icon: "Cpu", description: "Hardware-Software Integration" },
+    { title: "Machine Learning", icon: "Brain", description: "Predictive Modeling & AI Integrations" },
+    { title: "Software Engineering", icon: "Code", description: "Full-Stack Development & API Design" },
+    { title: "System Architecture", icon: "Server", description: "Scalable, Distributed & Cloud Systems" },
+    { title: "Low-Level & Real-Time", icon: "Cpu", description: "C/C++, Algorithm Optimization & Game Engines" },
   ],
 
   hardSkills: [
-    "Computer Architectures",
-    "Low-level Programming",
-    "Web Development",
-    "Relational Database Design",
-    "Machine Learning",
+    "Python",
+    "C++",
+    "Java",
+    "C",
+    "SQL",
+    "JavaScript/TypeScript",
+    "Assembly",
+    "Machine Learning (XGBoost, Pandas, AutoGluon)",
+    "System Architecture (MVC)",
+    "Relational Database Design (Prisma ORM)",
+    "Google Cloud Platform (GCP)",
+    "React & Next.js",
+    "Flask",
+    "Gemini AI",
+    "OpenGL & Real-Time Logic",
+    "Android Studio & Mobile Development",
+    "Game Development & Design",
     "Digital & Analog Circuits",
     "Linux/Ubuntu",
   ],
@@ -41,36 +51,44 @@ My journey spans from developing portable testing stations at Braskem's industri
 
   languages: [
     { name: "Portuguese", level: "Native" },
-    { name: "English", level: "Complete Proficiency" },
-    { name: "French", level: "Proficient" },
+    { name: "English", level: "Fluent" },
+    { name: "French", level: "Fluent" },
   ],
 
   experience: [
     {
-      title: "HR Assistant & Web Developer",
+      title: "Web Developer & HR Assistant",
       company: "IDE Jr.",
-      period: "2023 – Present",
+      period: "Jan 2024 – Present",
       location: "Brazil",
       description: [
-        "Developed websites for the company's clients using modern technologies",
-        "Assisted the HR Team with employee contracts and documentation",
-        "Provided insight and helped organizing company events",
+        "Architected and deployed fully responsive, full-stack corporate websites using Next.js and React, delivering scalable digital solutions that modernized client web presence.",
+        "Streamlined internal operations by managing sensitive employee contracts and coordinating logistics for corporate events.",
       ],
+    },
+    {
+      title: "Summer School BasiCS Tutor",
+      company: "CentraleSupélec",
+      period: "Jul 2026 – Aug 2026",
+      location: "France",
+      description: [
+        "Instructed incoming international students in the Modeling and Control of Dynamic Systems, translating complex mathematical control theory into accessible, pedagogical course materials.",
+        "Collaborated within a 3-person technical instructional team to author and present comprehensive curriculum slides and practical problem sets."
+      ]
     },
     {
       title: "Algorithms & Programming Tutor",
       company: "UFRGS",
-      period: "2024 – 2025",
+      period: "Oct 2024 – Jan 2025",
       location: "Brazil",
       description: [
-        "Assisted undergraduate students from computing-related courses in C programming",
-        "Developed teaching materials and conducted tutoring sessions",
+        "Directed weekly laboratory sessions for undergraduate engineering students, debugging complex C programming code and reinforcing advanced algorithmic problem-solving techniques.",
       ],
     },
     {
       title: "Physics Tutor",
       company: "UFRGS",
-      period: "2023 – 2024",
+      period: "Oct 2023 – Feb 2024",
       location: "Brazil",
       description: [
         "Taught and assisted students in Electromagnetism studies",
@@ -79,25 +97,21 @@ My journey spans from developing portable testing stations at Braskem's industri
     },
     {
       title: "Undergraduate Researcher",
-      company: "UFRGS",
-      period: "2023",
+      company: "UFRGS (LASCAR Laboratory)",
+      period: "Mar 2023 – Sep 2023",
       location: "Brazil",
       description: [
-        "Updated 3D mapping UAV systems",
-        "Collaborated with the implementation of Information-Centric Networks (ICNs)",
-        "Organized and updated laboratory documentation",
+        "Optimized embedded software systems for 3D mapping UAVs, refining spatial data processing algorithms to ensure high-fidelity environmental capture.",
+        "Researched and facilitated the technical implementation of Information-Centric Networks (ICNs) to enhance network routing protocols.",
       ],
     },
     {
       title: "Electronics Maintenance Intern",
       company: "Braskem",
-      period: "2022",
+      period: "Jan 2022 – Dec 2022",
       location: "Brazil",
       description: [
-        "Developed a portable automatic testing station for synchronous machines",
-        "Inspected and documented protection relays and frequency inverters",
-        "Maintained battery banks and electronic equipment",
-        "Elaborated management reports and procedures",
+        "Engineered and deployed a portable automated testing station for synchronous machines, establishing direct hardware-software integration to accelerate component evaluation protocols.",
       ],
     },
   ],

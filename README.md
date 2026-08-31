@@ -24,14 +24,14 @@
 ## Project overview
 
 This repository contains a production-ready personal portfolio website
-built to present a professional brand online. The site is built with React +
+built to present a professional brand online, currently targeted towards tech-finance, software engineering, and machine learning roles. The site is built with React +
 TypeScript and optimized for performance, responsivity, accessibility (WCAG
 2.1 AA), multilingual experience (Portuguese,English, French), and SEO/social
 sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
 light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
-support, a keyboard shortcut system (Alt+1..6, ?), and a print-optimized
-CV export. The repo centralizes content in profile.ts and uses react-i18next
+support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
+fallback to guide users to the official PDF. The repo centralizes content in profile.ts and uses react-i18next
 for translations. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------
