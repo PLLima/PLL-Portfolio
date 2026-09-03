@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { profile } from '@/data/profile';
-import profilePhoto from '@/assets/profile-photo.jpg';
+
 import { Typewriter } from '@/components/Typewriter';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
@@ -199,7 +199,7 @@ export function HeroSection() {
               
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
-                  src={profilePhoto}
+                  src="/profile-photo.jpg"
                   alt={`Portrait of ${profile.name}, a computer engineer wearing a professional suit`}
                   className="w-full h-full object-cover"
                 />

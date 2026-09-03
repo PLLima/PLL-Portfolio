@@ -112,7 +112,7 @@ npm run lint
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
 -   `src/i18n/` --- translations and i18n config. Icons for focus areas are also configured here using lucide-react icon names.
 -   `tailwind.config.*` --- theming, custom colors, transitions.
--   `public/` --- favicon, OG images, resume PDFs.
+-   `public/` --- favicon, OG images, resume PDFs, profile photo.
 -   `src/components/` --- UI pieces with animations and interactions.
 
 ------------------------------------------------------------------------
