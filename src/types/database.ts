@@ -3,15 +3,15 @@
 // ==========================================
 
 /** 
- * Códigos de idioma suportados atualmente. 
- * O "string & {}" permite autocompletar na IDE, mas aceita outros idiomas no futuro.
+ * Currently supported language codes.
+ * The "string & {}" allows IDE autocomplete but accepts other languages in the future.
  */
 export type LanguageCode = 'en' | 'fr' | 'pt-br' | (string & {});
 
 export type LocalizedString = Record<LanguageCode, string>;
 export type LocalizedArray = Record<LanguageCode, string[]>;
 
-/** Formato: "YYYY-MM" (ex: "2024-01") */
+/** Format: "YYYY-MM" (e.g. "2024-01") */
 export type YearMonth = string; 
 
 // ==========================================
@@ -20,7 +20,7 @@ export type YearMonth = string;
 
 export interface FocusArea {
   _id: string;
-  icon: string; // Referência string para o LucideIcon
+  icon: string; // String reference to the LucideIcon
   title: LocalizedString;
   description: LocalizedString;
   metadata: {
@@ -32,9 +32,9 @@ export interface FocusArea {
 export interface Skill {
   _id: string;
   category: 'hard_skill' | 'soft_skill';
-  subCategory: string; // Ex: "Languages", "Frameworks & Libraries", etc.
+  subCategory: string; // e.g., "Languages", "Frameworks & Libraries", etc.
   name: LocalizedString;
-  proficiencyLevel?: number; // 1-5 (Opcional, útil para a IA)
+  proficiencyLevel?: number; // 1-5 (Optional, useful for AI processing)
   metadata: {
     displayOrder: number;
   };
@@ -44,7 +44,7 @@ export interface Language {
   _id: string;
   language: LocalizedString;
   level: LocalizedString;
-  frameworkOrStandard: string; // Ex: "CEFR"
+  frameworkOrStandard: string; // e.g., "CEFR"
   metadata: {
     displayOrder: number;
   };
@@ -60,7 +60,7 @@ export interface Experience {
   metadata: {
     showOnWebsite: boolean;
     targetRoles: string[];
-    techStackRefs: string[]; // Array de IDs referenciando Skills
+    techStackRefs: string[]; // Array of IDs referencing Skills
   };
   title: LocalizedString;
   company: LocalizedString;
@@ -122,7 +122,7 @@ export interface Volunteering {
 export interface Achievement {
   _id: string;
   link: string;
-  dateIssued: YearMonth[]; // Atualizado conforme a modelagem corrigida
+  dateIssued: YearMonth[];
   metadata: {
     linkText: LocalizedString;
     showOnWebsite: boolean;
@@ -155,7 +155,7 @@ export interface Professional {
     about: LocalizedString;
   };
   
-  // Arrays aninhados
+  // Nested Arrays
   focusAreas: FocusArea[];
   skills: Skill[];
   languages: Language[];
@@ -172,9 +172,9 @@ export interface Professional {
 
 export interface Resume {
   _id: string;
-  professionalId: string; // Referência para o Professional._id
+  professionalId: string; // Reference to Professional._id
   metadata: {
-    generatedAt: Date | string; // Depende de como é feito o fetch na API
+    generatedAt: Date | string; // Depends on how the API fetch is performed
     targetLanguage: LanguageCode;
     targetRole: string;
     targetCompany: string;
@@ -197,7 +197,7 @@ export interface Resume {
 
 export interface CoverLetter {
   _id: string;
-  professionalId: string; // Referência para o Professional._id
+  professionalId: string; // Reference to Professional._id
   metadata: {
     generatedAt: Date | string;
     targetLanguage: LanguageCode;

@@ -5,8 +5,7 @@ export const usePortfolioData = () => {
   return useQuery<Professional, Error>({
     queryKey: ['portfolioData'],
     queryFn: async () => {
-      // In production, this would be an environment variable like process.env.VITE_API_URL
-      // In development, this relative path is proxied by Vite to the backend server
+      // Fetch dynamic portfolio data from the Express backend via Vite proxy
       const response = await fetch('/api/portfolio');
       if (!response.ok) {
         throw new Error('Network response was not ok');

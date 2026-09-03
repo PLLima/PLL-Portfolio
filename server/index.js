@@ -11,14 +11,12 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-// Force dbName to 'portfolio' as requested by the user
 mongoose.connect(process.env.MONGODB_URI, { dbName: 'portfolio' })
   .then(() => console.log('Successfully connected to MongoDB (portfolio).'))
   .catch((error) => console.error('MongoDB connection error:', error));
 
 // Mongoose Schema & Model
-// We use strict: false so we don't have to define every localized field, 
-// and just pass the document straight to the frontend.
+// We use strict: false to allow fetching dynamic localized fields without rigid schema definitions.
 const professionalSchema = new mongoose.Schema({
   name: { type: String, required: true }
 }, { strict: false, collection: 'professionals' });
