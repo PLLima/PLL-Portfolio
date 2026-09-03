@@ -200,9 +200,8 @@ export function HeroSection() {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
                   src={profilePhoto}
-                  alt={`Portrait of ${profile.name}, a tech leader and computer engineer wearing a professional suit`}
+                  alt={`Portrait of ${profile.name}, a computer engineer wearing a professional suit`}
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: 'center 40%' }}
                 />
               </div>
 
