@@ -208,6 +208,7 @@ export default {
     subtitle: 'Intéressé à discuter d\'opportunités ou de collaboration ? J\'aimerais avoir de vos nouvelles.',
     email: 'E-mail',
     location: 'Localisation',
+    locationText: 'Gif-sur-Yvette, Île-de-France, France',
     findOnline: 'Retrouvez-moi en ligne',
     sendEmail: 'M\'envoyer un e-mail',
   },

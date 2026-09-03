@@ -56,7 +56,7 @@ export function ContactSection() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.location')}</p>
-                      <p className="text-foreground font-medium">{profile.location}</p>
+                      <p className="text-foreground font-medium">{t('contact.locationText')}</p>
                     </div>
                   </div>
                 </AnimatedItem>

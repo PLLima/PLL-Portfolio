@@ -208,6 +208,7 @@ export default {
     subtitle: "Interested in discussing opportunities or collaboration? I'd love to hear from you.",
     email: 'Email',
     location: 'Location',
+    locationText: 'Gif-sur-Yvette, Île-de-France, France',
     findOnline: 'Find me online',
     sendEmail: 'Send me an email',
   },
