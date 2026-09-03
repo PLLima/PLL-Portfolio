@@ -1,17 +1,19 @@
 import { Github, Folder, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
-import { profile } from '@/data/profile';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
 
 export function ProjectsSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language as LanguageCode;
+  const { data: profile } = usePortfolioData();
 
-  const projects = t('projects.list', { returnObjects: true }) as Array<{
-    name: string;
-    nameUrl?: string;
-    description: string;
-    techStack: string[];
-  }>;
+  if (!profile) return null;
+
+  const projects = profile.projects
+    .filter(p => p.metadata.showOnWebsite)
+    .sort((a, b) => b.metadata.priorityScore - a.metadata.priorityScore);
 
   return (
     <section 
@@ -32,7 +34,7 @@ export function ProjectsSection() {
 
         <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" role="list">
           {projects.map((project, index) => (
-            <AnimatedItem key={project.name} delay={0.1 + index * 0.1}>
+            <AnimatedItem key={project._id} delay={0.1 + index * 0.1}>
               <li>
                 <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 h-full flex flex-col">
                   <div className="flex items-start justify-between mb-4">
@@ -42,30 +44,30 @@ export function ProjectsSection() {
                   </div>
 
                   <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
-                      {project.nameUrl ? (
+                      {project.url ? (
                         <a
-                          href={project.nameUrl}
+                          href={project.url}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1"
                         >
-                          {project.name}
+                          {project.name[currentLang]}
                           <ExternalLink size={14} aria-hidden="true" />
                           <span className="sr-only">({t('accessibility.externalLink')})</span>
                         </a>
                       ) : (
                         <p>
-                          {project.name}
+                          {project.name[currentLang]}
                         </p>
                       )}
                   </h3>
 
-                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow">
-                    {project.description}
-                  </p>
+                  <div className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow whitespace-pre-line">
+                    {project.description[currentLang]?.join('\n\n')}
+                  </div>
 
                   <ul className="flex flex-wrap gap-2" role="list" aria-label="Technologies used">
-                    {project.techStack.map((tech) => (
+                    {project.techStack[currentLang]?.map((tech) => (
                       <li
                         key={tech}
                         className="px-2 py-1 text-xs font-medium rounded-md bg-muted text-muted-foreground"
@@ -82,7 +84,7 @@ export function ProjectsSection() {
 
         <AnimatedSection delay={0.4} className="text-center mt-12">
           <a
-            href={profile.github}
+            href={`https://${profile.contact.github}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"

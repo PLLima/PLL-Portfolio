@@ -32,7 +32,7 @@ light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
 support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
 fallback to guide users to the official PDF. The repo stores global constants in profile.ts while maintaining all text and content within react-i18next locale files
-for translations. See the project feature overview for a complete breakdown.
+for translations. Content is fetched dynamically from a backend MongoDB database (`server/index.js`), which serves the localized data through an Express API. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------
 
@@ -62,7 +62,8 @@ for translations. See the project feature overview for a complete breakdown.
 -   **Components:** shadcn/ui + Radix UI
 -   **Animations:** Framer Motion
 -   **I18n:** react-i18next + i18next-browser-languagedetector
--   **Other:** Centralized profile.ts data, custom hooks (theme, language, keyboard nav)
+-   **Backend:** Node.js, Express, MongoDB (Mongoose)
+-   **Other:** Custom React Query hooks for data fetching, custom hooks (theme, language, keyboard nav)
 
 ------------------------------------------------------------------------
 
@@ -108,12 +109,41 @@ npm run lint
 > [!NOTE]
 > Quick map to help you remember where to change common items later.
 
--   `src/profile.ts` --- centralized profile/content source.
+-   `server/` --- Node.js Express backend and MongoDB Mongoose models.
+-   `src/hooks/usePortfolioData.ts` --- React Query hook to fetch dynamic profile data.
+-   `src/types/database.ts` --- TypeScript interfaces for the MongoDB document structure.
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
--   `src/i18n/` --- translations and i18n config. Icons for focus areas are also configured here using lucide-react icon names.
+-   `src/i18n/` --- static translations and i18n config.
 -   `tailwind.config.*` --- theming, custom colors, transitions.
 -   `public/` --- favicon, OG images, resume PDFs, profile photo.
 -   `src/components/` --- UI pieces with animations and interactions.
+
+------------------------------------------------------------------------
+
+## Database Structure 🗄️
+
+The application uses a MongoDB NoSQL database with the following structure for dynamic data and localization:
+
+```json
+{
+  "_id": "UUID",
+  "name": "string",
+  "contact": { "email": "string", "phone": "string", "website": "string", "linkedin": "string", "github": "string" },
+  "location": { "en": "string", "pt-br": "string", "fr": "string" },
+  "metadata": { "profilePicturePath": "string", "defaultLanguage": "string" },
+  "i18n_strings": {
+    "tagline": { "en": "...", "pt-br": "...", "fr": "..." },
+    "about": { "en": "...", "pt-br": "...", "fr": "..." }
+  },
+  "focusAreas": [ { "icon": "string", "metadata": { "displayOrder": 1, "isActive": true }, "title": { ... }, "description": { ... } } ],
+  "skills": [ { "category": "hard_skill", "subCategory": "string", "proficiencyLevel": 5, "name": { ... } } ],
+  "languages": [ { "language": { ... }, "level": { ... } } ],
+  "experiences": [ { "title": { ... }, "company": { ... }, "timeline": { "startDate": "YYYY-MM", "endDate": null } } ],
+  "education": [ { "degree": { ... }, "institution": { ... }, "timeline": { "startDate": "YYYY-MM", "endDate": "YYYY-MM" } } ],
+  "projects": [ { "name": { ... }, "techStack": { ... } } ],
+  "achievements": [ { "title": { ... }, "issuer": { ... }, "dateIssued": ["YYYY-MM"] } ]
+}
+```
 
 ------------------------------------------------------------------------
 
@@ -173,7 +203,6 @@ The print stylesheet ensures: - Clean layout
 
 ## Quick reminders when editing 📝
 
--  ✅ Edit `profile.ts` first when updating content
 -  ✅ Sync translations when adding new languages
 -  ✅ Update Tailwind tokens when changing brand colors
 -  ✅ Regenerate OG images when updating branding

@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import { profile } from '@/data/profile';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { KeyboardShortcutsTrigger } from '@/components/KeyboardShortcutsHelp';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
   const { t } = useTranslation();
+  const { data: profile } = usePortfolioData();
+
+  if (!profile) return null;
 
   return (
     <footer className="py-8 border-t border-border bg-card" role="contentinfo">

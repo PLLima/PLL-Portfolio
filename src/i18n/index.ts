@@ -15,6 +15,8 @@ i18n
       fr: { translation: fr },
     },
     fallbackLng: 'en',
+    supportedLngs: ['en', 'pt', 'fr'],
+    load: 'languageOnly',
     detection: {
       order: ['navigator', 'htmlTag', 'path', 'subdomain'],
       caches: ['localStorage'],
@@ -23,5 +25,21 @@ i18n
       escapeValue: false,
     },
   });
+
+// Enforce 2-letter language codes globally to match MongoDB keys
+const normalizeLanguage = (lng: string | undefined) => {
+  if (lng && lng.includes('-')) {
+    const baseLng = lng.split('-')[0];
+    if (['en', 'pt', 'fr'].includes(baseLng)) {
+      i18n.changeLanguage(baseLng);
+    }
+  }
+};
+
+// Run on init to catch localStorage cached values
+normalizeLanguage(i18n.language);
+
+// Run on any future language changes
+i18n.on('languageChanged', normalizeLanguage);
 
 export default i18n;

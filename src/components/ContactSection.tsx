@@ -1,10 +1,15 @@
 import { Mail, MapPin, Linkedin, Github, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
-import { profile } from '@/data/profile';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
 
 export function ContactSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language as LanguageCode;
+  const { data: profile } = usePortfolioData();
+
+  if (!profile) return null;
 
   return (
     <section 
@@ -39,11 +44,11 @@ export function ContactSection() {
                     <div className="overflow-hidden flex-1">
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
                       <a
-                        href={`mailto:${profile.email}`}
+                        href={`mailto:${profile.contact.email}`}
                         className="text-foreground font-medium hover:text-primary transition-colors rounded-sm block truncate"
-                        title={profile.email}
+                        title={profile.contact.email}
                       >
-                        {profile.email}
+                        {profile.contact.email}
                       </a>
                     </div>
                   </div>
@@ -56,7 +61,7 @@ export function ContactSection() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.location')}</p>
-                      <p className="text-foreground font-medium">{t('contact.locationText')}</p>
+                      <p className="text-foreground font-medium">{profile.location[currentLang]}</p>
                     </div>
                   </div>
                 </AnimatedItem>
@@ -68,7 +73,7 @@ export function ContactSection() {
                 
                 <AnimatedItem delay={0.2}>
                   <a
-                    href={profile.linkedin}
+                    href={`https://${profile.contact.linkedin}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
@@ -84,7 +89,7 @@ export function ContactSection() {
 
                 <AnimatedItem delay={0.3}>
                   <a
-                    href={profile.github}
+                    href={`https://${profile.contact.github}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
@@ -104,7 +109,7 @@ export function ContactSection() {
             <AnimatedItem delay={0.4}>
               <div className="mt-10 pt-8 border-t border-border text-center">
                 <a
-                  href={`mailto:${profile.email}`}
+                  href={`mailto:${profile.contact.email}`}
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-base sm:text-lg hover:opacity-90 transition-all"
                   style={{ boxShadow: 'var(--shadow-glow)' }}
                 >

@@ -1,7 +1,9 @@
 import { GraduationCap, Globe, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
-import { ReactNode } from 'react';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
+import { formatEducationYear } from '@/utils/date';
 
 const countryFlags: Record<string, string> = {
   'France': '🇫🇷',
@@ -12,15 +14,13 @@ const countryFlags: Record<string, string> = {
 };
 
 export function EducationSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language as LanguageCode;
+  const { data: profile } = usePortfolioData();
 
-  const degrees = t('education.degrees', { returnObjects: true }) as Array<{
-    degree: string;
-    institution: string;
-    institutionUrl?: string;
-    period: string;
-    country: string;
-  }>;
+  if (!profile) return null;
+
+  const degrees = profile.education.filter(edu => edu.metadata.showOnWebsite);
 
   return (
     <section 
@@ -93,7 +93,7 @@ export function EducationSection() {
         {/* Education Grid */}
         <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" role="list">
           {degrees.map((edu, index) => (
-            <AnimatedItem key={index} delay={0.1 + index * 0.1}>
+            <AnimatedItem key={edu._id} delay={0.1 + index * 0.1}>
               <li>
                 <article className="card-elevated p-6 group h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                   <div className="flex items-center justify-between mb-4">
@@ -103,14 +103,14 @@ export function EducationSection() {
                     <span 
                       className="text-2xl" 
                       role="img" 
-                      aria-label={edu.country}
+                      aria-label={edu.country[currentLang]}
                     >
-                      {countryFlags[edu.country] || '🌍'}
+                      {countryFlags[edu.country[currentLang]] || '🌍'}
                     </span>
                   </div>
 
                   <h3 className="font-display text-lg font-semibold text-foreground mb-1 line-clamp-2">
-                    {edu.degree}
+                    {edu.degree[currentLang]}
                   </h3>
                   {edu.institutionUrl ? (
                     <a
@@ -119,17 +119,17 @@ export function EducationSection() {
                       rel="noopener noreferrer"
                       className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
                     >
-                      {edu.institution}
+                      {edu.institution[currentLang]}
                       <ExternalLink size={12} aria-hidden="true" />
                       <span className="sr-only">({t('accessibility.externalLink')})</span>
                     </a>
                   ) : (
                     <p className="text-sm text-muted-foreground">
-                      {edu.institution}
+                      {edu.institution[currentLang]}
                     </p>
                   )}
                   <time className="text-xs text-primary font-medium mt-3 block">
-                    {edu.period}
+                    {formatEducationYear(edu.timeline.endDate || null, edu.metadata.ongoing || false, currentLang)}
                   </time>
                 </article>
               </li>

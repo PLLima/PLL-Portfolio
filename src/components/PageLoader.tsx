@@ -1,16 +1,18 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export function PageLoader() {
-  const [isLoading, setIsLoading] = useState(true);
+export function PageLoader({ forceLoading = false }: { forceLoading?: boolean }) {
+  const [isTimeLoading, setIsTimeLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false);
+      setIsTimeLoading(false);
     }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
+
+  const isLoading = isTimeLoading || forceLoading;
 
   return (
     <AnimatePresence>

@@ -2,7 +2,8 @@ import { ArrowDown, MapPin, Linkedin, Github, Mail, Download } from 'lucide-reac
 import { useTranslation } from 'react-i18next';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import { profile } from '@/data/profile';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
 
 import { Typewriter } from '@/components/Typewriter';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
@@ -15,8 +16,10 @@ const resumeUrls: Record<string, string> = {
 
 export function HeroSection() {
   const { t, i18n } = useTranslation();
-  const currentResumeUrl = resumeUrls[i18n.language] || resumeUrls.en;
+  const currentLang = i18n.language as LanguageCode;
+  const currentResumeUrl = resumeUrls[currentLang] || resumeUrls.en;
   const sectionRef = useRef<HTMLElement>(null);
+  const { data: profile } = usePortfolioData();
   
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -27,6 +30,8 @@ export function HeroSection() {
   const decorativeY1 = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const decorativeY2 = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
+  if (!profile) return null;
 
   return (
     <section 
@@ -64,7 +69,7 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 badge-primary mb-6"
             >
               <MapPin size={14} aria-hidden="true" />
-              <span>{t('hero.location')}</span>
+              <span>{profile.location[currentLang]}</span>
             </motion.div>
 
             <motion.h1
@@ -94,7 +99,7 @@ export function HeroSection() {
               transition={{ duration: 0.3, delay: 0.3 }}
               className="text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 min-h-[1.75rem]"
             >
-              <Typewriter text={t('hero.tagline')} delay={0.8} speed={35} />
+              <Typewriter text={profile.i18n_strings.tagline[currentLang]} delay={0.8} speed={35} />
             </motion.p>
 
             {/* CTA Buttons */}
@@ -136,7 +141,7 @@ export function HeroSection() {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a
-                      href={profile.linkedin}
+                      href={`https://${profile.contact.linkedin}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="icon-button"
@@ -153,7 +158,7 @@ export function HeroSection() {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a
-                      href={profile.github}
+                      href={`https://${profile.contact.github}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="icon-button"
@@ -170,7 +175,7 @@ export function HeroSection() {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a
-                      href={`mailto:${profile.email}`}
+                      href={`mailto:${profile.contact.email}`}
                       className="icon-button"
                       aria-label="Email"
                     >
@@ -199,7 +204,7 @@ export function HeroSection() {
               
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
-                  src="/profile-photo.jpg"
+                  src={profile.metadata.profilePicturePath}
                   alt={`Portrait of ${profile.name}, a computer engineer wearing a professional suit`}
                   className="w-full h-full object-cover"
                 />

@@ -1,19 +1,26 @@
 import { Wrench, Users, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
-
-interface Achievement {
-  text: string;
-  link: string;
-  linkText: string;
-}
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
+import { formatAchievementYears } from '@/utils/date';
 
 export function SkillsSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language as LanguageCode;
+  const { data: profile } = usePortfolioData();
 
-  const hardSkills = t('skills.hardSkills', { returnObjects: true }) as string[];
-  const softSkills = t('skills.softSkills', { returnObjects: true }) as string[];
-  const achievements = t('skills.achievementsList', { returnObjects: true }) as Achievement[];
+  if (!profile) return null;
+
+  const hardSkills = profile.skills
+    .filter(skill => skill.category === 'hard_skill')
+    .sort((a, b) => a.metadata.displayOrder - b.metadata.displayOrder);
+
+  const softSkills = profile.skills
+    .filter(skill => skill.category === 'soft_skill')
+    .sort((a, b) => a.metadata.displayOrder - b.metadata.displayOrder);
+
+  const achievements = profile.achievements.filter(ach => ach.metadata.showOnWebsite);
 
   return (
     <section 
@@ -47,10 +54,10 @@ export function SkillsSection() {
               <ul className="flex flex-wrap gap-2" role="list">
                 {hardSkills.map((skill) => (
                   <li
-                    key={skill}
+                    key={skill._id}
                     className="px-4 py-2 rounded-full bg-secondary text-secondary-foreground text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                   >
-                    {skill}
+                    {skill.name[currentLang]}
                   </li>
                 ))}
               </ul>
@@ -71,10 +78,10 @@ export function SkillsSection() {
               <ul className="flex flex-wrap gap-2" role="list">
                 {softSkills.map((skill) => (
                   <li
-                    key={skill}
+                    key={skill._id}
                     className="px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                   >
-                    {skill}
+                    {skill.name[currentLang]}
                   </li>
                 ))}
               </ul>
@@ -89,24 +96,47 @@ export function SkillsSection() {
               {t('skills.achievements')}
             </h3>
             <ul className="space-y-3" role="list">
-              {achievements.map((achievement, index) => {
-                const parts = achievement.text.split(achievement.linkText);
+              {achievements.map((achievement) => {
+                const title = achievement.title[currentLang];
+                const linkText = achievement.metadata.linkText[currentLang];
+                const parts = title.split(linkText);
+                const dates = formatAchievementYears(achievement.dateIssued);
+                
                 return (
-                  <li key={index} className="flex items-start gap-3">
+                  <li key={achievement._id} className="flex items-start gap-3">
                     <span className="text-primary mt-1" aria-hidden="true">•</span>
                     <span className="text-muted-foreground">
-                      {parts[0]}
-                      <a
-                        href={achievement.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline inline-flex items-center gap-1"
-                      >
-                        {achievement.linkText}
-                        <ExternalLink size={12} className="inline" aria-hidden="true" />
-                        <span className="sr-only">({t('accessibility.externalLink')})</span>
-                      </a>
-                      {parts[1]}
+                      {parts.length > 1 ? (
+                        <>
+                          {parts[0]}
+                          <a
+                            href={achievement.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline inline-flex items-center gap-1"
+                          >
+                            {linkText}
+                            <ExternalLink size={12} className="inline" aria-hidden="true" />
+                            <span className="sr-only">({t('accessibility.externalLink')})</span>
+                          </a>
+                          {parts[1]}
+                        </>
+                      ) : (
+                        <>
+                          {title} (
+                          <a
+                            href={achievement.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary hover:underline inline-flex items-center gap-1"
+                          >
+                            {linkText}
+                            <ExternalLink size={12} className="inline" aria-hidden="true" />
+                            <span className="sr-only">({t('accessibility.externalLink')})</span>
+                          </a>)
+                        </>
+                      )}
+                      {' – '}{dates}
                     </span>
                   </li>
                 );

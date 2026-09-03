@@ -14,6 +14,7 @@ import { KeyboardShortcutsProvider, KeyboardShortcutsModal } from '@/components/
 import { useDocumentLang } from '@/hooks/useDocumentLang';
 import { useKeyboardNavigation } from '@/hooks/useKeyboardNavigation';
 import { useTranslation } from 'react-i18next';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
 
 const Index = () => {
   const { t } = useTranslation();
@@ -23,40 +24,58 @@ const Index = () => {
   // Enable keyboard shortcuts for navigation
   useKeyboardNavigation();
 
-  return (
-    <KeyboardShortcutsProvider>
-      <PageLoader />
-      <div className="min-h-screen bg-background relative">
-        {/* Print Warning Message */}
-        <div 
-          id="print-warning" 
-          className="hidden print:flex flex-col items-center justify-center min-h-screen w-full bg-white text-black p-12 text-center fixed inset-0 z-[9999]"
-        >
-          <h1 className="text-3xl font-display font-bold mb-6">
-            {t('print.title', 'Please Download the PDF CV')}
-          </h1>
-          <p className="text-xl font-body max-w-2xl leading-relaxed">
-            {t('print.message', 'To print the perfectly formatted CV, please download it using the "Download CV" button on the website, or press Ctrl+P (Cmd+P on Mac) on your keyboard while viewing the site.')}
+  const { isLoading, error } = usePortfolioData();
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background text-foreground text-center p-4">
+        <div>
+          <h1 className="text-3xl font-display font-bold mb-4 text-primary">Error Loading Portfolio</h1>
+          <p className="text-muted-foreground max-w-md mx-auto">
+            {error.message || 'There was an issue connecting to the database. Please try again later.'}
           </p>
         </div>
-
-        <div className="print:hidden">
-          <SkipToContent />
-          <Header />
-          <main id="main-content" tabIndex={-1}>
-            <HeroSection />
-            <AboutSection />
-            <SkillsSection />
-            <ExperienceSection />
-            <EducationSection />
-            <ProjectsSection />
-            <ContactSection />
-          </main>
-          <Footer />
-          <BackToTop />
-          <KeyboardShortcutsModal />
-        </div>
       </div>
+    );
+  }
+
+  return (
+    <KeyboardShortcutsProvider>
+      <PageLoader forceLoading={isLoading} />
+      {/* We only render the content when it's done loading to prevent UI flashes */}
+      {!isLoading && (
+        <div className="min-h-screen bg-background relative">
+          {/* Print Warning Message */}
+          <div 
+            id="print-warning" 
+            className="hidden print:flex flex-col items-center justify-center min-h-screen w-full bg-white text-black p-12 text-center fixed inset-0 z-[9999]"
+          >
+            <h1 className="text-3xl font-display font-bold mb-6">
+              {t('print.title', 'Please Download the PDF CV')}
+            </h1>
+            <p className="text-xl font-body max-w-2xl leading-relaxed">
+              {t('print.message', 'To print the perfectly formatted CV, please download it using the "Download CV" button on the website, or press Ctrl+P (Cmd+P on Mac) on your keyboard while viewing the site.')}
+            </p>
+          </div>
+
+          <div className="print:hidden">
+            <SkipToContent />
+            <Header />
+            <main id="main-content" tabIndex={-1}>
+              <HeroSection />
+              <AboutSection />
+              <SkillsSection />
+              <ExperienceSection />
+              <EducationSection />
+              <ProjectsSection />
+              <ContactSection />
+            </main>
+            <Footer />
+            <BackToTop />
+            <KeyboardShortcutsModal />
+          </div>
+        </div>
+      )}
     </KeyboardShortcutsProvider>
   );
 };

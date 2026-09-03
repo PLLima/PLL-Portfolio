@@ -1,18 +1,21 @@
 import { Briefcase, MapPin, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
+import { usePortfolioData } from '@/hooks/usePortfolioData';
+import { LanguageCode } from '@/types/database';
+import { formatDateRange } from '@/utils/date';
 
 export function ExperienceSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language as LanguageCode;
+  const { data: profile } = usePortfolioData();
 
-  const jobs = t('experience.jobs', { returnObjects: true }) as Array<{
-    title: string;
-    company: string;
-    companyUrl?: string;
-    period: string;
-    location: string;
-    description: string[];
-  }>;
+  if (!profile) return null;
+
+  const jobs = profile.experiences
+    .filter(exp => exp.metadata.showOnWebsite)
+    // Assuming the database is already sorted, otherwise we could sort by startDate descending
+    .sort((a, b) => new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime());
 
   return (
     <section 
@@ -40,7 +43,7 @@ export function ExperienceSection() {
             <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-1/2" aria-hidden="true" />
 
             {jobs.map((exp, index) => (
-              <AnimatedItem key={index} delay={0.1 + index * 0.1}>
+              <AnimatedItem key={exp._id} delay={0.1 + index * 0.1}>
                 <article
                   className={`relative flex flex-col md:flex-row gap-4 md:gap-8 mb-12 last:mb-0 ${
                     index % 2 === 0 ? 'md:flex-row-reverse' : ''
@@ -56,16 +59,22 @@ export function ExperienceSection() {
                       <div className="flex items-start justify-between gap-4 mb-3">
                         <div className="flex items-center gap-2">
                           <Briefcase size={16} className="text-primary" aria-hidden="true" />
-                          <time className="text-sm font-medium text-primary">{exp.period}</time>
+                          <time className="text-sm font-medium text-primary">
+                            {formatDateRange({ 
+                              startDate: exp.timeline.startDate, 
+                              endDate: exp.timeline.endDate, 
+                              lang: currentLang 
+                            })}
+                          </time>
                         </div>
-                        <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                          <MapPin size={12} aria-hidden="true" />
-                          <span>{exp.location}</span>
+                        <div className="flex items-center gap-1 text-xs text-muted-foreground text-right">
+                          <MapPin size={12} className="flex-shrink-0" aria-hidden="true" />
+                          <span>{exp.location[currentLang]}</span>
                         </div>
                       </div>
 
                       <h3 className="font-display text-lg font-semibold text-foreground mb-1">
-                        {exp.title}
+                        {exp.title[currentLang]}
                       </h3>
                       {exp.companyUrl ? (
                         <a
@@ -74,18 +83,18 @@ export function ExperienceSection() {
                           rel="noopener noreferrer"
                           className="text-muted-foreground font-medium mb-4 hover:text-primary transition-colors inline-flex items-center gap-1"
                         >
-                          {exp.company}
+                          {exp.company[currentLang]}
                           <ExternalLink size={14} aria-hidden="true" />
                           <span className="sr-only">({t('accessibility.externalLink')})</span>
                         </a>
                       ) : (
                         <p className="text-muted-foreground font-medium mb-4">
-                          {exp.company}
+                          {exp.company[currentLang]}
                         </p>
                       )}
 
                       <ul className="space-y-2" role="list">
-                        {exp.description.map((item, i) => (
+                        {exp.description[currentLang]?.map((item, i) => (
                           <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                             <span className="text-primary mt-1.5" aria-hidden="true">•</span>
                             <span>{item}</span>

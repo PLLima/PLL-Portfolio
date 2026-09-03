@@ -25,3 +25,8 @@ dist-ssr
 
 # AI Context
 .ai_context.md
+
+# Environment variables
+.env
+.env.*
+!.env.example
