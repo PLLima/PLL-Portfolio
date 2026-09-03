@@ -64,6 +64,7 @@ export default {
       'Leadership d\'équipe',
     ],
     achievementsList: [
+      { text: 'Participant au 3e Hack-Nation\'s Global AI Hackathon - Nov 2025', link: 'https://projects.hack-nation.ai/#/profile/cde4a53e-6578-4844-b351-6961e5a34359', linkText: 'Hack-Nation' },
       { text: 'Médaille de bronze au Concurso Canguru de Matemática Brasil 2018 et 2019', link: 'https://www.cangurudematematicabrasil.com.br/', linkText: 'Concurso Canguru de Matemática Brasil' },
       { text: 'Participant à Mostratec Júnior 2015 et 2016', link: 'https://mostratec.liberato.com.br/mostratec-junior/', linkText: 'Mostratec Júnior' },
     ],
