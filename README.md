@@ -141,7 +141,7 @@ npm run lint
 -   OG/Twitter meta tags
 -   JSON-LD schema
 -   Canonical tags
--   Multilingual sitemap and robots.txt
+-   Multilingual sitemap and robots.txt (PDF indexing disabled for privacy)
 
 > [!IMPORTANT]
 > When changing meta content, update meta component and Open Graph image; regenerate the social image if needed.

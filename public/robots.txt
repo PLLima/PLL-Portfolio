@@ -12,5 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /*.pdf$
 
 Sitemap: https://pllima.com/sitemap.xml
