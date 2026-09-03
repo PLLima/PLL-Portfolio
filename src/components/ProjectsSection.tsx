@@ -63,7 +63,7 @@ export function ProjectsSection() {
                   </h3>
 
                   <div className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow whitespace-pre-line">
-                    {project.description[currentLang]?.join('\n\n')}
+                    {project.briefDescription[currentLang]}
                   </div>
 
                   <ul className="flex flex-wrap gap-2" role="list" aria-label="Technologies used">

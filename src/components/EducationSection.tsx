@@ -20,7 +20,14 @@ export function EducationSection() {
 
   if (!profile) return null;
 
-  const degrees = profile.education.filter(edu => edu.metadata.showOnWebsite);
+  const degrees = profile.education
+    .filter(edu => edu.metadata.showOnWebsite)
+    .sort((a, b) => {
+      const aEnd = a.timeline.endDate ? new Date(a.timeline.endDate).getTime() : Infinity;
+      const bEnd = b.timeline.endDate ? new Date(b.timeline.endDate).getTime() : Infinity;
+      if (bEnd !== aEnd) return bEnd - aEnd;
+      return new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime();
+    });
 
   return (
     <section 

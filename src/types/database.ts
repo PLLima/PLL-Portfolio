@@ -99,6 +99,7 @@ export interface Project {
     coverImagePath: string;
   };
   name: LocalizedString;
+  briefDescription: LocalizedString;
   description: LocalizedArray;
   techStack: LocalizedArray;
 }

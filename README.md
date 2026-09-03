@@ -119,7 +119,7 @@ npm run lint
 
 -   `server/` --- Node.js scripts for fetching MongoDB data during build and serving the API in development.
 -   `src/hooks/usePortfolioData.ts` --- React Query hook to fetch dynamic profile data.
--   `src/types/database.ts` --- TypeScript interfaces for the MongoDB document structure.
+-   `src/types/database.ts` --- TypeScript interfaces for the MongoDB document structure. Note that `Projects` use a `briefDescription` field for the frontend display, while `description` is reserved for other outputs (like AI CV generation).
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
 -   `src/i18n/` --- static translations and i18n config.
 -   `tailwind.config.*` --- theming, custom colors, transitions.

@@ -14,8 +14,12 @@ export function ExperienceSection() {
 
   const jobs = profile.experiences
     .filter(exp => exp.metadata.showOnWebsite)
-    // Assuming the database is already sorted, otherwise we could sort by startDate descending
-    .sort((a, b) => new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime());
+    .sort((a, b) => {
+      const aEnd = a.timeline.endDate ? new Date(a.timeline.endDate).getTime() : Infinity;
+      const bEnd = b.timeline.endDate ? new Date(b.timeline.endDate).getTime() : Infinity;
+      if (bEnd !== aEnd) return bEnd - aEnd;
+      return new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime();
+    });
 
   return (
     <section 
