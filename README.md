@@ -178,3 +178,4 @@ The print stylesheet ensures: - Clean layout
 -  ✅ Update Tailwind tokens when changing brand colors
 -  ✅ Regenerate OG images when updating branding
 -  ✅ Keep the shortcuts modal aligned with actual shortcuts
+-  ✅ Note: The website experience section contains extra roles (e.g., Physics Tutor) omitted from the short PDF CV.

@@ -83,7 +83,7 @@ export default {
         company: 'IDE Jr.',
         companyUrl: 'https://idejr.com.br/',
         period: 'Jan 2024 – Presente',
-        location: 'Brasil',
+        location: 'Remoto, Brasil',
         description: [
           'Projetou e implantou sites corporativos full-stack e totalmente responsivos usando Next.js e React, entregando soluções digitais escaláveis que modernizaram a presença web dos clientes.',
           'Otimizou as operações internas gerenciando contratos sensíveis de funcionários e coordenando a logística de eventos corporativos.',
@@ -151,8 +151,8 @@ export default {
     doubleDegree: 'Programa de Duplo Diploma',
     doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a {centralesupelec} (França) e a {ufrgs} (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
     degrees: [
-      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Em andamento até 2028', country: 'França' },
-      { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Em andamento até 2028', country: 'Brasil' },
+      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Previsto para 2029', country: 'Gif-sur-Yvette, França' },
+      { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Previsto para 2029', country: 'Brasil' },
       { degree: 'Língua Francesa - Nível Intermediário', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Concluído em 2025', country: 'Brasil' },
       { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Concluído em 2023', country: 'Brasil' },
       { degree: 'Língua Inglesa - Proficiência', institution: 'Wizard by Pearson', institutionUrl: 'https://www.wizard.com.br/', period: 'Concluído em 2019', country: 'Brasil' },

@@ -83,7 +83,7 @@ export default {
         company: 'IDE Jr.',
         companyUrl: 'https://idejr.com.br/',
         period: 'Jan 2024 – Présent',
-        location: 'Brésil',
+        location: 'À distance, Brésil',
         description: [
           'Conçu et déployé des sites web d\'entreprise full-stack et entièrement responsifs en utilisant Next.js et React, offrant des solutions numériques évolutives qui ont modernisé la présence web des clients.',
           'Optimisé les opérations internes en gérant les contrats sensibles des employés et en coordonnant la logistique des événements d\'entreprise.',
@@ -151,8 +151,8 @@ export default {
     doubleDegree: 'Programme de double diplôme',
     doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
     degrees: [
-      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'En cours jusqu\'en 2028', country: 'France' },
-      { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'En cours jusqu\'en 2028', country: 'Brésil' },
+      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Prévu pour 2029', country: 'Gif-sur-Yvette, France' },
+      { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Prévu pour 2029', country: 'Brésil' },
       { degree: 'Langue française - niveau intermédiaire', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Terminé en 2025', country: 'Brésil' },
       { degree: 'Baccalauréat technique en électronique', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Terminé en 2023', country: 'Brésil' },
       { degree: 'Langue anglaise - maîtrise', institution: 'Wizard by Pearson', institutionUrl: 'https://www.wizard.com.br/', period: 'Terminé en 2019', country: 'Brésil' },
