@@ -30,7 +30,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
+      - name: Install server dependencies for build-time fetching
+        run: npm install --prefix server
+
+      - name: Build project (Fetches from MongoDB)
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
         run: npm run build
 
       - name: Upload build artifacts

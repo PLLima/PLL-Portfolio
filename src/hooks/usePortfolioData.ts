@@ -5,8 +5,10 @@ export const usePortfolioData = () => {
   return useQuery<Professional, Error>({
     queryKey: ['portfolioData'],
     queryFn: async () => {
-      // Fetch dynamic portfolio data from the Express backend via Vite proxy
-      const response = await fetch('/api/portfolio');
+      // In development, fetch from the live Express API.
+      // In production (GitHub Pages), fetch from the statically generated JSON file.
+      const url = import.meta.env.DEV ? '/api/portfolio' : '/data/portfolio.json';
+      const response = await fetch(url);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

@@ -31,7 +31,7 @@ sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
 light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
 support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
-fallback to guide users to the official PDF. The repo stores global constants in `profile.ts` while maintaining static UI text within `react-i18next` locale files. All dynamic profile content (About, Experience, Education, Projects, Skills) is fetched dynamically from a backend MongoDB database (`server/index.js`), which serves the localized data through an Express API. See the project feature overview for a complete breakdown.
+fallback to guide users to the official PDF. The repo stores global constants in `profile.ts` while maintaining static UI text within `react-i18next` locale files. All dynamic profile content (About, Experience, Education, Projects, Skills) is maintained in MongoDB and injected into the frontend using a **Build-Time Generation (SSG)** pattern. During the GitHub Actions build process, the data is fetched and compiled into static JSON, allowing the entire site to be hosted statically and securely on GitHub Pages without requiring a live backend. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------
 
@@ -61,8 +61,8 @@ fallback to guide users to the official PDF. The repo stores global constants in
 -   **Components:** shadcn/ui + Radix UI
 -   **Animations:** Framer Motion
 -   **I18n:** react-i18next + i18next-browser-languagedetector
--   **Backend:** Node.js, Express, MongoDB (Mongoose)
--   **State/Data Fetching:** React Query
+-   **Backend (Build-Time):** Node.js, Express (Dev only), MongoDB (Mongoose)
+-   **State/Data Fetching:** React Query (SSG mode)
 -   **Other:** Custom hooks (theme, language, keyboard nav)
 
 ------------------------------------------------------------------------
@@ -77,9 +77,9 @@ fallback to guide users to the official PDF. The repo stores global constants in
 npm install
 ```
 
-### Run the application
+### Run the application in Development (Live DB Fetching)
 
-The application requires both the Node.js backend and the Vite frontend to run simultaneously. Open two separate terminal windows.
+To edit your database and see live updates locally, you can run the Express API alongside the Vite dev server. Open two separate terminal windows:
 
 **Terminal 1 (Backend API):**
 ```bash
@@ -117,7 +117,7 @@ npm run lint
 > [!NOTE]
 > Quick map to help you remember where to change common items later.
 
--   `server/` --- Node.js Express backend and MongoDB Mongoose models.
+-   `server/` --- Node.js scripts for fetching MongoDB data during build and serving the API in development.
 -   `src/hooks/usePortfolioData.ts` --- React Query hook to fetch dynamic profile data.
 -   `src/types/database.ts` --- TypeScript interfaces for the MongoDB document structure.
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
@@ -202,10 +202,10 @@ The print stylesheet ensures: - Clean layout
 
 ## Deployment notes 📦
 
--   The frontend can be built as a static bundle using `npm run build`.
--   The backend API (`server/index.js`) must be deployed as a Node.js web service.
--   Ensure Vite proxy configuration or CORS headers match your production environments.
--   Update canonical URL and OG assets when deploying under a different domain.
+-   The frontend builds completely statically via `npm run build`.
+-   The build process automatically runs `node server/fetch-db.js` to dump the latest MongoDB data into the public folder.
+-   **GitHub Pages**: Fully supported! You MUST add a repository secret named `MONGODB_URI` so the GitHub Action can authenticate during the build step.
+-   **Cloudflare**: Because the output is entirely static HTML/JS/JSON, it caches perfectly on Cloudflare. No backend configuration needed.
 
 ------------------------------------------------------------------------
 
