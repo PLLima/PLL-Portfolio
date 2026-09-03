@@ -1,16 +1,8 @@
-import { Brain, Code, Server, Cpu, LucideIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
-
-const iconMap: Record<string, LucideIcon> = {
-  Brain,
-  Code,
-  Server,
-  Cpu,
-};
+import DynamicIcon from './DynamicIcon';
 
 const focusAreaKeys = ['ml', 'software', 'architecture', 'lowLevel'] as const;
-const iconKeys = ['Brain', 'Code', 'Server', 'Cpu'];
 
 export function AboutSection() {
   const { t } = useTranslation();
@@ -69,8 +61,7 @@ export function AboutSection() {
           {/* Focus Areas */}
           <div className="grid sm:grid-cols-2 gap-4" role="list" aria-label="Focus areas">
             {focusAreaKeys.map((key, index) => {
-              const Icon = iconMap[iconKeys[index]];
-              const area = t(`focusAreas.${key}`, { returnObjects: true }) as { title: string; description: string };
+              const area = t(`focusAreas.${key}`, { returnObjects: true }) as { title: string; description: string; icon: string };
               return (
                 <AnimatedItem key={key} delay={0.1 + index * 0.1}>
                   <article className="card-elevated p-6 group h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20" role="listitem">
@@ -78,7 +69,7 @@ export function AboutSection() {
                       className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                       aria-hidden="true"
                     >
-                      <Icon size={24} className="text-accent-foreground group-hover:text-primary-foreground" />
+                      <DynamicIcon name={area.icon} size={24} className="text-accent-foreground group-hover:text-primary-foreground" />
                     </div>
                     <h3 className="font-display text-lg font-semibold text-foreground mb-2">
                       {area.title}

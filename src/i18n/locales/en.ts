@@ -22,10 +22,10 @@ export default {
     bio: `Computer Engineering and Master of Engineering double degree student bridging advanced algorithmic problem-solving with scalable system architecture. Proven track record in full-stack enterprise web development, cloud AI integrations, and deploying complex time-series forecasting models. Strong foundation in low-level programming (C++), algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.`,
   },
   focusAreas: {
-    ml: { title: 'Machine Learning', description: 'Predictive Modeling & AI Integrations' },
-    software: { title: 'Software Engineering', description: 'Full-Stack Development & API Design' },
-    architecture: { title: 'System Architecture', description: 'Scalable, Distributed & Cloud Systems' },
-    lowLevel: { title: 'Low-Level Systems', description: 'C/C++, Algorithm Optimization & Real-Time Logic' },
+    ml: { title: 'Machine Learning', description: 'Predictive Modeling & AI Integrations', icon: 'brain' },
+    software: { title: 'Software Engineering', description: 'Full-Stack Development & API Design', icon: 'code' },
+    architecture: { title: 'System Architecture', description: 'Scalable, Distributed & Cloud Systems', icon: 'server' },
+    lowLevel: { title: 'Low-Level Systems', description: 'C/C++, Algorithm Optimization & Real-Time Logic', icon: 'cpu' },
   },
   skills: {
     title: 'Skills &',

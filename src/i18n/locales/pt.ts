@@ -22,10 +22,10 @@ export default {
     bio: `Estudante do duplo diploma em Engenharia de Computação e Master of Engineering, unindo a resolução avançada de problemas algorítmicos com arquitetura de sistemas escaláveis. Experiência comprovada em desenvolvimento web full-stack corporativo, integrações de IA em nuvem e implantação de modelos complexos de previsão de séries temporais. Forte base em programação de baixo nível (C++), design de algoritmos e estruturas de dados, buscando oportunidades em engenharia de software, análise quantitativa ou ciência de dados.`,
   },
   focusAreas: {
-    ml: { title: 'Aprendizado de Máquina', description: 'Modelagem Preditiva & Integrações de IA' },
-    software: { title: 'Engenharia de Software', description: 'Desenvolvimento Full-Stack & Design de APIs' },
-    architecture: { title: 'Arquitetura de Sistemas', description: 'Sistemas Escaláveis, Distribuídos & em Nuvem' },
-    lowLevel: { title: 'Sistemas de Baixo Nível', description: 'C/C++, Otimização de Algoritmos & Lógica em Tempo Real' },
+    ml: { title: 'Aprendizado de Máquina', description: 'Modelagem Preditiva & Integrações de IA', icon: 'brain' },
+    software: { title: 'Engenharia de Software', description: 'Desenvolvimento Full-Stack & Design de APIs', icon: 'code' },
+    architecture: { title: 'Arquitetura de Sistemas', description: 'Sistemas Escaláveis, Distribuídos & em Nuvem', icon: 'server' },
+    lowLevel: { title: 'Sistemas de Baixo Nível', description: 'C/C++, Otimização de Algoritmos & Lógica em Tempo Real', icon: 'cpu' },
   },
   skills: {
     title: 'Habilidades &',

@@ -22,10 +22,10 @@ export default {
     bio: `Étudiant en double diplôme en génie informatique et Master of Engineering, alliant la résolution avancée de problèmes algorithmiques à l'architecture de systèmes évolutifs. Expérience avérée dans le développement web full-stack d'entreprise, les intégrations d'IA cloud et le déploiement de modèles complexes de prévision de séries chronologiques. Solide base en programmation bas niveau (C++), conception d'algorithmes et structures de données, recherchant des opportunités en génie logiciel, analyse quantitative ou science des données.`,
   },
   focusAreas: {
-    ml: { title: 'Apprentissage automatique', description: 'Modélisation prédictive & intégrations d\'IA' },
-    software: { title: 'Génie logiciel', description: 'Développement full-stack & conception d\'API' },
-    architecture: { title: 'Architecture de systèmes', description: 'Systèmes évolutifs, distribués & cloud' },
-    lowLevel: { title: 'Systèmes bas niveau', description: 'C/C++, optimisation d\'algorithmes & logique en temps réel' },
+    ml: { title: 'Apprentissage automatique', description: 'Modélisation prédictive & intégrations d\'IA', icon: 'brain' },
+    software: { title: 'Génie logiciel', description: 'Développement full-stack & conception d\'API', icon: 'code' },
+    architecture: { title: 'Architecture de systèmes', description: 'Systèmes évolutifs, distribués & cloud', icon: 'server' },
+    lowLevel: { title: 'Systèmes bas niveau', description: 'C/C++, optimisation d\'algorithmes & logique en temps réel', icon: 'cpu' },
   },
   skills: {
     title: 'Compétences &',

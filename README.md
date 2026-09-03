@@ -110,7 +110,7 @@ npm run lint
 
 -   `src/profile.ts` --- centralized profile/content source.
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
--   `src/i18n/` --- translations and i18n config.
+-   `src/i18n/` --- translations and i18n config. Icons for focus areas are also configured here using lucide-react icon names.
 -   `tailwind.config.*` --- theming, custom colors, transitions.
 -   `public/` --- favicon, OG images, resume PDFs.
 -   `src/components/` --- UI pieces with animations and interactions.
