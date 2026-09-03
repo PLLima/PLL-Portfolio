@@ -152,7 +152,7 @@ export default {
     doubleDegree: 'Programme de double diplôme',
     doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
     degrees: [
-      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Prévu pour 2029', country: 'Gif-sur-Yvette, France' },
+      { degree: 'Diplôme d\'ingénieur', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Prévu pour 2029', country: 'France' },
       { degree: 'Licence en génie informatique', institution: 'Université Fédérale du Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Prévu pour 2029', country: 'Brésil' },
       { degree: 'Langue française - niveau intermédiaire', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Terminé en 2025', country: 'Brésil' },
       { degree: 'Baccalauréat technique en électronique', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Terminé en 2023', country: 'Brésil' },

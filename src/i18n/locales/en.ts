@@ -152,7 +152,7 @@ export default {
     doubleDegree: 'Double Degree Program',
     doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between {centralesupelec} (France) and {ufrgs} (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
     degrees: [
-      { degree: 'Master of Engineering', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Expected 2029', country: 'Gif-sur-Yvette, France' },
+      { degree: 'Master of Engineering', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Expected 2029', country: 'France' },
       { degree: 'Bachelor of Computer Engineering', institution: 'Federal University of Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Expected 2029', country: 'Brazil' },
       { degree: 'French Language - Intermediate Level', institution: 'Institute Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Completed 2025', country: 'Brazil' },
       { degree: 'High School Diploma - Electronics Technician', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Completed 2023', country: 'Brazil' },

@@ -152,7 +152,7 @@ export default {
     doubleDegree: 'Programa de Duplo Diploma',
     doubleDegreeDesc: 'Atualmente cursando um prestigioso Duplo Diploma entre a {centralesupelec} (França) e a {ufrgs} (Brasil), combinando o melhor da educação de engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
     degrees: [
-      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Previsto para 2029', country: 'Gif-sur-Yvette, França' },
+      { degree: 'Mestrado em Engenharia', institution: 'CentraleSupélec', institutionUrl: 'https://www.centralesupelec.fr/', period: 'Previsto para 2029', country: 'França' },
       { degree: 'Bacharelado em Engenharia de Computação', institution: 'Universidade Federal do Rio Grande do Sul (UFRGS)', institutionUrl: 'https://www.ufrgs.br/', period: 'Previsto para 2029', country: 'Brasil' },
       { degree: 'Língua Francesa - Nível Intermediário', institution: 'Instituto Roche', institutionUrl: 'https://www.institutoroche.com.br/', period: 'Concluído em 2025', country: 'Brasil' },
       { degree: 'Ensino Médio Técnico em Eletrônica', institution: 'Fundação Liberato', institutionUrl: 'https://www.liberato.com.br/', period: 'Concluído em 2023', country: 'Brasil' },
