@@ -31,8 +31,7 @@ sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
 light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
 support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
-fallback to guide users to the official PDF. The repo stores global constants in profile.ts while maintaining all text and content within react-i18next locale files
-for translations. Content is fetched dynamically from a backend MongoDB database (`server/index.js`), which serves the localized data through an Express API. See the project feature overview for a complete breakdown.
+fallback to guide users to the official PDF. The repo stores global constants in `profile.ts` while maintaining static UI text within `react-i18next` locale files. All dynamic profile content (About, Experience, Education, Projects, Skills) is fetched dynamically from a backend MongoDB database (`server/index.js`), which serves the localized data through an Express API. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------
 
@@ -63,7 +62,8 @@ for translations. Content is fetched dynamically from a backend MongoDB database
 -   **Animations:** Framer Motion
 -   **I18n:** react-i18next + i18next-browser-languagedetector
 -   **Backend:** Node.js, Express, MongoDB (Mongoose)
--   **Other:** Custom React Query hooks for data fetching, custom hooks (theme, language, keyboard nav)
+-   **State/Data Fetching:** React Query
+-   **Other:** Custom hooks (theme, language, keyboard nav)
 
 ------------------------------------------------------------------------
 
@@ -77,9 +77,17 @@ for translations. Content is fetched dynamically from a backend MongoDB database
 npm install
 ```
 
-### Dev server
+### Run the application
 
+The application requires both the Node.js backend and the Vite frontend to run simultaneously. Open two separate terminal windows.
+
+**Terminal 1 (Backend API):**
+```bash
+node server/index.js
 ```
+
+**Terminal 2 (Frontend Client):**
+```bash
 npm run dev
 ```
 
@@ -194,10 +202,10 @@ The print stylesheet ensures: - Clean layout
 
 ## Deployment notes 📦
 
--   Static export from `npm run build`
--   Ensure correct SPA fallback configuration
--   Update canonical URL and OG assets when deploying under a different
-    domain
+-   The frontend can be built as a static bundle using `npm run build`.
+-   The backend API (`server/index.js`) must be deployed as a Node.js web service.
+-   Ensure Vite proxy configuration or CORS headers match your production environments.
+-   Update canonical URL and OG assets when deploying under a different domain.
 
 ------------------------------------------------------------------------
 
