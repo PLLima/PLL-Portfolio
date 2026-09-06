@@ -187,7 +187,9 @@ The print stylesheet ensures: - Clean layout
 -   The frontend builds completely statically via `npm run build`.
 -   The build process automatically runs `node server/fetch-db.js` to dump the latest MongoDB data into the public folder.
 -   **GitHub Pages**: Fully supported! You MUST add a repository secret named `MONGODB_URI` so the GitHub Action can authenticate during the build step.
--   **Environment Variables**: You MUST define `VITE_PROFILE_PHOTO_URL`, `VITE_OG_IMAGE_URL`, `VITE_RESUME_EN_URL`, `VITE_RESUME_PT_BR_URL`, and `VITE_RESUME_FR_URL` in your `.env` (or CI secrets) pointing to your Cloudinary assets.
+-   **Environment Variables**: The project uses two environment files:
+    1.  `.env` (Public): Contains your Cloudinary asset URLs (`VITE_PROFILE_PHOTO_URL`, etc.). This file **is committed to Git** so the GitHub Actions runner can access these public URLs during the frontend build.
+    2.  `.env.local` (Private): Contains your sensitive database credentials (`MONGODB_URI`). This file is **ignored by Git** for security.
 -   **Cloudflare**: Because the output is entirely static HTML/JS/JSON, it caches perfectly on Cloudflare. No backend configuration needed.
 
 ------------------------------------------------------------------------
