@@ -37,7 +37,7 @@ export const usePortfolioData = () => {
         return obj;
       };
 
-      return mapPtBrToPt(rawData);
+      return mapPtBrToPt(rawData) as Professional;
     },
     // The portfolio data is relatively static during a session, 
     // so we can set a high staleTime to prevent unnecessary re-fetching.
