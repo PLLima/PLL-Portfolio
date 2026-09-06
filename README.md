@@ -1,7 +1,7 @@
 # PLL – Personal Portfolio 🎯
 
 *A production-ready portfolio website showcasing Pedro Lubaszewski Lima
-– Tech Leader & Computer Engineer.*
+– Software & Machine Learning Engineer.*
 
 ------------------------------------------------------------------------
 
@@ -123,35 +123,17 @@ npm run lint
 -   `src/hooks/` --- theme, language, motion, keyboard shortcuts.
 -   `src/i18n/` --- static translations and i18n config.
 -   `tailwind.config.*` --- theming, custom colors, transitions.
--   `public/` --- favicon, OG images, resume PDFs, profile photo.
+-   `public/` --- favicon and basic static assets. (Note: Resumes, profile photo, and OG images are hosted on Cloudinary, configured via `.env` and `src/config/assets.ts`).
 -   `src/components/` --- UI pieces with animations and interactions.
 
 ------------------------------------------------------------------------
 
-## Database Structure 🗄️
+## Documentation 📚
 
-The application uses a MongoDB NoSQL database with the following structure for dynamic data and localization:
+To maintain a clean repository structure, detailed documentation regarding our data and asset architecture is stored in the `docs/` folder.
 
-```json
-{
-  "_id": "UUID",
-  "name": "string",
-  "contact": { "email": "string", "phone": "string", "website": "string", "linkedin": "string", "github": "string" },
-  "location": { "en": "string", "pt-br": "string", "fr": "string" },
-  "metadata": { "profilePicturePath": "string", "defaultLanguage": "string" },
-  "i18n_strings": {
-    "tagline": { "en": "...", "pt-br": "...", "fr": "..." },
-    "about": { "en": "...", "pt-br": "...", "fr": "..." }
-  },
-  "focusAreas": [ { "icon": "string", "metadata": { "displayOrder": 1, "isActive": true }, "title": { ... }, "description": { ... } } ],
-  "skills": [ { "category": "hard_skill", "subCategory": "string", "proficiencyLevel": 5, "name": { ... } } ],
-  "languages": [ { "language": { ... }, "level": { ... } } ],
-  "experiences": [ { "title": { ... }, "company": { ... }, "timeline": { "startDate": "YYYY-MM", "endDate": null } } ],
-  "education": [ { "degree": { ... }, "institution": { ... }, "timeline": { "startDate": "YYYY-MM", "endDate": "YYYY-MM" } } ],
-  "projects": [ { "name": { ... }, "techStack": { ... } } ],
-  "achievements": [ { "title": { ... }, "issuer": { ... }, "dateIssued": ["YYYY-MM"] } ]
-}
-```
+- **[Database Structure 🗄️](docs/database-structure.md)**: Detailed schema for our MongoDB collections (`professionals`, `resumes`, `coverLetters`).
+- **[Cloudinary Asset Structure ☁️](docs/cloudinary-structure.md)**: Standardized folder patterns for static assets like profile pictures, OG images, and localized resumes/cover letters.
 
 ------------------------------------------------------------------------
 
@@ -205,6 +187,7 @@ The print stylesheet ensures: - Clean layout
 -   The frontend builds completely statically via `npm run build`.
 -   The build process automatically runs `node server/fetch-db.js` to dump the latest MongoDB data into the public folder.
 -   **GitHub Pages**: Fully supported! You MUST add a repository secret named `MONGODB_URI` so the GitHub Action can authenticate during the build step.
+-   **Environment Variables**: You MUST define `VITE_PROFILE_PHOTO_URL`, `VITE_OG_IMAGE_URL`, `VITE_RESUME_EN_URL`, `VITE_RESUME_PT_BR_URL`, and `VITE_RESUME_FR_URL` in your `.env` (or CI secrets) pointing to your Cloudinary assets.
 -   **Cloudflare**: Because the output is entirely static HTML/JS/JSON, it caches perfectly on Cloudflare. No backend configuration needed.
 
 ------------------------------------------------------------------------
