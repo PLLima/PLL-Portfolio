@@ -16,19 +16,20 @@ export const usePortfolioData = () => {
       const rawData = await response.json();
       
       // Recursively map 'pt-br' keys to 'pt' to match the frontend i18n language code
-      const mapPtBrToPt = (obj: any): any => {
+      const mapPtBrToPt = (obj: unknown): unknown => {
         if (Array.isArray(obj)) {
           return obj.map(mapPtBrToPt);
         } else if (obj !== null && typeof obj === 'object') {
-          const newObj: any = {};
-          for (const key in obj) {
+          const newObj: Record<string, unknown> = {};
+          const record = obj as Record<string, unknown>;
+          for (const key in record) {
             if (key === 'pt-br' || key === 'pt-BR') {
-              const mappedValue = mapPtBrToPt(obj[key]);
+              const mappedValue = mapPtBrToPt(record[key]);
               newObj['pt'] = mappedValue;
               newObj['pt-BR'] = mappedValue;
               newObj['pt-br'] = mappedValue;
             } else {
-              newObj[key] = mapPtBrToPt(obj[key]);
+              newObj[key] = mapPtBrToPt(record[key]);
             }
           }
           return newObj;

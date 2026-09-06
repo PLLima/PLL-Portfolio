@@ -29,7 +29,7 @@ export default {
   experience: {
     title: 'Professional',
     titleHighlight: 'Experience',
-    subtitle: 'A track record of diverse roles building towards tech leadership',
+    subtitle: 'A track record of diverse roles in software engineering and machine learning',
   },
   education: {
     title: 'Education &',

@@ -29,7 +29,7 @@ export default {
   experience: {
     title: 'Experiência',
     titleHighlight: 'Profissional',
-    subtitle: 'Um histórico de funções diversas construindo em direção à liderança tecnológica',
+    subtitle: 'Um histórico de funções diversas em engenharia de software e aprendizado de máquina',
   },
   education: {
     title: 'Formação &',

@@ -7,11 +7,12 @@ import { LanguageCode } from '@/types/database';
 
 import { Typewriter } from '@/components/Typewriter';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { assets } from '@/config/assets';
 
 const resumeUrls: Record<string, string> = {
-  en: '/Resume_EN.pdf',
-  pt: '/Curriculo_PT-BR.pdf',
-  fr: '/CV_FR.pdf',
+  en: assets.resumes.en,
+  pt: assets.resumes.pt,
+  fr: assets.resumes.fr,
 };
 
 export function HeroSection() {
@@ -32,6 +33,26 @@ export function HeroSection() {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   if (!profile) return null;
+
+  const handleDownload = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(currentResumeUrl);
+      if (!response.ok) throw new Error('Network response was not ok');
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = url;
+      a.download = currentLang === 'en' ? 'Resume_EN.pdf' : currentLang === 'pt' ? 'Curriculo_PT-BR.pdf' : 'CV_FR.pdf';
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Download failed, opening in new tab instead', error);
+      window.open(currentResumeUrl, '_blank');
+    }
+  };
 
   return (
     <section 
@@ -119,7 +140,7 @@ export function HeroSection() {
               </a>
               <a
                 href={currentResumeUrl}
-                download
+                onClick={handleDownload}
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
                 aria-label={t('accessibility.downloadResume')}
               >
@@ -204,7 +225,7 @@ export function HeroSection() {
               
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
-                  src={profile.metadata.profilePicturePath}
+                  src={assets.images.profilePhoto}
                   alt={`Portrait of ${profile.name}, a computer engineer wearing a professional suit`}
                   className="w-full h-full object-cover"
                 />

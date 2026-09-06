@@ -29,7 +29,7 @@ export default {
   experience: {
     title: 'Expérience',
     titleHighlight: 'professionnelle',
-    subtitle: 'Un parcours de rôles diversifiés vers le leadership technologique',
+    subtitle: 'Un parcours de rôles diversifiés en ingénierie logicielle et apprentissage automatique',
   },
   education: {
     title: 'Formation &',
