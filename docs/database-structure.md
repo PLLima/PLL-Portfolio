@@ -133,6 +133,7 @@
    - `targetLanguage`: string
    - `targetRole`: string
    - `targetCompany`: string
+   - `targetCountry`: string
    - `templateUsed`: string // e.g., "tech_financial_2026"
 - `contentRefs`: object (References to sub-document `_id`s inside the professional document)
    - `includedExperienceIds`: objectId[]
@@ -159,6 +160,7 @@
    - `targetLanguage`: string
    - `targetRole`: string
    - `targetCompany`: string
+   - `targetCountry`: string
    - `templateUsed`: string
 - `finalOutput`: object
    - `latexPromptContext`: string // Context + Job Description used

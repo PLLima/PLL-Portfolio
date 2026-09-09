@@ -179,6 +179,7 @@ export interface Resume {
     targetLanguage: LanguageCode;
     targetRole: string;
     targetCompany: string;
+    targetCountry: string;
     templateUsed: string;
   };
   contentRefs: {
@@ -204,6 +205,7 @@ export interface CoverLetter {
     targetLanguage: LanguageCode;
     targetRole: string;
     targetCompany: string;
+    targetCountry: string;
     templateUsed: string;
   };
   finalOutput: {
