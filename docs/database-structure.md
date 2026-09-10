@@ -120,6 +120,14 @@
    - `title`: LocalizedString
    - `issuer`: LocalizedString
 
+- `interests`: array of objects
+   - `_id`: objectId
+   - `title`: LocalizedString
+   - `description`: LocalizedString // Connection to soft skills
+   - `metadata`: object
+      - `showOnWebsite`: boolean
+      - `displayOrder`: integer
+
 ---
 
 ## Collection: resumes
@@ -142,6 +150,7 @@
    - `includedVolunteeringIds`: objectId[]
    - `includedAchievementIds`: objectId[]
    - `includedSkillIds`: objectId[]
+   - `includedInterestIds`: objectId[]
 - `finalOutput`: object
    - `latexPromptContext`: string
    - `rawLatexCode`: string

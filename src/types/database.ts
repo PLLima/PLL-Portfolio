@@ -132,6 +132,16 @@ export interface Achievement {
   issuer: LocalizedString;
 }
 
+export interface Interest {
+  _id: string;
+  title: LocalizedString;
+  description: LocalizedString;
+  metadata: {
+    showOnWebsite: boolean;
+    displayOrder: number;
+  };
+}
+
 // ==========================================
 // 3. MAIN DOCUMENT (The Professional)
 // ==========================================
@@ -165,6 +175,7 @@ export interface Professional {
   projects: Project[];
   volunteering: Volunteering[];
   achievements: Achievement[];
+  interests: Interest[];
 }
 
 // ==========================================
@@ -189,6 +200,7 @@ export interface Resume {
     includedVolunteeringIds: string[];
     includedAchievementIds: string[];
     includedSkillIds: string[];
+    includedInterestIds: string[];
   };
   finalOutput: {
     latexPromptContext: string;

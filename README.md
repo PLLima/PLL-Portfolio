@@ -31,7 +31,7 @@ sharing (Open Graph, Twitter Card, JSON-LD). Key features include a dual
 light/dark theme (accent color #A52834), typewriter effects, and
 micro-interactions, Framer Motion animations with prefers-reduced-motion
 support, a keyboard shortcut system (Alt+1..6, ?, Ctrl+P to print CV PDF), and a print warning
-fallback to guide users to the official PDF. The repo stores global constants in `profile.ts` while maintaining static UI text within `react-i18next` locale files. All dynamic profile content (About, Experience, Education, Projects, Skills) is maintained in MongoDB and injected into the frontend using a **Build-Time Generation (SSG)** pattern. During the GitHub Actions build process, the data is fetched and compiled into static JSON, allowing the entire site to be hosted statically and securely on GitHub Pages without requiring a live backend. See the project feature overview for a complete breakdown.
+fallback to guide users to the official PDF. The repo stores global constants in `profile.ts` while maintaining static UI text within `react-i18next` locale files. All dynamic profile content (About, Experience, Education, Projects, Skills, Interests) is maintained in MongoDB and injected into the frontend using a **Build-Time Generation (SSG)** pattern. During the GitHub Actions build process, the data is fetched and compiled into static JSON, allowing the entire site to be hosted statically and securely on GitHub Pages without requiring a live backend. See the project feature overview for a complete breakdown.
 
 ------------------------------------------------------------------------
 
