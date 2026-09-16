@@ -44,3 +44,4 @@ portfolio/
 ## Notes:
 - Resumes and Cover Letters are uploaded to Cloudinary using `resource_type="raw"` to ensure direct PDF downloads.
 - Timestamps use a 24-hour format (`hh-min-ss`) to guarantee unique chronological sorting.
+- Cloudinary URLs configured in `.env` or stored in the database should **not** include version numbers (e.g., avoid `/v123456789/`) to maintain consistency and simple direct links.
