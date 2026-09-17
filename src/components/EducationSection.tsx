@@ -136,7 +136,7 @@ export function EducationSection() {
                     </p>
                   )}
                   <time className="text-xs text-primary font-medium mt-3 block">
-                    {formatEducationYear(edu.timeline.endDate || null, edu.metadata.ongoing || false, currentLang)}
+                    {formatEducationYear(edu.timeline.endDate || null, edu.timeline.courseworkEndDate, edu.metadata.ongoing || false, currentLang)}
                   </time>
                 </article>
               </li>
