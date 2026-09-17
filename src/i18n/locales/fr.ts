@@ -10,8 +10,8 @@ export default {
   hero: {
     title: 'Étudiant en génie informatique',
     getInTouch: 'Me contacter',
-    downloadCV: 'Télécharger CV',
-    scrollToExplore: 'Défiler pour explorer',
+    downloadCV: 'Télécharger le CV',
+    scrollToExplore: 'Faire défiler pour explorer',
   },
   about: {
     title: 'Qui',
@@ -21,7 +21,7 @@ export default {
   skills: {
     title: 'Compétences &',
     titleHighlight: 'expertise',
-    subtitle: 'Un mélange de compétence technique et de capacités interpersonnelles',
+    subtitle: 'Un mélange de compétences techniques et de capacités interpersonnelles',
     technical: 'Compétences techniques',
     soft: 'Compétences relationnelles',
     achievements: 'Réalisations',
@@ -29,14 +29,14 @@ export default {
   experience: {
     title: 'Expérience',
     titleHighlight: 'professionnelle',
-    subtitle: 'Un parcours de rôles diversifiés en ingénierie logicielle et apprentissage automatique',
+    subtitle: 'Un parcours riche en rôles diversifiés en ingénierie logicielle et apprentissage automatique',
   },
   education: {
     title: 'Formation &',
     titleHighlight: 'expérience internationale',
-    subtitle: 'Un parcours éducatif mondial couvrant plusieurs pays et disciplines',
+    subtitle: 'Un parcours académique international couvrant plusieurs pays et disciplines',
     doubleDegree: 'Programme de double diplôme',
-    doubleDegreeDesc: 'Poursuivant actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de l\'éducation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
+    doubleDegreeDesc: 'Je prépare actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de la formation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
   },
   projects: {
     title: 'Projets',
@@ -47,7 +47,7 @@ export default {
   contact: {
     title: 'Restons en',
     titleHighlight: 'contact',
-    subtitle: 'Intéressé à discuter d\'opportunités ou de collaboration ? J\'aimerais avoir de vos nouvelles.',
+    subtitle: 'Vous souhaitez discuter d\'opportunités ou d\'une collaboration ? N\'hésitez pas à me contacter.',
     email: 'E-mail',
     location: 'Localisation',
     findOnline: 'Retrouvez-moi en ligne',

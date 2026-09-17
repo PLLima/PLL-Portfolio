@@ -64,7 +64,7 @@ export default {
     pressEsc: 'Press Esc or ? to close',
   },
   print: {
-    title: 'Please Download the PDF CV',
+    title: 'Please download the PDF CV',
     message: 'To print the beautifully formatted CV, please download it using the "Download CV" button on the website, or press Ctrl+P (Cmd+P on Mac) on your keyboard while viewing the site.',
   },
   accessibility: {

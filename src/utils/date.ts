@@ -9,8 +9,9 @@ const localeMap: Record<string, string> = {
 const formatMonthYear = (yearMonth: string, lang: string): string => {
   const [year, month] = yearMonth.split('-');
   const date = new Date(parseInt(year), parseInt(month) - 1, 1);
+  const normalizedLang = lang.toLowerCase();
   
-  const formatter = new Intl.DateTimeFormat(localeMap[lang] || 'en-US', {
+  const formatter = new Intl.DateTimeFormat(localeMap[normalizedLang] || 'en-US', {
     month: 'short',
     year: 'numeric'
   });
@@ -45,11 +46,11 @@ export const formatDateRange = ({ startDate, endDate, ongoing, lang }: DateRange
   if (!endDate || ongoing) {
     const presentMap: Record<string, string> = {
       en: 'Present',
-      fr: 'Présent',
-      pt: 'Presente',
-      'pt-br': 'Presente'
+      fr: 'Aujourd\'hui',
+      pt: 'Atualmente',
+      'pt-br': 'Atualmente'
     };
-    const presentStr = presentMap[lang] || 'Present';
+    const presentStr = presentMap[lang.toLowerCase()] || 'Present';
     return `${startFormatted} – ${presentStr}`;
   }
 
@@ -70,22 +71,28 @@ export const formatAchievementYears = (dates: string[]): string => {
   return `${years.join(', ')} & ${lastYear}`;
 };
 
-export const formatEducationYear = (endDate: string | null, ongoing: boolean, lang: string): string => {
+export const formatEducationYear = (endDate: string | null, courseworkEndDate: string | null | undefined, ongoing: boolean, lang: string): string => {
   const isOngoing = ongoing || !endDate;
   const year = endDate ? endDate.split('-')[0] : new Date().getFullYear().toString(); // Default if ongoing and no end date
+  const courseworkYear = courseworkEndDate ? courseworkEndDate.split('-')[0] : null;
 
-  const statusMap: Record<string, { completed: string, expected: string }> = {
-    en: { completed: 'Completed:', expected: 'Expected:' },
-    fr: { completed: 'Diplôme obtenu :', expected: 'Diplôme attendu :' },
-    pt: { completed: 'Concluído:', expected: 'Previsão:' },
-    'pt-br': { completed: 'Concluído:', expected: 'Previsão:' }
+  const statusMap: Record<string, { completed: string, expected: string, coursework: string, officialDegree: string }> = {
+    en: { completed: 'Completed:', expected: 'Expected:', coursework: 'Coursework Completion:', officialDegree: 'Official Degree:' },
+    fr: { completed: 'Diplôme obtenu :', expected: 'Diplôme attendu :', coursework: 'Fin des cours :', officialDegree: 'Diplôme officiel :' },
+    pt: { completed: 'Concluído:', expected: 'Previsão:', coursework: 'Conclusão das disciplinas:', officialDegree: 'Diploma oficial:' },
+    'pt-br': { completed: 'Concluído:', expected: 'Previsão:', coursework: 'Conclusão das disciplinas:', officialDegree: 'Diploma oficial:' }
   };
 
-  const statusTexts = statusMap[lang] || statusMap['en'];
+  const statusTexts = statusMap[lang.toLowerCase()] || statusMap['en'];
   
-  if (isOngoing) {
-    return `${statusTexts.expected} ${year}`;
-  } else {
-    return `${statusTexts.completed} ${year}`;
+  let mainStatus = isOngoing ? `${statusTexts.expected} ${year}` : `${statusTexts.completed} ${year}`;
+
+  if (courseworkYear && courseworkYear !== year) {
+    if (isOngoing) {
+      mainStatus = `${statusTexts.officialDegree} ${year}`;
+    }
+    return `${statusTexts.coursework} ${courseworkYear} • ${mainStatus}`;
   }
+
+  return mainStatus;
 };
