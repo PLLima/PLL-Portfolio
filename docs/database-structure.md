@@ -73,7 +73,8 @@
    - `institutionUrl`: string
    - `timeline`: object
       - `startDate`: YearMonth
-      - `endDate`: YearMonth
+      - `courseworkEndDate`: YearMonth | null // null indicates not applicable
+      - `endDate`: YearMonth | null
    - `metadata`: object
       - `ongoing`: boolean
       - `showOnWebsite`: boolean

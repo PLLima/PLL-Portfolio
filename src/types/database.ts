@@ -73,7 +73,8 @@ export interface Education {
   institutionUrl: string;
   timeline: {
     startDate: YearMonth;
-    endDate: YearMonth;
+    courseworkEndDate?: YearMonth | null;
+    endDate: YearMonth | null;
   };
   metadata: {
     ongoing: boolean;
