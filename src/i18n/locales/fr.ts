@@ -37,6 +37,10 @@ export default {
     subtitle: 'Un parcours académique international couvrant plusieurs pays et disciplines',
     doubleDegree: 'Programme de double diplôme',
     doubleDegreeDesc: 'Je prépare actuellement un prestigieux double diplôme entre {centralesupelec} (France) et l\'{ufrgs} (Brésil), combinant le meilleur de la formation en ingénierie européenne et sud-américaine avec une perspective globale sur la technologie et l\'innovation.',
+    concurrentDegree: 'Double diplôme',
+    concurrentCourse: 'Formation simultanée',
+    completed: 'Diplôme obtenu :',
+    expected: 'Diplôme attendu :',
   },
   projects: {
     title: 'Projets',

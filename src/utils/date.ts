@@ -71,28 +71,20 @@ export const formatAchievementYears = (dates: string[]): string => {
   return `${years.join(', ')} & ${lastYear}`;
 };
 
-export const formatEducationYear = (endDate: string | null, courseworkEndDate: string | null | undefined, ongoing: boolean, lang: string): string => {
-  const isOngoing = ongoing || !endDate;
-  const year = endDate ? endDate.split('-')[0] : new Date().getFullYear().toString(); // Default if ongoing and no end date
-  const courseworkYear = courseworkEndDate ? courseworkEndDate.split('-')[0] : null;
+export interface EducationStatusTexts {
+  completed: string;
+  expected: string;
+}
 
-  const statusMap: Record<string, { completed: string, expected: string, coursework: string, officialDegree: string }> = {
-    en: { completed: 'Completed:', expected: 'Expected:', coursework: 'Coursework Completion:', officialDegree: 'Official Degree:' },
-    fr: { completed: 'Diplôme obtenu :', expected: 'Diplôme attendu :', coursework: 'Fin des cours :', officialDegree: 'Diplôme officiel :' },
-    pt: { completed: 'Concluído:', expected: 'Previsão:', coursework: 'Conclusão das disciplinas:', officialDegree: 'Diploma oficial:' },
-    'pt-br': { completed: 'Concluído:', expected: 'Previsão:', coursework: 'Conclusão das disciplinas:', officialDegree: 'Diploma oficial:' }
-  };
+export const formatEducationYear = (
+  dateToDisplay: string | null,
+  ongoing: boolean,
+  lang: string,
+  statusTexts: EducationStatusTexts
+): string => {
+  const isOngoing = ongoing || !dateToDisplay;
+  const targetDate = dateToDisplay ? dateToDisplay : new Date().toISOString().slice(0, 7);
+  const formattedDate = formatMonthYear(targetDate, lang);
 
-  const statusTexts = statusMap[lang.toLowerCase()] || statusMap['en'];
-  
-  let mainStatus = isOngoing ? `${statusTexts.expected} ${year}` : `${statusTexts.completed} ${year}`;
-
-  if (courseworkYear && courseworkYear !== year) {
-    if (isOngoing) {
-      mainStatus = `${statusTexts.officialDegree} ${year}`;
-    }
-    return `${statusTexts.coursework} ${courseworkYear} • ${mainStatus}`;
-  }
-
-  return mainStatus;
+  return isOngoing ? `${statusTexts.expected} ${formattedDate}` : `${statusTexts.completed} ${formattedDate}`;
 };

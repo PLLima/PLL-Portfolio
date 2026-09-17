@@ -37,6 +37,10 @@ export default {
     subtitle: 'A global educational journey spanning multiple countries and disciplines',
     doubleDegree: 'Double Degree Program',
     doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between {centralesupelec} (France) and {ufrgs} (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
+    concurrentDegree: 'Double Degree',
+    concurrentCourse: 'Concurrent Course',
+    completed: 'Completed:',
+    expected: 'Expected:',
   },
   projects: {
     title: 'Featured',

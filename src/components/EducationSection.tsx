@@ -29,6 +29,61 @@ export function EducationSection() {
       return new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime();
     });
 
+  // Group active degrees by type to find the ATS Anchor
+  const activeDegreesByType = new Map<string, any[]>();
+  degrees.forEach(edu => {
+    if (edu.metadata.ongoing && edu.metadata.type) {
+      const arr = activeDegreesByType.get(edu.metadata.type) || [];
+      arr.push(edu);
+      activeDegreesByType.set(edu.metadata.type, arr);
+    }
+  });
+
+  const anchorIds = new Set<string>();
+  const anchorDisplayDates = new Map<string, string>(); // edu._id -> date string to display
+
+  activeDegreesByType.forEach((typeDegrees) => {
+    const now = Date.now();
+    
+    // For each degree, find its EAM (Earliest Approaching Milestone)
+    const getEAMInfo = (edu: any) => {
+      let milestones = [];
+      if (edu.timeline.courseworkEndDate) milestones.push(edu.timeline.courseworkEndDate);
+      if (edu.timeline.endDate) milestones.push(edu.timeline.endDate);
+      
+      let approaching = milestones.filter((d: string) => new Date(d).getTime() > now);
+      if (approaching.length > 0) {
+        // Sort to get the earliest approaching
+        approaching.sort((a: string, b: string) => new Date(a).getTime() - new Date(b).getTime());
+        return { dateStr: approaching[0], ms: new Date(approaching[0]).getTime() };
+      }
+      // If all are in the past, return the latest one (most recent)
+      if (milestones.length > 0) {
+        milestones.sort((a: string, b: string) => new Date(b).getTime() - new Date(a).getTime());
+        return { dateStr: milestones[0], ms: new Date(milestones[0]).getTime() };
+      }
+      return { dateStr: null, ms: Infinity };
+    };
+
+    const eamInfos = typeDegrees.map(edu => ({
+      edu,
+      info: getEAMInfo(edu)
+    }));
+
+    // Find the minimum EAM ms across all entries in this type
+    const globalEamMs = Math.min(...eamInfos.map(e => e.info.ms));
+
+    // Any entry that shares this minimum EAM becomes an anchor and displays that milestone
+    eamInfos.forEach(e => {
+      if (e.info.ms === globalEamMs && e.info.ms !== Infinity) {
+        anchorIds.add(e.edu._id);
+        if (e.info.dateStr) {
+          anchorDisplayDates.set(e.edu._id, e.info.dateStr);
+        }
+      }
+    });
+  });
+
   return (
     <section 
       id="education" 
@@ -136,7 +191,26 @@ export function EducationSection() {
                     </p>
                   )}
                   <time className="text-xs text-primary font-medium mt-3 block">
-                    {formatEducationYear(edu.timeline.endDate || null, edu.timeline.courseworkEndDate, edu.metadata.ongoing || false, currentLang)}
+                    {(() => {
+                      const isOngoing = edu.metadata.ongoing || false;
+                      const isOmitted = isOngoing && edu.metadata.type && !anchorIds.has(edu._id);
+                      if (isOmitted) {
+                        return edu.metadata.type === 'degree' 
+                          ? t('education.concurrentDegree') 
+                          : t('education.concurrentCourse');
+                      }
+                      
+                      const statusTexts = {
+                        completed: t('education.completed'),
+                        expected: t('education.expected'),
+                      };
+                      
+                      const dateToDisplay = isOngoing && anchorDisplayDates.has(edu._id) 
+                          ? (anchorDisplayDates.get(edu._id) || null)
+                          : (edu.timeline.endDate || null);
+                      
+                      return formatEducationYear(dateToDisplay, isOngoing, currentLang, statusTexts);
+                    })()}
                   </time>
                 </article>
               </li>

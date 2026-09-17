@@ -37,6 +37,10 @@ export default {
     subtitle: 'Uma jornada educacional global abrangendo múltiplos países e disciplinas',
     doubleDegree: 'Programa de duplo diploma',
     doubleDegreeDesc: 'Atualmente cursando um prestigioso duplo diploma entre a {centralesupelec} (França) e a {ufrgs} (Brasil), combinando o melhor da formação em engenharia europeia e sul-americana com uma perspectiva global sobre tecnologia e inovação.',
+    concurrentDegree: 'Duplo Diploma',
+    concurrentCourse: 'Curso Simultâneo',
+    completed: 'Concluído:',
+    expected: 'Previsão:',
   },
   projects: {
     title: 'Projetos',
