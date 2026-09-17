@@ -42,7 +42,7 @@ export function SkillsSection() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Hard Skills */}
           <AnimatedItem delay={0.1}>
-            <article className="card-elevated p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
+            <article className="card-elevated flex flex-col p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center" aria-hidden="true">
                   <Wrench size={20} className="text-primary" />
@@ -51,7 +51,7 @@ export function SkillsSection() {
                   {t('skills.technical')}
                 </h3>
               </div>
-              <ul className="flex flex-wrap gap-2" role="list">
+              <ul className="flex flex-wrap gap-2 my-auto" role="list">
                 {hardSkills.map((skill) => (
                   <li
                     key={skill._id}
@@ -66,7 +66,7 @@ export function SkillsSection() {
 
           {/* Soft Skills */}
           <AnimatedItem delay={0.2}>
-            <article className="card-elevated p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
+            <article className="card-elevated flex flex-col p-6 sm:p-8 h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center" aria-hidden="true">
                   <Users size={20} className="text-primary" />
@@ -75,7 +75,7 @@ export function SkillsSection() {
                   {t('skills.soft')}
                 </h3>
               </div>
-              <ul className="flex flex-wrap gap-2" role="list">
+              <ul className="flex flex-wrap gap-2 my-auto" role="list">
                 {softSkills.map((skill) => (
                   <li
                     key={skill._id}
