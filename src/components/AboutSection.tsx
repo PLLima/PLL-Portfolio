@@ -3,6 +3,7 @@ import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import DynamicIcon from './DynamicIcon';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode } from '@/types/database';
+import { formatTextWithEmphasis } from '@/utils/formatText';
 
 export function AboutSection() {
   const { t, i18n } = useTranslation();
@@ -79,7 +80,7 @@ export function AboutSection() {
                     {area.title[currentLang]}
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    {area.description[currentLang]}
+                    {formatTextWithEmphasis(area.description[currentLang])}
                   </p>
                 </article>
               </AnimatedItem>

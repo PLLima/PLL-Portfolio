@@ -4,6 +4,7 @@ import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode } from '@/types/database';
 import { formatDateRange } from '@/utils/date';
+import { formatTextWithEmphasis } from '@/utils/formatText';
 
 export function ExperienceSection() {
   const { t, i18n } = useTranslation();
@@ -101,7 +102,7 @@ export function ExperienceSection() {
                         {exp.description[currentLang]?.map((item, i) => (
                           <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                             <span className="text-primary mt-1.5" aria-hidden="true">•</span>
-                            <span>{item}</span>
+                            <span>{formatTextWithEmphasis(item)}</span>
                           </li>
                         ))}
                       </ul>

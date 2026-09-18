@@ -543,16 +543,16 @@
       },
       "description": {
         "en": [
-          "Architected and deployed fully responsive, full-stack corporate websites using Next.js and React, delivering scalable digital solutions that modernized client web presence.",
-          "Streamlined internal operations by managing sensitive employee contracts and coordinating logistics for corporate events."
+          "Architected a fully responsive, full-stack portfolio website for a legal firm using *Next.js* and *React*, integrating the *Google Maps API* and secure contact forms to *centralize 120+ legal processes*.",
+          "Conducted qualitative HR assessments and feedback cycles, actively monitoring team dynamics to *resolve internal bottlenecks* and maintain operational efficiency."
         ],
         "pt-br": [
-          "Projetei e implantei sites corporativos full-stack e totalmente responsivos usando Next.js e React, entregando soluções digitais escaláveis que modernizaram a presença web dos clientes.",
-          "Otimizei as operações internas gerenciando contratos sensíveis de funcionários e coordenando a logística de eventos corporativos."
+          "Arquitetei um site de portfólio full-stack totalmente responsivo para um escritório de advocacia usando *Next.js* e *React*, integrando a *API do Google Maps* e formulários seguros para *centralizar mais de 120 processos legais*.",
+          "Conduzi avaliações qualitativas de RH e ciclos de feedback, monitorando ativamente a dinâmica da equipe para *resolver gargalos internos* e manter a eficiência operacional."
         ],
         "fr": [
-          "Conception et déploiement de sites web d'entreprise full-stack et entièrement responsifs en utilisant Next.js et React, offrant des solutions numériques évolutives qui ont modernisé la présence web des clients.",
-          "Optimisation des opérations internes en gérant les contrats sensibles des employés et en coordonnant la logistique des événements d'entreprise."
+          "Conception d'un site web de portfolio full-stack entièrement responsif pour un cabinet d'avocats utilisant *Next.js* et *React*, intégrant l'*API Google Maps* et des formulaires sécurisés pour *centraliser plus de 120 processus juridiques*.",
+          "Réalisation d'évaluations RH qualitatives et de cycles de feedback, avec surveillance active de la dynamique d'équipe pour *résoudre les goulots d'étranglement internes* et maintenir l'efficacité opérationnelle."
         ]
       }
     },
@@ -588,16 +588,16 @@
       },
       "description": {
         "en": [
-          "Instructed incoming international students in the Modeling and Control of Dynamic Systems, translating complex mathematical control theory into accessible, pedagogical course materials.",
-          "Collaborated within a 3-person technical instructional team to author and present comprehensive curriculum slides and practical problem sets."
+          "Instructed CentraleSupélec's incoming international students at CAVILAM (Alliance Française, Vichy), *co-leading 15 intensive sessions* over 4 weeks on the Modeling and Control of Dynamic Systems.",
+          "Authored *65+ comprehensive curriculum documents* (including slides, exercise sheets, and interactive assessments), *accelerating student onboarding* for 1/3 of the Modeling course."
         ],
         "pt-br": [
-          "Instruí novos estudantes internacionais em Modelagem e Controle de Sistemas Dinâmicos, traduzindo teorias matemáticas complexas de controle em materiais pedagógicos acessíveis.",
-          "Colaborei em uma equipe técnica de três pessoas para elaborar e apresentar slides de currículo abrangentes e conjuntos de problemas práticos."
+          "Instruí estudantes internacionais ingressantes da CentraleSupélec no CAVILAM (Alliance Française, Vichy), *co-liderando 15 sessões intensivas* ao longo de 4 semanas sobre Modelagem e Controle de Sistemas Dinâmicos.",
+          "Elaborei *mais de 65 documentos curriculares abrangentes* (incluindo slides, listas de exercícios e avaliações interativas), *acelerando a integração dos alunos* em 1/3 do curso de Modelagem."
         ],
         "fr": [
-          "Enseignement de la modélisation et du contrôle des systèmes dynamiques aux nouveaux étudiants internationaux, traduisant des théories mathématiques complexes en supports de cours pédagogiques.",
-          "Collaboration au sein d'une équipe pédagogique technique de 3 personnes pour rédiger et présenter des diapositives de cours complètes et des problèmes pratiques."
+          "Enseignement aux étudiants internationaux entrants de CentraleSupélec au CAVILAM (Alliance Française, Vichy), avec *co-animation de 15 sessions intensives* sur 4 semaines portant sur la modélisation et la commande des systèmes dynamiques.",
+          "Rédaction de *plus de 65 documents de cours* (diapositives, fiches d'exercices et évaluations interactives), *accélérant l'intégration des étudiants* sur un tiers du cours de Modélisation."
         ]
       }
     },
@@ -634,13 +634,16 @@
       },
       "description": {
         "en": [
-          "Directed weekly laboratory sessions for undergraduate engineering students, debugging complex C programming code and reinforcing advanced algorithmic problem-solving techniques."
+          "Managed *50% of the instructional duties* for 10+ laboratory classes, guiding 15+ multidisciplinary STEM students through complex *C programming* concepts.",
+          "Debugged student code and reinforced foundational data structures, memory management, and recursive functions, *directly improving academic performance*."
         ],
         "pt-br": [
-          "Dirigi sessões práticas semanais em laboratório para estudantes de graduação em engenharia, depurando códigos complexos em C e reforçando técnicas avançadas de resolução de problemas algorítmicos."
+          "Gerenciei *50% das responsabilidades de instrução* em mais de 10 aulas de laboratório, orientando mais de 15 estudantes multidisciplinares de STEM em conceitos complexos de *programação em C*.",
+          "Depurei códigos de alunos e reforcei estruturas de dados fundamentais, gerenciamento de memória e funções recursivas, *melhorando diretamente o desempenho acadêmico*."
         ],
         "fr": [
-          "Direction de sessions de laboratoire hebdomadaires pour des étudiants en ingénierie, déboguant des codes complexes en C et renforçant les techniques avancées de résolution de problèmes."
+          "Gestion de *50 % des tâches d'enseignement* pour plus de 10 séances de travaux pratiques, encadrant plus de 15 étudiants de filières scientifiques sur des concepts complexes de *programmation en C*.",
+          "Débogage du code des étudiants et renforcement des connaissances fondamentales en structures de données, gestion de la mémoire et fonctions récursives, *améliorant directement les résultats académiques*."
         ]
       }
     },
@@ -675,16 +678,16 @@
       },
       "description": {
         "en": [
-          "Taught and assisted students in Electromagnetism studies.",
-          "Supported students in physics, mathematics, and engineering courses."
+          "Directed *72+ intensive tutoring shifts* over 18 weeks, providing targeted instruction in Electromagnetism to undergraduate engineering cohorts.",
+          "Guided students through the resolution and internalization of *50+ complex physics problems*, strengthening core analytical capabilities."
         ],
         "pt-br": [
-          "Ensinei e auxiliei estudantes em estudos de Eletromagnetismo.",
-          "Apoiei estudantes em cursos de física, matemática e engenharia."
+          "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, fornecendo instrução direcionada em Eletromagnetismo para turmas de graduação em engenharia.",
+          "Orientei os alunos na resolução e internalização de *mais de 50 problemas complexos de física*, fortalecendo capacidades analíticas centrais."
         ],
         "fr": [
-          "Enseignement et assistance aux étudiants en études d'électromagnétisme.",
-          "Soutien aux étudiants en physique, mathématiques et ingénierie."
+          "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, dispensant un enseignement ciblé en électromagnétisme aux promotions d'étudiants en ingénierie.",
+          "Accompagnement des étudiants dans la résolution et l'assimilation de *plus de 50 problèmes de physique complexes*, renforçant leurs capacités analytiques de base."
         ]
       }
     },
@@ -719,13 +722,13 @@
       },
       "description": {
         "en": [
-          "Participated at IDE Junior Enterprise's Trainee Program."
+          "Shadowed 10+ HR professionals to *streamline internal bureaucracy*, centralizing documentation workflows utilizing *Notion and Google Drive*."
         ],
         "pt-br": [
-          "Participei do Programa de Trainees da Empresa Júnior IDE."
+          "Acompanhei mais de 10 profissionais de RH para *otimizar a burocracia interna*, centralizando fluxos de trabalho de documentação utilizando *Notion e Google Drive*."
         ],
         "fr": [
-          "Participation au programme de formation de l'entreprise junior IDE."
+          "Suivi de plus de 10 professionnels des RH pour *optimiser la bureaucratie interne*, centralisant les flux de documentation via *Notion et Google Drive*."
         ]
       }
     },
@@ -764,16 +767,16 @@
       },
       "description": {
         "en": [
-          "Optimized embedded software systems for 3D mapping UAVs, refining spatial data processing algorithms to ensure high-fidelity environmental capture.",
-          "Researched and facilitated the technical implementation of Information-Centric Networks (ICNs) to enhance network routing protocols."
+          "Dedicated *360+ hours* to researching embedded software systems for 3D mapping UAVs, utilizing *ROS Noetic, PX4 Autopilot, and Gazebo simulations*.",
+          "Authored and presented comprehensive technical findings to an academic commission at the *2023 UFRGS Scientific Initiation Exhibition*."
         ],
         "pt-br": [
-          "Otimizei sistemas de software embarcado para UAVs de mapeamento 3D, refinando algoritmos de processamento de dados espaciais para garantir captura ambiental de alta fidelidade.",
-          "Pesquisei e facilitei a implementação técnica de Redes Centradas na Informação (ICNs) para melhorar protocolos de roteamento de redes."
+          "Dediquei *mais de 360 horas* à pesquisa de sistemas de software embarcado para VANTs de mapeamento 3D, utilizando *ROS Noetic, PX4 Autopilot e simulações no Gazebo*.",
+          "Elaborei e apresentei descobertas técnicas detalhadas para uma comissão acadêmica no *Salão de Iniciação Científica da UFRGS de 2023*."
         ],
         "fr": [
-          "Optimisation de systèmes de logiciels embarqués pour les UAV de cartographie 3D, affinant les algorithmes de traitement de données spatiales pour assurer une capture haute fidélité.",
-          "Recherche et facilitation de la mise en œuvre technique des réseaux centrés sur l'information (ICN) pour améliorer les protocoles de routage réseau."
+          "Investissement de *plus de 360 heures* à la recherche sur les systèmes de logiciels embarqués pour les drones de cartographie 3D, utilisant *ROS Noetic, PX4 Autopilot et les simulations Gazebo*.",
+          "Rédaction et présentation de conclusions techniques détaillées devant une commission académique lors du *Salon d'Initiation Scientifique de l'UFRGS 2023*."
         ]
       }
     },
@@ -811,25 +814,19 @@
       },
       "description": {
         "en": [
-          "Engineered and deployed a portable automated testing station for synchronous machines, establishing direct hardware-software integration to accelerate component evaluation protocols.",
-          "Inspected, fixed, and documented protection relays and frequency inverters.",
-          "Inspected, fixed, and documented battery banks and laboratory electronic equipment.",
-          "Inspected, fixed, and documented synchronous machine controllers.",
-          "Authored various management reports and technical procedures."
+          "Engineered a portable automated testing station utilizing *C and hardware-software integration*, reducing the electronics maintenance team's displacement time by *50%* across 10 industrial units.",
+          "Executed and documented *20+ day-long maintenance procedures* on protection relays, frequency inverters, and synchronous machine controllers.",
+          "Cataloged critical diagnostic data for *500+ industrial machines*, centralizing management reports and technical protocols on SharePoint."
         ],
         "pt-br": [
-          "Projetei e implantei uma estação portátil de testes automatizados para máquinas síncronas, estabelecendo integração direta hardware-software para acelerar protocolos de avaliação.",
-          "Inspecionei, consertei e documentei relés de proteção e inversores de frequência.",
-          "Inspecionei, consertei e documentei bancos de baterias e equipamentos eletrônicos de laboratório.",
-          "Inspecionei, consertei e documentei controladores de máquinas síncronas.",
-          "Elaborei diversos relatórios e procedimentos gerenciais."
+          "Projetei uma estação portátil de testes automatizados utilizando *C e integração hardware-software*, reduzindo o tempo de deslocamento da equipe de manutenção eletrônica em *50%* em 10 unidades industriais.",
+          "Executei e documentei *mais de 20 procedimentos de manutenção de um dia inteiro* em relés de proteção, inversores de frequência e controladores de máquinas síncronas.",
+          "Cataloguei dados críticos de diagnóstico para *mais de 500 máquinas industriais*, centralizando relatórios gerenciais e protocolos técnicos no SharePoint."
         ],
         "fr": [
-          "Conception et déploiement d'une station de test automatisée portable pour machines synchrones, établissant une intégration directe matériel-logiciel pour accélérer les protocoles d'évaluation.",
-          "Inspection, réparation et documentation de relais de protection et de variateurs de fréquence.",
-          "Inspection, réparation et documentation de bancs de batteries et d'équipements électroniques de laboratoires.",
-          "Inspection, réparation et documentation de contrôleurs de machines synchrones.",
-          "Rédaction de divers rapports de gestion et procédures techniques."
+          "Conception d'une station de test automatisée portable utilisant le *C et l'intégration matériel-logiciel*, réduisant le temps de déplacement de l'équipe de maintenance électronique de *50 %* sur 10 sites industriels.",
+          "Exécution et documentation de *plus de 20 procédures de maintenance journalières* sur des relais de protection, des variateurs de fréquence et des contrôleurs de machines synchrones.",
+          "Archivage de données de diagnostic critiques pour *plus de 500 machines industrielles*, centralisant les rapports de gestion et les protocoles techniques sur SharePoint."
         ]
       }
     }

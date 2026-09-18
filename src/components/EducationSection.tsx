@@ -2,7 +2,7 @@ import { GraduationCap, Globe, ExternalLink } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
-import { LanguageCode } from '@/types/database';
+import { LanguageCode, Education } from '@/types/database';
 import { formatEducationYear } from '@/utils/date';
 
 const countryFlags: Record<string, string> = {
@@ -30,7 +30,7 @@ export function EducationSection() {
     });
 
   // Group active degrees by type to find the ATS Anchor
-  const activeDegreesByType = new Map<string, any[]>();
+  const activeDegreesByType = new Map<string, Education[]>();
   degrees.forEach(edu => {
     if (edu.metadata.ongoing && edu.metadata.type) {
       const arr = activeDegreesByType.get(edu.metadata.type) || [];
@@ -46,12 +46,12 @@ export function EducationSection() {
     const now = Date.now();
     
     // For each degree, find its EAM (Earliest Approaching Milestone)
-    const getEAMInfo = (edu: any) => {
-      let milestones = [];
+    const getEAMInfo = (edu: Education) => {
+      const milestones: string[] = [];
       if (edu.timeline.courseworkEndDate) milestones.push(edu.timeline.courseworkEndDate);
       if (edu.timeline.endDate) milestones.push(edu.timeline.endDate);
       
-      let approaching = milestones.filter((d: string) => new Date(d).getTime() > now);
+      const approaching = milestones.filter((d: string) => new Date(d).getTime() > now);
       if (approaching.length > 0) {
         // Sort to get the earliest approaching
         approaching.sort((a: string, b: string) => new Date(a).getTime() - new Date(b).getTime());

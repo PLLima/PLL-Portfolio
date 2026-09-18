@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode } from '@/types/database';
+import { formatTextWithEmphasis } from '@/utils/formatText';
 
 export function ProjectsSection() {
   const { t, i18n } = useTranslation();
@@ -63,7 +64,7 @@ export function ProjectsSection() {
                   </h3>
 
                   <div className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow whitespace-pre-line">
-                    {project.briefDescription[currentLang]}
+                    {formatTextWithEmphasis(project.briefDescription[currentLang])}
                   </div>
 
                   <ul className="flex flex-wrap gap-2" role="list" aria-label="Technologies used">
