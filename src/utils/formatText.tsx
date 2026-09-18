@@ -35,3 +35,23 @@ export function formatTextWithEmphasis(text: string): React.ReactNode[] {
     return <React.Fragment key={index}>{part}</React.Fragment>;
   });
 }
+
+export interface TextToken {
+  text: string;
+  type: 'bold' | 'italic' | 'normal';
+}
+
+/**
+ * Parses markdown emphasis and returns an array of tokens.
+ * Useful for character-by-character animations like Typewriter.
+ */
+export function parseTextToTokens(text: string): TextToken[] {
+  if (!text) return [];
+  const regex = /(\*\*.*?\*\*|\*.*?\*)/g;
+  const parts = text.split(regex);
+  return parts.map(part => {
+    if (part.startsWith('**') && part.endsWith('**')) return { text: part.slice(2, -2), type: 'italic' };
+    if (part.startsWith('*') && part.endsWith('*')) return { text: part.slice(1, -1), type: 'bold' };
+    return { text: part, type: 'normal' };
+  });
+}

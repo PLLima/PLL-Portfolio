@@ -42,7 +42,7 @@ export function AboutSection() {
           <AnimatedSection delay={0.1}>
             <article className="card-elevated p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
               <p className="text-foreground leading-relaxed whitespace-pre-line">
-                {profile.i18n_strings.about[currentLang]}
+                {formatTextWithEmphasis(profile.i18n_strings.about[currentLang])}
               </p>
               
               {/* Languages */}

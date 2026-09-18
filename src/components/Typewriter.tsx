@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
+import { parseTextToTokens } from '@/utils/formatText';
 
 interface TypewriterProps {
   text: string;
@@ -9,11 +10,14 @@ interface TypewriterProps {
 }
 
 export function Typewriter({ text, delay = 0, speed = 40, className = '' }: TypewriterProps) {
-  const [displayedText, setDisplayedText] = useState('');
+  const [displayedChars, setDisplayedChars] = useState(0);
   const [isTyping, setIsTyping] = useState(false);
+  
+  const tokens = useMemo(() => parseTextToTokens(text), [text]);
+  const totalLength = useMemo(() => tokens.reduce((acc, t) => acc + t.text.length, 0), [tokens]);
 
   useEffect(() => {
-    setDisplayedText('');
+    setDisplayedChars(0);
     setIsTyping(false);
     
     const startTimer = setTimeout(() => {
@@ -26,14 +30,31 @@ export function Typewriter({ text, delay = 0, speed = 40, className = '' }: Type
   useEffect(() => {
     if (!isTyping) return;
 
-    if (displayedText.length < text.length) {
+    if (displayedChars < totalLength) {
       const timer = setTimeout(() => {
-        setDisplayedText(text.slice(0, displayedText.length + 1));
+        setDisplayedChars(prev => prev + 1);
       }, speed);
 
       return () => clearTimeout(timer);
     }
-  }, [displayedText, text, speed, isTyping]);
+  }, [displayedChars, totalLength, speed, isTyping]);
+
+  const renderTokens = () => {
+    let remaining = displayedChars;
+    return tokens.map((token, index) => {
+      if (remaining <= 0) return null;
+      const content = token.text.slice(0, remaining);
+      remaining -= token.text.length;
+      
+      if (token.type === 'italic') {
+        return <em key={index} className="italic text-foreground">{content}</em>;
+      }
+      if (token.type === 'bold') {
+        return <strong key={index} className="font-bold text-foreground">{content}</strong>;
+      }
+      return <React.Fragment key={index}>{content}</React.Fragment>;
+    });
+  };
 
   return (
     <motion.span
@@ -41,8 +62,8 @@ export function Typewriter({ text, delay = 0, speed = 40, className = '' }: Type
       animate={{ opacity: 1 }}
       className={className}
     >
-      {displayedText}
-      {displayedText.length < text.length && (
+      {renderTokens()}
+      {displayedChars < totalLength && (
         <motion.span
           animate={{ opacity: [1, 0] }}
           transition={{ repeat: Infinity, duration: 0.6 }}
