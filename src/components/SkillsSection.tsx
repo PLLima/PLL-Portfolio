@@ -14,11 +14,11 @@ export function SkillsSection() {
 
   const hardSkills = profile.skills
     .filter(skill => skill.category === 'hard_skill')
-    .sort((a, b) => a.metadata.displayOrder - b.metadata.displayOrder);
+    .sort((a, b) => a.name[currentLang].localeCompare(b.name[currentLang]));
 
   const softSkills = profile.skills
     .filter(skill => skill.category === 'soft_skill')
-    .sort((a, b) => a.metadata.displayOrder - b.metadata.displayOrder);
+    .sort((a, b) => a.name[currentLang].localeCompare(b.name[currentLang]));
 
   const achievements = profile.achievements.filter(ach => ach.metadata.showOnWebsite);
 
