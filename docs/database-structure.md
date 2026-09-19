@@ -61,12 +61,12 @@
       - `endDate`: YearMonth | null // null indicates "Present"
    - `metadata`: object
       - `showOnWebsite`: boolean
-      - `targetRoles`: string[]
-      - `techStackRefs`: objectId[] // References to nested skill `_id`s
    - `title`: LocalizedString
    - `company`: LocalizedString
    - `location`: LocalizedString
-   - `description`: LocalizedArray
+   - `briefDescription`: LocalizedString
+   - `detailedDescription`: LocalizedArray
+   - `techStackRefs`: objectId[] // References to nested skill `_id`s
 
 - `education`: array of objects
    - `_id`: objectId
@@ -93,11 +93,10 @@
    - `metadata`: object
       - `showOnWebsite`: boolean
       - `priorityScore`: integer
-      - `coverImagePath`: string
    - `name`: LocalizedString
    - `briefDescription`: LocalizedString
-   - `description`: LocalizedArray
-   - `techStack`: LocalizedArray
+   - `detailedDescription`: LocalizedArray
+   - `techStackRefs`: objectId[] // References to nested skill `_id`s
 
 - `volunteering`: array of objects
    - `_id`: objectId

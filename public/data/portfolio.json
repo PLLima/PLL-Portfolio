@@ -24,9 +24,9 @@
       "fr": "Allier résolution avancée de problèmes algorithmiques et architecture de systèmes évolutifs"
     },
     "about": {
-      "en": "Computer Engineering and Master of Engineering double degree student bridging advanced algorithmic problem-solving with scalable system architecture. Proven track record in full-stack enterprise web development, cloud AI integrations, and deploying complex time-series forecasting models. Strong foundation in low-level programming (C++), algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.",
-      "pt-br": "Estudante do duplo diploma em Engenharia de Computação e Mestrado em Engenharia, unindo a resolução avançada de problemas algorítmicos com arquitetura de sistemas escaláveis. Experiência comprovada em desenvolvimento web full-stack corporativo, integrações de IA em nuvem e implantação de modelos complexos de previsão de séries temporais. Forte base em programação de baixo nível (C++), design de algoritmos e estruturas de dados, buscando oportunidades em engenharia de software, análise quantitativa ou ciência de dados.",
-      "fr": "Étudiant en double diplôme en Ingénierie Informatique et Master en Ingénierie Généraliste, alliant la résolution avancée de problèmes algorithmiques à l'architecture de systèmes évolutifs. Expérience avérée dans le développement web full-stack d'entreprise, les intégrations d'IA cloud et le déploiement de modèles complexes de prévision de séries chronologiques. Solide base en programmation bas niveau (C++), conception d'algorithmes et structures de données, recherchant des opportunités en génie logiciel, analyse quantitative ou science des données."
+      "en": "*Computer Engineering and Master of Engineering double degree* student bridging advanced algorithmic problem-solving with *scalable system architecture*. Proven track record in *full-stack enterprise web development*, *cloud AI integrations*, and deploying *complex time-series forecasting models*. Strong foundation in *low-level programming (C++)*, algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.",
+      "pt-br": "Estudante do *duplo diploma em Engenharia de Computação e Mestrado em Engenharia*, unindo a resolução avançada de problemas algorítmicos com *arquitetura de sistemas escaláveis*. Experiência comprovada em *desenvolvimento web full-stack corporativo*, *integrações de IA em nuvem* e implantação de *modelos complexos de previsão de séries temporais*. Forte base em *programação de baixo nível (C++)*, design de algoritmos e estruturas de dados, buscando oportunidades em engenharia de software, análise quantitativa ou ciência de dados.",
+      "fr": "Étudiant en *double diplôme en Ingénierie Informatique et Master en Ingénierie Généraliste*, alliant la résolution avancée de problèmes algorithmiques à l'*architecture de systèmes évolutifs*. Expérience avérée dans le *développement web full-stack d'entreprise*, les *intégrations d'IA cloud* et le déploiement de *modèles complexes de prévision de séries chronologiques*. Solide base en *programmation bas niveau (C++)*, conception d'algorithmes et structures de données, recherchant des opportunités en génie logiciel, analyse quantitative ou science des données."
     }
   },
   "focusAreas": [
@@ -105,45 +105,45 @@
   ],
   "skills": [
     {
-      "_id": "6a99809a7fc8019f7155bd8a",
+      "_id": "6a99809a7fc8019f7155bd99",
       "category": "hard_skill",
-      "subCategory": "Languages",
-      "proficiencyLevel": 5,
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 3,
       "metadata": {
         "displayOrder": 1
       },
       "name": {
-        "en": "Python",
-        "pt-br": "Python",
-        "fr": "Python"
+        "en": "Android Studio & Mobile Development",
+        "pt-br": "Android Studio & Desenvolvimento mobile",
+        "fr": "Android Studio & Développement mobile"
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bd8b",
+      "_id": "6aade3c8f436d26fa05c6972",
       "category": "hard_skill",
-      "subCategory": "Languages",
-      "proficiencyLevel": 5,
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
       "metadata": {
         "displayOrder": 2
       },
       "name": {
-        "en": "C++",
-        "pt-br": "C++",
-        "fr": "C++"
+        "en": "Arduino",
+        "pt-br": "Arduino",
+        "fr": "Arduino"
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bd8c",
+      "_id": "6a99809a7fc8019f7155bd90",
       "category": "hard_skill",
       "subCategory": "Languages",
-      "proficiencyLevel": 4,
+      "proficiencyLevel": 3,
       "metadata": {
         "displayOrder": 3
       },
       "name": {
-        "en": "Java",
-        "pt-br": "Java",
-        "fr": "Java"
+        "en": "Assembly",
+        "pt-br": "Assembly",
+        "fr": "Assembleur"
       }
     },
     {
@@ -161,185 +161,17 @@
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bd8e",
+      "_id": "6a99809a7fc8019f7155bd8b",
       "category": "hard_skill",
       "subCategory": "Languages",
-      "proficiencyLevel": 4,
+      "proficiencyLevel": 5,
       "metadata": {
         "displayOrder": 5
       },
       "name": {
-        "en": "SQL",
-        "pt-br": "SQL",
-        "fr": "SQL"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd8f",
-      "category": "hard_skill",
-      "subCategory": "Languages",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 6
-      },
-      "name": {
-        "en": "JavaScript/TypeScript",
-        "pt-br": "JavaScript/TypeScript",
-        "fr": "JavaScript/TypeScript"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd90",
-      "category": "hard_skill",
-      "subCategory": "Languages",
-      "proficiencyLevel": 3,
-      "metadata": {
-        "displayOrder": 7
-      },
-      "name": {
-        "en": "Assembly",
-        "pt-br": "Assembly",
-        "fr": "Assembleur"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd91",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 8
-      },
-      "name": {
-        "en": "Machine Learning (XGBoost, Pandas, AutoGluon)",
-        "pt-br": "Aprendizado de máquina (XGBoost, Pandas, AutoGluon)",
-        "fr": "Apprentissage automatique (XGBoost, Pandas, AutoGluon)"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd92",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 5,
-      "metadata": {
-        "displayOrder": 9
-      },
-      "name": {
-        "en": "System Architecture (MVC)",
-        "pt-br": "Arquitetura de sistemas (MVC)",
-        "fr": "Architecture de systèmes (MVC)"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd93",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 10
-      },
-      "name": {
-        "en": "Relational Database Design (Prisma ORM)",
-        "pt-br": "Design de bancos de dados relacionais (Prisma ORM)",
-        "fr": "Conception de bases de données relationnelles (Prisma ORM)"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd94",
-      "category": "hard_skill",
-      "subCategory": "Tools & Environments",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 11
-      },
-      "name": {
-        "en": "Google Cloud Platform (GCP)",
-        "pt-br": "Google Cloud Platform (GCP)",
-        "fr": "Google Cloud Platform (GCP)"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd95",
-      "category": "hard_skill",
-      "subCategory": "Frameworks & Libraries",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 12
-      },
-      "name": {
-        "en": "React & Next.js",
-        "pt-br": "React & Next.js",
-        "fr": "React & Next.js"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd96",
-      "category": "hard_skill",
-      "subCategory": "Frameworks & Libraries",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 13
-      },
-      "name": {
-        "en": "Flask",
-        "pt-br": "Flask",
-        "fr": "Flask"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd97",
-      "category": "hard_skill",
-      "subCategory": "Tools & Environments",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 14
-      },
-      "name": {
-        "en": "Gemini AI",
-        "pt-br": "Gemini AI",
-        "fr": "Gemini AI"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd98",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 15
-      },
-      "name": {
-        "en": "OpenGL & Real-Time Logic",
-        "pt-br": "OpenGL & Lógica em tempo real",
-        "fr": "OpenGL & Logique en temps réel"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd99",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 3,
-      "metadata": {
-        "displayOrder": 16
-      },
-      "name": {
-        "en": "Android Studio & Mobile Development",
-        "pt-br": "Android Studio & Desenvolvimento mobile",
-        "fr": "Android Studio & Développement mobile"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bd9a",
-      "category": "hard_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 3,
-      "metadata": {
-        "displayOrder": 17
-      },
-      "name": {
-        "en": "Game Development & Design",
-        "pt-br": "Desenvolvimento & design de jogos",
-        "fr": "Développement & conception de jeux"
+        "en": "C++",
+        "pt-br": "C++",
+        "fr": "C++"
       }
     },
     {
@@ -348,7 +180,7 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 3,
       "metadata": {
-        "displayOrder": 18
+        "displayOrder": 6
       },
       "name": {
         "en": "Digital & Analog Circuits",
@@ -357,12 +189,138 @@
       }
     },
     {
+      "_id": "6a99809a7fc8019f7155bd96",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 7
+      },
+      "name": {
+        "en": "Flask",
+        "pt-br": "Flask",
+        "fr": "Flask"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd9a",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 3,
+      "metadata": {
+        "displayOrder": 8
+      },
+      "name": {
+        "en": "Game Development & Design",
+        "pt-br": "Desenvolvimento & design de jogos",
+        "fr": "Développement & conception de jeux"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd97",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 9
+      },
+      "name": {
+        "en": "Gemini AI",
+        "pt-br": "Gemini AI",
+        "fr": "Gemini AI"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd94",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 10
+      },
+      "name": {
+        "en": "Google Cloud Platform (GCP)",
+        "pt-br": "Google Cloud Platform (GCP)",
+        "fr": "Google Cloud Platform (GCP)"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c6971",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 11
+      },
+      "name": {
+        "en": "Hardware SPI",
+        "pt-br": "Hardware SPI",
+        "fr": "Hardware SPI"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c696e",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 12
+      },
+      "name": {
+        "en": "HeroUI",
+        "pt-br": "HeroUI",
+        "fr": "HeroUI"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c696b",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 13
+      },
+      "name": {
+        "en": "HTML & CSS",
+        "pt-br": "HTML & CSS",
+        "fr": "HTML & CSS"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd8c",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 14
+      },
+      "name": {
+        "en": "Java",
+        "pt-br": "Java",
+        "fr": "Java"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd8f",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 15
+      },
+      "name": {
+        "en": "JavaScript/TypeScript",
+        "pt-br": "JavaScript/TypeScript",
+        "fr": "JavaScript/TypeScript"
+      }
+    },
+    {
       "_id": "6a99809a7fc8019f7155bd9c",
       "category": "hard_skill",
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 19
+        "displayOrder": 16
       },
       "name": {
         "en": "Linux/Ubuntu",
@@ -371,12 +329,180 @@
       }
     },
     {
+      "_id": "6a99809a7fc8019f7155bd91",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 17
+      },
+      "name": {
+        "en": "Machine Learning (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)",
+        "pt-br": "Aprendizado de Máquina (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)",
+        "fr": "Apprentissage automatique (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd98",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 18
+      },
+      "name": {
+        "en": "OpenGL & Real-Time Logic",
+        "pt-br": "OpenGL & Lógica em tempo real",
+        "fr": "OpenGL & Logique en temps réel"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd8a",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 19
+      },
+      "name": {
+        "en": "Python",
+        "pt-br": "Python",
+        "fr": "Python"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd95",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 20
+      },
+      "name": {
+        "en": "React & Next.js",
+        "pt-br": "React & Next.js",
+        "fr": "React & Next.js"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd93",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 21
+      },
+      "name": {
+        "en": "Relational Database Design (Prisma ORM)",
+        "pt-br": "Design de bancos de dados relacionais (Prisma ORM)",
+        "fr": "Conception de bases de données relationnelles (Prisma ORM)"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd8e",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 22
+      },
+      "name": {
+        "en": "SQL",
+        "pt-br": "SQL",
+        "fr": "SQL"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c6970",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 23
+      },
+      "name": {
+        "en": "STM32",
+        "pt-br": "STM32",
+        "fr": "STM32"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c696c",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 24
+      },
+      "name": {
+        "en": "Streamlit",
+        "pt-br": "Streamlit",
+        "fr": "Streamlit"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bd92",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 25
+      },
+      "name": {
+        "en": "System Architecture (MVC)",
+        "pt-br": "Arquitetura de sistemas (MVC)",
+        "fr": "Architecture de systèmes (MVC)"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c696f",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 3,
+      "metadata": {
+        "displayOrder": 26
+      },
+      "name": {
+        "en": "Tkinter",
+        "pt-br": "Tkinter",
+        "fr": "Tkinter"
+      }
+    },
+    {
+      "_id": "6aade3c8f436d26fa05c696d",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 27
+      },
+      "name": {
+        "en": "Vite",
+        "pt-br": "Vite",
+        "fr": "Vite"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bda5",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 1
+      },
+      "name": {
+        "en": "Communication",
+        "pt-br": "Comunicação",
+        "fr": "Communication"
+      }
+    },
+    {
       "_id": "6a99809a7fc8019f7155bda1",
       "category": "soft_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 20
+        "displayOrder": 2
       },
       "name": {
         "en": "Mathematical Thinking",
@@ -390,7 +516,7 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 21
+        "displayOrder": 3
       },
       "name": {
         "en": "Proactiveness",
@@ -404,7 +530,7 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 22
+        "displayOrder": 4
       },
       "name": {
         "en": "Scheduling",
@@ -413,45 +539,31 @@
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bda4",
-      "category": "soft_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 5,
-      "metadata": {
-        "displayOrder": 23
-      },
-      "name": {
-        "en": "Thoroughness",
-        "pt-br": "Meticulosidade",
-        "fr": "Rigueur"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bda5",
-      "category": "soft_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 5,
-      "metadata": {
-        "displayOrder": 24
-      },
-      "name": {
-        "en": "Communication",
-        "pt-br": "Comunicação",
-        "fr": "Communication"
-      }
-    },
-    {
       "_id": "6a99809a7fc8019f7155bda6",
       "category": "soft_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 25
+        "displayOrder": 5
       },
       "name": {
         "en": "Team Leadership",
         "pt-br": "Liderança de equipes",
         "fr": "Leadership d'équipe"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bda4",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 6
+      },
+      "name": {
+        "en": "Thoroughness",
+        "pt-br": "Meticulosidade",
+        "fr": "Rigueur"
       }
     }
   ],
@@ -517,14 +629,7 @@
         "endDate": null
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "web_developer",
-          "full_stack"
-        ],
-        "techStackRefs": [
-          "6a99809a7fc8019f7155bd95"
-        ]
+        "showOnWebsite": true
       },
       "title": {
         "en": "Web Developer & HR Assistant",
@@ -541,7 +646,7 @@
         "pt-br": "Remoto, Brasil",
         "fr": "À distance, Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Architected a fully responsive, full-stack portfolio website for a legal firm using *Next.js* and *React*, integrating the *Google Maps API* and secure contact forms to *centralize 120+ legal processes*.",
           "Conducted qualitative HR assessments and feedback cycles, actively monitoring team dynamics to *resolve internal bottlenecks* and maintain operational efficiency."
@@ -554,7 +659,15 @@
           "Conception d'un site web de portfolio full-stack entièrement responsif pour un cabinet d'avocats utilisant *Next.js* et *React*, intégrant l'*API Google Maps* et des formulaires sécurisés pour *centraliser plus de 120 processus juridiques*.",
           "Réalisation d'évaluations RH qualitatives et de cycles de feedback, avec surveillance active de la dynamique d'équipe pour *résoudre les goulots d'étranglement internes* et maintenir l'efficacité opérationnelle."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Architected a responsive *full-stack portfolio* using *Next.js and React*, centralizing *120+ legal processes*, while actively resolving team bottlenecks via qualitative HR assessments.",
+        "pt-br": "Arquitetei um *portfólio full-stack* responsivo usando *Next.js e React*, centralizando *mais de 120 processos*, enquanto resolvia gargalos da equipe via avaliações qualitativas de RH.",
+        "fr": "Conception d'un *portfolio full-stack* responsif via *Next.js et React*, centralisant *plus de 120 processus*, et résolution des goulots d'étranglement internes par des évaluations RH qualitatives."
+      },
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd95"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bda8",
@@ -564,12 +677,7 @@
         "endDate": "2026-08"
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "tutor",
-          "academic"
-        ],
-        "techStackRefs": []
+        "showOnWebsite": true
       },
       "title": {
         "en": "Summer School BasiCS Tutor",
@@ -586,7 +694,7 @@
         "pt-br": "França",
         "fr": "France"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Instructed CentraleSupélec's incoming international students at CAVILAM (Alliance Française, Vichy), *co-leading 15 intensive sessions* over 4 weeks on the Modeling and Control of Dynamic Systems.",
           "Authored *65+ comprehensive curriculum documents* (including slides, exercise sheets, and interactive assessments), *accelerating student onboarding* for 1/3 of the Modeling course."
@@ -599,7 +707,13 @@
           "Enseignement aux étudiants internationaux entrants de CentraleSupélec au CAVILAM (Alliance Française, Vichy), avec *co-animation de 15 sessions intensives* sur 4 semaines portant sur la modélisation et la commande des systèmes dynamiques.",
           "Rédaction de *plus de 65 documents de cours* (diapositives, fiches d'exercices et évaluations interactives), *accélérant l'intégration des étudiants* sur un tiers du cours de Modélisation."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Instructed incoming international students by co-leading *15 intensive sessions* on dynamic systems and authoring *65+ comprehensive curriculum documents* to accelerate academic onboarding.",
+        "pt-br": "Instruí estudantes internacionais, co-liderando *15 sessões intensivas* sobre sistemas dinâmicos e elaborando *mais de 65 documentos curriculares* para acelerar a integração acadêmica.",
+        "fr": "Enseignement aux étudiants internationaux entrants, avec co-animation de *15 sessions intensives* sur les systèmes dynamiques et rédaction de *plus de 65 documents de cours*."
+      },
+      "techStackRefs": []
     },
     {
       "_id": "6a99809a7fc8019f7155bda9",
@@ -609,13 +723,7 @@
         "endDate": "2025-01"
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "tutor"
-        ],
-        "techStackRefs": [
-          "6a99809a7fc8019f7155bd8d"
-        ]
+        "showOnWebsite": true
       },
       "title": {
         "en": "Algorithms & Programming Course Tutor",
@@ -632,7 +740,7 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Managed *50% of the instructional duties* for 10+ laboratory classes, guiding 15+ multidisciplinary STEM students through complex *C programming* concepts.",
           "Debugged student code and reinforced foundational data structures, memory management, and recursive functions, *directly improving academic performance*."
@@ -645,7 +753,15 @@
           "Gestion de *50 % des tâches d'enseignement* pour plus de 10 séances de travaux pratiques, encadrant plus de 15 étudiants de filières scientifiques sur des concepts complexes de *programmation en C*.",
           "Débogage du code des étudiants et renforcement des connaissances fondamentales en structures de données, gestion de la mémoire et fonctions récursives, *améliorant directement les résultats académiques*."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Managed *50% of instructional duties* across 10+ laboratory classes, guiding 15+ multidisciplinary STEM students in *C programming* and debugging complex recursive memory structures.",
+        "pt-br": "Gerenciei *50% das responsabilidades de instrução* em mais de 10 laboratórios, orientando mais de 15 estudantes de STEM em *programação em C* e depurando estruturas de memória.",
+        "fr": "Gestion de *50 % des tâches d'enseignement* pour plus de 10 laboratoires, encadrant plus de 15 étudiants en sciences sur la *programmation en C* et le débogage de structures mémoire."
+      },
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8d"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdaa",
@@ -655,11 +771,7 @@
         "endDate": "2024-02"
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "tutor"
-        ],
-        "techStackRefs": []
+        "showOnWebsite": true
       },
       "title": {
         "en": "Physics Tutor",
@@ -676,7 +788,7 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Directed *72+ intensive tutoring shifts* over 18 weeks, providing targeted instruction in Electromagnetism to undergraduate engineering cohorts.",
           "Guided students through the resolution and internalization of *50+ complex physics problems*, strengthening core analytical capabilities."
@@ -689,7 +801,13 @@
           "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, dispensant un enseignement ciblé en électromagnétisme aux promotions d'étudiants en ingénierie.",
           "Accompagnement des étudiants dans la résolution et l'assimilation de *plus de 50 problèmes de physique complexes*, renforçant leurs capacités analytiques de base."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Directed *72+ intensive tutoring shifts* over 18 weeks, guiding undergraduate engineering cohorts to consistently resolve and internalize *50+ complex physics problems*.",
+        "pt-br": "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, guiando turmas de engenharia na resolução e internalização de *mais de 50 problemas complexos de física*.",
+        "fr": "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, accompagnant les étudiants en ingénierie dans la résolution de *plus de 50 problèmes de physique complexes*."
+      },
+      "techStackRefs": []
     },
     {
       "_id": "6a99db597fc8019f7155bdbd",
@@ -699,11 +817,7 @@
         "endDate": "2024-01"
       },
       "metadata": {
-        "showOnWebsite": false,
-        "targetRoles": [
-          "trainee"
-        ],
-        "techStackRefs": []
+        "showOnWebsite": false
       },
       "title": {
         "en": "Trainee",
@@ -720,7 +834,7 @@
         "pt-br": "Remoto, Brasil",
         "fr": "À distance, Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Shadowed 10+ HR professionals to *streamline internal bureaucracy*, centralizing documentation workflows utilizing *Notion and Google Drive*."
         ],
@@ -730,7 +844,13 @@
         "fr": [
           "Suivi de plus de 10 professionnels des RH pour *optimiser la bureaucratie interne*, centralisant les flux de documentation via *Notion et Google Drive*."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Shadowed *10+ HR professionals* over two months to streamline internal bureaucracy, centralizing complex documentation workflows utilizing *Notion and Google Drive*.",
+        "pt-br": "Acompanhei *mais de 10 profissionais de RH* por dois meses para otimizar a burocracia interna, centralizando fluxos de documentação utilizando *Notion e Google Drive*.",
+        "fr": "Suivi de *plus de 10 professionnels des RH* sur deux mois pour optimiser la bureaucratie interne, centralisant les flux de documentation via *Notion et Google Drive*."
+      },
+      "techStackRefs": []
     },
     {
       "_id": "6a99809a7fc8019f7155bdab",
@@ -740,15 +860,7 @@
         "endDate": "2023-09"
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "researcher",
-          "low_level"
-        ],
-        "techStackRefs": [
-          "6a99809a7fc8019f7155bd8b",
-          "6a99809a7fc8019f7155bd8d"
-        ]
+        "showOnWebsite": true
       },
       "title": {
         "en": "Undergraduate Researcher",
@@ -765,7 +877,7 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Dedicated *360+ hours* to researching embedded software systems for 3D mapping UAVs, utilizing *ROS Noetic, PX4 Autopilot, and Gazebo simulations*.",
           "Authored and presented comprehensive technical findings to an academic commission at the *2023 UFRGS Scientific Initiation Exhibition*."
@@ -778,7 +890,16 @@
           "Investissement de *plus de 360 heures* à la recherche sur les systèmes de logiciels embarqués pour les drones de cartographie 3D, utilisant *ROS Noetic, PX4 Autopilot et les simulations Gazebo*.",
           "Rédaction et présentation de conclusions techniques détaillées devant une commission académique lors du *Salon d'Initiation Scientifique de l'UFRGS 2023*."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Dedicated *360+ hours* to engineering embedded software systems for 3D mapping UAVs (*ROS Noetic, PX4 Autopilot*), presenting findings at the *2023 UFRGS Scientific Initiation Exhibition*.",
+        "pt-br": "Dediquei *mais de 360 horas* projetando sistemas embarcados para VANTs de mapeamento 3D (*ROS Noetic, PX4*), apresentando descobertas no *Salão de Iniciação Científica da UFRGS de 2023*.",
+        "fr": "Investissement de *plus de 360 heures* dans la conception de systèmes embarqués pour drones de cartographie 3D (*ROS Noetic, PX4*), avec présentation au *Salon d'Initiation Scientifique UFRGS 2023*."
+      },
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8b",
+        "6a99809a7fc8019f7155bd8d"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdac",
@@ -788,14 +909,7 @@
         "endDate": "2022-12"
       },
       "metadata": {
-        "showOnWebsite": true,
-        "targetRoles": [
-          "intern",
-          "hardware"
-        ],
-        "techStackRefs": [
-          "6a99809a7fc8019f7155bd9b"
-        ]
+        "showOnWebsite": true
       },
       "title": {
         "en": "Electronics Maintenance Intern",
@@ -812,7 +926,7 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "detailedDescription": {
         "en": [
           "Engineered a portable automated testing station utilizing *C and hardware-software integration*, reducing the electronics maintenance team's displacement time by *50%* across 10 industrial units.",
           "Executed and documented *20+ day-long maintenance procedures* on protection relays, frequency inverters, and synchronous machine controllers.",
@@ -828,7 +942,15 @@
           "Exécution et documentation de *plus de 20 procédures de maintenance journalières* sur des relais de protection, des variateurs de fréquence et des contrôleurs de machines synchrones.",
           "Archivage de données de diagnostic critiques pour *plus de 500 machines industrielles*, centralisant les rapports de gestion et les protocoles techniques sur SharePoint."
         ]
-      }
+      },
+      "briefDescription": {
+        "en": "Engineered an automated testing station in *C* that reduced maintenance displacement time by *50%*, alongside executing *20+ day-long maintenance protocols* on critical industrial machines.",
+        "pt-br": "Projetei uma estação de testes automatizados em *C* que reduziu o tempo de deslocamento da equipe em *50%*, além de executar *mais de 20 protocolos de manutenção* em máquinas industriais.",
+        "fr": "Conception d'une station de test automatisée en *C* réduisant le temps de déplacement de la maintenance de *50 %*, et exécution de *plus de 20 protocoles de maintenance* industrielle."
+      },
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd9b"
+      ]
     }
   ],
   "education": [
@@ -1074,8 +1196,7 @@
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 10,
-        "coverImagePath": ""
+        "priorityScore": 10
       },
       "name": {
         "en": "Predictive Maintenance: Aircraft Corrosion Risk Modeling",
@@ -1083,50 +1204,31 @@
         "fr": "Maintenance Prédictive : Modélisation des Risques de Corrosion des Aéronefs"
       },
       "briefDescription": {
-        "en": "Collaborated in a 5-person team to develop a machine learning pipeline predicting progressive aircraft corrosion risk based on environmental exposure history (Airbus & IBM Hackathon — Top 10 Finalist). Note: Codebase remains strictly confidential.",
-        "pt-br": "Colaborei em uma equipe de 5 pessoas para desenvolver um pipeline de machine learning para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição ambiental (Hackathon Airbus & IBM — Top 10 Finalista). Nota: O código fonte é estritamente confidencial.",
-        "fr": "Collaboration au sein d'une équipe de 5 personnes pour développer un pipeline d'apprentissage automatique prédisant le risque progressif de corrosion des aéronefs basé sur l'historique d'exposition environnementale (Hackathon Airbus & IBM — Top 10 Finaliste). Remarque : Le code source est strictement confidentiel."
+        "en": "Collaborated in a 5-person team to develop an *XGBoost* machine learning pipeline predicting progressive aircraft corrosion risk, achieving a *Top 10 Finalist* position and a *0.18266 Brier Score* in the *2026 Airbus & IBM Hackathon*. Note: Codebase remains strictly confidential.",
+        "pt-br": "Colaborei em uma equipe de 5 pessoas para desenvolver um pipeline de machine learning com *XGBoost* predizendo o risco de corrosão em aeronaves, alcançando o *Top 10 Finalista* e um *Brier Score de 0,18266* no *Hackathon Airbus & IBM 2026*. Nota: Código-fonte confidencial.",
+        "fr": "Collaboration au sein d'une équipe de 5 personnes pour développer un pipeline d'apprentissage automatique *XGBoost* prédisant le risque de corrosion des aéronefs, atteignant la place de *Top 10 Finaliste* avec un *Score de Brier de 0,18266* lors du *Hackathon Airbus & IBM 2026*. Code source confidentiel."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed a machine learning pipeline predicting progressive aircraft corrosion risk based on environmental exposure history, achieving a Top 10 Finalist position in the Airbus & IBM Hackathon.",
-          "Transformed complex time-series environmental data into highly calibrated risk probabilities to shift aircraft maintenance from reactive to proactive, directly supporting Airbus's operational decision-making.",
-          "Trained and evaluated gradient boosting algorithms (XGBoost, LightGBM, Random Forest), applying Platt scaling and Isotonic regression to output perfectly calibrated probabilities preventing time-series data leakage."
+          "Developed a machine learning pipeline predicting progressive aircraft corrosion risk based on environmental exposure history, achieving a *Top 10 Finalist* position in the *2026 Airbus & IBM Hackathon*.",
+          "Transformed complex time-series environmental data into *highly calibrated risk probabilities* to shift aircraft maintenance from reactive to proactive, directly supporting Airbus's operational decision-making.",
+          "Trained and evaluated gradient boosting algorithms (*XGBoost*, LightGBM, Random Forest), applying Platt scaling and Isotonic regression to prevent time-series data leakage, achieving a *0.18266 Brier Score* with the optimized XGBoost model."
         ],
         "pt-br": [
-          "Desenvolvi um pipeline de machine learning para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição, alcançando o Top 10 no Hackathon da Airbus & IBM.",
-          "Transformei dados ambientais complexos de séries temporais em probabilidades de risco altamente calibradas para mudar a manutenção de aeronaves de reativa para proativa.",
-          "Treinei e avaliei algoritmos de gradient boosting (XGBoost, LightGBM, Random Forest), aplicando Platt scaling e regressão isotônica para gerar probabilidades calibradas, otimizadas para o Brier Score."
+          "Desenvolvi um pipeline de machine learning para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição, alcançando o *Top 10 Finalista* no *Hackathon da Airbus & IBM de 2026*.",
+          "Transformei dados ambientais complexos de séries temporais em *probabilidades de risco altamente calibradas* para mudar a manutenção de aeronaves de reativa para proativa, apoiando diretamente as decisões operacionais da Airbus.",
+          "Treinei e avaliei algoritmos de gradient boosting (*XGBoost*, LightGBM, Random Forest), aplicando Platt scaling e regressão isotônica para evitar o vazamento de dados temporais, alcançando um *Brier Score de 0,18266* com o modelo XGBoost otimizado."
         ],
         "fr": [
-          "Développement d'un pipeline d'apprentissage automatique prédisant le risque progressif de corrosion des aéronefs basé sur l'historique d'exposition, atteignant le Top 10 au Hackathon Airbus & IBM.",
-          "Transformation de données environnementales complexes de séries chronologiques en probabilités de risque hautement calibrées pour faire passer la maintenance de réactive à proactive.",
-          "Entraînement et évaluation d'algorithmes de gradient boosting (XGBoost, LightGBM, Random Forest), en appliquant la mise à l'échelle de Platt et la régression isotonique pour générer des probabilités parfaitement calibrées."
+          "Développement d'un pipeline d'apprentissage automatique prédisant le risque progressif de corrosion des aéronefs basé sur l'historique d'exposition, atteignant la place de *Top 10 Finaliste* lors du *Hackathon Airbus & IBM 2026*.",
+          "Transformation de données environnementales complexes de séries chronologiques en *probabilités de risque hautement calibrées* pour faire passer la maintenance de réactive à proactive, soutenant les décisions opérationnelles d'Airbus.",
+          "Entraînement et évaluation d'algorithmes de gradient boosting (*XGBoost*, LightGBM, Random Forest), en appliquant la mise à l'échelle de Platt et la régression isotonique pour empêcher la fuite de données, atteignant un *Score de Brier de 0,18266* avec le modèle XGBoost."
         ]
       },
-      "techStack": {
-        "en": [
-          "Python",
-          "Pandas",
-          "Scikit-Learn",
-          "XGBoost",
-          "LightGBM"
-        ],
-        "pt-br": [
-          "Python",
-          "Pandas",
-          "Scikit-Learn",
-          "XGBoost",
-          "LightGBM"
-        ],
-        "fr": [
-          "Python",
-          "Pandas",
-          "Scikit-Learn",
-          "XGBoost",
-          "LightGBM"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bd91"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdad",
@@ -1137,8 +1239,7 @@
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 9,
-        "coverImagePath": ""
+        "priorityScore": 9
       },
       "name": {
         "en": "UK Energy Forecasting (EI Climat)",
@@ -1146,44 +1247,32 @@
         "fr": "Prévision Énergétique au Royaume-Uni (EI Climat)"
       },
       "briefDescription": {
-        "en": "Developed an end-to-end machine learning pipeline to forecast short and medium-term UK household electricity consumption across 3 socio-economic segments.",
-        "pt-br": "Desenvolvi um pipeline completo de machine learning para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
-        "fr": "Développement d'un pipeline complet de machine learning pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques."
+        "en": "Developed an end-to-end machine learning pipeline and a comprehensive *Streamlit dashboard* in partnership with *EDF* to forecast UK electricity consumption, evaluating *12+ models* to achieve a *validation RMSE of 0.0082*.",
+        "pt-br": "Desenvolvi um pipeline completo de machine learning e um *dashboard abrangente no Streamlit* em parceria com a *EDF* para prever o consumo de eletricidade no Reino Unido, avaliando *mais de 12 modelos* para alcançar um *RMSE de validação de 0,0082*.",
+        "fr": "Développement d'un pipeline complet de machine learning et d'un *tableau de bord Streamlit* en partenariat avec *EDF* pour prévoir la consommation d'électricité au Royaume-Uni, évaluant *plus de 12 modèles* pour atteindre un *RMSE de validation de 0,0082*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed an end-to-end machine learning pipeline to forecast short and medium-term UK household electricity consumption across 3 socio-economic segments.",
-          "Evaluated and tuned Ridge Regression, XGBoost, CatBoost, LightGBM, and AutoGluon TimeSeries models, achieving a best half-hourly validation RMSE of 0.0082 over 4,000+ rows."
+          "Developed an end-to-end machine learning pipeline in partnership with *EDF* to forecast short and medium-term UK household electricity consumption across 3 socio-economic segments.",
+          "Evaluated and tuned *12+ predictive models* (including Ridge Regression, *XGBoost*, CatBoost, LightGBM, and *AutoGluon*), achieving a *best half-hourly validation RMSE of 0.0082* over *4,000+ rows*.",
+          "Engineered a comprehensive *Streamlit dashboard* to intuitively visualize Exploratory Data Analysis (EDA), model predictions, and carbon footprint estimations, presenting final results to an academic panel of 3 researchers."
         ],
         "pt-br": [
-          "Desenvolvi um pipeline completo de machine learning para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
-          "Avaliei e otimizei modelos Ridge Regression, XGBoost, CatBoost, LightGBM e AutoGluon TimeSeries, alcançando o melhor RMSE de validação semi-horária de 0,0082 em mais de 4.000 linhas."
+          "Desenvolvi um pipeline completo de machine learning em parceria com a *EDF* para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
+          "Avaliei e otimizei *mais de 12 modelos preditivos* (incluindo Ridge Regression, *XGBoost*, CatBoost, LightGBM e *AutoGluon*), alcançando o *melhor RMSE de validação semi-horária de 0,0082* em mais de *4.000 linhas*.",
+          "Projetei um *dashboard abrangente no Streamlit* para visualizar intuitivamente a Análise Exploratória de Dados (EDA), previsões de modelos e estimativas de pegada de carbono, apresentando os resultados a um painel acadêmico de 3 pesquisadores."
         ],
         "fr": [
-          "Développement d'un pipeline complet de machine learning pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques.",
-          "Évaluation et optimisation de modèles Ridge Regression, XGBoost, CatBoost, LightGBM et AutoGluon TimeSeries, atteignant un RMSE de validation par demi-heure de 0,0082 sur plus de 4 000 lignes."
+          "Développement d'un pipeline complet de machine learning en partenariat avec *EDF* pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques.",
+          "Évaluation et optimisation de *plus de 12 modèles prédictifs* (incluant Ridge Regression, *XGBoost*, CatBoost, LightGBM et *AutoGluon*), atteignant un *RMSE de validation par demi-heure de 0,0082* sur plus de *4 000 lignes*.",
+          "Conception d'un *tableau de bord Streamlit* complet pour visualiser intuitivement l'Analyse Exploratoire des Données (EDA), les prédictions des modèles et les estimations de l'empreinte carbone, avec présentation des résultats à un jury académique de 3 chercheurs."
         ]
       },
-      "techStack": {
-        "en": [
-          "Python",
-          "Pandas",
-          "XGBoost",
-          "AutoGluon"
-        ],
-        "pt-br": [
-          "Python",
-          "Pandas",
-          "XGBoost",
-          "AutoGluon"
-        ],
-        "fr": [
-          "Python",
-          "Pandas",
-          "XGBoost",
-          "AutoGluon"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bd91",
+        "6aade3c8f436d26fa05c696c"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdae",
@@ -1194,8 +1283,7 @@
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 8,
-        "coverImagePath": ""
+        "priorityScore": 8
       },
       "name": {
         "en": "Voice CRM Platform",
@@ -1203,47 +1291,32 @@
         "fr": "Plateforme CRM Vocale"
       },
       "briefDescription": {
-        "en": "Architected an AI-powered automation platform utilizing Google Cloud Speech-to-Text V2 to process remote audio files, connecting speech recognition to enterprise pipelines.",
-        "pt-br": "Arquitetei uma plataforma de automação baseada em IA utilizando o Google Cloud Speech-to-Text V2 para processar arquivos de áudio remotos, conectando o reconhecimento de voz a pipelines de dados corporativos.",
-        "fr": "Conception d'une plateforme d'automatisation basée sur l'IA exploitant Google Cloud Speech-to-Text V2 pour traiter des fichiers audio à distance, reliant la reconnaissance vocale aux pipelines de données d'entreprise."
+        "en": "Architected a full-stack AI automation platform (*React/Vite*, *Flask*) utilizing *Google Cloud Speech-to-Text V2* and *Vertex AI Gemini* to generate *CRM entities* from audio, built entirely in *under 48 hours* for *Hack-Nation's 3rd Global AI Hackathon*.",
+        "pt-br": "Arquitetei uma plataforma de automação AI full-stack (*React/Vite*, *Flask*) utilizando *Google Cloud Speech-to-Text V2* e *Vertex AI Gemini* para gerar *entidades de CRM* a partir de áudio, construída em *menos de 48 horas* para o *3º Hackathon Global de IA da Hack-Nation*.",
+        "fr": "Conception d'une plateforme d'automatisation IA full-stack (*React/Vite*, *Flask*) exploitant *Google Cloud Speech-to-Text V2* et *Vertex AI Gemini* pour générer des *entités CRM* à partir d'audio, construite en *moins de 48 heures* pour le *3e Hackathon Mondial d'IA de Hack-Nation*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Architected an AI-powered automation platform utilizing Google Cloud Speech-to-Text V2 to process remote audio files, bridging speech recognition with enterprise data pipelines.",
-          "Integrated Vertex AI Gemini to semantically parse transcripts and autonomously trigger HubSpot APIs, dynamically creating complex CRM entities and eliminating manual data entry."
+          "Architected a full-stack AI-powered automation platform (*React/Vite front-end, Flask backend*) utilizing *Google Cloud Speech-to-Text V2* to process remote audio files, developed entirely in *under 48 hours* for the *3rd Hack-Nation Global AI Hackathon*.",
+          "Integrated *Vertex AI Gemini* to semantically parse transcripts and autonomously trigger *HubSpot APIs*, dynamically creating *complex CRM entities* and eliminating manual data entry."
         ],
         "pt-br": [
-          "Arquitetei uma plataforma de automação baseada em IA utilizando o Google Cloud Speech-to-Text V2 para processar arquivos de áudio remotos, conectando o reconhecimento de voz a pipelines de dados corporativos.",
-          "Integrei o Vertex AI Gemini para análise semântica de transcrições e acionamento autônomo das APIs do HubSpot, criando entidades complexas de CRM dinamicamente e eliminando a entrada manual de dados."
+          "Arquitetei uma plataforma de automação full-stack baseada em IA (*front-end React/Vite, backend Flask*) utilizando o *Google Cloud Speech-to-Text V2* para processar áudios remotos, desenvolvida inteiramente em *menos de 48 horas* para o *3º Hackathon Global de IA da Hack-Nation*.",
+          "Integrei o *Vertex AI Gemini* para análise semântica de transcrições e acionamento autônomo das *APIs do HubSpot*, criando *entidades complexas de CRM* dinamicamente e eliminando a entrada manual de dados."
         ],
         "fr": [
-          "Conception d'une plateforme d'automatisation basée sur l'IA exploitant Google Cloud Speech-to-Text V2 pour traiter des fichiers audio à distance, reliant la reconnaissance vocale aux pipelines de données d'entreprise.",
-          "Intégration de Vertex AI Gemini pour l'analyse sémantique des transcriptions et le déclenchement autonome des API HubSpot, générant dynamiquement des entités CRM complexes et éliminant la saisie manuelle."
+          "Conception d'une plateforme d'automatisation full-stack basée sur l'IA (*front-end React/Vite, backend Flask*) exploitant *Google Cloud Speech-to-Text V2* pour traiter des fichiers audio, développée entièrement en *moins de 48 heures* pour le *3e Hackathon Mondial d'IA de Hack-Nation*.",
+          "Intégration de *Vertex AI Gemini* pour l'analyse sémantique des transcriptions et le déclenchement autonome des *API HubSpot*, générant dynamiquement des *entités CRM complexes* et éliminant la saisie manuelle."
         ]
       },
-      "techStack": {
-        "en": [
-          "Python",
-          "Flask",
-          "React",
-          "GCP",
-          "Gemini AI"
-        ],
-        "pt-br": [
-          "Python",
-          "Flask",
-          "React",
-          "GCP",
-          "Gemini AI"
-        ],
-        "fr": [
-          "Python",
-          "Flask",
-          "React",
-          "GCP",
-          "Gemini AI"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bd96",
+        "6a99809a7fc8019f7155bd95",
+        "6aade3c8f436d26fa05c696d",
+        "6a99809a7fc8019f7155bd94",
+        "6a99809a7fc8019f7155bd97"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdaf",
@@ -1254,8 +1327,7 @@
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 7,
-        "coverImagePath": ""
+        "priorityScore": 7
       },
       "name": {
         "en": "HiDrone Web Marketplace",
@@ -1263,44 +1335,34 @@
         "fr": "Marketplace Web HiDrone"
       },
       "briefDescription": {
-        "en": "Architected a highly scalable, full-stack drone delivery marketplace implementing a strict MVC design pattern.",
-        "pt-br": "Arquitetei um marketplace full-stack de entrega por drones altamente escalável, implementando o rígido padrão de projeto MVC.",
-        "fr": "Conception de l'architecture d'une marketplace full-stack de livraison par drones hautement évolutive, avec l'implémentation d'un modèle de conception MVC strict."
+        "en": "Architected a highly scalable drone delivery marketplace implementing a strict *MVC design pattern*, managing the entire software lifecycle to deploy a complete prototype featuring a *simulated front-end virtual credit payment system*.",
+        "pt-br": "Arquitetei um marketplace de entrega por drones altamente escalável implementando o *padrão de projeto MVC*, gerenciando todo o ciclo de vida do software para implantar um protótipo com um *sistema front-end de pagamento por créditos virtuais simulado*.",
+        "fr": "Conception de l'architecture d'une marketplace de livraison par drones hautement évolutive implémentant un *modèle de conception MVC*, gérant le cycle de vie logiciel pour déployer un prototype avec un *système front-end de paiement par crédits virtuels simulé*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Architected a highly scalable, full-stack drone delivery marketplace implementing a strict MVC design pattern for clear separation of application logic and user interfaces.",
-          "Engineered the backend database and business logic utilizing Prisma ORM, ensuring secure user authentication, role-based access control, and dynamic order management."
+          "Directed the end-to-end software lifecycle for a drone delivery marketplace, leading requirements engineering, client simulation, and detailed system architecture documentation.",
+          "Architected a highly scalable full-stack application implementing a strict *MVC design pattern*, utilizing *Next.js and HeroUI* for the frontend and *Prisma ORM* for robust backend data governance.",
+          "Engineered a comprehensive user pipeline featuring secure authentication, dynamic order history tracking, live simulated delivery states, and a *simulated front-end virtual credit payment system*."
         ],
         "pt-br": [
-          "Arquitetei um marketplace full-stack de entrega por drones altamente escalável, implementando o rígido padrão de projeto MVC para clara separação entre a lógica da aplicação e as interfaces de usuário.",
-          "Projetei o banco de dados backend e a lógica de negócios utilizando Prisma ORM, garantindo autenticação segura, controle de acesso baseado em funções e gerenciamento dinâmico de pedidos."
+          "Dirigi o ciclo de vida de software de ponta a ponta para um marketplace de entrega por drones, liderando a engenharia de requisitos, simulação de clientes e documentação detalhada de arquitetura.",
+          "Arquitetei uma aplicação full-stack altamente escalável implementando o rígido *padrão de projeto MVC*, utilizando *Next.js e HeroUI* para o frontend e *Prisma ORM* para governança robusta de dados no backend.",
+          "Projetei um pipeline de usuário abrangente com autenticação segura, rastreamento dinâmico de histórico de pedidos, estados de entrega simulados ao vivo e um *sistema front-end de pagamento por créditos virtuais simulado*."
         ],
         "fr": [
-          "Conception de l'architecture d'une marketplace full-stack de livraison par drones hautement évolutive, avec l'implémentation d'un modèle de conception MVC strict pour séparer la logique applicative de l'interface utilisateur.",
-          "Conception de la base de données backend et de la logique métier via Prisma ORM, garantissant une authentification sécurisée, un contrôle d'accès basé sur les rôles et une gestion dynamique des commandes."
+          "Direction du cycle de vie logiciel de bout en bout pour une marketplace de livraison par drones, dirigeant l'ingénierie des exigences, la simulation client et la documentation détaillée de l'architecture système.",
+          "Conception d'une application full-stack hautement évolutive implémentant un *modèle de conception MVC* strict, utilisant *Next.js et HeroUI* pour le frontend et *Prisma ORM* pour une gouvernance robuste des données backend.",
+          "Conception d'un pipeline utilisateur complet comprenant une authentification sécurisée, un suivi dynamique de l'historique des commandes, des états de livraison simulés en direct et un *système front-end de paiement par crédits virtuels simulé*."
         ]
       },
-      "techStack": {
-        "en": [
-          "Next.js",
-          "Prisma ORM",
-          "TypeScript",
-          "MVC"
-        ],
-        "pt-br": [
-          "Next.js",
-          "Prisma ORM",
-          "TypeScript",
-          "MVC"
-        ],
-        "fr": [
-          "Next.js",
-          "Prisma ORM",
-          "TypeScript",
-          "MVC"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd95",
+        "6aade3c8f436d26fa05c696e",
+        "6a99809a7fc8019f7155bd93",
+        "6a99809a7fc8019f7155bd8f",
+        "6a99809a7fc8019f7155bd92"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdb0",
@@ -1311,8 +1373,7 @@
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 6,
-        "coverImagePath": ""
+        "priorityScore": 6
       },
       "name": {
         "en": "3D Tower Defense Engine",
@@ -1320,53 +1381,39 @@
         "fr": "Moteur 3D de Tower Defense"
       },
       "briefDescription": {
-        "en": "Developed a third-person real-time strategy game in C++ and OpenGL, processing complex geometries of 10,000 faces with Gouraud and Blinn-Phong lighting models.",
-        "pt-br": "Desenvolvi um jogo de estratégia em tempo real em terceira pessoa utilizando C++ e OpenGL, processando geometrias complexas de 10.000 faces com modelos de iluminação de Gouraud e Blinn-Phong.",
-        "fr": "Développement d'un jeu de stratégie en temps réel à la troisième personne en C++ et OpenGL, avec traitement de géométries complexes (10 000 faces) et modèles d'illumination de Gouraud et Blinn-Phong."
+        "en": "Co-developed a fully functional third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing complex geometries of *10,000 faces* governed by a strict *time-step game loop*.",
+        "pt-br": "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias complexas de *10.000 faces* com um *game loop de passo de tempo fixo*.",
+        "fr": "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* utilisant *C++* et *OpenGL*, avec traitement de géométries complexes (*10 000 faces*) régies par une *boucle de jeu à pas de temps fixe*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed a third-person real-time strategy game in C++ and OpenGL, processing complex geometries of 10,000 faces with Gouraud and Blinn-Phong lighting models.",
-          "Engineered custom bounding-box collision detection algorithms and dynamic enemy pathfinding utilizing Bezier curves governed by a strict time-step game loop."
+          "Co-developed a fully functional third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing complex geometries of *10,000 faces* with Gouraud and Blinn-Phong lighting models.",
+          "Engineered custom bounding-box *collision detection algorithms* and dynamic enemy pathfinding utilizing *Bezier curves* governed by a strict *time-step game loop*."
         ],
         "pt-br": [
-          "Desenvolvi um jogo de estratégia em tempo real em terceira pessoa utilizando C++ e OpenGL, processando geometrias complexas de 10.000 faces com modelos de iluminação de Gouraud e Blinn-Phong.",
-          "Projetei algoritmos personalizados de detecção de colisão *bounding-box* e *pathfinding* dinâmico de inimigos utilizando curvas de Bézier, regidos por um *game loop* de passo de tempo fixo."
+          "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias complexas de *10.000 faces* com modelos de iluminação de Gouraud e Blinn-Phong.",
+          "Projetei algoritmos personalizados de detecção de colisão *bounding-box* e *pathfinding* dinâmico de inimigos utilizando *curvas de Bézier*, regidos por um *game loop de passo de tempo fixo*."
         ],
         "fr": [
-          "Développement d'un jeu de stratégie en temps réel à la troisième personne en C++ et OpenGL, avec traitement de géométries complexes (10 000 faces) et modèles d'illumination de Gouraud et Blinn-Phong.",
-          "Conception d'algorithmes personnalisés de détection de collisions par boîtes englobantes et de pathfinding dynamique utilisant des courbes de Bézier, régis par une boucle de jeu à pas de temps fixe."
+          "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* en utilisant *C++* et *OpenGL*, avec traitement de géométries complexes (*10 000 faces*) et modèles d'illumination de Gouraud et Blinn-Phong.",
+          "Conception d'algorithmes personnalisés de détection de collisions par boîtes englobantes et de pathfinding dynamique utilisant des *courbes de Bézier*, régis par une *boucle de jeu à pas de temps fixe*."
         ]
       },
-      "techStack": {
-        "en": [
-          "C++",
-          "OpenGL",
-          "Real-Time Logic"
-        ],
-        "pt-br": [
-          "C++",
-          "OpenGL",
-          "Lógica em Tempo Real"
-        ],
-        "fr": [
-          "C++",
-          "OpenGL",
-          "Logique Temps Réel"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8b",
+        "6a99809a7fc8019f7155bd98"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdb1",
       "url": "https://github.com/PLLima/SafeSip",
       "timeline": {
-        "startDate": "2024-01",
-        "endDate": null
+        "startDate": "2025-11",
+        "endDate": "2025-11"
       },
       "metadata": {
         "showOnWebsite": true,
-        "priorityScore": 5,
-        "coverImagePath": ""
+        "priorityScore": 5
       },
       "name": {
         "en": "SafeSip – Alcohol Consumption Tracker",
@@ -1374,53 +1421,42 @@
         "fr": "SafeSip – Suivi de consommation d'alcool"
       },
       "briefDescription": {
-        "en": "Android application designed to help individuals struggling with alcohol addiction track, control, and progressively reduce their drinking habits.",
-        "pt-br": "Aplicativo Android desenvolvido para ajudar indivíduos que lutam contra o vício em álcool a monitorar, controlar e reduzir progressivamente seus hábitos de consumo.",
-        "fr": "Application Android conçue pour aider les personnes luttant contre la dépendance à l'alcool à suivre, contrôler et réduire progressivement leurs habitudes de consommation."
+        "en": "Developed a privacy-first Android application to reduce alcohol consumption, mastering *Java for Android* in exactly *one week (32+ hours)* to implement *safety threshold warnings* and native *daily reminders*.",
+        "pt-br": "Desenvolvi um aplicativo Android focado em privacidade para reduzir o consumo de álcool, dominando *Java para Android* em exatamente *uma semana (32+ horas)* para implementar *avisos de limite de segurança* e *lembretes diários* nativos.",
+        "fr": "Développement d'une application Android axée sur la confidentialité pour réduire la consommation d'alcool, maîtrisant *Java pour Android* en exactement *une semaine (plus de 32 heures)* pour implémenter des *avertissements de seuil de sécurité* et des *rappels quotidiens*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed a privacy-first Android application in Java using Android Studio to help individuals monitor, control, and reduce daily alcohol intake without external tracking.",
-          "Implemented safety threshold alerts and a daily intake monitoring system that maintains a clear, on-device record of progress for future analysis."
+          "Acquired foundational proficiency in *Java for Android development* in exactly one week (32+ hours), rapidly prototyping and deploying a privacy-first mobile application.",
+          "Implemented a robust daily intake monitoring system featuring quick-record inputs, persistent data arrays for historical visualization, and progressive *safety threshold warnings*.",
+          "Engineered automated daily reminders utilizing native *Android notifications* to actively support user consistency and habit reduction."
         ],
         "pt-br": [
-          "Desenvolvi um aplicativo Android focado em privacidade, utilizando Java e Android Studio, para ajudar indivíduos a monitorar, controlar e reduzir a ingestão diária de álcool sem rastreamento externo.",
-          "Implementei alertas de limite de segurança e um sistema de monitoramento de ingestão diária que mantém um registro claro e local do progresso para análise futura."
+          "Adquiri proficiência fundamental em *Java para desenvolvimento Android* em exatamente uma semana (mais de 32 horas), prototipando e implementando rapidamente um aplicativo móvel focado em privacidade.",
+          "Implementei um sistema robusto de monitoramento de ingestão diária com entradas de registro rápido, matrizes de dados persistentes para visualização histórica e *avisos de limite de segurança* progressivos.",
+          "Projetei lembretes diários automatizados utilizando *notificações nativas do Android* para apoiar ativamente a consistência do usuário e a redução de hábitos."
         ],
         "fr": [
-          "Développement d'une application Android axée sur la confidentialité en Java (Android Studio) pour aider les individus à surveiller, contrôler et réduire leur consommation quotidienne d'alcool sans suivi externe.",
-          "Implémentation d'alertes de seuil de sécurité et d'un système de surveillance de la consommation quotidienne qui maintient un registre clair et local des progrès pour analyse future."
+          "Acquisition de compétences fondamentales en *développement Java pour Android* en exactement une semaine (plus de 32 heures), avec prototypage et déploiement rapides d'une application mobile axée sur la confidentialité.",
+          "Implémentation d'un système robuste de surveillance de la consommation quotidienne avec des entrées d'enregistrement rapide, des tableaux de données persistants pour la visualisation historique et des *avertissements progressifs de seuil de sécurité*.",
+          "Conception de rappels quotidiens automatisés utilisant des *notifications Android natives* pour soutenir activement la régularité de l'utilisateur et la réduction des habitudes."
         ]
       },
-      "techStack": {
-        "en": [
-          "Java",
-          "Android Studio",
-          "Mobile Development"
-        ],
-        "pt-br": [
-          "Java",
-          "Android Studio",
-          "Desenvolvimento Mobile"
-        ],
-        "fr": [
-          "Java",
-          "Android Studio",
-          "Développement mobile"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8c",
+        "6a99809a7fc8019f7155bd99"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdb2",
       "url": "https://github.com/brunosag/terraINF",
       "timeline": {
-        "startDate": "2024-01",
-        "endDate": null
+        "startDate": "2023-02",
+        "endDate": "2023-05"
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 4,
-        "coverImagePath": ""
+        "priorityScore": 4
       },
       "name": {
         "en": "TerraINF – Mining Platform Game",
@@ -1428,44 +1464,31 @@
         "fr": "TerraINF – Jeu de plateforme et de minage"
       },
       "briefDescription": {
-        "en": "Single-player platform mining game challenging players to achieve the highest possible score by collecting specific ores.",
-        "pt-br": "Jogo de plataforma e mineração single-player que desafia os jogadores a alcançar a maior pontuação possível coletando minérios específicos.",
-        "fr": "Jeu de plateforme et de minage en solo mettant les joueurs au défi d'atteindre le score le plus élevé possible en collectant des minerais spécifiques."
+        "en": "Dedicated *50+ hours* in a 3-person team to engineer a single-player platform game utilizing *pure C*, developing an integrated *mouse-supported level creator* and dynamic energy mechanics across *3+ progressively difficult stages*.",
+        "pt-br": "Dediquei *mais de 50 horas* em uma equipe de 3 pessoas para projetar um jogo de plataforma single-player utilizando *C puro*, desenvolvendo um *criador de níveis com suporte a mouse* e mecânicas dinâmicas de energia em *mais de 3 estágios*.",
+        "fr": "Investissement de *plus de 50 heures* au sein d'une équipe de 3 personnes pour concevoir un jeu de plateforme en solo utilisant du *C pur*, développant un *créateur de niveaux compatible avec la souris* et des mécaniques d'énergie dynamiques sur *plus de 3 étapes*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Engineered a single-player C++ platform game where dynamic energy mechanics govern player actions such as breaking blocks and mining ores.",
-          "Designed progressive difficulty algorithms across multiple levels, limiting vertical mobility to ladder-based strategies.",
-          "Implemented an intricate health and penalty system triggered by fall damage and energy depletion."
+          "Dedicated *50+ hours* in a 3-person team to engineer a complete single-player platform game utilizing *pure C*, establishing strong fundamentals in low-level game programming.",
+          "Developed an integrated *level creator* featuring direct mouse input support for layout drawing, alongside a dynamic level selector for *3+ progressively difficult stages*.",
+          "Implemented intricate game mechanics including ladder-based vertical mobility, strict energy depletion constraints, and a health penalty system triggered by fall damage."
         ],
         "pt-br": [
-          "Desenvolvi um jogo de plataforma single-player em C++ onde mecânicas dinâmicas de energia governam ações do jogador, como quebrar blocos e minerar minérios.",
-          "Projetei algoritmos de dificuldade progressiva em múltiplos níveis, limitando a mobilidade vertical a estratégias baseadas em escadas.",
-          "Implementei um sistema intrincado de saúde e penalidades, acionado por dano de queda e esgotamento de energia."
+          "Dediquei *mais de 50 horas* em uma equipe de 3 pessoas para projetar um jogo de plataforma single-player completo utilizando *C puro*, estabelecendo fortes fundamentos em programação de jogos de baixo nível.",
+          "Desenvolvi um *criador de níveis* integrado com suporte a entrada direta do mouse para desenho de layouts, juntamente com um seletor dinâmico de níveis para *mais de 3 estágios de dificuldade progressiva*.",
+          "Implementei mecânicas de jogo complexas, incluindo mobilidade vertical baseada em escadas, restrições estritas de esgotamento de energia e um sistema de penalidade de saúde acionado por dano de queda."
         ],
         "fr": [
-          "Conception d'un jeu de plateforme solo en C++ où des mécaniques d'énergie dynamiques régissent les actions du joueur telles que casser des blocs et extraire des minerais.",
-          "Conception d'algorithmes de difficulté progressive sur plusieurs niveaux, limitant la mobilité verticale aux stratégies basées sur des échelles.",
-          "Implémentation d'un système complexe de santé et de pénalités déclenché par les dégâts de chute et l'épuisement de l'énergie."
+          "Investissement de *plus de 50 heures* au sein d'une équipe de 3 personnes pour concevoir un jeu de plateforme en solo complet utilisant du *C pur*, établissant de solides bases en programmation de jeux bas niveau.",
+          "Développement d'un *créateur de niveaux* intégré offrant une prise en charge directe de la souris pour le dessin de la disposition, ainsi qu'un sélecteur de niveau dynamique pour *plus de 3 étapes de difficulté progressive*.",
+          "Implémentation de mécaniques de jeu complexes, incluant une mobilité verticale basée sur des échelles, des contraintes strictes d'épuisement de l'énergie et un système de pénalité de santé déclenché par les dégâts de chute."
         ]
       },
-      "techStack": {
-        "en": [
-          "C++",
-          "Game Development",
-          "Game Design"
-        ],
-        "pt-br": [
-          "C++",
-          "Desenvolvimento de Jogos",
-          "Design de Jogos"
-        ],
-        "fr": [
-          "C++",
-          "Développement de jeux",
-          "Conception de jeux"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8d",
+        "6a99809a7fc8019f7155bd9a"
+      ]
     },
     {
       "_id": "6a99f28d64161691115e9aee",
@@ -1476,8 +1499,7 @@
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 3,
-        "coverImagePath": ""
+        "priorityScore": 3
       },
       "name": {
         "en": "Fuel Consumption Prediction",
@@ -1485,41 +1507,31 @@
         "fr": "Prévision de Consommation de Carburant"
       },
       "briefDescription": {
-        "en": "Developed a machine learning model utilizing Scikit-Learn to predict vehicle fuel consumption (MPG), evaluating multiple regression algorithms and performing extensive exploratory data analysis.",
-        "pt-br": "Desenvolvi um modelo de machine learning utilizando Scikit-Learn para prever o consumo de combustível (MPG) de veículos, avaliando múltiplos algoritmos de regressão e realizando extensa análise exploratória de dados.",
-        "fr": "Développement d'un modèle d'apprentissage automatique utilisant Scikit-Learn pour prédire la consommation de carburant (MPG) des véhicules, en évaluant plusieurs algorithmes de régression et en effectuant une analyse exploratoire approfondie des données."
+        "en": "Developed a machine learning pipeline using *Scikit-Learn* to predict vehicle fuel consumption across *500+ instances*, evaluating *5+ regression algorithms* to achieve a *1.6111 test MSE* using *Linear Regression*.",
+        "pt-br": "Desenvolvi um pipeline de machine learning utilizando *Scikit-Learn* para prever o consumo de combustível em *mais de 500 instâncias*, avaliando *mais de 5 algoritmos* para alcançar um *MSE de teste de 1,6111* usando *Regressão Linear*.",
+        "fr": "Développement d'un pipeline d'apprentissage automatique via *Scikit-Learn* pour prédire la consommation de carburant sur *plus de 500 instances*, évaluant *plus de 5 algorithmes* pour atteindre un *MSE de test de 1,6111* avec la *Régression Linéaire*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed a machine learning model using Scikit-Learn to predict vehicle fuel consumption (MPG) across 550 instances.",
+          "Developed an end-to-end machine learning model using *Scikit-Learn* to accurately predict vehicle fuel consumption (MPG) across a structured dataset of *500+ instances*.",
           "Conducted extensive Exploratory Data Analysis (EDA) and established a comprehensive preprocessing pipeline including One-Hot Encoding, Min-Max normalization, and IQR outlier filtering.",
-          "Tuned hyperparameters for Random Forest and Neural Networks via GridSearchCV, ultimately demonstrating Linear Regression's superior generalization capability."
+          "Evaluated and tuned hyperparameters for *5+ regression algorithms* (including Random Forest and Neural Networks) via GridSearchCV, demonstrating *Linear Regression's* superior generalization with a *1.6111 test MSE*."
         ],
         "pt-br": [
-          "Desenvolvi um modelo de machine learning usando Scikit-Learn para prever o consumo de combustível (MPG) de veículos em 550 instâncias.",
-          "Realizei extensa Análise Exploratória de Dados (EDA) e estabeleci um pipeline robusto de pré-processamento, incluindo One-Hot Encoding, normalização Min-Max e filtragem de outliers por IQR.",
-          "Otimizei hiperparâmetros para Random Forest e Redes Neurais via GridSearchCV, demonstrando, em última análise, a capacidade superior de generalização da Regressão Linear."
+          "Desenvolvi um modelo de machine learning de ponta a ponta usando *Scikit-Learn* para prever com precisão o consumo de combustível de veículos (MPG) em um conjunto de dados estruturado de *mais de 500 instâncias*.",
+          "Realizei extensa Análise Exploratória de Dados (EDA) e estabeleci um pipeline abrangente de pré-processamento, incluindo One-Hot Encoding, normalização Min-Max e filtragem de outliers por IQR.",
+          "Avaliei e otimizei hiperparâmetros para *mais de 5 algoritmos de regressão* (incluindo Random Forest e Redes Neurais) via GridSearchCV, demonstrando a generalização superior da *Regressão Linear* com um *MSE de teste de 1,6111*."
         ],
         "fr": [
-          "Développement d'un modèle d'apprentissage automatique utilisant Scikit-Learn pour prédire la consommation de carburant (MPG) de véhicules sur 550 instances.",
-          "Réalisation d'une Analyse Exploratoire des Données (EDA) approfondie et établissement d'un pipeline de prétraitement robuste incluant One-Hot Encoding, normalisation Min-Max et filtrage des valeurs aberrantes par IQR.",
-          "Optimisation des hyperparamètres pour Random Forest et Réseaux de Neurones via GridSearchCV, démontrant finalement la capacité de généralisation supérieure de la Régression Linéaire."
+          "Développement d'un modèle d'apprentissage automatique de bout en bout utilisant *Scikit-Learn* pour prédire avec précision la consommation de carburant des véhicules (MPG) sur un ensemble de données structuré de *plus de 500 instances*.",
+          "Réalisation d'une Analyse Exploratoire des Données (EDA) approfondie et établissement d'un pipeline de prétraitement complet incluant One-Hot Encoding, normalisation Min-Max et filtrage des valeurs aberrantes par IQR.",
+          "Évaluation et optimisation des hyperparamètres pour *plus de 5 algorithmes de régression* (incluant Random Forest et Réseaux de Neurones) via GridSearchCV, démontrant la généralisation supérieure de la *Régression Linéaire* avec un *MSE de test de 1,6111*."
         ]
       },
-      "techStack": {
-        "en": [
-          "Python",
-          "Scikit-Learn"
-        ],
-        "pt-br": [
-          "Python",
-          "Scikit-Learn"
-        ],
-        "fr": [
-          "Python",
-          "Scikit-Learn"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bd91"
+      ]
     },
     {
       "_id": "6a99f28d64161691115e9aef",
@@ -1530,8 +1542,7 @@
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 2,
-        "coverImagePath": ""
+        "priorityScore": 2
       },
       "name": {
         "en": "Text-to-Music Converter",
@@ -1539,41 +1550,31 @@
         "fr": "Convertisseur Texte en Musique"
       },
       "briefDescription": {
-        "en": "Developed a Python desktop application utilizing the SCAMP library and Tkinter to algorithmically generate playable MIDI/audio compositions directly from text input.",
-        "pt-br": "Desenvolvi um aplicativo de desktop em Python utilizando a biblioteca SCAMP e Tkinter para gerar algoritmicamente composições MIDI/áudio tocáveis diretamente a partir de entrada de texto.",
-        "fr": "Développement d'une application de bureau Python utilisant la bibliothèque SCAMP et Tkinter pour générer algorithmiquement des compositions MIDI/audio jouables directement à partir d'une saisie de texte."
+        "en": "Managed the software engineering lifecycle within a 3-person team (*50+ hours*) to develop an application utilizing the *SCAMP library*, generating algorithmic *MIDI/audio compositions* with a *7-screen Tkinter interface* and *20+ unit tests*.",
+        "pt-br": "Gerenciei o ciclo de engenharia de software em uma equipe de 3 pessoas (*50+ horas*) desenvolvendo um aplicativo com a *biblioteca SCAMP*, gerando *composições MIDI/áudio* com uma *interface Tkinter de 7 telas* e *20+ testes unitários*.",
+        "fr": "Gestion du cycle d'ingénierie logicielle en équipe de 3 personnes (*plus de 50 heures*) développant une application avec la *bibliothèque SCAMP*, générant des *compositions MIDI/audio* avec une *interface Tkinter à 7 écrans* et *plus de 20 tests unitaires*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Developed a Python desktop application utilizing the SCAMP library to algorithmically generate playable MIDI/audio compositions from text input.",
-          "Designed a Tkinter-based graphical user interface enabling direct customization of musical parameters.",
-          "Implemented an automated test suite utilizing the unittest framework to ensure workflow reliability."
+          "Managed the software engineering lifecycle within a 3-person team (dedicating *50+ hours*), generating class diagrams, designing interfaces, and producing comprehensive technical reports.",
+          "Designed a *7-screen graphical user interface* via *Tkinter*, allowing users to input text, dynamically configure musical parameters, and instantly generate algorithmic *MIDI/audio compositions* using the SCAMP library.",
+          "Guaranteed system reliability and logic integrity by designing and executing a robust automated testing suite comprising *20+ individual unit tests*."
         ],
         "pt-br": [
-          "Desenvolvi um aplicativo de desktop em Python utilizando a biblioteca SCAMP para gerar algoritmicamente composições MIDI/áudio tocáveis a partir de entrada de texto.",
-          "Projetei uma interface gráfica de usuário baseada em Tkinter permitindo a personalização de parâmetros musicais.",
-          "Implementei um conjunto de testes automatizados utilizando o framework unittest para garantir a confiabilidade do fluxo de trabalho."
+          "Gerenciei o ciclo de vida de engenharia de software em uma equipe de 3 pessoas (dedicando *mais de 50 horas*), gerando diagramas de classe, projetando interfaces e produzindo relatórios técnicos abrangentes.",
+          "Projetei uma *interface gráfica de usuário de 7 telas* via *Tkinter*, permitindo aos usuários inserir texto, configurar dinamicamente parâmetros musicais e gerar instantaneamente *composições MIDI/áudio* algorítmicas usando a biblioteca SCAMP.",
+          "Garanti a confiabilidade do sistema e a integridade da lógica projetando e executando um conjunto robusto de testes automatizados compreendendo *mais de 20 testes unitários individuais*."
         ],
         "fr": [
-          "Développement d'une application de bureau Python utilisant la bibliothèque SCAMP pour générer algorithmiquement des compositions MIDI/audio jouables à partir d'une saisie de texte.",
-          "Conception d'une interface utilisateur graphique basée sur Tkinter permettant une personnalisation des paramètres musicaux.",
-          "Implémentation d'une suite de tests automatisés utilisant le framework unittest pour garantir la fiabilité du flux de travail."
+          "Gestion du cycle de vie de l'ingénierie logicielle au sein d'une équipe de 3 personnes (investissement de *plus de 50 heures*), avec création de diagrammes de classes, conception d'interfaces et production de rapports techniques complets.",
+          "Conception d'une *interface utilisateur graphique à 7 écrans* via *Tkinter*, permettant aux utilisateurs de saisir du texte, de configurer dynamiquement des paramètres musicaux et de générer instantanément des *compositions MIDI/audio* algorithmiques via la bibliothèque SCAMP.",
+          "Garantie de la fiabilité du système et de l'intégrité de la logique en concevant et en exécutant une suite de tests automatisés robuste comprenant *plus de 20 tests unitaires individuels*."
         ]
       },
-      "techStack": {
-        "en": [
-          "Python",
-          "Tkinter"
-        ],
-        "pt-br": [
-          "Python",
-          "Tkinter"
-        ],
-        "fr": [
-          "Python",
-          "Tkinter"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8a",
+        "6aade3c8f436d26fa05c696f"
+      ]
     },
     {
       "_id": "6a99f28d64161691115e9af0",
@@ -1584,8 +1585,7 @@
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 1,
-        "coverImagePath": ""
+        "priorityScore": 1
       },
       "name": {
         "en": "Nokia 5110 Display Library for STM32F4xx",
@@ -1593,44 +1593,32 @@
         "fr": "Bibliothèque d'écran Nokia 5110 pour STM32F4xx"
       },
       "briefDescription": {
-        "en": "Authored a comprehensive static C library for the Nokia 5110 LCD Display targeting STM32F4xx microcontrollers, utilizing hardware SPI and HAL drivers with support for multiple transmission modes.",
-        "pt-br": "Escrevi uma abrangente biblioteca estática em C para o Display LCD Nokia 5110 visando microcontroladores STM32F4xx, utilizando SPI de hardware e drivers HAL com suporte a múltiplos modos de transmissão.",
-        "fr": "Création d'une bibliothèque statique C complète pour l'écran LCD Nokia 5110 ciblant les microcontrôleurs STM32F4xx, utilisant le SPI matériel et les pilotes HAL avec prise en charge de plusieurs modes de transmission."
+        "en": "Authored a comprehensive static C library targeting *STM32F4xx microcontrollers*, developing *25+ user functions*, *5+ ASCII fonts*, and manually translating *5+ images into hexadecimal* as complete release examples for users.",
+        "pt-br": "Escrevi uma biblioteca estática em C abrangente visando *microcontroladores STM32F4xx*, desenvolvendo *mais de 25 funções*, *5+ fontes ASCII*, e traduzindo *5+ imagens para hexadecimal* como exemplos para os usuários.",
+        "fr": "Création d'une bibliothèque statique C complète ciblant les *microcontrôleurs STM32F4xx*, développant *plus de 25 fonctions*, *plus de 5 polices ASCII*, et traduisant *plus de 5 images en hexadécimal* comme exemples complets pour les utilisateurs."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Authored a comprehensive static C library for the Nokia 5110 LCD Display targeting STM32F4xx microcontrollers utilizing hardware SPI and HAL drivers.",
-          "Engineered support for both blocking and non-blocking (interrupts/DMA) transmission modes, optimizing microcontroller CPU utilization.",
-          "Developed advanced display functionalities including on-the-fly pinout configuration, customizable ASCII fonts, dynamic graphic rendering, and built-in error handling."
+          "Authored a comprehensive static C library for the Nokia 5110 LCD Display targeting *STM32F4xx microcontrollers* utilizing *hardware SPI* and *HAL drivers*.",
+          "Engineered support for both blocking and non-blocking (*interrupts/DMA*) transmission modes, heavily optimizing *CPU utilization* and memory management.",
+          "Developed *25+ distinct user functions* to manage advanced display capabilities, including on-the-fly pinout configuration, *5+ customizable ASCII fonts*, and manually translating *5+ images into hexadecimal* as reference examples for users."
         ],
         "pt-br": [
-          "Escrevi uma abrangente biblioteca estática em C para o Display LCD Nokia 5110 visando microcontroladores STM32F4xx utilizando SPI de hardware e drivers HAL.",
-          "Projetei suporte para modos de transmissão bloqueantes e não-bloqueantes (interrupções/DMA), otimizando a utilização da CPU do microcontrolador.",
-          "Desenvolvi funcionalidades avançadas de exibição incluindo configuração de pinagem em tempo real, fontes ASCII personalizáveis, renderização gráfica dinâmica e tratamento de erros integrado."
+          "Escrevi uma abrangente biblioteca estática em C para o Display LCD Nokia 5110 visando *microcontroladores STM32F4xx* utilizando *SPI de hardware* e *drivers HAL*.",
+          "Projetei suporte para modos de transmissão bloqueantes e não-bloqueantes (*interrupções/DMA*), otimizando fortemente a *utilização da CPU* e o gerenciamento de memória.",
+          "Desenvolvi *mais de 25 funções de usuário distintas* para gerenciar recursos avançados de exibição, incluindo configuração de pinagem em tempo real, *mais de 5 fontes ASCII personalizáveis* e traduzindo manualmente *mais de 5 imagens para hexadecimal* como exemplos de referência para os usuários."
         ],
         "fr": [
-          "Création d'une bibliothèque statique C complète pour l'écran LCD Nokia 5110 ciblant les microcontrôleurs STM32F4xx utilisant SPI matériel et les pilotes HAL.",
-          "Conception de la prise en charge des modes de transmission bloquants et non bloquants (interruptions/DMA), optimisant l'utilisation du processeur du microcontrôleur.",
-          "Développement de fonctionnalités d'affichage avancées, notamment la configuration des broches à la volée, des polices ASCII personnalisables, un rendu graphique dynamique et une gestion des erreurs intégrée."
+          "Création d'une bibliothèque statique C complète pour l'écran LCD Nokia 5110 ciblant les *microcontrôleurs STM32F4xx* utilisant *SPI matériel* et les *pilotes HAL*.",
+          "Conception de la prise en charge des modes de transmission bloquants et non bloquants (*interruptions/DMA*), optimisant fortement l'*utilisation du processeur* et la gestion de la mémoire.",
+          "Développement de *plus de 25 fonctions utilisateur distinctes* pour gérer des capacités d'affichage avancées, incluant la configuration des broches à la volée, *plus de 5 polices ASCII personnalisables* et la traduction manuelle de *plus de 5 images en hexadécimal* comme exemples de référence pour les utilisateurs."
         ]
       },
-      "techStack": {
-        "en": [
-          "C",
-          "STM32",
-          "Hardware SPI"
-        ],
-        "pt-br": [
-          "C",
-          "STM32",
-          "Hardware SPI"
-        ],
-        "fr": [
-          "C",
-          "STM32",
-          "Hardware SPI"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8d",
+        "6aade3c8f436d26fa05c6970",
+        "6aade3c8f436d26fa05c6971"
+      ]
     },
     {
       "_id": "6a99f28d64161691115e9af1",
@@ -1641,8 +1629,7 @@
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 0,
-        "coverImagePath": ""
+        "priorityScore": 0
       },
       "name": {
         "en": "Arduino Breathalyzer System",
@@ -1650,35 +1637,32 @@
         "fr": "Système d'Éthylotest Arduino"
       },
       "briefDescription": {
-        "en": "Collaborated in a 4-person team to construct a functional breathalyzer system based on an Arduino Uno architecture.",
-        "pt-br": "Colaborei em uma equipe de 4 pessoas para construir um sistema de bafômetro funcional baseado em uma arquitetura Arduino Uno.",
-        "fr": "Collaboration au sein d'une équipe de 4 personnes pour construire un système d'éthylotest fonctionnel basé sur une architecture Arduino Uno."
+        "en": "Collaborated in a 4-person team over *6+ months* to construct a functional *Arduino Uno* breathalyzer prototype, authoring a *50+ page scientific dissertation* and pitching to *150+ attendees* at the *Mostratec Júnior 2016 International Science Fair*.",
+        "pt-br": "Colaborei em uma equipe de 4 pessoas por *mais de 6 meses* para construir um protótipo de bafômetro *Arduino Uno*, elaborando uma *dissertação de mais de 50 páginas* e apresentando para *mais de 150 participantes* na *Mostratec Júnior 2016*.",
+        "fr": "Collaboration en équipe de 4 sur *plus de 6 mois* pour construire un prototype d'éthylotest *Arduino Uno*, rédigeant un *mémoire de plus de 50 pages* et le présentant à *plus de 150 participants* au *Salon International Mostratec Júnior 2016*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Collaborated in a 4-person team to construct a functional breathalyzer system based on an Arduino Uno architecture."
+          "Collaborated within a 4-person team over *6+ months* to construct a fully functional breathalyzer prototype utilizing an *Arduino Uno* architecture.",
+          "Authored a comprehensive *50+ page scientific dissertation* detailing the bibliographic research, component methodology, and analytical results.",
+          "Selected to exhibit the project at the *Mostratec Júnior 2016 International Science Fair*, successfully presenting the hardware logic and findings to an audience of *150+ attendees* over 4 days."
         ],
         "pt-br": [
-          "Colaborei em uma equipe de 4 pessoas para construir um sistema de bafômetro funcional baseado em uma arquitetura Arduino Uno."
+          "Colaborei em uma equipe de 4 pessoas ao longo de *mais de 6 meses* para construir um protótipo de bafômetro totalmente funcional utilizando uma arquitetura *Arduino Uno*.",
+          "Elaborei uma *dissertação científica abrangente de mais de 50 páginas* detalhando a pesquisa bibliográfica, metodologia de componentes e resultados analíticos.",
+          "Fui selecionado para exibir o projeto na *Feira Internacional de Ciências Mostratec Júnior 2016*, apresentando com sucesso a lógica de hardware e descobertas para um público de *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
-          "Collaboration au sein d'une équipe de 4 personnes pour construire un système d'éthylotest fonctionnel basé sur une architecture Arduino Uno."
+          "Collaboration au sein d'une équipe de 4 personnes sur *plus de 6 mois* pour construire un prototype d'éthylotest entièrement fonctionnel utilisant une architecture *Arduino Uno*.",
+          "Rédaction d'un *mémoire scientifique complet de plus de 50 pages* détaillant la recherche bibliographique, la méthodologie des composants et les résultats analytiques.",
+          "Sélection pour exposer le projet au *Salon International des Sciences Mostratec Júnior 2016*, avec présentation réussie de la logique matérielle et des résultats à un public de *plus de 150 participants* sur 4 jours."
         ]
       },
-      "techStack": {
-        "en": [
-          "Arduino",
-          "Hardware"
-        ],
-        "pt-br": [
-          "Arduino",
-          "Hardware"
-        ],
-        "fr": [
-          "Arduino",
-          "Matériel"
-        ]
-      }
+      "techStackRefs": [
+        "6aade3c8f436d26fa05c6972",
+        "6a99809a7fc8019f7155bd9b",
+        "6a99809a7fc8019f7155bd8b"
+      ]
     },
     {
       "_id": "6a99f28d64161691115e9af2",
@@ -1689,8 +1673,7 @@
       },
       "metadata": {
         "showOnWebsite": false,
-        "priorityScore": 0,
-        "coverImagePath": ""
+        "priorityScore": 0
       },
       "name": {
         "en": "School Content Management App",
@@ -1698,32 +1681,31 @@
         "fr": "Application de Gestion de Contenu Scolaire"
       },
       "briefDescription": {
-        "en": "Co-developed an application in a 4-person team aimed at managing school chores, tracking homework, tests, and general educational events.",
-        "pt-br": "Co-desenvolvi um aplicativo em uma equipe de 4 pessoas com o objetivo de gerenciar tarefas escolares, acompanhando deveres de casa, provas e eventos educacionais em geral.",
-        "fr": "Co-développement d'une application au sein d'une équipe de 4 personnes visant à gérer les tâches scolaires, le suivi des devoirs, des tests et des événements éducatifs généraux."
+        "en": "Co-developed a centralized educational management platform using pure *JavaScript, HTML, and CSS* over *6+ months*, authoring a *50+ page scientific document* and pitching to *150+ attendees* at the *Mostratec Júnior 2015 International Science Fair*.",
+        "pt-br": "Co-desenvolvi uma plataforma de gestão educacional em *JavaScript, HTML e CSS* puro por *mais de 6 meses*, elaborando um *documento científico de mais de 50 páginas* e apresentando a *150+ participantes* na *Mostratec Júnior 2015*.",
+        "fr": "Co-développement d'une plateforme de gestion éducative en *JavaScript, HTML et CSS* pur sur *plus de 6 mois*, rédigeant un *document scientifique de plus de 50 pages* et la présentant à *150+ participants* au *Salon Mostratec Júnior 2015*."
       },
-      "description": {
+      "detailedDescription": {
         "en": [
-          "Co-developed an application in a 4-person team aimed at managing school chores, tracking homework, tests, and general events."
+          "Co-developed a centralized educational management platform within a 4-person team over *6+ months*, utilizing pure *JavaScript, HTML, and CSS* to track academic assignments, schedules, and events.",
+          "Authored a comprehensive *50+ page scientific document* outlining the software engineering methodology, bibliographical research, and platform architecture.",
+          "Exhibited the application at the *Mostratec Júnior 2015 International Science Fair*, successfully pitching the platform's utility and technical design to *150+ attendees* over 4 days."
         ],
         "pt-br": [
-          "Co-desenvolvi um aplicativo em uma equipe de 4 pessoas com o objetivo de gerenciar tarefas escolares, acompanhando deveres de casa, provas e eventos em geral."
+          "Co-desenvolvi uma plataforma de gestão educacional centralizada em uma equipe de 4 pessoas ao longo de *mais de 6 meses*, utilizando *JavaScript puro, HTML e CSS* para rastrear tarefas acadêmicas, horários e eventos.",
+          "Elaborei um *documento científico abrangente de mais de 50 páginas* descrevendo a metodologia de engenharia de software, pesquisa bibliográfica e arquitetura da plataforma.",
+          "Exibi o aplicativo na *Feira Internacional de Ciências Mostratec Júnior 2015*, apresentando com sucesso a utilidade e o design técnico da plataforma para *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
-          "Co-développement d'une application au sein d'une équipe de 4 personnes visant à gérer les tâches scolaires, le suivi des devoirs, des tests et des événements généraux."
+          "Co-développement d'une plateforme de gestion éducative centralisée au sein d'une équipe de 4 personnes sur *plus de 6 mois*, utilisant *JavaScript pur, HTML et CSS* pour suivre les devoirs académiques, les horaires et les événements.",
+          "Rédaction d'un *document scientifique complet de plus de 50 pages* décrivant la méthodologie d'ingénierie logicielle, la recherche bibliographique et l'architecture de la plateforme.",
+          "Exposition de l'application au *Salon International des Sciences Mostratec Júnior 2015*, avec présentation réussie de l'utilité et de la conception technique de la plateforme à *plus de 150 participants* sur 4 jours."
         ]
       },
-      "techStack": {
-        "en": [
-          "Software Development"
-        ],
-        "pt-br": [
-          "Desenvolvimento de Software"
-        ],
-        "fr": [
-          "Développement de Logiciels"
-        ]
-      }
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bd8f",
+        "6aade3c8f436d26fa05c696b"
+      ]
     }
   ],
   "volunteering": [
@@ -1754,16 +1736,16 @@
       },
       "description": {
         "en": [
-          "Helped Liberato students from the first, second and third year.",
-          "Taught subjects from Linear Functions up to Combinatorial Analysis, Probability, Spatial Geometry and Calculus I."
+          "Dedicated *25+ afternoon tutoring shifts* to instructing 1st-3rd year students in advanced mathematics, covering complex numbers, spatial geometry, combinatorial analysis, and *Calculus I*.",
+          "Guided *30+ students* over a 6-month period to resolve and internalize the logic behind *100+ complex exercises*, directly improving their academic performance."
         ],
         "pt-br": [
-          "Auxiliei alunos da Liberato do primeiro, segundo e terceiro ano.",
-          "Ensinei matérias desde Funções Lineares até Análise Combinatória, Probabilidade, Geometria Espacial e Cálculo I."
+          "Dediquei *mais de 25 turnos extracurriculares de tutoria* à instrução de alunos do 1º ao 3º ano em matemática avançada, abrangendo números complexos, geometria espacial, análise combinatória e *Cálculo I*.",
+          "Orientei *mais de 30 alunos* ao longo de um período de 6 meses para resolver e internalizar a lógica por trás de *mais de 100 exercícios complexos*, melhorando diretamente seu desempenho acadêmico."
         ],
         "fr": [
-          "Aide aux étudiants de Liberato de la première à la troisième année.",
-          "Enseignement de sujets allant des fonctions linéaires à l'analyse combinatoire, la probabilité et la géométrie spatiale."
+          "Animation de *plus de 25 sessions de tutorat extrascolaire* pour des élèves de la 1ère à la 3ème année en mathématiques avancées, couvrant les nombres complexes, la géométrie spatiale, l'analyse combinatoire et le *Calcul I*.",
+          "Accompagnement de *plus de 30 étudiants* sur une période de 6 mois dans la résolution et l'assimilation de la logique de *plus de 100 exercices complexes*, améliorant directement leurs résultats académiques."
         ]
       }
     }

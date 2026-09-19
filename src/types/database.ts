@@ -59,13 +59,13 @@ export interface Experience {
   };
   metadata: {
     showOnWebsite: boolean;
-    targetRoles: string[];
-    techStackRefs: string[]; // Array of IDs referencing Skills
   };
   title: LocalizedString;
   company: LocalizedString;
   location: LocalizedString;
-  description: LocalizedArray;
+  briefDescription: LocalizedString;
+  detailedDescription: LocalizedArray;
+  techStackRefs: string[]; // Array of IDs referencing Skills
 }
 
 export interface Education {
@@ -97,12 +97,11 @@ export interface Project {
   metadata: {
     showOnWebsite: boolean;
     priorityScore: number;
-    coverImagePath: string;
   };
   name: LocalizedString;
   briefDescription: LocalizedString;
-  description: LocalizedArray;
-  techStack: LocalizedArray;
+  detailedDescription: LocalizedArray;
+  techStackRefs: string[]; // Array of IDs referencing Skills
 }
 
 export interface Volunteering {

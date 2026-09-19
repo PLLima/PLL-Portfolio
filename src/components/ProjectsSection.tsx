@@ -68,14 +68,18 @@ export function ProjectsSection() {
                   </div>
 
                   <ul className="flex flex-wrap gap-2" role="list" aria-label="Technologies used">
-                    {project.techStack[currentLang]?.map((tech) => (
-                      <li
-                        key={tech}
-                        className="px-2 py-1 text-xs font-medium rounded-md bg-muted text-muted-foreground"
-                      >
-                        {tech}
-                      </li>
-                    ))}
+                    {project.techStackRefs?.map((skillId) => {
+                      const skill = profile.skills.find(s => s._id === skillId || s._id === (skillId as any).$oid);
+                      if (!skill) return null;
+                      return (
+                        <li
+                          key={skill._id}
+                          className="px-2 py-1 text-xs font-medium rounded-md bg-muted text-muted-foreground"
+                        >
+                          {skill.name[currentLang]}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </article>
               </li>

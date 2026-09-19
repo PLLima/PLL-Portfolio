@@ -99,7 +99,7 @@ export function ExperienceSection() {
                       )}
 
                       <ul className="space-y-2" role="list">
-                        {exp.description[currentLang]?.map((item, i) => (
+                        {exp.detailedDescription[currentLang]?.map((item, i) => (
                           <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                             <span className="text-primary mt-1.5" aria-hidden="true">•</span>
                             <span>{formatTextWithEmphasis(item)}</span>
