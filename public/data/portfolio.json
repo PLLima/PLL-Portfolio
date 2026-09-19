@@ -105,17 +105,17 @@
   ],
   "skills": [
     {
-      "_id": "6a99809a7fc8019f7155bd99",
+      "_id": "6aaebd8ff71edc1048250744",
       "category": "hard_skill",
-      "subCategory": "Core Competencies",
+      "subCategory": "Tools & Environments",
       "proficiencyLevel": 3,
       "metadata": {
         "displayOrder": 1
       },
       "name": {
-        "en": "Android Studio & Mobile Development",
-        "pt-br": "Android Studio & Desenvolvimento mobile",
-        "fr": "Android Studio & Développement mobile"
+        "en": "Android Studio",
+        "pt-br": "Android Studio",
+        "fr": "Android Studio"
       }
     },
     {
@@ -183,9 +183,9 @@
         "displayOrder": 6
       },
       "name": {
-        "en": "Digital & Analog Circuits",
-        "pt-br": "Circuitos digitais & analógicos",
-        "fr": "Circuits numériques & analogiques"
+        "en": "Digital Circuits",
+        "pt-br": "Circuitos Digitais",
+        "fr": "Circuits numériques"
       }
     },
     {
@@ -211,9 +211,23 @@
         "displayOrder": 8
       },
       "name": {
-        "en": "Game Development & Design",
-        "pt-br": "Desenvolvimento & design de jogos",
-        "fr": "Développement & conception de jeux"
+        "en": "Game Development",
+        "pt-br": "Desenvolvimento de Jogos",
+        "fr": "Développement de jeux"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc1048250745",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 9
+      },
+      "name": {
+        "en": "Gazebo",
+        "pt-br": "Gazebo",
+        "fr": "Gazebo"
       }
     },
     {
@@ -222,7 +236,7 @@
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 9
+        "displayOrder": 10
       },
       "name": {
         "en": "Gemini AI",
@@ -236,7 +250,7 @@
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 10
+        "displayOrder": 11
       },
       "name": {
         "en": "Google Cloud Platform (GCP)",
@@ -245,12 +259,26 @@
       }
     },
     {
+      "_id": "6aade3c8f436d26fa05c696b",
+      "category": "hard_skill",
+      "subCategory": "Languages",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 12
+      },
+      "name": {
+        "en": "HTML & CSS",
+        "pt-br": "HTML & CSS",
+        "fr": "HTML & CSS"
+      }
+    },
+    {
       "_id": "6aade3c8f436d26fa05c6971",
       "category": "hard_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 11
+        "displayOrder": 13
       },
       "name": {
         "en": "Hardware SPI",
@@ -264,7 +292,7 @@
       "subCategory": "Frameworks & Libraries",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 12
+        "displayOrder": 14
       },
       "name": {
         "en": "HeroUI",
@@ -273,26 +301,12 @@
       }
     },
     {
-      "_id": "6aade3c8f436d26fa05c696b",
-      "category": "hard_skill",
-      "subCategory": "Languages",
-      "proficiencyLevel": 4,
-      "metadata": {
-        "displayOrder": 13
-      },
-      "name": {
-        "en": "HTML & CSS",
-        "pt-br": "HTML & CSS",
-        "fr": "HTML & CSS"
-      }
-    },
-    {
       "_id": "6a99809a7fc8019f7155bd8c",
       "category": "hard_skill",
       "subCategory": "Languages",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 14
+        "displayOrder": 15
       },
       "name": {
         "en": "Java",
@@ -306,7 +320,7 @@
       "subCategory": "Languages",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 15
+        "displayOrder": 16
       },
       "name": {
         "en": "JavaScript/TypeScript",
@@ -320,7 +334,7 @@
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 16
+        "displayOrder": 17
       },
       "name": {
         "en": "Linux/Ubuntu",
@@ -329,31 +343,87 @@
       }
     },
     {
+      "_id": "6aaebd8ff71edc1048250746",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 18
+      },
+      "name": {
+        "en": "MVC Pattern",
+        "pt-br": "Padrão MVC",
+        "fr": "Modèle MVC"
+      }
+    },
+    {
       "_id": "6a99809a7fc8019f7155bd91",
       "category": "hard_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 17
+        "displayOrder": 19
       },
       "name": {
-        "en": "Machine Learning (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)",
-        "pt-br": "Aprendizado de Máquina (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)",
-        "fr": "Apprentissage automatique (Scikit-Learn, Pandas, XGBoost, LightGBM, AutoGluon)"
+        "en": "Machine Learning",
+        "pt-br": "Aprendizado de Máquina",
+        "fr": "Apprentissage automatique"
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bd98",
+      "_id": "6a99809a7fc8019f7155bd99",
       "category": "hard_skill",
       "subCategory": "Core Competencies",
-      "proficiencyLevel": 4,
+      "proficiencyLevel": 3,
       "metadata": {
-        "displayOrder": 18
+        "displayOrder": 20
       },
       "name": {
-        "en": "OpenGL & Real-Time Logic",
-        "pt-br": "OpenGL & Lógica em tempo real",
-        "fr": "OpenGL & Logique en temps réel"
+        "en": "Mobile Development",
+        "pt-br": "Desenvolvimento Mobile",
+        "fr": "Développement mobile"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc1048250747",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 21
+      },
+      "name": {
+        "en": "OpenGL",
+        "pt-br": "OpenGL",
+        "fr": "OpenGL"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc1048250749",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 3,
+      "metadata": {
+        "displayOrder": 22
+      },
+      "name": {
+        "en": "PX4 Autopilot",
+        "pt-br": "PX4 Autopilot",
+        "fr": "PX4 Autopilot"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc1048250748",
+      "category": "hard_skill",
+      "subCategory": "Frameworks & Libraries",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 23
+      },
+      "name": {
+        "en": "Prisma ORM",
+        "pt-br": "Prisma ORM",
+        "fr": "Prisma ORM"
       }
     },
     {
@@ -362,7 +432,7 @@
       "subCategory": "Languages",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 19
+        "displayOrder": 24
       },
       "name": {
         "en": "Python",
@@ -371,12 +441,26 @@
       }
     },
     {
+      "_id": "6aaebd8ff71edc104825074a",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 25
+      },
+      "name": {
+        "en": "ROS Noetic",
+        "pt-br": "ROS Noetic",
+        "fr": "ROS Noetic"
+      }
+    },
+    {
       "_id": "6a99809a7fc8019f7155bd95",
       "category": "hard_skill",
       "subCategory": "Frameworks & Libraries",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 20
+        "displayOrder": 26
       },
       "name": {
         "en": "React & Next.js",
@@ -385,17 +469,31 @@
       }
     },
     {
+      "_id": "6a99809a7fc8019f7155bd98",
+      "category": "hard_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 27
+      },
+      "name": {
+        "en": "Real-Time Logic",
+        "pt-br": "Lógica em Tempo Real",
+        "fr": "Logique en temps réel"
+      }
+    },
+    {
       "_id": "6a99809a7fc8019f7155bd93",
       "category": "hard_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 21
+        "displayOrder": 28
       },
       "name": {
-        "en": "Relational Database Design (Prisma ORM)",
-        "pt-br": "Design de bancos de dados relacionais (Prisma ORM)",
-        "fr": "Conception de bases de données relationnelles (Prisma ORM)"
+        "en": "Relational Databases",
+        "pt-br": "Bancos de Dados Relacionais",
+        "fr": "Bases de données relationnelles"
       }
     },
     {
@@ -404,7 +502,7 @@
       "subCategory": "Languages",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 22
+        "displayOrder": 29
       },
       "name": {
         "en": "SQL",
@@ -418,7 +516,7 @@
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 23
+        "displayOrder": 30
       },
       "name": {
         "en": "STM32",
@@ -427,12 +525,26 @@
       }
     },
     {
+      "_id": "6aaebd8ff71edc104825074b",
+      "category": "hard_skill",
+      "subCategory": "Tools & Environments",
+      "proficiencyLevel": 4,
+      "metadata": {
+        "displayOrder": 31
+      },
+      "name": {
+        "en": "SharePoint",
+        "pt-br": "SharePoint",
+        "fr": "SharePoint"
+      }
+    },
+    {
       "_id": "6aade3c8f436d26fa05c696c",
       "category": "hard_skill",
       "subCategory": "Frameworks & Libraries",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 24
+        "displayOrder": 32
       },
       "name": {
         "en": "Streamlit",
@@ -446,12 +558,12 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 25
+        "displayOrder": 33
       },
       "name": {
-        "en": "System Architecture (MVC)",
-        "pt-br": "Arquitetura de sistemas (MVC)",
-        "fr": "Architecture de systèmes (MVC)"
+        "en": "System Architecture",
+        "pt-br": "Arquitetura de Sistemas",
+        "fr": "Architecture de systèmes"
       }
     },
     {
@@ -460,7 +572,7 @@
       "subCategory": "Frameworks & Libraries",
       "proficiencyLevel": 3,
       "metadata": {
-        "displayOrder": 26
+        "displayOrder": 34
       },
       "name": {
         "en": "Tkinter",
@@ -474,7 +586,7 @@
       "subCategory": "Tools & Environments",
       "proficiencyLevel": 4,
       "metadata": {
-        "displayOrder": 27
+        "displayOrder": 35
       },
       "name": {
         "en": "Vite",
@@ -483,12 +595,26 @@
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bda5",
+      "_id": "6a99809a7fc8019f7155bda1",
       "category": "soft_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
         "displayOrder": 1
+      },
+      "name": {
+        "en": "Analytical Problem Solving",
+        "pt-br": "Resolução Analítica de Problemas",
+        "fr": "Résolution analytique de problèmes"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bda5",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 2
       },
       "name": {
         "en": "Communication",
@@ -497,21 +623,7 @@
       }
     },
     {
-      "_id": "6a99809a7fc8019f7155bda1",
-      "category": "soft_skill",
-      "subCategory": "Core Competencies",
-      "proficiencyLevel": 5,
-      "metadata": {
-        "displayOrder": 2
-      },
-      "name": {
-        "en": "Mathematical Thinking",
-        "pt-br": "Pensamento matemático",
-        "fr": "Pensée mathématique"
-      }
-    },
-    {
-      "_id": "6a99809a7fc8019f7155bda2",
+      "_id": "6aaebd8ff71edc104825074c",
       "category": "soft_skill",
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
@@ -519,9 +631,9 @@
         "displayOrder": 3
       },
       "name": {
-        "en": "Proactiveness",
-        "pt-br": "Proatividade",
-        "fr": "Proactivité"
+        "en": "Mentoring & Teaching",
+        "pt-br": "Mentoria e Ensino",
+        "fr": "Mentorat et Enseignement"
       }
     },
     {
@@ -533,9 +645,37 @@
         "displayOrder": 4
       },
       "name": {
-        "en": "Scheduling",
-        "pt-br": "Planejamento",
-        "fr": "Planification"
+        "en": "Project Management",
+        "pt-br": "Gestão de Projetos",
+        "fr": "Gestion de Projet"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc104825074d",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 5
+      },
+      "name": {
+        "en": "Public Speaking",
+        "pt-br": "Oratória",
+        "fr": "Prise de Parole en Public"
+      }
+    },
+    {
+      "_id": "6a99809a7fc8019f7155bda2",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 6
+      },
+      "name": {
+        "en": "Rapid Learning",
+        "pt-br": "Aprendizado Rápido",
+        "fr": "Apprentissage Rapide"
       }
     },
     {
@@ -544,12 +684,26 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 5
+        "displayOrder": 7
       },
       "name": {
         "en": "Team Leadership",
-        "pt-br": "Liderança de equipes",
+        "pt-br": "Liderança de Equipes",
         "fr": "Leadership d'équipe"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc104825074e",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 8
+      },
+      "name": {
+        "en": "Teamwork & Collaboration",
+        "pt-br": "Trabalho em Equipe",
+        "fr": "Travail en Équipe"
       }
     },
     {
@@ -558,12 +712,26 @@
       "subCategory": "Core Competencies",
       "proficiencyLevel": 5,
       "metadata": {
-        "displayOrder": 6
+        "displayOrder": 9
       },
       "name": {
-        "en": "Thoroughness",
-        "pt-br": "Meticulosidade",
-        "fr": "Rigueur"
+        "en": "Technical Documentation",
+        "pt-br": "Documentação Técnica",
+        "fr": "Documentation Technique"
+      }
+    },
+    {
+      "_id": "6aaebd8ff71edc104825074f",
+      "category": "soft_skill",
+      "subCategory": "Core Competencies",
+      "proficiencyLevel": 5,
+      "metadata": {
+        "displayOrder": 10
+      },
+      "name": {
+        "en": "Time Management",
+        "pt-br": "Gestão de Tempo",
+        "fr": "Gestion du Temps"
       }
     }
   ],
@@ -666,7 +834,9 @@
         "fr": "Conception d'un *portfolio full-stack* responsif via *Next.js et React*, centralisant *plus de 120 processus*, et résolution des goulots d'étranglement internes par des évaluations RH qualitatives."
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd95"
+        "6a99809a7fc8019f7155bda5",
+        "6a99809a7fc8019f7155bd95",
+        "6aaebd8ff71edc104825074e"
       ]
     },
     {
@@ -713,7 +883,11 @@
         "pt-br": "Instruí estudantes internacionais, co-liderando *15 sessões intensivas* sobre sistemas dinâmicos e elaborando *mais de 65 documentos curriculares* para acelerar a integração acadêmica.",
         "fr": "Enseignement aux étudiants internationaux entrants, avec co-animation de *15 sessions intensives* sur les systèmes dynamiques et rédaction de *plus de 65 documents de cours*."
       },
-      "techStackRefs": []
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bda5",
+        "6aaebd8ff71edc104825074c",
+        "6aaebd8ff71edc104825074d"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bda9",
@@ -760,7 +934,9 @@
         "fr": "Gestion de *50 % des tâches d'enseignement* pour plus de 10 laboratoires, encadrant plus de 15 étudiants en sciences sur la *programmation en C* et le débogage de structures mémoire."
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd8d"
+        "6a99809a7fc8019f7155bd8d",
+        "6a99809a7fc8019f7155bda5",
+        "6aaebd8ff71edc104825074c"
       ]
     },
     {
@@ -807,7 +983,11 @@
         "pt-br": "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, guiando turmas de engenharia na resolução e internalização de *mais de 50 problemas complexos de física*.",
         "fr": "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, accompagnant les étudiants en ingénierie dans la résolution de *plus de 50 problèmes de physique complexes*."
       },
-      "techStackRefs": []
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bda1",
+        "6a99809a7fc8019f7155bda5",
+        "6aaebd8ff71edc104825074c"
+      ]
     },
     {
       "_id": "6a99db597fc8019f7155bdbd",
@@ -850,7 +1030,10 @@
         "pt-br": "Acompanhei *mais de 10 profissionais de RH* por dois meses para otimizar a burocracia interna, centralizando fluxos de documentação utilizando *Notion e Google Drive*.",
         "fr": "Suivi de *plus de 10 professionnels des RH* sur deux mois pour optimiser la bureaucratie interne, centralisant les flux de documentation via *Notion et Google Drive*."
       },
-      "techStackRefs": []
+      "techStackRefs": [
+        "6a99809a7fc8019f7155bda3",
+        "6aaebd8ff71edc104825074e"
+      ]
     },
     {
       "_id": "6a99809a7fc8019f7155bdab",
@@ -898,7 +1081,11 @@
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bd8b",
-        "6a99809a7fc8019f7155bd8d"
+        "6aaebd8ff71edc1048250745",
+        "6aaebd8ff71edc1048250749",
+        "6aaebd8ff71edc104825074a",
+        "6a99809a7fc8019f7155bd92",
+        "6a99809a7fc8019f7155bda4"
       ]
     },
     {
@@ -949,7 +1136,11 @@
         "fr": "Conception d'une station de test automatisée en *C* réduisant le temps de déplacement de la maintenance de *50 %*, et exécution de *plus de 20 protocoles de maintenance* industrielle."
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd9b"
+        "6a99809a7fc8019f7155bd8d",
+        "6a99809a7fc8019f7155bd9b",
+        "6aaebd8ff71edc104825074b",
+        "6a99809a7fc8019f7155bda4",
+        "6aaebd8ff71edc104825074f"
       ]
     }
   ],
@@ -1226,8 +1417,9 @@
         ]
       },
       "techStackRefs": [
+        "6a99809a7fc8019f7155bd91",
         "6a99809a7fc8019f7155bd8a",
-        "6a99809a7fc8019f7155bd91"
+        "6aaebd8ff71edc104825074e"
       ]
     },
     {
@@ -1269,8 +1461,10 @@
         ]
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bda1",
+        "6a99809a7fc8019f7155bda5",
         "6a99809a7fc8019f7155bd91",
+        "6a99809a7fc8019f7155bd8a",
         "6aade3c8f436d26fa05c696c"
       ]
     },
@@ -1310,12 +1504,14 @@
         ]
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd8a",
         "6a99809a7fc8019f7155bd96",
-        "6a99809a7fc8019f7155bd95",
-        "6aade3c8f436d26fa05c696d",
         "6a99809a7fc8019f7155bd94",
-        "6a99809a7fc8019f7155bd97"
+        "6a99809a7fc8019f7155bd97",
+        "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bda2",
+        "6a99809a7fc8019f7155bd95",
+        "6aaebd8ff71edc104825074f",
+        "6aade3c8f436d26fa05c696d"
       ]
     },
     {
@@ -1357,11 +1553,12 @@
         ]
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd95",
         "6aade3c8f436d26fa05c696e",
-        "6a99809a7fc8019f7155bd93",
         "6a99809a7fc8019f7155bd8f",
-        "6a99809a7fc8019f7155bd92"
+        "6aaebd8ff71edc1048250746",
+        "6aaebd8ff71edc1048250748",
+        "6a99809a7fc8019f7155bda3",
+        "6a99809a7fc8019f7155bd95"
       ]
     },
     {
@@ -1401,7 +1598,10 @@
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bd8b",
-        "6a99809a7fc8019f7155bd98"
+        "6a99809a7fc8019f7155bd9a",
+        "6aaebd8ff71edc1048250747",
+        "6a99809a7fc8019f7155bd98",
+        "6aaebd8ff71edc104825074e"
       ]
     },
     {
@@ -1443,8 +1643,10 @@
         ]
       },
       "techStackRefs": [
+        "6aaebd8ff71edc1048250744",
         "6a99809a7fc8019f7155bd8c",
-        "6a99809a7fc8019f7155bd99"
+        "6a99809a7fc8019f7155bd99",
+        "6a99809a7fc8019f7155bda2"
       ]
     },
     {
@@ -1487,7 +1689,8 @@
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bd8d",
-        "6a99809a7fc8019f7155bd9a"
+        "6a99809a7fc8019f7155bd9a",
+        "6aaebd8ff71edc104825074e"
       ]
     },
     {
@@ -1529,8 +1732,9 @@
         ]
       },
       "techStackRefs": [
-        "6a99809a7fc8019f7155bd8a",
-        "6a99809a7fc8019f7155bd91"
+        "6a99809a7fc8019f7155bda1",
+        "6a99809a7fc8019f7155bd91",
+        "6a99809a7fc8019f7155bd8a"
       ]
     },
     {
@@ -1573,6 +1777,8 @@
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bd8a",
+        "6a99809a7fc8019f7155bda6",
+        "6a99809a7fc8019f7155bda4",
         "6aade3c8f436d26fa05c696f"
       ]
     },
@@ -1616,8 +1822,9 @@
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bd8d",
+        "6aade3c8f436d26fa05c6971",
         "6aade3c8f436d26fa05c6970",
-        "6aade3c8f436d26fa05c6971"
+        "6a99809a7fc8019f7155bda4"
       ]
     },
     {
@@ -1660,8 +1867,11 @@
       },
       "techStackRefs": [
         "6aade3c8f436d26fa05c6972",
+        "6a99809a7fc8019f7155bd8b",
         "6a99809a7fc8019f7155bd9b",
-        "6a99809a7fc8019f7155bd8b"
+        "6aaebd8ff71edc104825074d",
+        "6aaebd8ff71edc104825074e",
+        "6a99809a7fc8019f7155bda4"
       ]
     },
     {
@@ -1703,8 +1913,11 @@
         ]
       },
       "techStackRefs": [
+        "6aade3c8f436d26fa05c696b",
         "6a99809a7fc8019f7155bd8f",
-        "6aade3c8f436d26fa05c696b"
+        "6aaebd8ff71edc104825074d",
+        "6aaebd8ff71edc104825074e",
+        "6a99809a7fc8019f7155bda4"
       ]
     }
   ],

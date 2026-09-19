@@ -74,11 +74,20 @@ export function ProjectsSection() {
                         if (skill) acc.push(skill);
                         return acc;
                       }, [] as typeof profile.skills)
-                      .sort((a, b) => a.name[currentLang].localeCompare(b.name[currentLang]))
+                      .sort((a, b) => {
+                        if (a.category !== b.category) {
+                          return a.category === 'hard_skill' ? -1 : 1;
+                        }
+                        return a.name[currentLang].localeCompare(b.name[currentLang]);
+                      })
                       .map((skill) => (
                         <li
                           key={skill._id}
-                          className="px-2 py-1 text-xs font-medium rounded-md bg-muted text-muted-foreground"
+                          className={`px-2 py-1 text-xs font-medium rounded-md transition-colors duration-300 ${
+                            skill.category === 'hard_skill'
+                              ? 'bg-muted text-muted-foreground group-hover:bg-primary/15 group-hover:text-primary'
+                              : 'bg-muted/40 text-muted-foreground/60 group-hover:bg-muted group-hover:text-muted-foreground'
+                          }`}
                         >
                           {skill.name[currentLang]}
                         </li>
