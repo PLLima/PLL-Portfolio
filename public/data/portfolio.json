@@ -40,7 +40,7 @@
       "title": {
         "en": "Machine Learning",
         "pt-br": "Aprendizado de Máquina",
-        "fr": "Apprentissage automatique"
+        "fr": "apprentissage automatique"
       },
       "description": {
         "en": "Predictive Modeling & AI Integrations",
@@ -58,7 +58,7 @@
       "title": {
         "en": "Software Engineering",
         "pt-br": "Engenharia de Software",
-        "fr": "Génie logiciel"
+        "fr": "génie logiciel"
       },
       "description": {
         "en": "Full-Stack Development & API Design",
@@ -76,7 +76,7 @@
       "title": {
         "en": "System Architecture",
         "pt-br": "Arquitetura de Sistemas",
-        "fr": "Architecture de systèmes"
+        "fr": "architecture de systèmes"
       },
       "description": {
         "en": "Scalable, Distributed & Cloud Systems",
@@ -94,7 +94,7 @@
       "title": {
         "en": "Low-Level Systems",
         "pt-br": "Sistemas de Baixo Nível",
-        "fr": "Systèmes bas niveau"
+        "fr": "systèmes bas niveau"
       },
       "description": {
         "en": "C/C++, Algorithm Optimization & Real-Time Logic",
@@ -143,7 +143,7 @@
       "name": {
         "en": "Assembly",
         "pt-br": "Assembly",
-        "fr": "Assembleur"
+        "fr": "assembleur"
       }
     },
     {
@@ -185,7 +185,7 @@
       "name": {
         "en": "Digital Circuits",
         "pt-br": "Circuitos Digitais",
-        "fr": "Circuits numériques"
+        "fr": "circuits numériques"
       }
     },
     {
@@ -213,7 +213,7 @@
       "name": {
         "en": "Game Development",
         "pt-br": "Desenvolvimento de Jogos",
-        "fr": "Développement de jeux"
+        "fr": "développement de jeux"
       }
     },
     {
@@ -283,7 +283,7 @@
       "name": {
         "en": "Hardware SPI",
         "pt-br": "Hardware SPI",
-        "fr": "Hardware SPI"
+        "fr": "SPI matériel"
       }
     },
     {
@@ -353,7 +353,7 @@
       "name": {
         "en": "MVC Pattern",
         "pt-br": "Padrão MVC",
-        "fr": "Modèle MVC"
+        "fr": "modèle MVC"
       }
     },
     {
@@ -367,7 +367,7 @@
       "name": {
         "en": "Machine Learning",
         "pt-br": "Aprendizado de Máquina",
-        "fr": "Apprentissage automatique"
+        "fr": "apprentissage automatique"
       }
     },
     {
@@ -381,7 +381,7 @@
       "name": {
         "en": "Mobile Development",
         "pt-br": "Desenvolvimento Mobile",
-        "fr": "Développement mobile"
+        "fr": "développement mobile"
       }
     },
     {
@@ -479,7 +479,7 @@
       "name": {
         "en": "Real-Time Logic",
         "pt-br": "Lógica em Tempo Real",
-        "fr": "Logique en temps réel"
+        "fr": "logique en temps réel"
       }
     },
     {
@@ -493,7 +493,7 @@
       "name": {
         "en": "Relational Databases",
         "pt-br": "Bancos de Dados Relacionais",
-        "fr": "Bases de données relationnelles"
+        "fr": "bases de données relationnelles"
       }
     },
     {
@@ -563,7 +563,7 @@
       "name": {
         "en": "System Architecture",
         "pt-br": "Arquitetura de Sistemas",
-        "fr": "Architecture de systèmes"
+        "fr": "architecture de systèmes"
       }
     },
     {
@@ -605,7 +605,7 @@
       "name": {
         "en": "Analytical Problem Solving",
         "pt-br": "Resolução Analítica de Problemas",
-        "fr": "Résolution analytique de problèmes"
+        "fr": "résolution analytique de problèmes"
       }
     },
     {
@@ -619,7 +619,7 @@
       "name": {
         "en": "Communication",
         "pt-br": "Comunicação",
-        "fr": "Communication"
+        "fr": "communication"
       }
     },
     {
@@ -633,7 +633,7 @@
       "name": {
         "en": "Mentoring & Teaching",
         "pt-br": "Mentoria e Ensino",
-        "fr": "Mentorat et Enseignement"
+        "fr": "mentorat et enseignement"
       }
     },
     {
@@ -647,7 +647,7 @@
       "name": {
         "en": "Project Management",
         "pt-br": "Gestão de Projetos",
-        "fr": "Gestion de Projet"
+        "fr": "gestion de projet"
       }
     },
     {
@@ -661,7 +661,7 @@
       "name": {
         "en": "Public Speaking",
         "pt-br": "Oratória",
-        "fr": "Prise de Parole en Public"
+        "fr": "prise de parole en public"
       }
     },
     {
@@ -675,7 +675,7 @@
       "name": {
         "en": "Rapid Learning",
         "pt-br": "Aprendizado Rápido",
-        "fr": "Apprentissage Rapide"
+        "fr": "apprentissage rapide"
       }
     },
     {
@@ -689,7 +689,7 @@
       "name": {
         "en": "Team Leadership",
         "pt-br": "Liderança de Equipes",
-        "fr": "Leadership d'équipe"
+        "fr": "leadership d'équipe"
       }
     },
     {
@@ -703,7 +703,7 @@
       "name": {
         "en": "Teamwork & Collaboration",
         "pt-br": "Trabalho em Equipe",
-        "fr": "Travail en Équipe"
+        "fr": "travail en équipe"
       }
     },
     {
@@ -717,7 +717,7 @@
       "name": {
         "en": "Technical Documentation",
         "pt-br": "Documentação Técnica",
-        "fr": "Documentation Technique"
+        "fr": "documentation technique"
       }
     },
     {
@@ -731,7 +731,7 @@
       "name": {
         "en": "Time Management",
         "pt-br": "Gestão de Tempo",
-        "fr": "Gestion du Temps"
+        "fr": "gestion du temps"
       }
     }
   ],
@@ -1396,7 +1396,7 @@
       },
       "briefDescription": {
         "en": "Collaborated in a 5-person team to develop an *XGBoost* machine learning pipeline predicting progressive aircraft corrosion risk, achieving a *Top 10 Finalist* position and a *0.18266 Brier Score* in the *2026 Airbus & IBM Hackathon*. Note: Codebase remains strictly confidential.",
-        "pt-br": "Colaborei em uma equipe de 5 pessoas para desenvolver um pipeline de machine learning com *XGBoost* predizendo o risco de corrosão em aeronaves, alcançando o *Top 10 Finalista* e um *Brier Score de 0,18266* no *Hackathon Airbus & IBM 2026*. Nota: Código-fonte confidencial.",
+        "pt-br": "Colaborei em uma equipe de 5 pessoas para desenvolver um pipeline de aprendizado de máquina com *XGBoost* predizendo o risco de corrosão em aeronaves, alcançando o *Top 10 Finalista* e um *Brier Score de 0,18266* no *Hackathon Airbus & IBM 2026*. Nota: Código-fonte confidencial.",
         "fr": "Collaboration au sein d'une équipe de 5 personnes pour développer un pipeline d'apprentissage automatique *XGBoost* prédisant le risque de corrosion des aéronefs, atteignant la place de *Top 10 Finaliste* avec un *Score de Brier de 0,18266* lors du *Hackathon Airbus & IBM 2026*. Code source confidentiel."
       },
       "detailedDescription": {
@@ -1406,7 +1406,7 @@
           "Trained and evaluated gradient boosting algorithms (*XGBoost*, LightGBM, Random Forest), applying Platt scaling and Isotonic regression to prevent time-series data leakage, achieving a *0.18266 Brier Score* with the optimized XGBoost model."
         ],
         "pt-br": [
-          "Desenvolvi um pipeline de machine learning para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição, alcançando o *Top 10 Finalista* no *Hackathon da Airbus & IBM de 2026*.",
+          "Desenvolvi um pipeline de aprendizado de máquina para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição, alcançando o *Top 10 Finalista* no *Hackathon da Airbus & IBM de 2026*.",
           "Transformei dados ambientais complexos de séries temporais em *probabilidades de risco altamente calibradas* para mudar a manutenção de aeronaves de reativa para proativa, apoiando diretamente as decisões operacionais da Airbus.",
           "Treinei e avaliei algoritmos de gradient boosting (*XGBoost*, LightGBM, Random Forest), aplicando Platt scaling e regressão isotônica para evitar o vazamento de dados temporais, alcançando um *Brier Score de 0,18266* com o modelo XGBoost otimizado."
         ],
@@ -1440,8 +1440,8 @@
       },
       "briefDescription": {
         "en": "Developed an end-to-end machine learning pipeline and a comprehensive *Streamlit dashboard* in partnership with *EDF* to forecast UK electricity consumption, evaluating *12+ models* to achieve a *validation RMSE of 0.0082*.",
-        "pt-br": "Desenvolvi um pipeline completo de machine learning e um *dashboard abrangente no Streamlit* em parceria com a *EDF* para prever o consumo de eletricidade no Reino Unido, avaliando *mais de 12 modelos* para alcançar um *RMSE de validação de 0,0082*.",
-        "fr": "Développement d'un pipeline complet de machine learning et d'un *tableau de bord Streamlit* en partenariat avec *EDF* pour prévoir la consommation d'électricité au Royaume-Uni, évaluant *plus de 12 modèles* pour atteindre un *RMSE de validation de 0,0082*."
+        "pt-br": "Desenvolvi um pipeline completo de aprendizado de máquina e um *dashboard abrangente no Streamlit* em parceria com a *EDF* para prever o consumo de eletricidade no Reino Unido, avaliando *mais de 12 modelos* para alcançar um *RMSE de validação de 0,0082*.",
+        "fr": "Développement d'un pipeline complet d'apprentissage automatique et d'un *tableau de bord Streamlit* en partenariat avec *EDF* pour prévoir la consommation d'électricité au Royaume-Uni, évaluant *plus de 12 modèles* pour atteindre un *RMSE de validation de 0,0082*."
       },
       "detailedDescription": {
         "en": [
@@ -1450,12 +1450,12 @@
           "Engineered a comprehensive *Streamlit dashboard* to intuitively visualize Exploratory Data Analysis (EDA), model predictions, and carbon footprint estimations, presenting final results to an academic panel of 3 researchers."
         ],
         "pt-br": [
-          "Desenvolvi um pipeline completo de machine learning em parceria com a *EDF* para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
+          "Desenvolvi um pipeline completo de aprendizado de máquina em parceria com a *EDF* para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
           "Avaliei e otimizei *mais de 12 modelos preditivos* (incluindo Ridge Regression, *XGBoost*, CatBoost, LightGBM e *AutoGluon*), alcançando o *melhor RMSE de validação semi-horária de 0,0082* em mais de *4.000 linhas*.",
           "Projetei um *dashboard abrangente no Streamlit* para visualizar intuitivamente a Análise Exploratória de Dados (EDA), previsões de modelos e estimativas de pegada de carbono, apresentando os resultados a um painel acadêmico de 3 pesquisadores."
         ],
         "fr": [
-          "Développement d'un pipeline complet de machine learning en partenariat avec *EDF* pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques.",
+          "Développement d'un pipeline complet d'apprentissage automatique en partenariat avec *EDF* pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques.",
           "Évaluation et optimisation de *plus de 12 modèles prédictifs* (incluant Ridge Regression, *XGBoost*, CatBoost, LightGBM et *AutoGluon*), atteignant un *RMSE de validation par demi-heure de 0,0082* sur plus de *4 000 lignes*.",
           "Conception d'un *tableau de bord Streamlit* complet pour visualiser intuitivement l'Analyse Exploratoire des Données (EDA), les prédictions des modèles et les estimations de l'empreinte carbone, avec présentation des résultats à un jury académique de 3 chercheurs."
         ]
@@ -1538,17 +1538,17 @@
       "detailedDescription": {
         "en": [
           "Directed the end-to-end software lifecycle for a drone delivery marketplace, leading requirements engineering, client simulation, and detailed system architecture documentation.",
-          "Architected a highly scalable full-stack application implementing a strict *MVC design pattern*, utilizing *Next.js and HeroUI* for the frontend and *Prisma ORM* for robust backend data governance.",
+          "Architected a highly scalable full-stack application implementing a strict *MVC design pattern*, utilizing *Next.js and HeroUI* for the frontend and *Prisma ORM* for strict backend data governance.",
           "Engineered a comprehensive user pipeline featuring secure authentication, dynamic order history tracking, live simulated delivery states, and a *simulated front-end virtual credit payment system*."
         ],
         "pt-br": [
           "Dirigi o ciclo de vida de software de ponta a ponta para um marketplace de entrega por drones, liderando a engenharia de requisitos, simulação de clientes e documentação detalhada de arquitetura.",
-          "Arquitetei uma aplicação full-stack altamente escalável implementando o rígido *padrão de projeto MVC*, utilizando *Next.js e HeroUI* para o frontend e *Prisma ORM* para governança robusta de dados no backend.",
+          "Arquitetei uma aplicação full-stack altamente escalável implementando o rígido *padrão de projeto MVC*, utilizando *Next.js e HeroUI* para o frontend e *Prisma ORM* para governança estrita de dados no backend.",
           "Projetei um pipeline de usuário abrangente com autenticação segura, rastreamento dinâmico de histórico de pedidos, estados de entrega simulados ao vivo e um *sistema front-end de pagamento por créditos virtuais simulado*."
         ],
         "fr": [
           "Direction du cycle de vie logiciel de bout en bout pour une marketplace de livraison par drones, dirigeant l'ingénierie des exigences, la simulation client et la documentation détaillée de l'architecture système.",
-          "Conception d'une application full-stack hautement évolutive implémentant un *modèle de conception MVC* strict, utilisant *Next.js et HeroUI* pour le frontend et *Prisma ORM* pour une gouvernance robuste des données backend.",
+          "Conception d'une application full-stack hautement évolutive implémentant un *modèle de conception MVC* strict, utilisant *Next.js et HeroUI* pour le frontend et *Prisma ORM* pour une gouvernance stricte des données backend.",
           "Conception d'un pipeline utilisateur complet comprenant une authentification sécurisée, un suivi dynamique de l'historique des commandes, des états de livraison simulés en direct et un *système front-end de paiement par crédits virtuels simulé*."
         ]
       },
@@ -1628,17 +1628,17 @@
       "detailedDescription": {
         "en": [
           "Acquired foundational proficiency in *Java for Android development* in exactly one week (32+ hours), rapidly prototyping and deploying a privacy-first mobile application.",
-          "Implemented a robust daily intake monitoring system featuring quick-record inputs, persistent data arrays for historical visualization, and progressive *safety threshold warnings*.",
+          "Implemented a comprehensive daily intake monitoring system featuring quick-record inputs, persistent data arrays for historical visualization, and progressive *safety threshold warnings*.",
           "Engineered automated daily reminders utilizing native *Android notifications* to actively support user consistency and habit reduction."
         ],
         "pt-br": [
-          "Adquiri proficiência fundamental em *Java para desenvolvimento Android* em exatamente uma semana (mais de 32 horas), prototipando e implementando rapidamente um aplicativo móvel focado em privacidade.",
-          "Implementei um sistema robusto de monitoramento de ingestão diária com entradas de registro rápido, matrizes de dados persistentes para visualização histórica e *avisos de limite de segurança* progressivos.",
+          "Dominei os fundamentos em *Java para desenvolvimento Android* em exatamente uma semana (mais de 32 horas), prototipando e implementando rapidamente um aplicativo móvel focado em privacidade.",
+          "Implementei um sistema abrangente de monitoramento de ingestão diária com entradas de registro rápido, matrizes de dados persistentes para visualização histórica e *avisos de limite de segurança* progressivos.",
           "Projetei lembretes diários automatizados utilizando *notificações nativas do Android* para apoiar ativamente a consistência do usuário e a redução de hábitos."
         ],
         "fr": [
-          "Acquisition de compétences fondamentales en *développement Java pour Android* en exactement une semaine (plus de 32 heures), avec prototypage et déploiement rapides d'une application mobile axée sur la confidentialité.",
-          "Implémentation d'un système robuste de surveillance de la consommation quotidienne avec des entrées d'enregistrement rapide, des tableaux de données persistants pour la visualisation historique et des *avertissements progressifs de seuil de sécurité*.",
+          "Apprentissage de compétences fondamentales en *développement Java pour Android* en exactement une semaine (plus de 32 heures), avec prototypage et déploiement rapides d'une application mobile axée sur la confidentialité.",
+          "Implémentation d'un système complet de surveillance de la consommation quotidienne avec des entrées d'enregistrement rapide, des tableaux de données persistants pour la visualisation historique et des *avertissements progressifs de seuil de sécurité*.",
           "Conception de rappels quotidiens automatisés utilisant des *notifications Android natives* pour soutenir activement la régularité de l'utilisateur et la réduction des habitudes."
         ]
       },
@@ -1711,7 +1711,7 @@
       },
       "briefDescription": {
         "en": "Developed a machine learning pipeline using *Scikit-Learn* to predict vehicle fuel consumption across *500+ instances*, evaluating *5+ regression algorithms* to achieve a *1.6111 test MSE* using *Linear Regression*.",
-        "pt-br": "Desenvolvi um pipeline de machine learning utilizando *Scikit-Learn* para prever o consumo de combustível em *mais de 500 instâncias*, avaliando *mais de 5 algoritmos* para alcançar um *MSE de teste de 1,6111* usando *Regressão Linear*.",
+        "pt-br": "Desenvolvi um pipeline de aprendizado de máquina utilizando *Scikit-Learn* para prever o consumo de combustível em *mais de 500 instâncias*, avaliando *mais de 5 algoritmos* para alcançar um *MSE de teste de 1,6111* usando *Regressão Linear*.",
         "fr": "Développement d'un pipeline d'apprentissage automatique via *Scikit-Learn* pour prédire la consommation de carburant sur *plus de 500 instances*, évaluant *plus de 5 algorithmes* pour atteindre un *MSE de test de 1,6111* avec la *Régression Linéaire*."
       },
       "detailedDescription": {
@@ -1721,7 +1721,7 @@
           "Evaluated and tuned hyperparameters for *5+ regression algorithms* (including Random Forest and Neural Networks) via GridSearchCV, demonstrating *Linear Regression's* superior generalization with a *1.6111 test MSE*."
         ],
         "pt-br": [
-          "Desenvolvi um modelo de machine learning de ponta a ponta usando *Scikit-Learn* para prever com precisão o consumo de combustível de veículos (MPG) em um conjunto de dados estruturado de *mais de 500 instâncias*.",
+          "Desenvolvi um modelo de aprendizado de máquina de ponta a ponta usando *Scikit-Learn* para prever com precisão o consumo de combustível de veículos (MPG) em um conjunto de dados estruturado de *mais de 500 instâncias*.",
           "Realizei extensa Análise Exploratória de Dados (EDA) e estabeleci um pipeline abrangente de pré-processamento, incluindo One-Hot Encoding, normalização Min-Max e filtragem de outliers por IQR.",
           "Avaliei e otimizei hiperparâmetros para *mais de 5 algoritmos de regressão* (incluindo Random Forest e Redes Neurais) via GridSearchCV, demonstrando a generalização superior da *Regressão Linear* com um *MSE de teste de 1,6111*."
         ],
@@ -1762,17 +1762,17 @@
         "en": [
           "Managed the software engineering lifecycle within a 3-person team (dedicating *50+ hours*), generating class diagrams, designing interfaces, and producing comprehensive technical reports.",
           "Designed a *7-screen graphical user interface* via *Tkinter*, allowing users to input text, dynamically configure musical parameters, and instantly generate algorithmic *MIDI/audio compositions* using the SCAMP library.",
-          "Guaranteed system reliability and logic integrity by designing and executing a robust automated testing suite comprising *20+ individual unit tests*."
+          "Guaranteed system reliability and logic integrity by designing and executing a comprehensive automated testing suite comprising *20+ individual unit tests*."
         ],
         "pt-br": [
           "Gerenciei o ciclo de vida de engenharia de software em uma equipe de 3 pessoas (dedicando *mais de 50 horas*), gerando diagramas de classe, projetando interfaces e produzindo relatórios técnicos abrangentes.",
           "Projetei uma *interface gráfica de usuário de 7 telas* via *Tkinter*, permitindo aos usuários inserir texto, configurar dinamicamente parâmetros musicais e gerar instantaneamente *composições MIDI/áudio* algorítmicas usando a biblioteca SCAMP.",
-          "Garanti a confiabilidade do sistema e a integridade da lógica projetando e executando um conjunto robusto de testes automatizados compreendendo *mais de 20 testes unitários individuais*."
+          "Garanti a confiabilidade do sistema e a integridade da lógica projetando e executando um conjunto abrangente de testes automatizados compreendendo *mais de 20 testes unitários individuais*."
         ],
         "fr": [
           "Gestion du cycle de vie de l'ingénierie logicielle au sein d'une équipe de 3 personnes (investissement de *plus de 50 heures*), avec création de diagrammes de classes, conception d'interfaces et production de rapports techniques complets.",
           "Conception d'une *interface utilisateur graphique à 7 écrans* via *Tkinter*, permettant aux utilisateurs de saisir du texte, de configurer dynamiquement des paramètres musicaux et de générer instantanément des *compositions MIDI/audio* algorithmiques via la bibliothèque SCAMP.",
-          "Garantie de la fiabilité du système et de l'intégrité de la logique en concevant et en exécutant une suite de tests automatisés robuste comprenant *plus de 20 tests unitaires individuels*."
+          "Garantie de la fiabilité du système et de l'intégrité de la logique en concevant et en exécutant une suite de tests automatisés exhaustive comprenant *plus de 20 tests unitaires individuels*."
         ]
       },
       "techStackRefs": [
@@ -1852,17 +1852,17 @@
         "en": [
           "Collaborated within a 4-person team over *6+ months* to construct a fully functional breathalyzer prototype utilizing an *Arduino Uno* architecture.",
           "Authored a comprehensive *50+ page scientific dissertation* detailing the bibliographic research, component methodology, and analytical results.",
-          "Selected to exhibit the project at the *Mostratec Júnior 2016 International Science Fair*, successfully presenting the hardware logic and findings to an audience of *150+ attendees* over 4 days."
+          "Exhibited the project at the *Mostratec Júnior 2016 International Science Fair*, presenting the hardware logic and findings to an audience of *150+ attendees* over 4 days."
         ],
         "pt-br": [
           "Colaborei em uma equipe de 4 pessoas ao longo de *mais de 6 meses* para construir um protótipo de bafômetro totalmente funcional utilizando uma arquitetura *Arduino Uno*.",
           "Elaborei uma *dissertação científica abrangente de mais de 50 páginas* detalhando a pesquisa bibliográfica, metodologia de componentes e resultados analíticos.",
-          "Fui selecionado para exibir o projeto na *Feira Internacional de Ciências Mostratec Júnior 2016*, apresentando com sucesso a lógica de hardware e descobertas para um público de *mais de 150 participantes* ao longo de 4 dias."
+          "Exibi o projeto na *Feira Internacional de Ciências Mostratec Júnior 2016*, apresentando a lógica de hardware e descobertas para um público de *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
           "Collaboration au sein d'une équipe de 4 personnes sur *plus de 6 mois* pour construire un prototype d'éthylotest entièrement fonctionnel utilisant une architecture *Arduino Uno*.",
           "Rédaction d'un *mémoire scientifique complet de plus de 50 pages* détaillant la recherche bibliographique, la méthodologie des composants et les résultats analytiques.",
-          "Sélection pour exposer le projet au *Salon International des Sciences Mostratec Júnior 2016*, avec présentation réussie de la logique matérielle et des résultats à un public de *plus de 150 participants* sur 4 jours."
+          "Présentation du projet au *Salon International des Sciences Mostratec Júnior 2016*, avec présentation de la logique matérielle et des résultats à un public de *plus de 150 participants* sur 4 jours."
         ]
       },
       "techStackRefs": [
@@ -1899,17 +1899,17 @@
         "en": [
           "Co-developed a centralized educational management platform within a 4-person team over *6+ months*, utilizing pure *JavaScript, HTML, and CSS* to track academic assignments, schedules, and events.",
           "Authored a comprehensive *50+ page scientific document* outlining the software engineering methodology, bibliographical research, and platform architecture.",
-          "Exhibited the application at the *Mostratec Júnior 2015 International Science Fair*, successfully pitching the platform's utility and technical design to *150+ attendees* over 4 days."
+          "Exhibited the application at the *Mostratec Júnior 2015 International Science Fair*, pitching the platform's utility and technical design to *150+ attendees* over 4 days."
         ],
         "pt-br": [
           "Co-desenvolvi uma plataforma de gestão educacional centralizada em uma equipe de 4 pessoas ao longo de *mais de 6 meses*, utilizando *JavaScript puro, HTML e CSS* para rastrear tarefas acadêmicas, horários e eventos.",
           "Elaborei um *documento científico abrangente de mais de 50 páginas* descrevendo a metodologia de engenharia de software, pesquisa bibliográfica e arquitetura da plataforma.",
-          "Exibi o aplicativo na *Feira Internacional de Ciências Mostratec Júnior 2015*, apresentando com sucesso a utilidade e o design técnico da plataforma para *mais de 150 participantes* ao longo de 4 dias."
+          "Exibi o aplicativo na *Feira Internacional de Ciências Mostratec Júnior 2015*, apresentando a utilidade e o design técnico da plataforma para *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
           "Co-développement d'une plateforme de gestion éducative centralisée au sein d'une équipe de 4 personnes sur *plus de 6 mois*, utilisant *JavaScript pur, HTML et CSS* pour suivre les devoirs académiques, les horaires et les événements.",
           "Rédaction d'un *document scientifique complet de plus de 50 pages* décrivant la méthodologie d'ingénierie logicielle, la recherche bibliographique et l'architecture de la plateforme.",
-          "Exposition de l'application au *Salon International des Sciences Mostratec Júnior 2015*, avec présentation réussie de l'utilité et de la conception technique de la plateforme à *plus de 150 participants* sur 4 jours."
+          "Présentation de l'application au *Salon International des Sciences Mostratec Júnior 2015*, avec présentation de l'utilité et de la conception technique de la plateforme à *plus de 150 participants* sur 4 jours."
         ]
       },
       "techStackRefs": [
@@ -2085,9 +2085,9 @@
         "fr": "Culture pop & jeux vidéo"
       },
       "description": {
-        "en": "Analytical thinking, synthesis, and problem-solving (Anime, Manga).",
-        "pt-br": "Pensamento analítico, síntese e resolução de problemas (Anime, Mangá).",
-        "fr": "Esprit d'analyse, de synthèse et de résolution de problèmes (Anime, Manga)."
+        "en": "Analytical thinking, synthesis, and problem-solving (anime, manga).",
+        "pt-br": "Pensamento analítico, síntese e resolução de problemas (anime, mangá).",
+        "fr": "Esprit d'analyse, de synthèse et de résolution de problèmes (anime, manga)."
       },
       "metadata": {
         "showOnWebsite": false,
