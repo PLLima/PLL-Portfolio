@@ -21,7 +21,7 @@ export default {
   skills: {
     title: 'Skills &',
     titleHighlight: 'Expertise',
-    subtitle: 'A blend of technical proficiency and interpersonal capabilities',
+    subtitle: 'A consolidated set of technical and interpersonal competencies',
     technical: 'Technical Skills',
     soft: 'Soft Skills',
     achievements: 'Achievements',
@@ -29,14 +29,14 @@ export default {
   experience: {
     title: 'Professional',
     titleHighlight: 'Experience',
-    subtitle: 'A track record of diverse roles in software engineering and machine learning',
+    subtitle: 'A professional track record focused on software engineering and machine learning',
   },
   education: {
     title: 'Education &',
     titleHighlight: 'International Experience',
-    subtitle: 'A global educational journey spanning multiple countries and disciplines',
+    subtitle: 'A global academic journey spanning multiple countries and disciplines',
     doubleDegree: 'Double Degree Program',
-    doubleDegreeDesc: 'Currently pursuing a prestigious Double Degree between {centralesupelec} (France) and {ufrgs} (Brazil), combining the best of European and South American engineering education with a global perspective on technology and innovation.',
+    doubleDegreeDesc: 'Currently pursuing a Double Degree between {centralesupelec} (France) and {ufrgs} (Brazil), integrating European and South American engineering methodologies with a global perspective on technology and innovation.',
     concurrentDegree: 'Double Degree',
     concurrentCourse: 'Concurrent Course',
     completed: 'Completed:',
@@ -45,13 +45,13 @@ export default {
   projects: {
     title: 'Featured',
     titleHighlight: 'Projects',
-    subtitle: 'A selection of key projects showcasing my technical expertise and problem-solving abilities.',
+    subtitle: 'A selection of primary projects demonstrating technical competence and problem-solving capabilities.',
     viewMore: 'View More on GitHub',
   },
   contact: {
-    title: "Let's",
-    titleHighlight: 'Connect',
-    subtitle: "Interested in discussing opportunities or collaboration? I'd love to hear from you.",
+    title: 'Get in',
+    titleHighlight: 'Touch',
+    subtitle: 'Available for professional opportunities and technical collaborations. Please reach out.',
     email: 'Email',
     location: 'Location',
     findOnline: 'Find me online',
@@ -59,7 +59,7 @@ export default {
   },
   footer: {
     rights: 'All rights reserved.',
-    tagline: 'Built with passion for technology and innovation.',
+    tagline: 'Engineered with a focus on modern web technologies and clean architecture.',
   },
   keyboard: {
     title: 'Keyboard Shortcuts',
@@ -69,7 +69,7 @@ export default {
   },
   print: {
     title: 'Please download the PDF CV',
-    message: 'To print the beautifully formatted CV, please download it using the "Download CV" button on the website, or press Ctrl+P (Cmd+P on Mac) on your keyboard while viewing the site.',
+    message: 'To print the CV with optimal formatting, please download it using the "Download CV" button, or press Ctrl+P (Cmd+P on Mac) on your keyboard.',
   },
   accessibility: {
     skipToContent: 'Skip to main content',

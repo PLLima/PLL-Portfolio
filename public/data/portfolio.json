@@ -40,7 +40,7 @@
       "title": {
         "en": "Machine Learning",
         "pt-br": "Aprendizado de Máquina",
-        "fr": "apprentissage automatique"
+        "fr": "Apprentissage automatique"
       },
       "description": {
         "en": "Predictive Modeling & AI Integrations",
@@ -58,7 +58,7 @@
       "title": {
         "en": "Software Engineering",
         "pt-br": "Engenharia de Software",
-        "fr": "génie logiciel"
+        "fr": "Génie logiciel"
       },
       "description": {
         "en": "Full-Stack Development & API Design",
@@ -76,7 +76,7 @@
       "title": {
         "en": "System Architecture",
         "pt-br": "Arquitetura de Sistemas",
-        "fr": "architecture de systèmes"
+        "fr": "Architecture de systèmes"
       },
       "description": {
         "en": "Scalable, Distributed & Cloud Systems",
@@ -94,7 +94,7 @@
       "title": {
         "en": "Low-Level Systems",
         "pt-br": "Sistemas de Baixo Nível",
-        "fr": "systèmes bas niveau"
+        "fr": "Systèmes bas niveau"
       },
       "description": {
         "en": "C/C++, Algorithm Optimization & Real-Time Logic",
@@ -143,7 +143,7 @@
       "name": {
         "en": "Assembly",
         "pt-br": "Assembly",
-        "fr": "assembleur"
+        "fr": "Assembleur"
       }
     },
     {
@@ -185,7 +185,7 @@
       "name": {
         "en": "Digital Circuits",
         "pt-br": "Circuitos Digitais",
-        "fr": "circuits numériques"
+        "fr": "Circuits numériques"
       }
     },
     {
@@ -213,7 +213,7 @@
       "name": {
         "en": "Game Development",
         "pt-br": "Desenvolvimento de Jogos",
-        "fr": "développement de jeux"
+        "fr": "Développement de jeux"
       }
     },
     {
@@ -353,7 +353,7 @@
       "name": {
         "en": "MVC Pattern",
         "pt-br": "Padrão MVC",
-        "fr": "modèle MVC"
+        "fr": "Modèle MVC"
       }
     },
     {
@@ -367,7 +367,7 @@
       "name": {
         "en": "Machine Learning",
         "pt-br": "Aprendizado de Máquina",
-        "fr": "apprentissage automatique"
+        "fr": "Apprentissage automatique"
       }
     },
     {
@@ -381,7 +381,7 @@
       "name": {
         "en": "Mobile Development",
         "pt-br": "Desenvolvimento Mobile",
-        "fr": "développement mobile"
+        "fr": "Développement mobile"
       }
     },
     {
@@ -479,7 +479,7 @@
       "name": {
         "en": "Real-Time Logic",
         "pt-br": "Lógica em Tempo Real",
-        "fr": "logique en temps réel"
+        "fr": "Logique en temps réel"
       }
     },
     {
@@ -493,7 +493,7 @@
       "name": {
         "en": "Relational Databases",
         "pt-br": "Bancos de Dados Relacionais",
-        "fr": "bases de données relationnelles"
+        "fr": "Bases de données relationnelles"
       }
     },
     {
@@ -563,7 +563,7 @@
       "name": {
         "en": "System Architecture",
         "pt-br": "Arquitetura de Sistemas",
-        "fr": "architecture de systèmes"
+        "fr": "Architecture de systèmes"
       }
     },
     {
@@ -605,7 +605,7 @@
       "name": {
         "en": "Analytical Problem Solving",
         "pt-br": "Resolução Analítica de Problemas",
-        "fr": "résolution analytique de problèmes"
+        "fr": "Résolution analytique de problèmes"
       }
     },
     {
@@ -619,7 +619,7 @@
       "name": {
         "en": "Communication",
         "pt-br": "Comunicação",
-        "fr": "communication"
+        "fr": "Communication"
       }
     },
     {
@@ -633,7 +633,7 @@
       "name": {
         "en": "Mentoring & Teaching",
         "pt-br": "Mentoria e Ensino",
-        "fr": "mentorat et enseignement"
+        "fr": "Mentorat et enseignement"
       }
     },
     {
@@ -647,7 +647,7 @@
       "name": {
         "en": "Project Management",
         "pt-br": "Gestão de Projetos",
-        "fr": "gestion de projet"
+        "fr": "Gestion de projet"
       }
     },
     {
@@ -661,7 +661,7 @@
       "name": {
         "en": "Public Speaking",
         "pt-br": "Oratória",
-        "fr": "prise de parole en public"
+        "fr": "Prise de parole en public"
       }
     },
     {
@@ -675,7 +675,7 @@
       "name": {
         "en": "Rapid Learning",
         "pt-br": "Aprendizado Rápido",
-        "fr": "apprentissage rapide"
+        "fr": "Apprentissage rapide"
       }
     },
     {
@@ -689,7 +689,7 @@
       "name": {
         "en": "Team Leadership",
         "pt-br": "Liderança de Equipes",
-        "fr": "leadership d'équipe"
+        "fr": "Leadership d'équipe"
       }
     },
     {
@@ -703,7 +703,7 @@
       "name": {
         "en": "Teamwork & Collaboration",
         "pt-br": "Trabalho em Equipe",
-        "fr": "travail en équipe"
+        "fr": "Travail en équipe"
       }
     },
     {
@@ -717,7 +717,7 @@
       "name": {
         "en": "Technical Documentation",
         "pt-br": "Documentação Técnica",
-        "fr": "documentation technique"
+        "fr": "Documentation technique"
       }
     },
     {
@@ -731,7 +731,7 @@
       "name": {
         "en": "Time Management",
         "pt-br": "Gestão de Tempo",
-        "fr": "gestion du temps"
+        "fr": "Gestion du temps"
       }
     }
   ],
