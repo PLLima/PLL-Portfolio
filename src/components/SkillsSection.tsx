@@ -104,7 +104,7 @@ export function SkillsSection() {
                 
                 return (
                   <li key={achievement._id} className="flex items-start gap-3">
-                    <span className="text-primary mt-1" aria-hidden="true">•</span>
+                    <span className="text-primary" aria-hidden="true">•</span>
                     <span className="text-muted-foreground">
                       {parts.length > 1 ? (
                         <>

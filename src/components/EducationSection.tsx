@@ -219,7 +219,7 @@ export function EducationSection() {
                     <ul className="mt-4 space-y-2" role="list">
                       {edu.description[currentLang].map((desc, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground transition-colors">
-                          <span className="text-primary mt-1.5" aria-hidden="true">•</span>
+                          <span className="text-primary" aria-hidden="true">•</span>
                           <span>{formatTextWithEmphasis(desc)}</span>
                         </li>
                       ))}
@@ -235,7 +235,7 @@ export function EducationSection() {
                       <ul className="space-y-2" role="list">
                         {edu.highlights[currentLang].map((highlight, i) => (
                           <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                            <span className="text-primary/70 mt-1 transition-colors" aria-hidden="true">→</span>
+                            <span className="text-primary/70 -mt-0.5 transition-colors" aria-hidden="true">→</span>
                             <span className="font-medium">{formatTextWithEmphasis(highlight)}</span>
                           </li>
                         ))}
