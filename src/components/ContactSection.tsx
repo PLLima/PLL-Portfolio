@@ -32,14 +32,14 @@ export function ContactSection() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.1} className="max-w-2xl mx-auto">
-          <div className="card-elevated p-8 sm:p-12">
+          <div className="group/card card-elevated p-8 sm:p-12 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Contact Info */}
               <address className="space-y-6 not-italic overflow-hidden">
                 <AnimatedItem delay={0.2}>
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                      <Mail size={18} className="text-primary" />
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover/card:bg-primary transition-colors" aria-hidden="true">
+                      <Mail size={18} className="text-primary group-hover/card:text-primary-foreground transition-colors" />
                     </div>
                     <div className="overflow-hidden flex-1">
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
@@ -56,8 +56,8 @@ export function ContactSection() {
 
                 <AnimatedItem delay={0.3}>
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                      <MapPin size={18} className="text-primary" />
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover/card:bg-primary transition-colors" aria-hidden="true">
+                      <MapPin size={18} className="text-primary group-hover/card:text-primary-foreground transition-colors" />
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">{t('contact.location')}</p>
@@ -107,7 +107,7 @@ export function ContactSection() {
 
             {/* CTA */}
             <AnimatedItem delay={0.4}>
-              <div className="mt-10 pt-8 border-t border-border text-center">
+              <div className="mt-10 pt-8 border-t border-border group-hover/card:border-primary/30 transition-colors text-center">
                 <a
                   href={`mailto:${profile.contact.email}`}
                   className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-base sm:text-lg hover:opacity-90 transition-all"

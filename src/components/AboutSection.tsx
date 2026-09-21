@@ -40,24 +40,24 @@ export function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* About Text */}
           <AnimatedSection delay={0.1}>
-            <article className="card-elevated p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
+            <article className="group card-elevated p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
               <p className="text-foreground leading-relaxed whitespace-pre-line">
                 {formatTextWithEmphasis(profile.i18n_strings.about[currentLang])}
               </p>
               
               {/* Languages */}
-              <div className="mt-8 pt-6 border-t border-border">
-                <h3 className="font-display text-lg font-semibold text-foreground mb-4">
+              <div className="mt-8 pt-6 border-t border-border group-hover:border-primary/30 transition-colors">
+                <h3 className="font-display text-lg font-semibold text-foreground mb-4 group-hover:text-primary transition-colors">
                   {t('about.languages')}
                 </h3>
                 <ul className="flex flex-wrap gap-3" role="list">
                   {languages.map((lang) => (
                     <li
                       key={lang._id}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground"
+                      className="group/lang inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                     >
                       <span className="font-medium">{lang.language[currentLang]}</span>
-                      <span className="text-xs text-muted-foreground">({lang.level[currentLang]})</span>
+                      <span className="text-xs text-muted-foreground group-hover/lang:text-primary-foreground/80 transition-colors">({lang.level[currentLang]})</span>
                     </li>
                   ))}
                 </ul>
@@ -76,7 +76,7 @@ export function AboutSection() {
                   >
                     <DynamicIcon name={area.icon} size={24} className="text-accent-foreground group-hover:text-primary-foreground" />
                   </div>
-                  <h3 className="font-display text-lg font-semibold text-foreground mb-2">
+                  <h3 className="font-display text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                     {area.title[currentLang]}
                   </h3>
                   <p className="text-sm text-muted-foreground">

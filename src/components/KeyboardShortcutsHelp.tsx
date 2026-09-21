@@ -174,7 +174,7 @@ export function KeyboardShortcutsTrigger() {
   return (
     <button
       onClick={toggle}
-      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors text-sm"
+      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-secondary/50 hover:bg-primary text-muted-foreground hover:text-primary-foreground transition-colors text-sm"
       aria-label={t('keyboard.title')}
     >
       <Keyboard size={14} aria-hidden="true" />

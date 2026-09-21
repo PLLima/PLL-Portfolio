@@ -33,13 +33,13 @@ export function ProjectsSection() {
           </p>
         </AnimatedSection>
 
-        <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" role="list">
+        <ul className="columns-1 md:columns-2 lg:columns-3 gap-6" role="list">
           {projects.map((project, index) => (
             <AnimatedItem key={project._id} delay={0.1 + index * 0.1}>
-              <li>
-                <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 h-full flex flex-col">
+              <li className="break-inside-avoid mb-6">
+                <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 flex flex-col">
                   <div className="flex items-start justify-between mb-4">
-                    <div className="p-3 rounded-lg bg-primary/10 text-primary" aria-hidden="true">
+                    <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors" aria-hidden="true">
                       <Folder size={24} />
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export function ProjectsSection() {
                   <ul className="flex flex-wrap gap-2" role="list" aria-label="Technologies used">
                     {project.techStackRefs
                       ?.reduce((acc, skillId) => {
-                        const skill = profile.skills.find(s => s._id === skillId || s._id === (skillId as any).$oid);
+                        const skill = profile.skills.find(s => s._id === skillId || s._id === (skillId as { $oid?: string }).$oid);
                         if (skill) acc.push(skill);
                         return acc;
                       }, [] as typeof profile.skills)
@@ -104,7 +104,7 @@ export function ProjectsSection() {
             href={`https://${profile.contact.github}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-muted transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary text-secondary-foreground font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
             aria-label={`${t('projects.viewMore')} - ${t('accessibility.externalLink')}`}
           >
             <Github size={18} aria-hidden="true" />

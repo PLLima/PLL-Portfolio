@@ -87,7 +87,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 badge-primary mb-6"
+              className="inline-flex items-center gap-2 badge-primary mb-6 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
             >
               <MapPin size={14} aria-hidden="true" />
               <span>{profile.location[currentLang]}</span>
@@ -97,8 +97,9 @@ export function HeroSection() {
               id="hero-heading"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.08 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4"
+              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 cursor-default inline-block origin-center lg:origin-left"
             >
               {profile.name.split(' ')[0]}{' '}
               <span className="text-gradient">{profile.name.split(' ').slice(1).join(' ')}</span>
@@ -108,7 +109,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="font-display text-xl sm:text-2xl text-muted-foreground mb-4"
+              className="font-display text-xl sm:text-2xl text-foreground/90 font-medium mb-4"
               role="doc-subtitle"
             >
               {t('hero.title')}
@@ -218,16 +219,18 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="order-1 lg:order-2 flex justify-center lg:justify-end"
           >
-            <div className="relative">
+            <div className="relative group transition-transform duration-500 hover:-translate-y-2">
               {/* Decorative ring - hidden from screen readers */}
               <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-pulse" aria-hidden="true" />
               <div className="absolute -inset-8 rounded-full border border-primary/10" aria-hidden="true" />
               
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
+              <div 
+                className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl transition-shadow duration-500 group-hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)]"
+              >
                 <img
                   src={assets.images.profilePhoto}
                   alt={`Portrait of ${profile.name}, a computer engineer wearing a professional suit`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
 
