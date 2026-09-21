@@ -32,90 +32,66 @@ export function ContactSection() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.1} className="max-w-2xl mx-auto">
-          <div className="group/card card-elevated p-8 sm:p-12 transition-all duration-300 hover:shadow-lg hover:border-primary/20">
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Contact Info */}
-              <address className="space-y-6 not-italic overflow-hidden">
-                <AnimatedItem delay={0.2}>
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover/card:bg-primary transition-colors" aria-hidden="true">
-                      <Mail size={18} className="text-primary group-hover/card:text-primary-foreground transition-colors" />
-                    </div>
-                    <div className="overflow-hidden flex-1">
-                      <p className="text-sm text-muted-foreground mb-1">{t('contact.email')}</p>
-                      <a
-                        href={`mailto:${profile.contact.email}`}
-                        className="text-foreground font-medium hover:text-primary transition-colors rounded-sm block truncate"
-                        title={profile.contact.email}
-                      >
-                        {profile.contact.email}
-                      </a>
-                    </div>
-                  </div>
-                </AnimatedItem>
+          <div className="group/card card-elevated p-8 sm:p-12 transition-all duration-300 hover:shadow-lg hover:border-primary/20 flex flex-col items-center text-center">
+            {/* Primary CTA */}
+            <AnimatedItem delay={0.2} className="w-full max-w-md mx-auto mb-10">
+              <a
+                href={`mailto:${profile.contact.email}`}
+                className="inline-flex items-center justify-center gap-3 w-full px-8 py-5 rounded-full bg-primary text-primary-foreground font-semibold text-lg hover:opacity-90 transition-all hover:scale-[1.02]"
+                style={{ boxShadow: 'var(--shadow-glow)' }}
+              >
+                <Mail size={22} className="flex-shrink-0" aria-hidden="true" />
+                <span>{t('contact.sendEmail')}</span>
+              </a>
+            </AnimatedItem>
 
+            {/* Divider */}
+            <div className="w-full max-w-lg mx-auto border-t border-border group-hover/card:border-primary/30 transition-colors mb-10" aria-hidden="true" />
+
+            {/* Social Links */}
+            <div className="w-full max-w-lg mx-auto">
+              <p className="text-sm text-muted-foreground mb-6 font-medium">{t('contact.findOnline')}</p>
+              
+              <div className="grid sm:grid-cols-2 gap-4">
                 <AnimatedItem delay={0.3}>
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover/card:bg-primary transition-colors" aria-hidden="true">
-                      <MapPin size={18} className="text-primary group-hover/card:text-primary-foreground transition-colors" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground mb-1">{t('contact.location')}</p>
-                      <p className="text-foreground font-medium">{profile.location[currentLang]}</p>
-                    </div>
-                  </div>
-                </AnimatedItem>
-              </address>
-
-              {/* Social Links */}
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground mb-2">{t('contact.findOnline')}</p>
-                
-                <AnimatedItem delay={0.2}>
                   <a
                     href={`https://${profile.contact.linkedin}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
+                    className="flex items-center justify-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-all hover:scale-[1.02] shadow-sm"
                     aria-label={`LinkedIn - ${t('accessibility.externalLink')}`}
                   >
-                    <Linkedin size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
-                    <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground">
+                    <Linkedin size={20} className="text-secondary-foreground group-hover:text-primary-foreground transition-colors" aria-hidden="true" />
+                    <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground transition-colors">
                       LinkedIn
                     </span>
-                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" aria-hidden="true" />
+                    <ExternalLink size={14} className="ml-2 text-muted-foreground group-hover:text-primary-foreground/70 transition-colors" aria-hidden="true" />
                   </a>
                 </AnimatedItem>
 
-                <AnimatedItem delay={0.3}>
+                <AnimatedItem delay={0.4}>
                   <a
                     href={`https://${profile.contact.github}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-colors"
+                    className="flex items-center justify-center gap-3 p-4 rounded-xl bg-secondary hover:bg-primary group transition-all hover:scale-[1.02] shadow-sm"
                     aria-label={`GitHub - ${t('accessibility.externalLink')}`}
                   >
-                    <Github size={20} className="text-secondary-foreground group-hover:text-primary-foreground" aria-hidden="true" />
-                    <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground">
+                    <Github size={20} className="text-secondary-foreground group-hover:text-primary-foreground transition-colors" aria-hidden="true" />
+                    <span className="font-medium text-secondary-foreground group-hover:text-primary-foreground transition-colors">
                       GitHub
                     </span>
-                    <ExternalLink size={14} className="ml-auto text-muted-foreground group-hover:text-primary-foreground" aria-hidden="true" />
+                    <ExternalLink size={14} className="ml-2 text-muted-foreground group-hover:text-primary-foreground/70 transition-colors" aria-hidden="true" />
                   </a>
                 </AnimatedItem>
               </div>
             </div>
 
-            {/* CTA */}
-            <AnimatedItem delay={0.4}>
-              <div className="mt-10 pt-8 border-t border-border group-hover/card:border-primary/30 transition-colors text-center">
-                <a
-                  href={`mailto:${profile.contact.email}`}
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-medium text-base sm:text-lg hover:opacity-90 transition-all"
-                  style={{ boxShadow: 'var(--shadow-glow)' }}
-                >
-                  <Mail size={20} className="flex-shrink-0" aria-hidden="true" />
-                  <span className="whitespace-nowrap">{t('contact.sendEmail')}</span>
-                </a>
+            {/* Location Metadata */}
+            <AnimatedItem delay={0.5} className="mt-10">
+              <div className="group/location inline-flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-full bg-primary/5 border border-primary/20 text-foreground font-medium text-sm transition-all hover:bg-primary hover:text-primary-foreground hover:border-primary hover:shadow-md cursor-default shadow-sm">
+                <MapPin size={16} className="text-primary group-hover/location:text-primary-foreground transition-colors" aria-hidden="true" />
+                <span>{profile.location[currentLang]}</span>
               </div>
             </AnimatedItem>
           </div>
