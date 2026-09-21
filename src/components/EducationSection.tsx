@@ -5,6 +5,7 @@ import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode, Education } from '@/types/database';
 import { formatEducationYear } from '@/utils/date';
 import { formatTextWithEmphasis } from '@/utils/formatText';
+import { useColumns } from '@/hooks/useColumns';
 
 const countryFlags: Record<string, string> = {
   'France': '🇫🇷',
@@ -29,6 +30,12 @@ export function EducationSection() {
       if (bEnd !== aEnd) return bEnd - aEnd;
       return new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime();
     });
+
+  const cols = useColumns();
+  const columns = Array.from({ length: cols }, () => [] as typeof degrees);
+  degrees.forEach((degree, index) => {
+    columns[index % cols].push(degree);
+  });
 
   // Group active degrees by type to find the ATS Anchor
   const activeDegreesByType = new Map<string, Education[]>();
@@ -154,11 +161,15 @@ export function EducationSection() {
         </AnimatedSection>
 
         {/* Education Grid */}
-        <ul className="columns-1 md:columns-2 lg:columns-3 gap-6 max-w-5xl mx-auto" role="list">
-          {degrees.map((edu, index) => (
-            <AnimatedItem key={edu._id} delay={0.1 + index * 0.1}>
-              <li className="break-inside-avoid mb-6">
-                <article className="card-elevated p-6 group transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" role="presentation">
+          {columns.map((col, colIndex) => (
+            <ul key={colIndex} className="flex flex-col gap-6" role="list">
+              {col.map((edu, index) => {
+                const originalIndex = index * cols + colIndex;
+                return (
+                  <AnimatedItem key={edu._id} delay={0.1 + originalIndex * 0.1}>
+                    <li className="w-full">
+                      <article className="card-elevated p-6 group transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary transition-colors" aria-hidden="true">
                       <GraduationCap size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
@@ -245,8 +256,11 @@ export function EducationSection() {
                 </article>
               </li>
             </AnimatedItem>
-          ))}
+            );
+          })}
         </ul>
+      ))}
+      </div>
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode } from '@/types/database';
 import { formatTextWithEmphasis } from '@/utils/formatText';
+import { useColumns } from '@/hooks/useColumns';
 
 export function ProjectsSection() {
   const { t, i18n } = useTranslation();
@@ -15,6 +16,12 @@ export function ProjectsSection() {
   const projects = profile.projects
     .filter(p => p.metadata.showOnWebsite)
     .sort((a, b) => b.metadata.priorityScore - a.metadata.priorityScore);
+
+  const cols = useColumns();
+  const columns = Array.from({ length: cols }, () => [] as typeof projects);
+  projects.forEach((project, index) => {
+    columns[index % cols].push(project);
+  });
 
   return (
     <section 
@@ -33,12 +40,16 @@ export function ProjectsSection() {
           </p>
         </AnimatedSection>
 
-        <ul className="columns-1 md:columns-2 lg:columns-3 gap-6" role="list">
-          {projects.map((project, index) => (
-            <AnimatedItem key={project._id} delay={0.1 + index * 0.1}>
-              <li className="break-inside-avoid mb-6">
-                <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 flex flex-col">
-                  <div className="flex items-start justify-between mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" role="presentation">
+          {columns.map((col, colIndex) => (
+            <ul key={colIndex} className="flex flex-col gap-6" role="list">
+              {col.map((project, index) => {
+                const originalIndex = index * cols + colIndex;
+                return (
+                  <AnimatedItem key={project._id} delay={0.1 + originalIndex * 0.1}>
+                    <li className="w-full">
+                      <article className="group card-elevated p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20 flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
                     <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors" aria-hidden="true">
                       <Folder size={24} />
                     </div>
@@ -92,12 +103,15 @@ export function ProjectsSection() {
                           {skill.name[currentLang]}
                         </li>
                       ))}
-                  </ul>
-                </article>
-              </li>
-            </AnimatedItem>
-          ))}
-        </ul>
+                      </ul>
+                    </article>
+                  </li>
+                </AnimatedItem>
+              );
+            })}
+          </ul>
+        ))}
+      </div>
 
         <AnimatedSection delay={0.4} className="text-center mt-12">
           <a
