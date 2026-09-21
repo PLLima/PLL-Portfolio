@@ -87,6 +87,7 @@ export interface Education {
   briefDescription: LocalizedString;
   highlights: LocalizedArray;
   detailedDescription: LocalizedArray;
+  resumeDescription: LocalizedString;
 }
 
 export interface Project {

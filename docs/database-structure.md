@@ -85,6 +85,7 @@
    - `briefDescription`: LocalizedString
    - `highlights`: LocalizedArray
    - `detailedDescription`: LocalizedArray
+   - `resumeDescription`: LocalizedString
 
 - `projects`: array of objects
    - `_id`: objectId
