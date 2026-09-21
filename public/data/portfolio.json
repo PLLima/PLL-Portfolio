@@ -1186,6 +1186,11 @@
           "Double diplôme dans l'une des meilleures écoles d'ingénieurs de France, membre de l'Université Paris-Saclay (classée 13e au niveau mondial selon le classement de Shanghai 2025 et 20e au niveau mondial en matière d'employabilité selon le classement Times Higher Education 2025).",
           "Bénéficiaire de la bourse d'excellence BRAFITEC pour l'année universitaire 2025-2026."
         ]
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     },
     {
@@ -1229,6 +1234,11 @@
           "Diplôme en Ingénierie Informatique dans l'une des meilleures universités du Brésil.",
           "Note : 9.808/10.0 (GPA 3.927/4.0)"
         ]
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     },
     {
@@ -1263,6 +1273,11 @@
         "en": [],
         "pt-br": [],
         "fr": []
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     },
     {
@@ -1297,6 +1312,11 @@
         "en": [],
         "pt-br": [],
         "fr": []
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     },
     {
@@ -1331,6 +1351,11 @@
         "en": [],
         "pt-br": [],
         "fr": []
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     },
     {
@@ -1374,6 +1399,11 @@
           "Compétences de base et enseignement développemental/de rattrapage",
           "Niveau: Troisième année du secondaire"
         ]
+      },
+      "highlights": {
+        "en": [],
+        "fr": [],
+        "pt-br": []
       }
     }
   ],
@@ -1976,17 +2006,32 @@
           "en": "Hack-Nation",
           "pt-br": "Hack-Nation",
           "fr": "Hack-Nation"
+        },
+        "displayTitle": {
+          "en": "Participant at the 3rd Hack-Nation's Global AI Hackathon",
+          "pt-br": "Participante do 3º Hack-Nation's Global AI Hackathon",
+          "fr": "Participant au 3e Hack-Nation's Global AI Hackathon"
         }
-      },
-      "title": {
-        "en": "Participant at the 3rd Hack-Nation's Global AI Hackathon",
-        "pt-br": "Participante do 3º Hack-Nation's Global AI Hackathon",
-        "fr": "Participant au 3e Hack-Nation's Global AI Hackathon"
       },
       "issuer": {
         "en": "Hack-Nation",
         "pt-br": "Hack-Nation",
         "fr": "Hack-Nation"
+      },
+      "event": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "eventType": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "awardOrRole": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
       }
     },
     {
@@ -2002,17 +2047,32 @@
           "en": "Concurso Canguru de Matemática Brasil",
           "pt-br": "Concurso Canguru de Matemática Brasil",
           "fr": "Concurso Canguru de Matemática Brasil"
+        },
+        "displayTitle": {
+          "en": "Bronze Medal at Concurso Canguru de Matemática Brasil",
+          "pt-br": "Medalha de bronze no Concurso Canguru de Matemática Brasil",
+          "fr": "Médaille de bronze au Concurso Canguru de Matemática Brasil"
         }
-      },
-      "title": {
-        "en": "Bronze Medal at Concurso Canguru de Matemática Brasil",
-        "pt-br": "Medalha de bronze no Concurso Canguru de Matemática Brasil",
-        "fr": "Médaille de bronze au Concurso Canguru de Matemática Brasil"
       },
       "issuer": {
         "en": "Association Kangourou sans Frontieres (AKSF)",
         "pt-br": "Association Kangourou sans Frontieres (AKSF)",
         "fr": "Association Kangourou sans Frontieres (AKSF)"
+      },
+      "event": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "eventType": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "awardOrRole": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
       }
     },
     {
@@ -2028,17 +2088,32 @@
           "en": "Mostratec Júnior",
           "pt-br": "Mostratec Júnior",
           "fr": "Mostratec Júnior"
+        },
+        "displayTitle": {
+          "en": "Participant at Mostratec Júnior",
+          "pt-br": "Participante da Mostratec Júnior",
+          "fr": "Participant à Mostratec Júnior"
         }
-      },
-      "title": {
-        "en": "Participant at Mostratec Júnior",
-        "pt-br": "Participante da Mostratec Júnior",
-        "fr": "Participant à Mostratec Júnior"
       },
       "issuer": {
         "en": "Mostratec",
         "pt-br": "Mostratec",
         "fr": "Mostratec"
+      },
+      "event": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "eventType": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
+      },
+      "awardOrRole": {
+        "en": "",
+        "fr": "",
+        "pt-br": ""
       }
     }
   ],

@@ -41,6 +41,7 @@ export default {
     concurrentCourse: 'Formation simultanée',
     completed: 'Diplôme obtenu\u00A0:',
     expected: 'Diplôme attendu\u00A0:',
+    highlights: 'Faits marquants',
   },
   projects: {
     title: 'Projets',

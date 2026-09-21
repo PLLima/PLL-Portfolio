@@ -41,6 +41,7 @@ export default {
     concurrentCourse: 'Curso Simultâneo',
     completed: 'Concluído:',
     expected: 'Previsão:',
+    highlights: 'Destaques',
   },
   projects: {
     title: 'Projetos em',

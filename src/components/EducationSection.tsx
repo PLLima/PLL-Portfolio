@@ -4,6 +4,7 @@ import { AnimatedSection, AnimatedItem } from '@/components/AnimatedSection';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { LanguageCode, Education } from '@/types/database';
 import { formatEducationYear } from '@/utils/date';
+import { formatTextWithEmphasis } from '@/utils/formatText';
 
 const countryFlags: Record<string, string> = {
   'France': '🇫🇷',
@@ -103,13 +104,13 @@ export function EducationSection() {
 
         {/* International highlight */}
         <AnimatedSection delay={0.1} className="max-w-3xl mx-auto mb-12">
-          <article className="card-elevated p-6 sm:p-8 border-l-4 border-l-primary transition-all duration-300 hover:shadow-lg hover:border-l-primary/80">
+          <article className="group card-elevated p-6 sm:p-8 border-l-4 border-l-primary transition-all duration-300 hover:shadow-lg hover:border-l-primary/80">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                <Globe size={24} className="text-primary" />
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors" aria-hidden="true">
+                <Globe size={24} className="text-primary group-hover:text-primary-foreground transition-colors" />
               </div>
               <div>
-                <h3 className="font-display text-xl font-semibold text-foreground mb-2">
+                <h3 className="font-display text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                   {t('education.doubleDegree')}
                 </h3>
                 <p className="text-muted-foreground">
@@ -153,11 +154,11 @@ export function EducationSection() {
         </AnimatedSection>
 
         {/* Education Grid */}
-        <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto" role="list">
+        <ul className="columns-1 md:columns-2 lg:columns-3 gap-6 max-w-5xl mx-auto" role="list">
           {degrees.map((edu, index) => (
             <AnimatedItem key={edu._id} delay={0.1 + index * 0.1}>
-              <li>
-                <article className="card-elevated p-6 group h-full transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
+              <li className="break-inside-avoid mb-6">
+                <article className="card-elevated p-6 group transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary transition-colors" aria-hidden="true">
                       <GraduationCap size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
@@ -171,7 +172,7 @@ export function EducationSection() {
                     </span>
                   </div>
 
-                  <h3 className="font-display text-lg font-semibold text-foreground mb-1 line-clamp-2">
+                  <h3 className="font-display text-lg font-semibold text-foreground mb-1 line-clamp-2 group-hover:text-primary transition-colors">
                     {edu.degree[currentLang]}
                   </h3>
                   {edu.institutionUrl ? (
@@ -212,6 +213,35 @@ export function EducationSection() {
                       return formatEducationYear(dateToDisplay, isOngoing, currentLang, statusTexts);
                     })()}
                   </time>
+                  
+                  {/* Description */}
+                  {edu.description?.[currentLang] && edu.description[currentLang].length > 0 && (
+                    <ul className="mt-4 space-y-2" role="list">
+                      {edu.description[currentLang].map((desc, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground transition-colors">
+                          <span className="text-primary mt-1.5" aria-hidden="true">•</span>
+                          <span>{formatTextWithEmphasis(desc)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {/* Highlights */}
+                  {edu.highlights?.[currentLang] && edu.highlights[currentLang].length > 0 && (
+                    <div className="mt-4 pt-4 border-t border-border/50 group-hover:border-primary/30 transition-colors">
+                      <h4 className="text-xs font-semibold text-foreground uppercase tracking-wider mb-3 group-hover:text-primary transition-colors">
+                        {t('education.highlights')}
+                      </h4>
+                      <ul className="space-y-2" role="list">
+                        {edu.highlights[currentLang].map((highlight, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
+                            <span className="text-primary/70 mt-1 transition-colors" aria-hidden="true">→</span>
+                            <span className="font-medium">{formatTextWithEmphasis(highlight)}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </article>
               </li>
             </AnimatedItem>

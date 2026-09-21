@@ -41,6 +41,7 @@ export default {
     concurrentCourse: 'Concurrent Course',
     completed: 'Completed:',
     expected: 'Expected:',
+    highlights: 'Highlights',
   },
   projects: {
     title: 'Featured',

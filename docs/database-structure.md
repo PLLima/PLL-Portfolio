@@ -82,6 +82,7 @@
    - `degree`: LocalizedString
    - `institution`: LocalizedString
    - `country`: LocalizedString
+   - `highlights`: LocalizedArray
    - `description`: LocalizedArray
 
 - `projects`: array of objects
@@ -115,9 +116,12 @@
    - `link`: string
    - `dateIssued`: YearMonth[]
    - `metadata`: object
+      - `displayTitle`: LocalizedString
       - `linkText`: LocalizedString
       - `showOnWebsite`: boolean
-   - `title`: LocalizedString
+   - `event`: LocalizedString
+   - `eventType`: LocalizedString
+   - `awardOrRole`: LocalizedString
    - `issuer`: LocalizedString
 
 - `interests`: array of objects

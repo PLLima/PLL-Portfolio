@@ -84,6 +84,7 @@ export interface Education {
   degree: LocalizedString;
   institution: LocalizedString;
   country: LocalizedString;
+  highlights: LocalizedArray;
   description: LocalizedArray;
 }
 
@@ -125,10 +126,13 @@ export interface Achievement {
   link: string;
   dateIssued: YearMonth[];
   metadata: {
+    displayTitle: LocalizedString;
     linkText: LocalizedString;
     showOnWebsite: boolean;
   };
-  title: LocalizedString;
+  event: LocalizedString;
+  eventType: LocalizedString;
+  awardOrRole: LocalizedString;
   issuer: LocalizedString;
 }
 
