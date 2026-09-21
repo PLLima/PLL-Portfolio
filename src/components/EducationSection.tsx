@@ -171,8 +171,8 @@ export function EducationSection() {
                     <li className="w-full">
                       <article className="card-elevated p-6 group transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:border-primary/20">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary transition-colors" aria-hidden="true">
-                      <GraduationCap size={20} className="text-secondary-foreground group-hover:text-primary-foreground" />
+                    <div className="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-primary-foreground transition-colors" aria-hidden="true">
+                      <GraduationCap size={20} />
                     </div>
                     <span 
                       className="text-2xl" 
@@ -225,32 +225,10 @@ export function EducationSection() {
                     })()}
                   </time>
                   
-                  {/* Description */}
-                  {edu.description?.[currentLang] && edu.description[currentLang].length > 0 && (
-                    <ul className="mt-4 space-y-2" role="list">
-                      {edu.description[currentLang].map((desc, i) => (
-                        <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground transition-colors">
-                          <span className="text-primary" aria-hidden="true">•</span>
-                          <span>{formatTextWithEmphasis(desc)}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {/* Highlights */}
-                  {edu.highlights?.[currentLang] && edu.highlights[currentLang].length > 0 && (
-                    <div className="mt-4 pt-4 border-t border-border/50 group-hover:border-primary/30 transition-colors">
-                      <h4 className="text-xs font-semibold text-foreground uppercase tracking-wider mb-3 group-hover:text-primary transition-colors">
-                        {t('education.highlights')}
-                      </h4>
-                      <ul className="space-y-2" role="list">
-                        {edu.highlights[currentLang].map((highlight, i) => (
-                          <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                            <span className="text-primary/70 -mt-0.5 transition-colors" aria-hidden="true">→</span>
-                            <span className="font-medium">{formatTextWithEmphasis(highlight)}</span>
-                          </li>
-                        ))}
-                      </ul>
+                  {/* Brief Description */}
+                  {edu.briefDescription?.[currentLang] && (
+                    <div className="mt-4 text-sm text-muted-foreground transition-colors whitespace-pre-line leading-relaxed">
+                      {formatTextWithEmphasis(edu.briefDescription[currentLang])}
                     </div>
                   )}
                 </article>

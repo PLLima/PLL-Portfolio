@@ -82,8 +82,9 @@
    - `degree`: LocalizedString
    - `institution`: LocalizedString
    - `country`: LocalizedString
+   - `briefDescription`: LocalizedString
    - `highlights`: LocalizedArray
-   - `description`: LocalizedArray
+   - `detailedDescription`: LocalizedArray
 
 - `projects`: array of objects
    - `_id`: objectId

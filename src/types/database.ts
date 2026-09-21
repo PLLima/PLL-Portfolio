@@ -84,8 +84,9 @@ export interface Education {
   degree: LocalizedString;
   institution: LocalizedString;
   country: LocalizedString;
+  briefDescription: LocalizedString;
   highlights: LocalizedArray;
-  description: LocalizedArray;
+  detailedDescription: LocalizedArray;
 }
 
 export interface Project {
