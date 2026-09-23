@@ -25,6 +25,8 @@ dist-ssr
 
 # AI Context
 .ai_context.md
+def-database-structure.md
+def-cloudinary-structure.md
 
 # Environment variables
 .env.local
