@@ -32,3 +32,6 @@ def-cloudinary-structure.md
 .env.local
 .env.*.local
 !.env.example
+
+# Documentation / Resumes
+project-resume.txt
