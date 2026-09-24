@@ -1977,7 +1977,12 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "briefDescription": {
+      "en": "Dedicated *25+ afternoon tutoring shifts* to instructing 1st-3rd year students in advanced mathematics.",
+      "pt-br": "Dediquei *mais de 25 turnos extracurriculares de tutoria* à instrução de alunos do 1º ao 3º ano em matemática avançada.",
+      "fr": "Animation de *plus de 25 sessions de tutorat extrascolaire* pour des élèves de la 1ère à la 3ème année en mathématiques avancées."
+    },
+    "detailedDescription": {
         "en": [
           "Dedicated *25+ afternoon tutoring shifts* to instructing 1st-3rd year students in advanced mathematics, covering complex numbers, spatial geometry, combinatorial analysis, and *Calculus I*.",
           "Guided *30+ students* over a 6-month period to resolve and internalize the logic behind *100+ complex exercises*, directly improving their academic performance."

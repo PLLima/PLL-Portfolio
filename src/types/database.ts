@@ -120,7 +120,8 @@ export interface Volunteering {
   roleTitle: LocalizedString;
   organization: LocalizedString;
   location: LocalizedString;
-  description: LocalizedArray;
+  briefDescription: LocalizedString;
+  detailedDescription: LocalizedArray;
 }
 
 export interface Achievement {

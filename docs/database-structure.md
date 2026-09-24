@@ -111,7 +111,8 @@
    - `roleTitle`: LocalizedString
    - `organization`: LocalizedString
    - `location`: LocalizedString
-   - `description`: LocalizedArray
+   - `briefDescription`: LocalizedString
+   - `detailedDescription`: LocalizedArray
 
 - `achievements`: array of objects
    - `_id`: objectId
