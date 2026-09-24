@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predev": "npm run generate-docs",
+    "generate-docs": "node scripts/generate-db-docs.js",
     "fetch-db": "node server/fetch-db.js",
     "prebuild": "npm run fetch-db",
     "build": "vite build",

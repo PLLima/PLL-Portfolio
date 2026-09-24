@@ -130,7 +130,7 @@ npm run lint
 
 ## Documentation 📚
 
-To maintain a clean repository structure, detailed documentation regarding our data and asset architecture is stored in the `docs/` folder.
+To maintain a single source of truth across the ecosystem, detailed documentation regarding our data and asset architecture is stored as symlinks in the `docs/` folder, pointing directly to the global database.
 
 - **[Database Structure 🗄️](docs/database-structure.md)**: Detailed schema for our MongoDB collections (`professionals`, `resumes`, `coverLetters`).
 - **[Cloudinary Asset Structure ☁️](docs/cloudinary-structure.md)**: Standardized folder patterns for static assets like profile pictures, OG images, and localized resumes/cover letters.
