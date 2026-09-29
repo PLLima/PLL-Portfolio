@@ -10,6 +10,7 @@ export function ProjectsSection() {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language as LanguageCode;
   const { data: profile } = usePortfolioData();
+  const cols = useColumns();
 
   if (!profile) return null;
 
@@ -17,7 +18,6 @@ export function ProjectsSection() {
     .filter(p => p.metadata.showOnWebsite)
     .sort((a, b) => b.metadata.priorityScore - a.metadata.priorityScore);
 
-  const cols = useColumns();
   const columns = Array.from({ length: cols }, () => [] as typeof projects);
   projects.forEach((project, index) => {
     columns[index % cols].push(project);

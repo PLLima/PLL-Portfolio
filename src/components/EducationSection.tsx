@@ -19,6 +19,7 @@ export function EducationSection() {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language as LanguageCode;
   const { data: profile } = usePortfolioData();
+  const cols = useColumns();
 
   if (!profile) return null;
 
@@ -31,7 +32,6 @@ export function EducationSection() {
       return new Date(b.timeline.startDate).getTime() - new Date(a.timeline.startDate).getTime();
     });
 
-  const cols = useColumns();
   const columns = Array.from({ length: cols }, () => [] as typeof degrees);
   degrees.forEach((degree, index) => {
     columns[index % cols].push(degree);

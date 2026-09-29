@@ -24,9 +24,9 @@
       "fr": "Allier résolution avancée de problèmes algorithmiques et architecture de systèmes évolutifs"
     },
     "about": {
-      "en": "*Computer Engineering and Master of Engineering double degree* student bridging advanced algorithmic problem-solving with *scalable system architecture*. Proven track record in *full-stack enterprise web development*, *cloud AI integrations*, and deploying *complex time-series forecasting models*. Strong foundation in *low-level programming (C++)*, algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.",
-      "pt-br": "Estudante do *duplo diploma em Engenharia de Computação e Mestrado em Engenharia*, unindo a resolução avançada de problemas algorítmicos com *arquitetura de sistemas escaláveis*. Experiência comprovada em *desenvolvimento web full-stack corporativo*, *integrações de IA em nuvem* e implantação de *modelos complexos de previsão de séries temporais*. Forte base em *programação de baixo nível (C++)*, design de algoritmos e estruturas de dados, buscando oportunidades em engenharia de software, análise quantitativa ou ciência de dados.",
-      "fr": "Étudiant en *double diplôme en Ingénierie Informatique et Master en Ingénierie Généraliste*, alliant la résolution avancée de problèmes algorithmiques à l'*architecture de systèmes évolutifs*. Expérience avérée dans le *développement web full-stack d'entreprise*, les *intégrations d'IA cloud* et le déploiement de *modèles complexes de prévision de séries chronologiques*. Solide base en *programmation bas niveau (C++)*, conception d'algorithmes et structures de données, recherchant des opportunités en génie logiciel, analyse quantitative ou science des données."
+      "en": "*Computer Engineering and Master of Engineering double degree* student bridging algorithmic problem-solving with *system architecture*. Experienced in *full-stack enterprise web development*, *cloud AI integrations*, and deploying *time-series forecasting models*. Foundation in *low-level programming (C++)*, algorithm design, and data structures, seeking software engineering, quantitative analytics, or data science opportunities.",
+      "pt-br": "Estudante do *duplo diploma em Engenharia de Computação e Mestrado em Engenharia*, unindo a resolução de problemas algorítmicos com *arquitetura de sistemas*. Experiência em *desenvolvimento web full-stack corporativo*, *integrações de IA em nuvem* e implantação de *modelos de previsão de séries temporais*. Base em *programação de baixo nível (C++)*, design de algoritmos e estruturas de dados, buscando oportunidades em engenharia de software, análise quantitativa ou ciência de dados.",
+      "fr": "Étudiant en *double diplôme en Ingénierie Informatique et Master en Ingénierie Généraliste*, alliant la résolution de problèmes algorithmiques à l'*architecture de systèmes*. Expérience dans le *développement web full-stack d'entreprise*, les *intégrations d'IA cloud* et le déploiement de *modèles de prévision de séries chronologiques*. Base en *programmation bas niveau (C++)*, conception d'algorithmes et structures de données, recherchant des opportunités en génie logiciel, analyse quantitative ou science des données."
     }
   },
   "focusAreas": [
@@ -816,22 +816,22 @@
       },
       "detailedDescription": {
         "en": [
-          "Architected a fully responsive, full-stack portfolio website for a legal firm using *Next.js* and *React*, integrating the *Google Maps API* and secure contact forms to *centralize 120+ legal processes*.",
-          "Conducted qualitative HR assessments and feedback cycles, actively monitoring team dynamics to *resolve internal bottlenecks* and maintain operational efficiency."
+          "Architected a full-stack portfolio website for a legal firm using *Next.js* and *React*, integrating the *Google Maps API* and secure contact forms to *centralize 120+ legal processes*.",
+          "Conducted qualitative HR assessments and feedback cycles, monitoring team dynamics to *resolve internal bottlenecks* and maintain operational efficiency."
         ],
         "pt-br": [
-          "Arquitetei um site de portfólio full-stack totalmente responsivo para um escritório de advocacia usando *Next.js* e *React*, integrando a *API do Google Maps* e formulários seguros para *centralizar mais de 120 processos legais*.",
-          "Conduzi avaliações qualitativas de RH e ciclos de feedback, monitorando ativamente a dinâmica da equipe para *resolver gargalos internos* e manter a eficiência operacional."
+          "Arquitetei um site de portfólio full-stack para um escritório de advocacia usando *Next.js* e *React*, integrando a *API do Google Maps* e formulários seguros para *centralizar mais de 120 processos legais*.",
+          "Conduzi avaliações qualitativas de RH e ciclos de feedback, monitorando a dinâmica da equipe para *resolver gargalos internos* e manter a eficiência operacional."
         ],
         "fr": [
-          "Conception d'un site web de portfolio full-stack entièrement responsif pour un cabinet d'avocats utilisant *Next.js* et *React*, intégrant l'*API Google Maps* et des formulaires sécurisés pour *centraliser plus de 120 processus juridiques*.",
-          "Réalisation d'évaluations RH qualitatives et de cycles de feedback, avec surveillance active de la dynamique d'équipe pour *résoudre les goulots d'étranglement internes* et maintenir l'efficacité opérationnelle."
+          "Conception d'un site web de portfolio full-stack pour un cabinet d'avocats utilisant *Next.js* et *React*, intégrant l'*API Google Maps* et des formulaires sécurisés pour *centraliser plus de 120 processus juridiques*.",
+          "Réalisation d'évaluations RH qualitatives et de cycles de feedback, avec surveillance de la dynamique d'équipe pour *résoudre les goulots d'étranglement internes* et maintenir l'efficacité opérationnelle."
         ]
       },
       "briefDescription": {
-        "en": "Architected a responsive *full-stack portfolio* using *Next.js and React*, centralizing *120+ legal processes*, while actively resolving team bottlenecks via qualitative HR assessments.",
-        "pt-br": "Arquitetei um *portfólio full-stack* responsivo usando *Next.js e React*, centralizando *mais de 120 processos*, enquanto resolvia gargalos da equipe via avaliações qualitativas de RH.",
-        "fr": "Conception d'un *portfolio full-stack* responsif via *Next.js et React*, centralisant *plus de 120 processus*, et résolution des goulots d'étranglement internes par des évaluations RH qualitatives."
+        "en": "Architected a *full-stack portfolio* using *Next.js and React*, centralizing *120+ legal processes*, while resolving team bottlenecks via qualitative HR assessments.",
+        "pt-br": "Arquitetei um *portfólio full-stack* usando *Next.js e React*, centralizando *mais de 120 processos*, enquanto resolvia gargalos da equipe via avaliações qualitativas de RH.",
+        "fr": "Conception d'un *portfolio full-stack* via *Next.js et React*, centralisant *plus de 120 processus*, et résolution des goulots d'étranglement internes par des évaluations RH qualitatives."
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bda5",
@@ -867,11 +867,11 @@
       "detailedDescription": {
         "en": [
           "Instructed CentraleSupélec's incoming international students at CAVILAM (Alliance Française, Vichy), *co-leading 15 intensive sessions* over 4 weeks on the Modeling and Control of Dynamic Systems.",
-          "Authored *65+ comprehensive curriculum documents* (including slides, exercise sheets, and interactive assessments), *accelerating student onboarding* for 1/3 of the Modeling course."
+          "Authored *65+ curriculum documents* (including slides, exercise sheets, and interactive assessments), *accelerating student onboarding* for 1/3 of the Modeling course."
         ],
         "pt-br": [
           "Instruí estudantes internacionais ingressantes da CentraleSupélec no CAVILAM (Alliance Française, Vichy), *co-liderando 15 sessões intensivas* ao longo de 4 semanas sobre Modelagem e Controle de Sistemas Dinâmicos.",
-          "Elaborei *mais de 65 documentos curriculares abrangentes* (incluindo slides, listas de exercícios e avaliações interativas), *acelerando a integração dos alunos* em 1/3 do curso de Modelagem."
+          "Elaborei *mais de 65 documentos curriculares* (incluindo slides, listas de exercícios e avaliações interativas), *acelerando a integração dos alunos* em 1/3 do curso de Modelagem."
         ],
         "fr": [
           "Enseignement aux étudiants internationaux entrants de CentraleSupélec au CAVILAM (Alliance Française, Vichy), avec *co-animation de 15 sessions intensives* sur 4 semaines portant sur la modélisation et la commande des systèmes dynamiques.",
@@ -879,7 +879,7 @@
         ]
       },
       "briefDescription": {
-        "en": "Instructed incoming international students by co-leading *15 intensive sessions* on dynamic systems and authoring *65+ comprehensive curriculum documents* to accelerate academic onboarding.",
+        "en": "Instructed incoming international students by co-leading *15 intensive sessions* on dynamic systems and authoring *65+ curriculum documents* to accelerate academic onboarding.",
         "pt-br": "Instruí estudantes internacionais, co-liderando *15 sessões intensivas* sobre sistemas dinâmicos e elaborando *mais de 65 documentos curriculares* para acelerar a integração acadêmica.",
         "fr": "Enseignement aux étudiants internationaux entrants, avec co-animation de *15 sessions intensives* sur les systèmes dynamiques et rédaction de *plus de 65 documents de cours*."
       },
@@ -916,20 +916,20 @@
       },
       "detailedDescription": {
         "en": [
-          "Managed *50% of the instructional duties* for 10+ laboratory classes, guiding 15+ multidisciplinary STEM students through complex *C programming* concepts.",
+          "Managed *50% of the instructional duties* for 10+ laboratory classes, guiding 15+ multidisciplinary STEM students through *C programming* concepts.",
           "Debugged student code and reinforced foundational data structures, memory management, and recursive functions, *directly improving academic performance*."
         ],
         "pt-br": [
-          "Gerenciei *50% das responsabilidades de instrução* em mais de 10 aulas de laboratório, orientando mais de 15 estudantes multidisciplinares de STEM em conceitos complexos de *programação em C*.",
+          "Gerenciei *50% das responsabilidades de instrução* em mais de 10 aulas de laboratório, orientando mais de 15 estudantes multidisciplinares de STEM em conceitos de *programação em C*.",
           "Depurei códigos de alunos e reforcei estruturas de dados fundamentais, gerenciamento de memória e funções recursivas, *melhorando diretamente o desempenho acadêmico*."
         ],
         "fr": [
-          "Gestion de *50 % des tâches d'enseignement* pour plus de 10 séances de travaux pratiques, encadrant plus de 15 étudiants de filières scientifiques sur des concepts complexes de *programmation en C*.",
+          "Gestion de *50 % des tâches d'enseignement* pour plus de 10 séances de travaux pratiques, encadrant plus de 15 étudiants de filières scientifiques sur des concepts de *programmation en C*.",
           "Débogage du code des étudiants et renforcement des connaissances fondamentales en structures de données, gestion de la mémoire et fonctions récursives, *améliorant directement les résultats académiques*."
         ]
       },
       "briefDescription": {
-        "en": "Managed *50% of instructional duties* across 10+ laboratory classes, guiding 15+ multidisciplinary STEM students in *C programming* and debugging complex recursive memory structures.",
+        "en": "Managed *50% of instructional duties* across 10+ laboratory classes, guiding 15+ multidisciplinary STEM students in *C programming* and debugging recursive memory structures.",
         "pt-br": "Gerenciei *50% das responsabilidades de instrução* em mais de 10 laboratórios, orientando mais de 15 estudantes de STEM em *programação em C* e depurando estruturas de memória.",
         "fr": "Gestion de *50 % des tâches d'enseignement* pour plus de 10 laboratoires, encadrant plus de 15 étudiants en sciences sur la *programmation en C* et le débogage de structures mémoire."
       },
@@ -967,21 +967,21 @@
       "detailedDescription": {
         "en": [
           "Directed *72+ intensive tutoring shifts* over 18 weeks, providing targeted instruction in Electromagnetism to undergraduate engineering cohorts.",
-          "Guided students through the resolution and internalization of *50+ complex physics problems*, strengthening core analytical capabilities."
+          "Guided students through the resolution and internalization of *50+ physics problems*, strengthening core analytical capabilities."
         ],
         "pt-br": [
           "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, fornecendo instrução direcionada em Eletromagnetismo para turmas de graduação em engenharia.",
-          "Orientei os alunos na resolução e internalização de *mais de 50 problemas complexos de física*, fortalecendo capacidades analíticas centrais."
+          "Orientei os alunos na resolução e internalização de *mais de 50 problemas de física*, fortalecendo capacidades analíticas centrais."
         ],
         "fr": [
           "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, dispensant un enseignement ciblé en électromagnétisme aux promotions d'étudiants en ingénierie.",
-          "Accompagnement des étudiants dans la résolution et l'assimilation de *plus de 50 problèmes de physique complexes*, renforçant leurs capacités analytiques de base."
+          "Accompagnement des étudiants dans la résolution et l'assimilation de *plus de 50 problèmes de physique*, renforçant leurs capacités analytiques de base."
         ]
       },
       "briefDescription": {
-        "en": "Directed *72+ intensive tutoring shifts* over 18 weeks, guiding undergraduate engineering cohorts to consistently resolve and internalize *50+ complex physics problems*.",
-        "pt-br": "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, guiando turmas de engenharia na resolução e internalização de *mais de 50 problemas complexos de física*.",
-        "fr": "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, accompagnant les étudiants en ingénierie dans la résolution de *plus de 50 problèmes de physique complexes*."
+        "en": "Directed *72+ intensive tutoring shifts* over 18 weeks, guiding undergraduate engineering cohorts to consistently resolve and internalize *50+ physics problems*.",
+        "pt-br": "Dirigi *mais de 72 turnos intensivos de tutoria* ao longo de 18 semanas, guiando turmas de engenharia na resolução e internalização de *mais de 50 problemas de física*.",
+        "fr": "Direction de *plus de 72 sessions de tutorat intensif* sur 18 semaines, accompagnant les étudiants en ingénierie dans la résolution de *plus de 50 problèmes de physique*."
       },
       "techStackRefs": [
         "6a99809a7fc8019f7155bda1",
@@ -1026,7 +1026,7 @@
         ]
       },
       "briefDescription": {
-        "en": "Shadowed *10+ HR professionals* over two months to streamline internal bureaucracy, centralizing complex documentation workflows utilizing *Notion and Google Drive*.",
+        "en": "Shadowed *10+ HR professionals* over two months to streamline internal bureaucracy, centralizing documentation workflows utilizing *Notion and Google Drive*.",
         "pt-br": "Acompanhei *mais de 10 profissionais de RH* por dois meses para otimizar a burocracia interna, centralizando fluxos de documentação utilizando *Notion e Google Drive*.",
         "fr": "Suivi de *plus de 10 professionnels des RH* sur deux mois pour optimiser la bureaucratie interne, centralisant les flux de documentation via *Notion et Google Drive*."
       },
@@ -1063,15 +1063,15 @@
       "detailedDescription": {
         "en": [
           "Dedicated *360+ hours* to researching embedded software systems for 3D mapping UAVs, utilizing *ROS Noetic, PX4 Autopilot, and Gazebo simulations*.",
-          "Authored and presented comprehensive technical findings to an academic commission at the *2023 UFRGS Scientific Initiation Exhibition*."
+          "Authored and presented technical findings to an academic commission at the *2023 UFRGS Scientific Initiation Exhibition*."
         ],
         "pt-br": [
           "Dediquei *mais de 360 horas* à pesquisa de sistemas de software embarcado para VANTs de mapeamento 3D, utilizando *ROS Noetic, PX4 Autopilot e simulações no Gazebo*.",
-          "Elaborei e apresentei descobertas técnicas detalhadas para uma comissão acadêmica no *Salão de Iniciação Científica da UFRGS de 2023*."
+          "Elaborei e apresentei descobertas técnicas para uma comissão acadêmica no *Salão de Iniciação Científica da UFRGS de 2023*."
         ],
         "fr": [
           "Investissement de *plus de 360 heures* à la recherche sur les systèmes de logiciels embarqués pour les drones de cartographie 3D, utilisant *ROS Noetic, PX4 Autopilot et les simulations Gazebo*.",
-          "Rédaction et présentation de conclusions techniques détaillées devant une commission académique lors du *Salon d'Initiation Scientifique de l'UFRGS 2023*."
+          "Rédaction et présentation de conclusions techniques devant une commission académique lors du *Salon d'Initiation Scientifique de l'UFRGS 2023*."
         ]
       },
       "briefDescription": {
@@ -1151,7 +1151,7 @@
       "timeline": {
         "startDate": "2025-09",
         "endDate": "2029-12",
-        "courseworkEndDate": "2028-09"
+        "courseworkEndDate": "2027-06"
       },
       "metadata": {
         "ongoing": true,
@@ -1173,24 +1173,46 @@
         "pt-br": "França",
         "fr": "France"
       },
-      "description": {
+      "highlights": {
         "en": [
-          "Double Degree in one of the top Engineering schools in France, part of the Université Paris-Saclay (ranked 13th worldwide according to the Shanghai Ranking 2025 and ranked 20th in employability worldwide according to the Times Higher Education 2025).",
-          "Received the BRAFITEC Excellence Scholarship in the 2025-2026 academic year."
+          "Awarded the *BRAFITEC Excellence Scholarship* for the 2025-2026 academic year. Ranked *2nd out of 26 candidates* in the institutional selection, joining an elite cohort of only *100 scholars nationwide* out of 500+ applicants."
         ],
         "pt-br": [
-          "Dupla diplomação em uma das melhores escolas de engenharia da França, parte da Université Paris-Saclay (classificada em 13° lugar no mundo, de acordo com o Shanghai Ranking 2025 e classificada em 20° em empregabilidade mundial, de acordo com a Times Higher Education 2025).\n",
-          "Recebeu a Bolsa de Excelência BRAFITEC no ano acadêmico de 2025-2026."
+          "Conquistei a *Bolsa de Excelência BRAFITEC* para o ano acadêmico de 2025-2026. Classifiquei-me em *2º lugar entre 26 candidatos* na seleção institucional, integrando um grupo de *100 bolsistas em todo o Brasil* dentre mais de 500 inscritos."
         ],
         "fr": [
-          "Double diplôme dans l'une des meilleures écoles d'ingénieurs de France, membre de l'Université Paris-Saclay (classée 13e au niveau mondial selon le classement de Shanghai 2025 et 20e au niveau mondial en matière d'employabilité selon le classement Times Higher Education 2025).",
-          "Bénéficiaire de la bourse d'excellence BRAFITEC pour l'année universitaire 2025-2026."
+          "Obtention de la *Bourse d'Excellence BRAFITEC* (2025-2026). Classement au *2e rang sur 26* lors de la sélection institutionnelle, intégrant une cohorte de *100 boursiers à l'échelle nationale* sur plus de 500 candidats."
         ]
       },
-      "highlights": {
-        "en": [],
-        "fr": [],
-        "pt-br": []
+      "detailedDescription": {
+        "en": [
+          "Double Degree in one of the top Engineering schools in France, part of the *Université Paris-Saclay* (ranked 13th worldwide by Shanghai Ranking 2025).",
+          "Core Coursework: *Convergence, Integration & Probability*, *Statistics & Machine Learning*, *Optimization*, *Algorithms & Complexity* (NP-completeness, Ford-Bellman, maximum flow), Quantum Physics, and Corporate Finance.",
+          "1-year research project developing an *interpretable multi-omic machine learning pipeline* (SGCCA, Elastic-Net) to predict pediatric DIPG brain tumor localization in *high-dimensional regimes*.",
+          "Academic project modeling a continuous-time dynamical system (ODEs) and *Petri Net simulation* in MATLAB to analyze the *fiscal stability* of Pay-As-You-Go pension schemes."
+        ],
+        "pt-br": [
+          "Ingressei no programa de Duplo Diploma em uma das melhores escolas de engenharia da França, integrante da *Université Paris-Saclay* (13ª no mundo no Shanghai Ranking 2025).",
+          "Disciplinas Principais: *Convergência, Integração e Probabilidade*, *Estatística e Aprendizado de Máquina*, *Otimização*, *Algoritmos e Complexidade* (NP-completude, fluxo máximo), Física Quântica e Finanças Corporativas.",
+          "Projeto de pesquisa de 1 ano desenvolvendo um *pipeline multi-ômico interpretável de aprendizado de máquina* (SGCCA, Elastic-Net) para prever a localização anatômica de tumores cerebrais pediátricos DIPG em *regimes de alta dimensionalidade*.",
+          "Projeto acadêmico modelando um sistema dinâmico de tempo contínuo (EDOs) e *simulação de Redes de Petri* no MATLAB para analisar a *estabilidade fiscal* de sistemas de previdência por repartição."
+        ],
+        "fr": [
+          "Double diplôme dans l'une des meilleures écoles d'ingénieurs de France, membre de l'*Université Paris-Saclay* (13e mondiale selon le classement de Shanghai 2025).",
+          "Cours principaux : *Convergence, intégration et probabilités*, *Statistiques et apprentissage automatique*, *Optimisation*, *Algorithmique et complexité* (NP-complétude, flot maximal), Physique quantique et Finance d'entreprise.",
+          "Projet de recherche (1 an) développant un *pipeline d'apprentissage automatique multi-omique interprétable* (SGCCA, Elastic-Net) pour prédire la localisation anatomique des tumeurs cérébrales pédiatriques DIPG en *régime de haute dimensionnalité*.",
+          "Projet académique modélisant un système dynamique à temps continu (EDO) et une *simulation de réseaux de Petri* sous MATLAB pour analyser la *stabilité fiscale* des systèmes de retraite par répartition."
+        ]
+      },
+      "briefDescription": {
+        "en": "Double degree student at the *Université Paris-Saclay* (*13th worldwide*), awarded the *BRAFITEC Excellence Scholarship*. Coursework spans *mathematics and algorithms*, complemented by a 1-year research project on *multi-omic machine learning pipelines* and the simulation of *continuous-time dynamical systems*.",
+        "pt-br": "Estudante de duplo diploma na *Université Paris-Saclay* (*13ª no mundo*), contemplado com a *Bolsa de Excelência BRAFITEC*. O currículo abrange *matemática e algoritmos*, complementado por 1 ano de pesquisa em *pipelines de aprendizado de máquina multi-ômicos* e simulação de *sistemas dinâmicos de tempo contínuo*.",
+        "fr": "Étudiant en double diplôme à l'*Université Paris-Saclay* (*13e mondiale*), lauréat de la *Bourse d'excellence BRAFITEC*. Le cursus couvre les *mathématiques et algorithmes*, complété par 1 an de recherche sur des *pipelines d'apprentissage automatique multi-omiques* et la modélisation de *systèmes dynamiques à temps continu*."
+      },
+      "resumeDescription": {
+        "en": "Awarded the *BRAFITEC Excellence Scholarship* (2025-2026). Ranked *2nd out of 26 candidates* in the institutional selection, joining a cohort of *100 scholars nationwide* out of 500+ applicants.",
+        "pt-br": "Conquistei a *Bolsa de Excelência BRAFITEC* (2025-2026). Classifiquei-me em *2º lugar entre 26 candidatos* na seleção institucional, integrando um grupo de *100 bolsistas em todo o Brasil* dentre mais de 500 inscritos.",
+        "fr": "Obtention de la *Bourse d'excellence BRAFITEC* (2025-2026). Classement au *2e rang sur 26* lors de la sélection institutionnelle, intégrant une cohorte de *100 boursiers à l'échelle nationale* sur plus de 500 candidats."
       }
     },
     {
@@ -1221,24 +1243,43 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "highlights": {
         "en": [
-          "Computer Engineering Degree in one of the best universities in Brazil.",
-          "Grade: 9.808/10.0 (GPA 3.927/4.0)"
+          "Admitted to the Computer Engineering program via the highly competitive annual vestibular entrance exams *(5 to 8 candidates per available spot)*."
         ],
         "pt-br": [
-          "Engenharia de Computação em uma das melhores universidades do Brasil.",
-          "Nota: 9.808/10.0 (GPA 3.927/4.0)"
+          "Fui admitido no programa de Engenharia de Computação através do altamente competitivo concurso vestibular anual da universidade (*5 a 8 candidatos* por vaga)."
         ],
         "fr": [
-          "Diplôme en Ingénierie Informatique dans l'une des meilleures universités du Brésil.",
-          "Note : 9.808/10.0 (GPA 3.927/4.0)"
+          "Admission au programme d'ingénierie informatique lors du très compétitif concours d'entrée annuel de l'université (*5 à 8 candidats* par place)."
         ]
       },
-      "highlights": {
-        "en": [],
-        "fr": [],
-        "pt-br": []
+      "detailedDescription": {
+        "en": [
+          "Grade: *9.808/10.0* (GPA 3.927/4.0)",
+          "Core Software Coursework: *Data Structures & Algorithms*, *Operating Systems*, *Artificial Intelligence*, *Machine Learning*, Graph Theory & Combinatorial Analysis, Database Foundations, and Computer Networks.",
+          "Core Hardware Coursework: *Computer Architectures* (0, 1 & 2), *Digital Systems*, Digital Circuits Projects, and Project & Circuits Analysis."
+        ],
+        "pt-br": [
+          "Nota: *9,808/10,0* (GPA 3,927/4,0)",
+          "Disciplinas (Software): *Estruturas de Dados e Algoritmos*, *Sistemas Operacionais*, *Inteligência Artificial*, *Aprendizado de Máquina*, Teoria dos Grafos e Análise Combinatória, Fundamentos de Banco de Dados e Redes de Computadores.",
+          "Disciplinas (Hardware): *Arquiteturas de Computadores* (0, 1 e 2), *Sistemas Digitais*, Projetos de Circuitos Digitais e Análise de Projetos e Circuitos."
+        ],
+        "fr": [
+          "Note : *9,808/10,0* (GPA 3,927/4,0)",
+          "Cours principaux (Logiciel) : *Structures de données et algorithmes*, *Systèmes d'exploitation*, *Intelligence artificielle*, *Apprentissage automatique*, Théorie des graphes et analyse combinatoire, Fondamentaux des bases de données et Réseaux informatiques.",
+          "Cours principaux (Matériel) : *Architectures d'ordinateurs* (0, 1 et 2), *Systèmes numériques*, Projets de circuits numériques et Analyse de projets et circuits."
+        ]
+      },
+      "briefDescription": {
+        "en": "Admitted to the *Computer Engineering* program, maintaining a *GPA of 3.927/4.0*. Mastered a curriculum bridging *low-level hardware design* (*Computer Architectures*, *Digital Systems*) with *software engineering* and *Machine Learning*.",
+        "pt-br": "Ingressei no programa de *Engenharia de Computação*, mantendo um *GPA de 3,927/4,0*. Dominei um currículo que une *design de hardware de baixo nível* (*Arquiteturas de Computadores*, *Sistemas Digitais*) com *engenharia de software* e *Aprendizado de Máquina*.",
+        "fr": "Admission au programme d'*ingénierie informatique*, avec maintien d'un *GPA de 3,927/4,0*. Maîtrise d'un cursus alliant la *conception matérielle bas niveau* (*architectures d'ordinateurs*, *systèmes numériques*) à l'*ingénierie logicielle* et à l'*apprentissage automatique*."
+      },
+      "resumeDescription": {
+        "en": "Grade: *9.808/10.0* (GPA 3.927/4.0). Admitted to the Computer Engineering program via the annual vestibular entrance exams *(5 to 8 candidates per available spot)*.",
+        "pt-br": "Nota: *9,808/10,0* (GPA 3,927/4,0). Ingressei no programa de Engenharia de Computação através do concurso vestibular anual da universidade *(5 a 8 candidatos por vaga)*.",
+        "fr": "Note : *9,808/10,0* (GPA 3,927/4,0). Admission au programme d'ingénierie informatique lors du concours d'entrée annuel de l'université *(5 à 8 candidats par place)*."
       }
     },
     {
@@ -1269,15 +1310,31 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "highlights": {
         "en": [],
         "pt-br": [],
         "fr": []
       },
-      "highlights": {
-        "en": [],
-        "fr": [],
-        "pt-br": []
+      "detailedDescription": {
+        "en": [
+          "Completed *160 hours* of intensive French language immersion to prepare for the engineering double degree curriculum in France."
+        ],
+        "pt-br": [
+          "Concluí *160 horas* de imersão intensiva na língua francesa como preparação para o currículo do duplo diploma em engenharia na França."
+        ],
+        "fr": [
+          "Réalisation de *160 heures* d'immersion intensive en langue française en préparation au cursus de double diplôme d'ingénieur en France."
+        ]
+      },
+      "briefDescription": {
+        "en": "Completed *160 hours* of *French language immersion* to prepare for the *engineering double degree* curriculum in France.",
+        "pt-br": "Concluí *160 horas* de *imersão na língua francesa* como preparação para o currículo do *duplo diploma em engenharia* na França.",
+        "fr": "Réalisation de *160 heures* d'*immersion en langue française* en préparation au cursus de *double diplôme d'ingénieur* en France."
+      },
+      "resumeDescription": {
+        "en": "Completed *160 hours* of *French language immersion* to prepare for the engineering double degree curriculum in France.",
+        "pt-br": "Concluí *160 horas* de *imersão na língua francesa* como preparação para o currículo do duplo diploma em engenharia na França.",
+        "fr": "Réalisation de *160 heures* d'*immersion en langue française* en préparation au cursus de double diplôme d'ingénieur en France."
       }
     },
     {
@@ -1308,15 +1365,40 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
-        "en": [],
-        "pt-br": [],
-        "fr": []
-      },
       "highlights": {
-        "en": [],
-        "fr": [],
-        "pt-br": []
+        "en": [
+          "*Bronze Medal* at the Brazilian Kangaroo Mathematics Olympiad (Concurso Canguru de Matemática Brasil) in 2018 and 2019."
+        ],
+        "pt-br": [
+          "Conquistei a *Medalha de Bronze* no Concurso Canguru de Matemática Brasil em 2018 e 2019."
+        ],
+        "fr": [
+          "Obtention de la *Médaille de bronze* au Concours Kangourou des Mathématiques (Brésil) en 2018 et 2019."
+        ]
+      },
+      "detailedDescription": {
+        "en": [
+          "Completed *500+ hours* of hands-on laboratory work across a 5-year technical curriculum.",
+          "Core Coursework: *Microprocessed Systems*, *Digital & Analog Electronics*, Signal Processing, Electrical Drives, Automation, Programming Elements, and Communication Systems."
+        ],
+        "pt-br": [
+          "Concluí *mais de 500 horas* de trabalho prático em laboratório ao longo de um currículo técnico de 5 anos.",
+          "Disciplinas Principais: *Sistemas Microprocessados*, *Eletrônica Digital e Analógica*, Processamento de Sinais, Acionamentos Elétricos, Automação, Elementos de Programação e Sistemas de Comunicação."
+        ],
+        "fr": [
+          "Réalisation de *plus de 500 heures* de travaux pratiques en laboratoire dans le cadre d'un cursus technique de 5 ans.",
+          "Cours principaux : *Systèmes microprocesseurs*, *Électronique numérique et analogique*, Traitement du signal, Commandes électriques, Automatisation, Éléments de programmation et Systèmes de communication."
+        ]
+      },
+      "briefDescription": {
+        "en": "Completed *500+ hours* of *hands-on laboratory work* across a *5-year technical electronics curriculum*, earning a *Bronze Medal* at the *Brazilian Kangaroo Mathematics Olympiad*.",
+        "pt-br": "Concluí *mais de 500 horas* de *trabalho prático em laboratório* ao longo de um *currículo técnico de eletrônica de 5 anos*, conquistando a *Medalha de Bronze* no *Concurso Canguru de Matemática Brasil*.",
+        "fr": "Réalisation de *plus de 500 heures* de *travaux pratiques en laboratoire* dans le cadre d'un *cursus technique de 5 ans en électronique*, remportant une *Médaille de bronze* au *Concours Kangourou des mathématiques*."
+      },
+      "resumeDescription": {
+        "en": "Completed *500+ hours* of *hands-on laboratory work* across a 5-year technical electronics curriculum. *Bronze Medal* at the *Brazilian Kangaroo Mathematics Olympiad* in 2018 and 2019.",
+        "pt-br": "Concluí *mais de 500 horas* de *trabalho prático em laboratório* ao longo de um currículo técnico de eletrônica de 5 anos. Conquistei a *Medalha de Bronze* no *Concurso Canguru de Matemática Brasil* em 2018 e 2019.",
+        "fr": "Réalisation de *plus de 500 heures* de *travaux pratiques en laboratoire* dans le cadre d'un cursus technique de 5 ans en électronique. Obtention de la *Médaille de bronze* au *Concours Kangourou des mathématiques* en 2018 et 2019."
       }
     },
     {
@@ -1347,15 +1429,31 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "highlights": {
         "en": [],
         "pt-br": [],
         "fr": []
       },
-      "highlights": {
-        "en": [],
-        "fr": [],
-        "pt-br": []
+      "detailedDescription": {
+        "en": [
+          "Completed *140 hours* of advanced English language coursework."
+        ],
+        "pt-br": [
+          "Concluí *140 horas* de estudos avançados de proficiência na língua inglesa."
+        ],
+        "fr": [
+          "Réalisation de *140 heures* de cours de perfectionnement en langue anglaise."
+        ]
+      },
+      "briefDescription": {
+        "en": "Completed *140 hours* of *English language coursework*.",
+        "pt-br": "Concluí *140 horas* de *estudos de proficiência na língua inglesa*.",
+        "fr": "Réalisation de *140 heures* de *cours de perfectionnement en langue anglaise*."
+      },
+      "resumeDescription": {
+        "en": "Completed *140 hours* of *English language coursework*.",
+        "pt-br": "Concluí *140 horas* de *estudos de proficiência na língua inglesa*.",
+        "fr": "Réalisation de *140 heures* de *cours de perfectionnement en langue anglaise*."
       }
     },
     {
@@ -1386,24 +1484,31 @@
         "pt-br": "Brasil",
         "fr": "Brésil"
       },
-      "description": {
+      "highlights": {
         "en": [
-          "Basic Skills and Developmental/Remedial Education",
-          "Grade: Ninth Grade"
+          "Exhibited two technical prototypes (an *Arduino Breathalyzer System* and a custom JavaScript/HTML *School Content Management App*) at the *Mostratec Júnior International Science Fair* (2015 & 2016)."
         ],
         "pt-br": [
-          "Habilidades Básicas e Desenvolvimento / Educação Recreativa",
-          "Nível: Nono Ano"
+          "Exibi dois protótipos técnicos (um *Sistema de Bafômetro Arduino* e um *Aplicativo de Gestão de Conteúdo Escolar* em JavaScript/HTML) na *Feira Internacional de Ciências Mostratec Júnior* (2015 e 2016)."
         ],
         "fr": [
-          "Compétences de base et enseignement développemental/de rattrapage",
-          "Niveau: Troisième année du secondaire"
+          "Présentation de deux prototypes techniques (un *système d’éthylotest Arduino* et une *application de gestion de contenu scolaire* en JavaScript/HTML) au *Salon international des sciences Mostratec Júnior* (2015 et 2016)."
         ]
       },
-      "highlights": {
+      "detailedDescription": {
         "en": [],
-        "fr": [],
-        "pt-br": []
+        "pt-br": [],
+        "fr": []
+      },
+      "briefDescription": {
+        "en": "Exhibited *two technical prototypes* (an *Arduino Breathalyzer System* and a custom *School Content Management App*) at the *Mostratec Júnior International Science Fair*.",
+        "pt-br": "Exibi *dois protótipos técnicos* (um *Sistema de Bafômetro Arduino* e um *Aplicativo de Gestão de Conteúdo Escolar* personalizado) na *Feira Internacional de Ciências Mostratec Júnior*.",
+        "fr": "Présentation de *deux prototypes techniques* (un *système d’éthylotest Arduino* et une *application de gestion de contenu scolaire* personnalisée) au *Salon international des sciences Mostratec Júnior*."
+      },
+      "resumeDescription": {
+        "en": "Exhibited *two technical prototypes* (an *Arduino Breathalyzer System* and a custom *School Content Management App*) at the *Mostratec Júnior International Science Fair*.",
+        "pt-br": "Exibi *dois protótipos técnicos* (um *Sistema de Bafômetro Arduino* e um *Aplicativo de Gestão de Conteúdo Escolar* personalizado) na *Feira Internacional de Ciências Mostratec Júnior*.",
+        "fr": "Présentation de *deux prototypes techniques* (un *système d’éthylotest Arduino* et une *application de gestion de contenu scolaire* personnalisée) au *Salon international des sciences Mostratec Júnior*."
       }
     }
   ],
@@ -1425,24 +1530,24 @@
         "fr": "Maintenance Prédictive : Modélisation des Risques de Corrosion des Aéronefs"
       },
       "briefDescription": {
-        "en": "Collaborated in a 5-person team to develop an *XGBoost* machine learning pipeline predicting progressive aircraft corrosion risk, achieving a *Top 10 Finalist* position and a *0.18266 Brier Score* in the *2026 Airbus & IBM Hackathon*. Note: Codebase remains strictly confidential.",
+        "en": "Collaborated in a 5-person team to develop an *XGBoost* machine learning pipeline predicting aircraft corrosion risk, secured a *Top 10 Finalist* placement and a *0.18266 Brier Score* in the *2026 Airbus & IBM Hackathon*. Note: Codebase remains strictly confidential.",
         "pt-br": "Colaborei em uma equipe de 5 pessoas para desenvolver um pipeline de aprendizado de máquina com *XGBoost* predizendo o risco de corrosão em aeronaves, alcançando o *Top 10 Finalista* e um *Brier Score de 0,18266* no *Hackathon Airbus & IBM 2026*. Nota: Código-fonte confidencial.",
         "fr": "Collaboration au sein d'une équipe de 5 personnes pour développer un pipeline d'apprentissage automatique *XGBoost* prédisant le risque de corrosion des aéronefs, atteignant la place de *Top 10 Finaliste* avec un *Score de Brier de 0,18266* lors du *Hackathon Airbus & IBM 2026*. Code source confidentiel."
       },
       "detailedDescription": {
         "en": [
-          "Developed a machine learning pipeline predicting progressive aircraft corrosion risk based on environmental exposure history, achieving a *Top 10 Finalist* position in the *2026 Airbus & IBM Hackathon*.",
-          "Transformed complex time-series environmental data into *highly calibrated risk probabilities* to shift aircraft maintenance from reactive to proactive, directly supporting Airbus's operational decision-making.",
+          "Developed a machine learning pipeline predicting aircraft corrosion risk based on environmental exposure history, achieving a *Top 10 Finalist* position in the *2026 Airbus & IBM Hackathon*.",
+          "Transformed time-series environmental data into *calibrated risk probabilities* to shift aircraft maintenance from reactive to proactive, directly supporting Airbus's operational decision-making.",
           "Trained and evaluated gradient boosting algorithms (*XGBoost*, LightGBM, Random Forest), applying Platt scaling and Isotonic regression to prevent time-series data leakage, achieving a *0.18266 Brier Score* with the optimized XGBoost model."
         ],
         "pt-br": [
-          "Desenvolvi um pipeline de aprendizado de máquina para prever o risco progressivo de corrosão em aeronaves com base no histórico de exposição, alcançando o *Top 10 Finalista* no *Hackathon da Airbus & IBM de 2026*.",
-          "Transformei dados ambientais complexos de séries temporais em *probabilidades de risco altamente calibradas* para mudar a manutenção de aeronaves de reativa para proativa, apoiando diretamente as decisões operacionais da Airbus.",
+          "Desenvolvi um pipeline de aprendizado de máquina para prever o risco de corrosão em aeronaves com base no histórico de exposição, alcançando o *Top 10 Finalista* no *Hackathon da Airbus & IBM de 2026*.",
+          "Transformei dados ambientais de séries temporais em *probabilidades de risco calibradas* para mudar a manutenção de aeronaves de reativa para proativa, apoiando diretamente as decisões operacionais da Airbus.",
           "Treinei e avaliei algoritmos de gradient boosting (*XGBoost*, LightGBM, Random Forest), aplicando Platt scaling e regressão isotônica para evitar o vazamento de dados temporais, alcançando um *Brier Score de 0,18266* com o modelo XGBoost otimizado."
         ],
         "fr": [
-          "Développement d'un pipeline d'apprentissage automatique prédisant le risque progressif de corrosion des aéronefs basé sur l'historique d'exposition, atteignant la place de *Top 10 Finaliste* lors du *Hackathon Airbus & IBM 2026*.",
-          "Transformation de données environnementales complexes de séries chronologiques en *probabilités de risque hautement calibrées* pour faire passer la maintenance de réactive à proactive, soutenant les décisions opérationnelles d'Airbus.",
+          "Développement d'un pipeline d'apprentissage automatique prédisant le risque de corrosion des aéronefs basé sur l'historique d'exposition, atteignant la place de *Top 10 Finaliste* lors du *Hackathon Airbus & IBM 2026*.",
+          "Transformation de données environnementales de séries chronologiques en *probabilités de risque calibrées* pour faire passer la maintenance de réactive à proactive, soutenant les décisions opérationnelles d'Airbus.",
           "Entraînement et évaluation d'algorithmes de gradient boosting (*XGBoost*, LightGBM, Random Forest), en appliquant la mise à l'échelle de Platt et la régression isotonique pour empêcher la fuite de données, atteignant un *Score de Brier de 0,18266* avec le modèle XGBoost."
         ]
       },
@@ -1469,25 +1574,25 @@
         "fr": "Prévision Énergétique au Royaume-Uni (EI Climat)"
       },
       "briefDescription": {
-        "en": "Developed an end-to-end machine learning pipeline and a comprehensive *Streamlit dashboard* in partnership with *EDF* to forecast UK electricity consumption, evaluating *12+ models* to achieve a *validation RMSE of 0.0082*.",
-        "pt-br": "Desenvolvi um pipeline completo de aprendizado de máquina e um *dashboard abrangente no Streamlit* em parceria com a *EDF* para prever o consumo de eletricidade no Reino Unido, avaliando *mais de 12 modelos* para alcançar um *RMSE de validação de 0,0082*.",
+        "en": "Developed an end-to-end machine learning pipeline and a *Streamlit dashboard* in partnership with *EDF* to forecast UK electricity consumption, evaluating *12+ models* to achieve a *validation RMSE of 0.0082*.",
+        "pt-br": "Desenvolvi um pipeline completo de aprendizado de máquina e um *dashboard no Streamlit* em parceria com a *EDF* para prever o consumo de eletricidade no Reino Unido, avaliando *mais de 12 modelos* para alcançar um *RMSE de validação de 0,0082*.",
         "fr": "Développement d'un pipeline complet d'apprentissage automatique et d'un *tableau de bord Streamlit* en partenariat avec *EDF* pour prévoir la consommation d'électricité au Royaume-Uni, évaluant *plus de 12 modèles* pour atteindre un *RMSE de validation de 0,0082*."
       },
       "detailedDescription": {
         "en": [
           "Developed an end-to-end machine learning pipeline in partnership with *EDF* to forecast short and medium-term UK household electricity consumption across 3 socio-economic segments.",
           "Evaluated and tuned *12+ predictive models* (including Ridge Regression, *XGBoost*, CatBoost, LightGBM, and *AutoGluon*), achieving a *best half-hourly validation RMSE of 0.0082* over *4,000+ rows*.",
-          "Engineered a comprehensive *Streamlit dashboard* to intuitively visualize Exploratory Data Analysis (EDA), model predictions, and carbon footprint estimations, presenting final results to an academic panel of 3 researchers."
+          "Engineered a *Streamlit dashboard* to visualize Exploratory Data Analysis (EDA), model predictions, and carbon footprint estimations, presenting final results to an academic panel of 3 researchers."
         ],
         "pt-br": [
           "Desenvolvi um pipeline completo de aprendizado de máquina em parceria com a *EDF* para prever o consumo de eletricidade residencial no Reino Unido a curto e médio prazo, abrangendo 3 segmentos socioeconômicos.",
           "Avaliei e otimizei *mais de 12 modelos preditivos* (incluindo Ridge Regression, *XGBoost*, CatBoost, LightGBM e *AutoGluon*), alcançando o *melhor RMSE de validação semi-horária de 0,0082* em mais de *4.000 linhas*.",
-          "Projetei um *dashboard abrangente no Streamlit* para visualizar intuitivamente a Análise Exploratória de Dados (EDA), previsões de modelos e estimativas de pegada de carbono, apresentando os resultados a um painel acadêmico de 3 pesquisadores."
+          "Projetei um *dashboard no Streamlit* para visualizar a Análise Exploratória de Dados (EDA), previsões de modelos e estimativas de pegada de carbono, apresentando os resultados a um painel acadêmico de 3 pesquisadores."
         ],
         "fr": [
           "Développement d'un pipeline complet d'apprentissage automatique en partenariat avec *EDF* pour prévoir la consommation d'électricité résidentielle à court et moyen terme au Royaume-Uni sur 3 segments socio-économiques.",
           "Évaluation et optimisation de *plus de 12 modèles prédictifs* (incluant Ridge Regression, *XGBoost*, CatBoost, LightGBM et *AutoGluon*), atteignant un *RMSE de validation par demi-heure de 0,0082* sur plus de *4 000 lignes*.",
-          "Conception d'un *tableau de bord Streamlit* complet pour visualiser intuitivement l'Analyse Exploratoire des Données (EDA), les prédictions des modèles et les estimations de l'empreinte carbone, avec présentation des résultats à un jury académique de 3 chercheurs."
+          "Conception d'un *tableau de bord Streamlit* pour visualiser l'Analyse Exploratoire des Données (EDA), les prédictions des modèles et les estimations de l'empreinte carbone, avec présentation des résultats à un jury académique de 3 chercheurs."
         ]
       },
       "techStackRefs": [
@@ -1522,15 +1627,15 @@
       "detailedDescription": {
         "en": [
           "Architected a full-stack AI-powered automation platform (*React/Vite front-end, Flask backend*) utilizing *Google Cloud Speech-to-Text V2* to process remote audio files, developed entirely in *under 48 hours* for the *3rd Hack-Nation Global AI Hackathon*.",
-          "Integrated *Vertex AI Gemini* to semantically parse transcripts and autonomously trigger *HubSpot APIs*, dynamically creating *complex CRM entities* and eliminating manual data entry."
+          "Integrated *Vertex AI Gemini* to semantically parse transcripts and autonomously trigger *HubSpot APIs*, dynamically creating *CRM entities* and eliminating manual data entry."
         ],
         "pt-br": [
           "Arquitetei uma plataforma de automação full-stack baseada em IA (*front-end React/Vite, backend Flask*) utilizando o *Google Cloud Speech-to-Text V2* para processar áudios remotos, desenvolvida inteiramente em *menos de 48 horas* para o *3º Hackathon Global de IA da Hack-Nation*.",
-          "Integrei o *Vertex AI Gemini* para análise semântica de transcrições e acionamento autônomo das *APIs do HubSpot*, criando *entidades complexas de CRM* dinamicamente e eliminando a entrada manual de dados."
+          "Integrei o *Vertex AI Gemini* para análise semântica de transcrições e acionamento autônomo das *APIs do HubSpot*, criando *entidades de CRM* dinamicamente e eliminando a entrada manual de dados."
         ],
         "fr": [
           "Conception d'une plateforme d'automatisation full-stack basée sur l'IA (*front-end React/Vite, backend Flask*) exploitant *Google Cloud Speech-to-Text V2* pour traiter des fichiers audio, développée entièrement en *moins de 48 heures* pour le *3e Hackathon Mondial d'IA de Hack-Nation*.",
-          "Intégration de *Vertex AI Gemini* pour l'analyse sémantique des transcriptions et le déclenchement autonome des *API HubSpot*, générant dynamiquement des *entités CRM complexes* et éliminant la saisie manuelle."
+          "Intégration de *Vertex AI Gemini* pour l'analyse sémantique des transcriptions et le déclenchement autonome des *API HubSpot*, générant dynamiquement des *entités CRM* et éliminant la saisie manuelle."
         ]
       },
       "techStackRefs": [
@@ -1561,25 +1666,25 @@
         "fr": "Marketplace Web HiDrone"
       },
       "briefDescription": {
-        "en": "Architected a highly scalable drone delivery marketplace implementing a strict *MVC design pattern*, managing the entire software lifecycle to deploy a complete prototype featuring a *simulated front-end virtual credit payment system*.",
-        "pt-br": "Arquitetei um marketplace de entrega por drones altamente escalável implementando o *padrão de projeto MVC*, gerenciando todo o ciclo de vida do software para implantar um protótipo com um *sistema front-end de pagamento por créditos virtuais simulado*.",
-        "fr": "Conception de l'architecture d'une marketplace de livraison par drones hautement évolutive implémentant un *modèle de conception MVC*, gérant le cycle de vie logiciel pour déployer un prototype avec un *système front-end de paiement par crédits virtuels simulé*."
+        "en": "Architected a drone delivery marketplace implementing a *MVC design pattern*, managing the entire software lifecycle to deploy a complete prototype featuring a *simulated front-end virtual credit payment system*.",
+        "pt-br": "Arquitetei um marketplace de entrega por drones implementando o *padrão de projeto MVC*, gerenciando todo o ciclo de vida do software para implantar um protótipo com um *sistema front-end de pagamento por créditos virtuais simulado*.",
+        "fr": "Conception de l'architecture d'une marketplace de livraison par drones implémentant un *modèle de conception MVC*, gérant le cycle de vie logiciel pour déployer un prototype avec un *système front-end de paiement par crédits virtuels simulé*."
       },
       "detailedDescription": {
         "en": [
           "Directed the end-to-end software lifecycle for a drone delivery marketplace, leading requirements engineering, client simulation, and detailed system architecture documentation.",
-          "Architected a highly scalable full-stack application implementing a strict *MVC design pattern*, utilizing *Next.js and HeroUI* for the frontend and *Prisma ORM* for strict backend data governance.",
-          "Engineered a comprehensive user pipeline featuring secure authentication, dynamic order history tracking, live simulated delivery states, and a *simulated front-end virtual credit payment system*."
+          "Architected a full-stack application implementing a *MVC design pattern*, utilizing *Next.js and HeroUI* for the frontend and *Prisma ORM* for strict backend data governance.",
+          "Engineered a user pipeline featuring secure authentication, dynamic order history tracking, live simulated delivery states, and a *simulated front-end virtual credit payment system*."
         ],
         "pt-br": [
           "Dirigi o ciclo de vida de software de ponta a ponta para um marketplace de entrega por drones, liderando a engenharia de requisitos, simulação de clientes e documentação detalhada de arquitetura.",
-          "Arquitetei uma aplicação full-stack altamente escalável implementando o rígido *padrão de projeto MVC*, utilizando *Next.js e HeroUI* para o frontend e *Prisma ORM* para governança estrita de dados no backend.",
-          "Projetei um pipeline de usuário abrangente com autenticação segura, rastreamento dinâmico de histórico de pedidos, estados de entrega simulados ao vivo e um *sistema front-end de pagamento por créditos virtuais simulado*."
+          "Arquitetei uma aplicação full-stack implementando o *padrão de projeto MVC*, utilizando *Next.js e HeroUI* para o frontend e *Prisma ORM* para governança estrita de dados no backend.",
+          "Projetei um pipeline de usuário com autenticação segura, rastreamento dinâmico de histórico de pedidos, estados de entrega simulados ao vivo e um *sistema front-end de pagamento por créditos virtuais simulado*."
         ],
         "fr": [
           "Direction du cycle de vie logiciel de bout en bout pour une marketplace de livraison par drones, dirigeant l'ingénierie des exigences, la simulation client et la documentation détaillée de l'architecture système.",
-          "Conception d'une application full-stack hautement évolutive implémentant un *modèle de conception MVC* strict, utilisant *Next.js et HeroUI* pour le frontend et *Prisma ORM* pour une gouvernance stricte des données backend.",
-          "Conception d'un pipeline utilisateur complet comprenant une authentification sécurisée, un suivi dynamique de l'historique des commandes, des états de livraison simulés en direct et un *système front-end de paiement par crédits virtuels simulé*."
+          "Conception d'une application full-stack implémentant un *modèle de conception MVC*, utilisant *Next.js et HeroUI* pour le frontend et *Prisma ORM* pour une gouvernance stricte des données backend.",
+          "Conception d'un pipeline utilisateur comprenant une authentification sécurisée, un suivi dynamique de l'historique des commandes, des états de livraison simulés en direct et un *système front-end de paiement par crédits virtuels simulé*."
         ]
       },
       "techStackRefs": [
@@ -1608,21 +1713,21 @@
         "fr": "Moteur 3D de Tower Defense"
       },
       "briefDescription": {
-        "en": "Co-developed a fully functional third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing complex geometries of *10,000 faces* governed by a strict *time-step game loop*.",
-        "pt-br": "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias complexas de *10.000 faces* com um *game loop de passo de tempo fixo*.",
-        "fr": "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* utilisant *C++* et *OpenGL*, avec traitement de géométries complexes (*10 000 faces*) régies par une *boucle de jeu à pas de temps fixe*."
+        "en": "Co-developed a third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing geometries of *10,000 faces* governed by a strict *time-step game loop*.",
+        "pt-br": "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias de *10.000 faces* com um *game loop de passo de tempo fixo*.",
+        "fr": "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* utilisant *C++* et *OpenGL*, avec traitement de géométries (*10 000 faces*) régies par une *boucle de jeu à pas de temps fixe*."
       },
       "detailedDescription": {
         "en": [
-          "Co-developed a fully functional third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing complex geometries of *10,000 faces* with Gouraud and Blinn-Phong lighting models.",
+          "Co-developed a third-person real-time strategy game in a 2-person team over *2 months* using *C++* and *OpenGL*, processing geometries of *10,000 faces* with Gouraud and Blinn-Phong lighting models.",
           "Engineered custom bounding-box *collision detection algorithms* and dynamic enemy pathfinding utilizing *Bezier curves* governed by a strict *time-step game loop*."
         ],
         "pt-br": [
-          "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias complexas de *10.000 faces* com modelos de iluminação de Gouraud e Blinn-Phong.",
+          "Co-desenvolvi um jogo de estratégia em tempo real em terceira pessoa em uma equipe de 2 pessoas ao longo de *2 meses* utilizando *C++* e *OpenGL*, processando geometrias de *10.000 faces* com modelos de iluminação de Gouraud e Blinn-Phong.",
           "Projetei algoritmos personalizados de detecção de colisão *bounding-box* e *pathfinding* dinâmico de inimigos utilizando *curvas de Bézier*, regidos por um *game loop de passo de tempo fixo*."
         ],
         "fr": [
-          "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* en utilisant *C++* et *OpenGL*, avec traitement de géométries complexes (*10 000 faces*) et modèles d'illumination de Gouraud et Blinn-Phong.",
+          "Co-développement d'un jeu de stratégie en temps réel à la troisième personne en équipe de 2 personnes sur *2 mois* en utilisant *C++* et *OpenGL*, avec traitement de géométries (*10 000 faces*) et modèles d'illumination de Gouraud et Blinn-Phong.",
           "Conception d'algorithmes personnalisés de détection de collisions par boîtes englobantes et de pathfinding dynamique utilisant des *courbes de Bézier*, régis par une *boucle de jeu à pas de temps fixe*."
         ]
       },
@@ -1658,18 +1763,18 @@
       "detailedDescription": {
         "en": [
           "Acquired foundational proficiency in *Java for Android development* in exactly one week (32+ hours), rapidly prototyping and deploying a privacy-first mobile application.",
-          "Implemented a comprehensive daily intake monitoring system featuring quick-record inputs, persistent data arrays for historical visualization, and progressive *safety threshold warnings*.",
-          "Engineered automated daily reminders utilizing native *Android notifications* to actively support user consistency and habit reduction."
+          "Implemented a daily intake monitoring system featuring quick-record inputs, persistent data arrays for historical visualization, and progressive *safety threshold warnings*.",
+          "Engineered automated daily reminders utilizing native *Android notifications* to support user consistency and habit reduction."
         ],
         "pt-br": [
           "Dominei os fundamentos em *Java para desenvolvimento Android* em exatamente uma semana (mais de 32 horas), prototipando e implementando rapidamente um aplicativo móvel focado em privacidade.",
-          "Implementei um sistema abrangente de monitoramento de ingestão diária com entradas de registro rápido, matrizes de dados persistentes para visualização histórica e *avisos de limite de segurança* progressivos.",
-          "Projetei lembretes diários automatizados utilizando *notificações nativas do Android* para apoiar ativamente a consistência do usuário e a redução de hábitos."
+          "Implementei um sistema de monitoramento de ingestão diária com entradas de registro rápido, matrizes de dados persistentes para visualização histórica e *avisos de limite de segurança* progressivos.",
+          "Projetei lembretes diários automatizados utilizando *notificações nativas do Android* para apoiar a consistência do usuário e a redução de hábitos."
         ],
         "fr": [
           "Apprentissage de compétences fondamentales en *développement Java pour Android* en exactement une semaine (plus de 32 heures), avec prototypage et déploiement rapides d'une application mobile axée sur la confidentialité.",
-          "Implémentation d'un système complet de surveillance de la consommation quotidienne avec des entrées d'enregistrement rapide, des tableaux de données persistants pour la visualisation historique et des *avertissements progressifs de seuil de sécurité*.",
-          "Conception de rappels quotidiens automatisés utilisant des *notifications Android natives* pour soutenir activement la régularité de l'utilisateur et la réduction des habitudes."
+          "Implémentation d'un système de surveillance de la consommation quotidienne avec des entrées d'enregistrement rapide, des tableaux de données persistants pour la visualisation historique et des *avertissements progressifs de seuil de sécurité*.",
+          "Conception de rappels quotidiens automatisés utilisant des *notifications Android natives* pour soutenir la régularité de l'utilisateur et la réduction des habitudes."
         ]
       },
       "techStackRefs": [
@@ -1702,19 +1807,19 @@
       },
       "detailedDescription": {
         "en": [
-          "Dedicated *50+ hours* in a 3-person team to engineer a complete single-player platform game utilizing *pure C*, establishing strong fundamentals in low-level game programming.",
+          "Dedicated *50+ hours* in a 3-person team to engineer a single-player platform game utilizing *pure C*, establishing strong fundamentals in low-level game programming.",
           "Developed an integrated *level creator* featuring direct mouse input support for layout drawing, alongside a dynamic level selector for *3+ progressively difficult stages*.",
-          "Implemented intricate game mechanics including ladder-based vertical mobility, strict energy depletion constraints, and a health penalty system triggered by fall damage."
+          "Implemented game mechanics including ladder-based vertical mobility, strict energy depletion constraints, and a health penalty system triggered by fall damage."
         ],
         "pt-br": [
-          "Dediquei *mais de 50 horas* em uma equipe de 3 pessoas para projetar um jogo de plataforma single-player completo utilizando *C puro*, estabelecendo fortes fundamentos em programação de jogos de baixo nível.",
-          "Desenvolvi um *criador de níveis* integrado com suporte a entrada direta do mouse para desenho de layouts, juntamente com um seletor dinâmico de níveis para *mais de 3 estágios de dificuldade progressiva*.",
-          "Implementei mecânicas de jogo complexas, incluindo mobilidade vertical baseada em escadas, restrições estritas de esgotamento de energia e um sistema de penalidade de saúde acionado por dano de queda."
+          "Dediquei *mais de 50 horas* em uma equipe de 3 pessoas para projetar um jogo de plataforma single-player utilizando *C puro*, estabelecendo fortes fundamentos em programação de jogos de baixo nível.",
+          "Desenvolvi um *criador de níveis* integrado com suporte à entrada direta do mouse para desenho de layouts, juntamente com um seletor dinâmico de níveis para *mais de 3 estágios de dificuldade progressiva*.",
+          "Implementei mecânicas de jogo, incluindo mobilidade vertical baseada em escadas, restrições estritas de esgotamento de energia e um sistema de penalidade de saúde acionado por dano de queda."
         ],
         "fr": [
-          "Investissement de *plus de 50 heures* au sein d'une équipe de 3 personnes pour concevoir un jeu de plateforme en solo complet utilisant du *C pur*, établissant de solides bases en programmation de jeux bas niveau.",
+          "Investissement de *plus de 50 heures* au sein d'une équipe de 3 personnes pour concevoir un jeu de plateforme en solo utilisant du *C pur*, établissant de solides bases en programmation de jeux bas niveau.",
           "Développement d'un *créateur de niveaux* intégré offrant une prise en charge directe de la souris pour le dessin de la disposition, ainsi qu'un sélecteur de niveau dynamique pour *plus de 3 étapes de difficulté progressive*.",
-          "Implémentation de mécaniques de jeu complexes, incluant une mobilité verticale basée sur des échelles, des contraintes strictes d'épuisement de l'énergie et un système de pénalité de santé déclenché par les dégâts de chute."
+          "Implémentation de mécaniques de jeu, incluant une mobilité verticale basée sur des échelles, des contraintes strictes d'épuisement de l'énergie et un système de pénalité de santé déclenché par les dégâts de chute."
         ]
       },
       "techStackRefs": [
@@ -1746,18 +1851,18 @@
       },
       "detailedDescription": {
         "en": [
-          "Developed an end-to-end machine learning model using *Scikit-Learn* to accurately predict vehicle fuel consumption (MPG) across a structured dataset of *500+ instances*.",
-          "Conducted extensive Exploratory Data Analysis (EDA) and established a comprehensive preprocessing pipeline including One-Hot Encoding, Min-Max normalization, and IQR outlier filtering.",
+          "Developed an end-to-end machine learning model using *Scikit-Learn* to predict vehicle fuel consumption (MPG) across a structured dataset of *500+ instances*.",
+          "Conducted Exploratory Data Analysis (EDA) and established a preprocessing pipeline including One-Hot Encoding, Min-Max normalization, and IQR outlier filtering.",
           "Evaluated and tuned hyperparameters for *5+ regression algorithms* (including Random Forest and Neural Networks) via GridSearchCV, demonstrating *Linear Regression's* superior generalization with a *1.6111 test MSE*."
         ],
         "pt-br": [
-          "Desenvolvi um modelo de aprendizado de máquina de ponta a ponta usando *Scikit-Learn* para prever com precisão o consumo de combustível de veículos (MPG) em um conjunto de dados estruturado de *mais de 500 instâncias*.",
-          "Realizei extensa Análise Exploratória de Dados (EDA) e estabeleci um pipeline abrangente de pré-processamento, incluindo One-Hot Encoding, normalização Min-Max e filtragem de outliers por IQR.",
+          "Desenvolvi um modelo de aprendizado de máquina de ponta a ponta usando *Scikit-Learn* para prever o consumo de combustível de veículos (MPG) em um conjunto de dados estruturado de *mais de 500 instâncias*.",
+          "Realizei Análise Exploratória de Dados (EDA) e estabeleci um pipeline de pré-processamento, incluindo One-Hot Encoding, normalização Min-Max e filtragem de outliers por IQR.",
           "Avaliei e otimizei hiperparâmetros para *mais de 5 algoritmos de regressão* (incluindo Random Forest e Redes Neurais) via GridSearchCV, demonstrando a generalização superior da *Regressão Linear* com um *MSE de teste de 1,6111*."
         ],
         "fr": [
-          "Développement d'un modèle d'apprentissage automatique de bout en bout utilisant *Scikit-Learn* pour prédire avec précision la consommation de carburant des véhicules (MPG) sur un ensemble de données structuré de *plus de 500 instances*.",
-          "Réalisation d'une Analyse Exploratoire des Données (EDA) approfondie et établissement d'un pipeline de prétraitement complet incluant One-Hot Encoding, normalisation Min-Max et filtrage des valeurs aberrantes par IQR.",
+          "Développement d'un modèle d'apprentissage automatique de bout en bout utilisant *Scikit-Learn* pour prédire la consommation de carburant des véhicules (MPG) sur un ensemble de données structuré de *plus de 500 instances*.",
+          "Réalisation d'une Analyse Exploratoire des Données (EDA) et établissement d'un pipeline de prétraitement incluant One-Hot Encoding, normalisation Min-Max et filtrage des valeurs aberrantes par IQR.",
           "Évaluation et optimisation des hyperparamètres pour *plus de 5 algorithmes de régression* (incluant Random Forest et Réseaux de Neurones) via GridSearchCV, démontrant la généralisation supérieure de la *Régression Linéaire* avec un *MSE de test de 1,6111*."
         ]
       },
@@ -1790,19 +1895,19 @@
       },
       "detailedDescription": {
         "en": [
-          "Managed the software engineering lifecycle within a 3-person team (dedicating *50+ hours*), generating class diagrams, designing interfaces, and producing comprehensive technical reports.",
+          "Managed the software engineering lifecycle within a 3-person team (dedicating *50+ hours*), generating class diagrams, designing interfaces, and producing technical reports.",
           "Designed a *7-screen graphical user interface* via *Tkinter*, allowing users to input text, dynamically configure musical parameters, and instantly generate algorithmic *MIDI/audio compositions* using the SCAMP library.",
-          "Guaranteed system reliability and logic integrity by designing and executing a comprehensive automated testing suite comprising *20+ individual unit tests*."
+          "Guaranteed system reliability and logic integrity by designing and executing a automated testing suite comprising *20+ individual unit tests*."
         ],
         "pt-br": [
-          "Gerenciei o ciclo de vida de engenharia de software em uma equipe de 3 pessoas (dedicando *mais de 50 horas*), gerando diagramas de classe, projetando interfaces e produzindo relatórios técnicos abrangentes.",
+          "Gerenciei o ciclo de vida de engenharia de software em uma equipe de 3 pessoas (dedicando *mais de 50 horas*), gerando diagramas de classe, projetando interfaces e produzindo relatórios técnicos.",
           "Projetei uma *interface gráfica de usuário de 7 telas* via *Tkinter*, permitindo aos usuários inserir texto, configurar dinamicamente parâmetros musicais e gerar instantaneamente *composições MIDI/áudio* algorítmicas usando a biblioteca SCAMP.",
-          "Garanti a confiabilidade do sistema e a integridade da lógica projetando e executando um conjunto abrangente de testes automatizados compreendendo *mais de 20 testes unitários individuais*."
+          "Garanti a confiabilidade do sistema e a integridade da lógica projetando e executando um conjunto de testes automatizados compreendendo *mais de 20 testes unitários individuais*."
         ],
         "fr": [
-          "Gestion du cycle de vie de l'ingénierie logicielle au sein d'une équipe de 3 personnes (investissement de *plus de 50 heures*), avec création de diagrammes de classes, conception d'interfaces et production de rapports techniques complets.",
+          "Gestion du cycle de vie de l'ingénierie logicielle au sein d'une équipe de 3 personnes (investissement de *plus de 50 heures*), avec création de diagrammes de classes, conception d'interfaces et production de rapports techniques.",
           "Conception d'une *interface utilisateur graphique à 7 écrans* via *Tkinter*, permettant aux utilisateurs de saisir du texte, de configurer dynamiquement des paramètres musicaux et de générer instantanément des *compositions MIDI/audio* algorithmiques via la bibliothèque SCAMP.",
-          "Garantie de la fiabilité du système et de l'intégrité de la logique en concevant et en exécutant une suite de tests automatisés exhaustive comprenant *plus de 20 tests unitaires individuels*."
+          "Garantie de la fiabilité du système et de l'intégrité de la logique en concevant et en exécutant une suite de tests automatisés comprenant *plus de 20 tests unitaires individuels*."
         ]
       },
       "techStackRefs": [
@@ -1829,24 +1934,24 @@
         "fr": "Bibliothèque d'écran Nokia 5110 pour STM32F4xx"
       },
       "briefDescription": {
-        "en": "Authored a comprehensive static C library targeting *STM32F4xx microcontrollers*, developing *25+ user functions*, *5+ ASCII fonts*, and manually translating *5+ images into hexadecimal* as complete release examples for users.",
+        "en": "Authored a static C library targeting *STM32F4xx microcontrollers*, developing *25+ user functions*, *5+ ASCII fonts*, and manually translating *5+ images into hexadecimal* as release examples for users.",
         "pt-br": "Escrevi uma biblioteca estática em C abrangente visando *microcontroladores STM32F4xx*, desenvolvendo *mais de 25 funções*, *5+ fontes ASCII*, e traduzindo *5+ imagens para hexadecimal* como exemplos para os usuários.",
-        "fr": "Création d'une bibliothèque statique C complète ciblant les *microcontrôleurs STM32F4xx*, développant *plus de 25 fonctions*, *plus de 5 polices ASCII*, et traduisant *plus de 5 images en hexadécimal* comme exemples complets pour les utilisateurs."
+        "fr": "Création d'une bibliothèque statique C ciblant les *microcontrôleurs STM32F4xx*, développant *plus de 25 fonctions*, *plus de 5 polices ASCII*, et traduisant *plus de 5 images en hexadécimal* comme exemples complets pour les utilisateurs."
       },
       "detailedDescription": {
         "en": [
-          "Authored a comprehensive static C library for the Nokia 5110 LCD Display targeting *STM32F4xx microcontrollers* utilizing *hardware SPI* and *HAL drivers*.",
-          "Engineered support for both blocking and non-blocking (*interrupts/DMA*) transmission modes, heavily optimizing *CPU utilization* and memory management.",
+          "Authored a static C library for the Nokia 5110 LCD Display targeting *STM32F4xx microcontrollers* utilizing *hardware SPI* and *HAL drivers*.",
+          "Engineered support for both blocking and non-blocking (*interrupts/DMA*) transmission modes, optimizing *CPU utilization* and memory management.",
           "Developed *25+ distinct user functions* to manage advanced display capabilities, including on-the-fly pinout configuration, *5+ customizable ASCII fonts*, and manually translating *5+ images into hexadecimal* as reference examples for users."
         ],
         "pt-br": [
-          "Escrevi uma abrangente biblioteca estática em C para o Display LCD Nokia 5110 visando *microcontroladores STM32F4xx* utilizando *SPI de hardware* e *drivers HAL*.",
-          "Projetei suporte para modos de transmissão bloqueantes e não-bloqueantes (*interrupções/DMA*), otimizando fortemente a *utilização da CPU* e o gerenciamento de memória.",
+          "Escrevi uma biblioteca estática em C para o Display LCD Nokia 5110 visando *microcontroladores STM32F4xx* utilizando *SPI de hardware* e *drivers HAL*.",
+          "Projetei suporte para modos de transmissão bloqueantes e não-bloqueantes (*interrupções/DMA*), otimizando a *utilização da CPU* e o gerenciamento de memória.",
           "Desenvolvi *mais de 25 funções de usuário distintas* para gerenciar recursos avançados de exibição, incluindo configuração de pinagem em tempo real, *mais de 5 fontes ASCII personalizáveis* e traduzindo manualmente *mais de 5 imagens para hexadecimal* como exemplos de referência para os usuários."
         ],
         "fr": [
-          "Création d'une bibliothèque statique C complète pour l'écran LCD Nokia 5110 ciblant les *microcontrôleurs STM32F4xx* utilisant *SPI matériel* et les *pilotes HAL*.",
-          "Conception de la prise en charge des modes de transmission bloquants et non bloquants (*interruptions/DMA*), optimisant fortement l'*utilisation du processeur* et la gestion de la mémoire.",
+          "Création d'une bibliothèque statique C pour l'écran LCD Nokia 5110 ciblant les *microcontrôleurs STM32F4xx* utilisant *SPI matériel* et les *pilotes HAL*.",
+          "Conception de la prise en charge des modes de transmission bloquants et non bloquants (*interruptions/DMA*), optimisant l'*utilisation du processeur* et la gestion de la mémoire.",
           "Développement de *plus de 25 fonctions utilisateur distinctes* pour gérer des capacités d'affichage avancées, incluant la configuration des broches à la volée, *plus de 5 polices ASCII personnalisables* et la traduction manuelle de *plus de 5 images en hexadécimal* comme exemples de référence pour les utilisateurs."
         ]
       },
@@ -1880,18 +1985,18 @@
       },
       "detailedDescription": {
         "en": [
-          "Collaborated within a 4-person team over *6+ months* to construct a fully functional breathalyzer prototype utilizing an *Arduino Uno* architecture.",
-          "Authored a comprehensive *50+ page scientific dissertation* detailing the bibliographic research, component methodology, and analytical results.",
+          "Collaborated within a 4-person team over *6+ months* to construct a breathalyzer prototype utilizing an *Arduino Uno* architecture.",
+          "Authored a *50+ page scientific dissertation* detailing the bibliographic research, component methodology, and analytical results.",
           "Exhibited the project at the *Mostratec Júnior 2016 International Science Fair*, presenting the hardware logic and findings to an audience of *150+ attendees* over 4 days."
         ],
         "pt-br": [
-          "Colaborei em uma equipe de 4 pessoas ao longo de *mais de 6 meses* para construir um protótipo de bafômetro totalmente funcional utilizando uma arquitetura *Arduino Uno*.",
-          "Elaborei uma *dissertação científica abrangente de mais de 50 páginas* detalhando a pesquisa bibliográfica, metodologia de componentes e resultados analíticos.",
+          "Colaborei em uma equipe de 4 pessoas ao longo de *mais de 6 meses* para construir um protótipo de bafômetro utilizando uma arquitetura *Arduino Uno*.",
+          "Elaborei uma *dissertação científica de mais de 50 páginas* detalhando a pesquisa bibliográfica, metodologia de componentes e resultados analíticos.",
           "Exibi o projeto na *Feira Internacional de Ciências Mostratec Júnior 2016*, apresentando a lógica de hardware e descobertas para um público de *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
-          "Collaboration au sein d'une équipe de 4 personnes sur *plus de 6 mois* pour construire un prototype d'éthylotest entièrement fonctionnel utilisant une architecture *Arduino Uno*.",
-          "Rédaction d'un *mémoire scientifique complet de plus de 50 pages* détaillant la recherche bibliographique, la méthodologie des composants et les résultats analytiques.",
+          "Collaboration au sein d'une équipe de 4 personnes sur *plus de 6 mois* pour construire un prototype d'éthylotest utilisant une architecture *Arduino Uno*.",
+          "Rédaction d'un *mémoire scientifique de plus de 50 pages* détaillant la recherche bibliographique, la méthodologie des composants et les résultats analytiques.",
           "Présentation du projet au *Salon International des Sciences Mostratec Júnior 2016*, avec présentation de la logique matérielle et des résultats à un public de *plus de 150 participants* sur 4 jours."
         ]
       },
@@ -1928,17 +2033,17 @@
       "detailedDescription": {
         "en": [
           "Co-developed a centralized educational management platform within a 4-person team over *6+ months*, utilizing pure *JavaScript, HTML, and CSS* to track academic assignments, schedules, and events.",
-          "Authored a comprehensive *50+ page scientific document* outlining the software engineering methodology, bibliographical research, and platform architecture.",
+          "Authored a *50+ page scientific document* outlining the software engineering methodology, bibliographical research, and platform architecture.",
           "Exhibited the application at the *Mostratec Júnior 2015 International Science Fair*, pitching the platform's utility and technical design to *150+ attendees* over 4 days."
         ],
         "pt-br": [
           "Co-desenvolvi uma plataforma de gestão educacional centralizada em uma equipe de 4 pessoas ao longo de *mais de 6 meses*, utilizando *JavaScript puro, HTML e CSS* para rastrear tarefas acadêmicas, horários e eventos.",
-          "Elaborei um *documento científico abrangente de mais de 50 páginas* descrevendo a metodologia de engenharia de software, pesquisa bibliográfica e arquitetura da plataforma.",
+          "Elaborei um *documento científico de mais de 50 páginas* descrevendo a metodologia de engenharia de software, pesquisa bibliográfica e arquitetura da plataforma.",
           "Exibi o aplicativo na *Feira Internacional de Ciências Mostratec Júnior 2015*, apresentando a utilidade e o design técnico da plataforma para *mais de 150 participantes* ao longo de 4 dias."
         ],
         "fr": [
           "Co-développement d'une plateforme de gestion éducative centralisée au sein d'une équipe de 4 personnes sur *plus de 6 mois*, utilisant *JavaScript pur, HTML et CSS* pour suivre les devoirs académiques, les horaires et les événements.",
-          "Rédaction d'un *document scientifique complet de plus de 50 pages* décrivant la méthodologie d'ingénierie logicielle, la recherche bibliographique et l'architecture de la plateforme.",
+          "Rédaction d'un *document scientifique de plus de 50 pages* décrivant la méthodologie d'ingénierie logicielle, la recherche bibliographique et l'architecture de la plateforme.",
           "Présentation de l'application au *Salon International des Sciences Mostratec Júnior 2015*, avec présentation de l'utilité et de la conception technique de la plateforme à *plus de 150 participants* sur 4 jours."
         ]
       },
@@ -1978,22 +2083,22 @@
         "fr": "Brésil"
       },
       "briefDescription": {
-      "en": "Dedicated *25+ afternoon tutoring shifts* to instructing 1st-3rd year students in advanced mathematics.",
-      "pt-br": "Dediquei *mais de 25 turnos extracurriculares de tutoria* à instrução de alunos do 1º ao 3º ano em matemática avançada.",
-      "fr": "Animation de *plus de 25 sessions de tutorat extrascolaire* pour des élèves de la 1ère à la 3ème année en mathématiques avancées."
-    },
-    "detailedDescription": {
+        "en": "Dedicated *25+ afternoon shifts* to tutoring 30+ students in *advanced mathematics*, guiding them through *100+ complex exercises* to directly improve academic performance.",
+        "pt-br": "Dediquei *mais de 25 turnos* de monitoria a mais de 30 alunos em *matemática avançada*, orientando-os em *mais de 100 exercícios complexos* para melhorar diretamente o desempenho acadêmico.",
+        "fr": "Animation de *plus de 25 sessions* de tutorat pour plus de 30 étudiants en *mathématiques avancées*, avec un accompagnement sur *plus de 100 exercices complexes* pour une amélioration directe de leurs résultats académiques."
+      },
+      "detailedDescription": {
         "en": [
           "Dedicated *25+ afternoon tutoring shifts* to instructing 1st-3rd year students in advanced mathematics, covering complex numbers, spatial geometry, combinatorial analysis, and *Calculus I*.",
           "Guided *30+ students* over a 6-month period to resolve and internalize the logic behind *100+ complex exercises*, directly improving their academic performance."
         ],
         "pt-br": [
-          "Dediquei *mais de 25 turnos extracurriculares de tutoria* à instrução de alunos do 1º ao 3º ano em matemática avançada, abrangendo números complexos, geometria espacial, análise combinatória e *Cálculo I*.",
-          "Orientei *mais de 30 alunos* ao longo de um período de 6 meses para resolver e internalizar a lógica por trás de *mais de 100 exercícios complexos*, melhorando diretamente seu desempenho acadêmico."
+          "Dediquei *mais de 25 turnos extracurriculares de monitoria* à instrução de alunos do 1º ao 3º ano em matemática avançada, abrangendo números complexos, geometria espacial, análise combinatória e *Cálculo I*.",
+          "Orientei *mais de 30 alunos* ao longo de 6 meses na resolução e internalização da lógica de *mais de 100 exercícios complexos*, melhorando diretamente seu desempenho acadêmico."
         ],
         "fr": [
-          "Animation de *plus de 25 sessions de tutorat extrascolaire* pour des élèves de la 1ère à la 3ème année en mathématiques avancées, couvrant les nombres complexes, la géométrie spatiale, l'analyse combinatoire et le *Calcul I*.",
-          "Accompagnement de *plus de 30 étudiants* sur une période de 6 mois dans la résolution et l'assimilation de la logique de *plus de 100 exercices complexes*, améliorant directement leurs résultats académiques."
+          "Animation de *plus de 25 sessions de tutorat extrascolaire* en mathématiques avancées pour des élèves de la 1ère à la 3ème année, couvrant les nombres complexes, la géométrie spatiale, l'analyse combinatoire et le *Calcul I*.",
+          "Accompagnement de *plus de 30 étudiants* sur une période de 6 mois dans la résolution et l'assimilation de la logique de *plus de 100 exercices complexes*, pour une amélioration directe de leurs résultats académiques."
         ]
       }
     }
@@ -2024,19 +2129,19 @@
         "fr": "Hack-Nation"
       },
       "event": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Hack-Nation's Global AI Hackathon",
+        "pt-br": "Hack-Nation's Global AI Hackathon",
+        "fr": "Hack-Nation's Global AI Hackathon"
       },
       "eventType": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Global Competition",
+        "pt-br": "Competição Global",
+        "fr": "Compétition mondiale"
       },
       "awardOrRole": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Participant",
+        "pt-br": "Participante",
+        "fr": "Participant"
       }
     },
     {
@@ -2065,19 +2170,19 @@
         "fr": "Association Kangourou sans Frontieres (AKSF)"
       },
       "event": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Concurso Canguru de Matemática Brasil",
+        "pt-br": "Concurso Canguru de Matemática Brasil",
+        "fr": "Concurso Canguru de Matemática Brasil"
       },
       "eventType": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "National Mathematics Olympiad",
+        "pt-br": "Olimpíada Nacional de Matemática",
+        "fr": "Olympiade nationale de mathématiques"
       },
       "awardOrRole": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Bronze Medal",
+        "pt-br": "Medalha de Bronze",
+        "fr": "Médaille de bronze"
       }
     },
     {
@@ -2106,19 +2211,19 @@
         "fr": "Mostratec"
       },
       "event": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Mostratec Júnior",
+        "pt-br": "Mostratec Júnior",
+        "fr": "Mostratec Júnior"
       },
       "eventType": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "International Science Fair",
+        "pt-br": "Feira Internacional de Ciências",
+        "fr": "Salon international des sciences"
       },
       "awardOrRole": {
-        "en": "",
-        "fr": "",
-        "pt-br": ""
+        "en": "Participant",
+        "pt-br": "Participante",
+        "fr": "Participant"
       }
     }
   ],
